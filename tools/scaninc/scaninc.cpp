@@ -112,6 +112,12 @@ int main(int argc, char **argv)
             {
                 path = include;
             }
+            else if (!exists && include.find('/') == std::string::npos)
+            {
+                // System header (e.g. "string.h" from the toolchain): not a make dependency.
+                // Includes with a directory (e.g. "data/rogue/custom_mons.h") may be generated, so keep them.
+                continue;
+            }
             bool inserted = dependencies.insert(path).second;
             if (inserted && exists)
             {
