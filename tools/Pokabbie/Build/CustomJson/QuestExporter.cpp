@@ -207,6 +207,15 @@ static std::string GetQuestName(QuestInfo const& quest)
 	return QuestExpandString(quest, quest.questObj["name"].get<std::string>());
 }
 
+// Translated title shown in game; "name" stays as the quest's identifier
+static std::string GetQuestDisplayName(QuestInfo const& quest)
+{
+	if (quest.questObj.contains("display_name"))
+		return QuestExpandString(quest, quest.questObj["display_name"].get<std::string>());
+
+	return GetQuestName(quest);
+}
+
 static std::string GetQuestDescription(QuestInfo const& quest)
 {
 	return QuestExpandString(quest, quest.questObj["description"].get<std::string>());
@@ -241,7 +250,7 @@ void ExportQuestData_C(std::ofstream& fileStream, std::string const& dataPath, j
 		if (!quest.preprocessorCondition.empty())
 			fileStream << "#if " << quest.preprocessorCondition << "\n";
 
-		fileStream << "static u8 const sTitle_" << quest.GetUniqueWriteId() << "[] = _(\"" << GetQuestName(quest) << "\");\n";
+		fileStream << "static u8 const sTitle_" << quest.GetUniqueWriteId() << "[] = _(\"" << GetQuestDisplayName(quest) << "\");\n";
 		fileStream << "extern const u8 gQuestDescText_" << quest.GetUniqueWriteId() << "[];\n";
 		fileStream << "\n";
 
