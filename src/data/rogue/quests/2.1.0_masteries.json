@@ -2,8 +2,8 @@
     "condition": "",
     "defaults":
     {
-        "name": "%MON_SPECIES% Mastery",
-        "description": "Enter the Hall of Fame with a Pokémon from the %MON_SPECIES% line in your party.",
+        "name": "%MON_SPECIES% Mastery", "display_name": "Maestría %MON_SPECIES%",
+        "description": "Entra en el Hall de la Fama con un Pokémon de la línea de %MON_SPECIES% en tu equipo.",
         "display_group": "mon_masteries",
         "added_in_version": "SAVE_VER_ID_2_1_0",
         "flags": 

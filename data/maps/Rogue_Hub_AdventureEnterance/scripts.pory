@@ -66,7 +66,7 @@ script Rogue_Adventure_RedrawMap
 script Rogue_Adventure_ScottGiveQuestLog
 {
     giveitem(ITEM_QUEST_LOG, 1)
-    msgbox(format("That log has a lot of optional Quests for you to complete whilst you're out on an Adventure.\pCompleting Quests can give you some nice rewards too.\pOnce you complete any, come and chat to me and I'll give your rewards."))
+    msgbox(format("Ese diario tiene muchas Misiones opcionales para completar mientras estás de Aventura.\pCompletar Misiones también puede darte buenas recompensas.\pCuando completes alguna, ven a hablar conmigo y te daré las recompensas."))
 }
 
 script Rogue_Adventure_ScottIntro
@@ -76,11 +76,11 @@ script Rogue_Adventure_ScottIntro
     applymovement(NPC_INTRO_SCOTT, Rogue_Adventure_ScottIntroMovement0)
     waitmovement(0)
 
-    msgbox(format("SCOTT: Hey {PLAYER}!\pLooks like you got yourself a partner Pokémon, so you're all ready to go on an Adventure!\pBefore you head off you should take this."))
+    msgbox(format("TRETO: ¡Hola, {PLAYER}!\p¡Veo que ya tienes un Pokémon compañero, así que estás list{MASC}o{FEM}a{ENDG} para irte de Aventura!\pAntes de irte, deberías llevarte esto."))
 
     call(Rogue_Adventure_ScottGiveQuestLog)
 
-    msgbox(format("Looks like you're all good to go now!\pJust go chat to the nurse over there and you can start exploring!"))
+    msgbox(format("¡Parece que ya estás list{MASC}o{FEM}a{ENDG}!\p¡Habla con la enfermera de allí y podrás empezar a explorar!"))
 
     releaseall
 }
@@ -92,11 +92,11 @@ script Rogue_Adventure_ScottOldSaveQuestLog
     applymovement(NPC_INTRO_SCOTT, Rogue_Adventure_ScottIntroMovement0)
     waitmovement(0)
 
-    msgbox(format("SCOTT: Hey {PLAYER}!\pBefore you head off your next Adventure, you should take this."))
+    msgbox(format("TRETO: ¡Hola, {PLAYER}!\pAntes de tu próxima Aventura, deberías llevarte esto."))
 
     call(Rogue_Adventure_ScottGiveQuestLog)
 
-    msgbox(format("Looks like you're all good to go now!"))
+    msgbox(format("¡Parece que ya estás list{MASC}o{FEM}a{ENDG}!"))
 
     releaseall
 }
@@ -110,15 +110,15 @@ script Rogue_Adventure_ScottGift
     waitmovement(0)
 
     // Give extra key items
-    msgbox(format("SCOTT: Oh hey {PLAYER}!\nPOKABBIE has gone and added some extra modes here for you to try!"), MSGBOX_DEFAULT)
+    msgbox(format("TRETO: ¡Anda, hola, {PLAYER}!\n¡POKABBIE ha añadido aquí algunos modos extra para que los pruebes!"), MSGBOX_DEFAULT)
 
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Before you head off your next Adventure, you should also take this."))
+        msgbox(format("Antes de tu próxima Aventura, deberías llevarte también esto."))
         call(Rogue_Adventure_ScottGiveQuestLog)
 
-        msgbox(format("Looks like you're all good to go now!"))
+        msgbox(format("¡Parece que ya estás list{MASC}o{FEM}a{ENDG}!"))
     }
 
     releaseall
@@ -136,10 +136,10 @@ script Rogue_Adventure_SpeakScott
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("SCOTT: Hey {PLAYER}!\pBefore you head off your next Adventure, you should also take this."))
+        msgbox(format("TRETO: ¡Hola, {PLAYER}!\pAntes de tu próxima Aventura, deberías llevarte también esto."))
         call(Rogue_Adventure_ScottGiveQuestLog)
 
-        msgbox(format("Looks like you're all good to go now!"))
+        msgbox(format("¡Parece que ya estás list{MASC}o{FEM}a{ENDG}!"))
     }
     else
     {
@@ -147,7 +147,7 @@ script Rogue_Adventure_SpeakScott
         nextquestreward
         if(var(VAR_RESULT) == TRUE)
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pI have some Quest Rewards for you!"))
+            msgbox(format("TRETO: ¡Hola, {PLAYER}!\p¡Tengo recompensas de Misiones para ti!"))
             while(var(VAR_RESULT) == TRUE)
             {
                 //if(var(VAR_0x8000) == QUEST_REWARD_CUSTOM_TEXT)
@@ -173,24 +173,24 @@ script Rogue_Adventure_SpeakScott
                 nextquestreward
             }
 
-            msgbox(format("And that's all for the moment!"))
+            msgbox(format("¡Y eso es todo por ahora!"))
 
             // Check if our bag got full
             checkitemspace(ITEM_REVIVE)
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("Looks like you have a full bag there.\pBe sure to check your PC as some rewards may turn up there."))
+                msgbox(format("Parece que tienes la mochila llena.\pRevisa tu PC, porque algunas recompensas pueden aparecer allí."))
             }
 
-            msgbox(format("Good luck with your next Adventure champ!"))
+            msgbox(format("¡Suerte en tu próxima Aventura, campeón!"))
         }
         elif(var(VAR_ROGUE_INTRO_STATE) <= 5)
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pJust go chat to the nurse over there and you can start exploring!"))
+            msgbox(format("TRETO: ¡Hola, {PLAYER}!\p¡Habla con la enfermera de allí y podrás empezar a explorar!"))
         }
         else
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pBe sure to come and chat with me once you complete Quests so I can give you your rewards!"))
+            msgbox(format("TRETO: ¡Hola, {PLAYER}!\p¡Ven a hablar conmigo cuando completes Misiones para que te dé las recompensas!"))
         }
     }
 
@@ -210,7 +210,7 @@ movement Rogue_Adventure_ScottIntroMovement0
 script Rogue_Adventure_StatsSign
 {
     buffernumberstring(STR_VAR_1, VAR_ROGUE_FURTHEST_DIFFICULTY)
-    msgbox(format("Furthest Progress:\nGained {STR_VAR_1} BADGES...\pA note from the dev..\p-Run stats to come in a future update!"), MSGBOX_SIGN)
+    msgbox(format("Mayor progreso:\n{STR_VAR_1} MEDALLAS obtenidas...\pUna nota del desarrollo...\p¡Las estadísticas de partidas llegarán en una futura actualización!"), MSGBOX_SIGN)
 }
 
 script Rogue_Adventure_StartStandard
@@ -221,7 +221,7 @@ script Rogue_Adventure_StartStandard
     faceplayer
 
     // Yes No Info
-    msgbox(format("Would you like to go on an adventure?"), MSGBOX_YESNO)
+    msgbox(format("¿Quieres irte de aventura?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -230,7 +230,7 @@ script Rogue_Adventure_StartStandard
     }
     else
     {
-        msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+        msgbox(format("Si cambias de idea, vuelve a hablar conmigo."), MSGBOX_DEFAULT)
     }
 
     release
@@ -243,7 +243,7 @@ script Rogue_Adventure_StartGauntlet
     lock
     faceplayer
 
-    message(format("Would you like to go on a GAUNTLET adventure?"))
+    message(format("¿Quieres ir a una aventura DESAFÍO?"))
     waitmessage
 
     multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -256,13 +256,13 @@ script Rogue_Adventure_StartGauntlet
             call(Rogue_StartAdventureCommon)
 
         case 1: // No
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("Si cambias de idea, vuelve a hablar conmigo."), MSGBOX_DEFAULT)
 
         case 2: // Info
-            msgbox(format("In GAUNTLET adventures, you will get given a few routes to capture Pokémon and collect items.\pAfter that you will fight every BOSS back to back with no chance to get any more Pokémon or items.\pThis is a high stakes mode intended for faster more difficult battles, although almost all Quests are disabled in this mode."), MSGBOX_DEFAULT)
+            msgbox(format("En las aventuras DESAFÍO tendrás unas pocas rutas para capturar Pokémon y recoger objetos.\pDespués lucharás contra todos los JEFES seguidos, sin poder conseguir más Pokémon ni objetos.\pEs un modo arriesgado pensado para combates más rápidos y difíciles, aunque casi todas las Misiones están desactivadas."), MSGBOX_DEFAULT)
 
         case MULTI_B_PRESSED:
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("Si cambias de idea, vuelve a hablar conmigo."), MSGBOX_DEFAULT)
     }
 
     release
@@ -275,7 +275,7 @@ script Rogue_Adventure_StartRainbow
     lock
     faceplayer
 
-    message(format("Would you like to go on a RAINBOW adventure?"))
+    message(format("¿Quieres ir a una aventura ARCOÍRIS?"))
     waitmessage
 
     multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -287,13 +287,13 @@ script Rogue_Adventure_StartRainbow
             call(Rogue_StartAdventureCommon)
 
         case 1: // No
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("Si cambias de idea, vuelve a hablar conmigo."), MSGBOX_DEFAULT)
 
         case 2: // Info
-            msgbox(format("RAINBOW adventures are very similar to a normal adventure.\pThe main difference is that any and all types can appear for Boss fights.\pFor example Wallace could appear as the first GYM leader or ROXANNE could end up being the CHAMPION!\pYou will even encounter Boss trainers sporting types not usually seen in normal adventures.\pIn this mode trainers from all regions will be enabled.\nIn other words your settings in the Config Lab will be ignored."), MSGBOX_DEFAULT)
+            msgbox(format("Las aventuras ARCOÍRIS son muy parecidas a las normales.\pLa principal diferencia es que en los combates contra Jefes puede aparecer cualquier tipo.\p¡Por ejemplo, Plubio podría ser el primer LÍDER de GIMNASIO, o PETRA podría acabar siendo la CAMPEONA!\pIncluso encontrarás Jefes con tipos que no suelen verse en las aventuras normales.\pEn este modo se activan entrenadores de todas las regiones.\nEs decir, se ignorarán tus ajustes del Lab. Config."), MSGBOX_DEFAULT)
 
         case MULTI_B_PRESSED:
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("Si cambias de idea, vuelve a hablar conmigo."), MSGBOX_DEFAULT)
     }
 
     release
@@ -311,7 +311,7 @@ script Rogue_StartAdventureCommon
 
     if(var(VAR_RESULT) == TRUE)
     {
-        msgbox(format("Before you head out, I should mention, Scott was looking for you.\pHe mentioned something about having some new Quest ready to unlock?\pDo you still want to continue?"), MSGBOX_YESNO)
+        msgbox(format("Antes de que te vayas: Treto te estaba buscando.\pDijo algo de que tenía una Misión nueva lista para desbloquear.\p¿Quieres continuar de todos modos?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == NO)
         {
             return
@@ -329,7 +329,7 @@ script Rogue_StartAdventureCommon
     //{
     //    if(var(VAR_RESULT) > 2)
     //    {
-    //        msgbox(format("Looks like you have too many Pokémon.\pYou can only take in 2 Pokémon into this mode.\nYou should use the PC to deposit some before I can let you on an adventure."), MSGBOX_DEFAULT)
+    //        msgbox(format("Parece que llevas demasiados Pokémon.\pEn este modo solo puedes llevar 2 Pokémon.\nDeja algunos en el PC antes de que pueda dejarte ir de aventura."), MSGBOX_DEFAULT)
     //        setvar(VAR_RESULT, NO)
     //    }
     //    else
@@ -341,7 +341,7 @@ script Rogue_StartAdventureCommon
     {
         if(var(VAR_RESULT) > 1)
         {
-            msgbox(format("Looks like you have too many Pokémon.\pYou can only take in 1 Pokémon into this mode.\nYou should use the PC to deposit some before I can let you on an adventure."), MSGBOX_DEFAULT)
+            msgbox(format("Parece que llevas demasiados Pokémon.\pEn este modo solo puedes llevar 1 Pokémon.\nDeja algunos en el PC antes de que pueda dejarte partir."), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, NO)
         }
         else
@@ -394,11 +394,11 @@ script Rogue_StartAdventureCommon
         // Skip ahead based on lvl
         if(var(VAR_ROGUE_SKIP_TO_DIFFICULTY) != 0)
         {
-            msgbox(format("You've leveled up your PARTNER enough to skip ahead!"), MSGBOX_DEFAULT)
+            msgbox(format("¡Tu COMPAÑERO tiene nivel suficiente para adelantarte!"), MSGBOX_DEFAULT)
 
             buffernumberstring(STR_VAR_1, VAR_ROGUE_SKIP_TO_DIFFICULTY)
             
-            message(format("Would you like to skip ahead and start just after BADGE {STR_VAR_1}?"))
+            message(format("¿Quieres adelantarte y empezar justo después de la MEDALLA {STR_VAR_1}?"))
             waitmessage
             
             multichoice(20, 8, MULTI_FULL_OR_SKIP, NO)
@@ -420,7 +420,7 @@ script Rogue_StartAdventureCommon
         call(Common_EventScript_SaveGame)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("Good luck {PLAYER}!"), MSGBOX_DEFAULT)
+            msgbox(format("¡Buena suerte, {PLAYER}!"), MSGBOX_DEFAULT)
 
             if(var(VAR_ROGUE_INTRO_STATE) == 5)
             {
@@ -440,7 +440,7 @@ script Rogue_StartAdventureCommon
         }
         else
         {
-            msgbox(format("OK. Come speak to me once you're ready."), MSGBOX_DEFAULT)
+            msgbox(format("De acuerdo. Ven a hablar conmigo cuando estés list{MASC}o{FEM}a{ENDG}."), MSGBOX_DEFAULT)
         }
     }
 }
@@ -450,20 +450,20 @@ script Rogue_ReturnAdventureCommon
     lockall
     turnobject(OBJ_EVENT_ID_PLAYER, DIR_NORTH)
 
-    msgbox(format("Welcome back {PLAYER}!"), MSGBOX_DEFAULT)
+    msgbox(format("¡Bienvenid{MASC}o{FEM}a{ENDG} de vuelta, {PLAYER}!"), MSGBOX_DEFAULT)
 
     // Just returned from firstadventure
     if(var(VAR_ROGUE_INTRO_STATE) == 6)
     {
-        msgbox(format("Whenever you return from an adventure\nyou earn rewards based on how well you did."), MSGBOX_DEFAULT)
+        msgbox(format("Cada vez que vuelves de una aventura\nganas recompensas según lo bien que lo hayas hecho."), MSGBOX_DEFAULT)
 
         buffernumberstring(STR_VAR_1, VAR_ROGUE_CURRENT_ROOM_IDX)
         //buffernumberstring(STR_VAR_2, VAR_ROGUE_DIFFICULTY)
 
-        msgbox(format("Lets have a look now...\pYou managed to complete{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{STR_VAR_1} routes...{PAUSE 15}"), MSGBOX_DEFAULT)
+        msgbox(format("Veamos...\pHas completado{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{STR_VAR_1} rutas...{PAUSE 15}"), MSGBOX_DEFAULT)
         
         //turnobject(NPC_INTRO_SCOTT, DIR_EAST)
-        msgbox(format("So hmm...\nYour rewards should be{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."), MSGBOX_DEFAULT)
+        msgbox(format("Así que, mmm...\nTus recompensas son{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."), MSGBOX_DEFAULT)
         //turnobject(NPC_INTRO_SCOTT, DIR_SOUTH)
     }
 
@@ -475,13 +475,13 @@ script Rogue_ReturnAdventureCommon
 
     if(var(VAR_0x8000) != 0 || var(VAR_0x8001) != 0)
     {
-        msgbox(format("Your rewards for this time are..."))
+        msgbox(format("Tus recompensas esta vez son..."))
 
         if(var(VAR_0x8000) != 0)
         {
             buffernumberstring(STR_VAR_1, VAR_0x8000)
 
-            message(format("You received ¥{STR_VAR_1}"))
+            message(format("Has recibido ¥{STR_VAR_1}"))
             playfanfare(MUS_OBTAIN_ITEM)
             waitmessage
             waitfanfare
@@ -491,12 +491,12 @@ script Rogue_ReturnAdventureCommon
         {
             if(var(VAR_0x8001) == 1)
             {
-                message(format("Party received 1 LVL"))
+                message(format("El equipo ha subido 1 NV."))
             }
             else
             {
                 buffernumberstring(STR_VAR_1, VAR_0x8001)
-                message(format("Party received {STR_VAR_1} LVLs"))
+                message(format("El equipo ha subido {STR_VAR_1} NV."))
             }
 
             playfanfare(FANFARE_LEVEL_UP)
@@ -505,14 +505,14 @@ script Rogue_ReturnAdventureCommon
             
             if(!flag(FLAG_ROGUE_LVL_TUTORIAL))
             {
-                msgbox(format("Ah!\nIs this the first time your party has leveled up in the HUB?\pThese LVLs don't work entirely the same as they do whilst out on Adventures.\pPOKéMON will not naturally learn moves or evolve whilst in the HUB.\pYou will need to find specialist NPCs who will be able to help out, once your Pokémon has reached the correct level.\pAny levels you gain in the HUB will be temporarily reset when you embark on Adventures.\pThe HUB level will be restored once you return."))
+                msgbox(format("¡Ah!\n¿Es la primera vez que tu equipo sube de nivel en la BASE?\pEstos NV no funcionan exactamente igual que durante las Aventuras.\pEn la BASE, los POKéMON no aprenden movimientos ni evolucionan por sí solos.\pTendrás que buscar a personas especializadas que te ayuden cuando tu Pokémon alcance el nivel adecuado.\pLos niveles que ganes en la BASE se reiniciarán temporalmente al partir de Aventura.\pEl nivel de la BASE se restaurará cuando vuelvas."))
                 setflag(FLAG_ROGUE_LVL_TUTORIAL)
             }
         }
     }
     else
     {
-        msgbox(format("Looks like there aren't any rewards for this Adventure."))
+        msgbox(format("Parece que esta Aventura no tiene recompensas."))
     }
 
     clearflag(FLAG_ROGUE_LEFT_ON_RUN)
@@ -521,23 +521,23 @@ script Rogue_ReturnAdventureCommon
 
     if(flag(FLAG_SET_SEED_ENABLED))
     {
-        msgbox(format("Would you like to keep the same SEED enabled for your next Adventure?"), MSGBOX_YESNO)
+        msgbox(format("¿Quieres mantener la misma SEMILLA para tu próxima Aventura?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("OK.\nI'll remember the same SEED then."), MSGBOX_DEFAULT)
+            msgbox(format("De acuerdo.\nRecordaré la misma SEMILLA."), MSGBOX_DEFAULT)
         }
         else
         {
-            msgbox(format("OK.\nThe SEED will be removed for the next Adventure."), MSGBOX_DEFAULT)
+            msgbox(format("De acuerdo.\nSe quitará la SEMILLA en la próxima Aventura."), MSGBOX_DEFAULT)
             clearflag(FLAG_SET_SEED_ENABLED)
         }
     }
     
-    msgbox(format("Would you like to SAVE your progress?"), MSGBOX_YESNO)
+    msgbox(format("¿Quieres GUARDAR tu progreso?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         call(Common_EventScript_SaveGame)
     }
-    msgbox(format("Come speak to me once you're ready for your next adventure."), MSGBOX_DEFAULT)
+    msgbox(format("Ven a hablar conmigo cuando estés list{MASC}o{FEM}a{ENDG} para tu próxima aventura."), MSGBOX_DEFAULT)
     releaseall
 }

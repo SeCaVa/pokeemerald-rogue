@@ -255,7 +255,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 {
     [PLAYER_OUTFIT_BRENDAN] =
     {
-        .name = _("Brendan"),
+        .name = _("Bruno"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_HOENN,
         .trainerFrontPic = TRAINER_PIC_BRENDAN,
         .trainerBackPic = TRAINER_BACK_PIC_BRENDAN,
@@ -281,7 +281,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_MAY] =
     {
-        .name = _("May"),
+        .name = _("Aura"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_HOENN,
         .trainerFrontPic = TRAINER_PIC_MAY,
         .trainerBackPic = TRAINER_BACK_PIC_MAY,
@@ -308,7 +308,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_RED] =
     {
-        .name = _("Red"),
+        .name = _("Rojo"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KANTO,
         .trainerFrontPic = TRAINER_PIC_RED,
         .trainerBackPic = TRAINER_BACK_PIC_RED,
@@ -334,7 +334,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_LEAF] =
     {
-        .name = _("Leaf"),
+        .name = _("Hoja"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KANTO,
         .trainerFrontPic = TRAINER_PIC_LEAF,
         .trainerBackPic = TRAINER_BACK_PIC_LEAF,
@@ -361,7 +361,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_ETHAN] =
     {
-        .name = _("Ethan"),
+        .name = _("Eco"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_JOHTO,
         .trainerFrontPic = TRAINER_PIC_ETHAN,
         .trainerBackPic = TRAINER_BACK_PIC_ETHAN,
@@ -387,7 +387,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_LYRA] =
     {
-        .name = _("Lyra"),
+        .name = _("Lira"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_JOHTO,
         .trainerFrontPic = TRAINER_PIC_LYRA,
         .trainerBackPic = TRAINER_BACK_PIC_LYRA,
@@ -414,7 +414,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_LUCAS] =
     {
-        .name = _("Lucas"),
+        .name = _("León"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_SINNOH,
         .trainerFrontPic = TRAINER_PIC_LUCAS,
         .trainerBackPic = TRAINER_BACK_PIC_LUCAS,
@@ -440,7 +440,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_DAWN] =
     {
-        .name = _("Dawn"),
+        .name = _("Maya"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_SINNOH,
         .trainerFrontPic = TRAINER_PIC_DAWN,
         .trainerBackPic = TRAINER_BACK_PIC_DAWN,
@@ -467,7 +467,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_HILBERT] =
     {
-        .name = _("Hilbert"),
+        .name = _("Lucho"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_HILBERT,
         .trainerBackPic = TRAINER_BACK_PIC_HILBERT,
@@ -494,7 +494,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_HILDA] =
     {
-        .name = _("Hilda"),
+        .name = _("Liza"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_HILDA,
         .trainerBackPic = TRAINER_BACK_PIC_HILDA,
@@ -521,7 +521,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_NATE] =
     {
-        .name = _("Nate"),
+        .name = _("Rizzo"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_NATE,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -547,7 +547,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_ROSA] =
     {
-        .name = _("Rosa"),
+        .name = _("Nanci"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_ROSA,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -574,7 +574,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_CALEM] =
     {
-        .name = _("Calem"),
+        .name = _("Kalm"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KALOS,
         .trainerFrontPic = TRAINER_PIC_CALEM,
         .trainerBackPic = TRAINER_BACK_PIC_CALEM,
@@ -891,7 +891,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_GALACTIC_GRUNT_F] =
     {
-        .name = _("Galactic"),
+        .name = _("Galaxia"),
         .trainerFrontPic = TRAINER_PIC_GALACTIC_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_SILVER,
@@ -906,7 +906,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_GALACTIC_GRUNT_M] =
     {
-        .name = _("Galactic"),
+        .name = _("Galaxia"),
         .trainerFrontPic = TRAINER_PIC_GALACTIC_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1293,7 +1293,7 @@ static const u16 sLayerMaskColours[PLAYER_OUTFIT_STYLE_COUNT] =
 static const struct KnownColour sKnownColours_Appearance[] = 
 {
     {
-        .name = _("Custom"),
+        .name = _("Personal."),
         .colour = RGB_255(0, 0, 0),
         .isCustomColour = TRUE,
     },
@@ -1331,64 +1331,64 @@ static const struct KnownColour sKnownColours_Appearance[] =
 static const struct KnownColour sKnownColours_Clothes[] = 
 {
     {
-        .name = _("Custom"),
+        .name = _("Personal."),
         .colour = RGB_255(0, 0, 0),
         .isCustomColour = TRUE,
     },
     {
-        .name = _("Official"),
+        .name = _("Oficial"),
         .colour = RGB_255(0, 0, 0) | RGB_ALPHA,
     },
 
     {
-        .name = _("Black"),
+        .name = _("Negro"),
         .colour = RGB_UI(3, 3, 3),
     },
     {
-        .name = _("White"),
+        .name = _("Blanco"),
         .colour = RGB_UI(10, 10, 10),
     },
     {
-        .name = _("Grey"),
+        .name = _("Gris"),
         .colour = RGB_UI(6, 6, 6),
     },
 
     {
-        .name = _("Red"),
+        .name = _("Rojo"),
         .colour = RGB_UI(10, 4, 4),
     },
     {
-        .name = _("Green"),
+        .name = _("Verde"),
         .colour = RGB_UI(3, 10, 3),
     },
     {
-        .name = _("Blue"),
+        .name = _("Azul"),
         .colour = RGB_UI(4, 5, 10),
     },
 
     
     {
-        .name = _("Pink"),
+        .name = _("Rosa"),
         .colour = RGB_UI(10, 6, 8),
     },
     {
-        .name = _("Brown"),
+        .name = _("Marrón"),
         .colour = RGB_UI(5, 3, 2),
     },
     {
-        .name = _("Purple"),
+        .name = _("Morado"),
         .colour = RGB_UI(8, 0, 8),
     },
     {
-        .name = _("Yellow"),
+        .name = _("Amarillo"),
         .colour = RGB_UI(10, 9, 0),
     },
     {
-        .name = _("Orange"),
+        .name = _("Naranja"),
         .colour = RGB_UI(10, 6, 0),
     },
     {
-        .name = _("Gold"),
+        .name = _("Dorado"),
         .colour = RGB_UI(9, 7, 0),
     },
 };

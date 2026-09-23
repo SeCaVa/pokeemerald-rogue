@@ -1,372 +1,372 @@
 text gItemDesc_EvolutionItem
 {
-    format("Makes certain species of Pokémon evolve.")
+    format("Hace evolucionar a ciertas especies de Pokémon.")
 }
 
 text gItemDesc_QuestLog
 {
-    format("A diary log for tracking Quests and Challenges.")
+    format("Un diario para seguir Misiones y Desafíos.")
 }
 
 text gItemDesc_BattleChecker
 {
-    format("A diary tracking previous {PKMN} battles.")
+    format("Un diario con los combates {PKMN} anteriores.")
 }
 
 text gItemDesc_HealingFlask
 {
-    format("Rechargable flask capable of healing all {PKMN} in the party.")
+    format("Frasco recargable que cura a todos los {PKMN} del equipo.")
 }
 
 text gItemDesc_RidingWhistle
 {
-    format("A whistle used to ride {PKMN} from the party.")
+    format("Un silbato para montar a {PKMN} del equipo.")
 }
 
 text gItemDesc_GoldRidingWhistle
 {
-    format("A whistle used to ride registered {PKMN}.")
+    format("Un silbato para montar a {PKMN} registrados.")
 }
 
 text gItemDesc_CGear
 {
-    format("A watch which can remotely access the Config Lab.")
+    format("Un reloj para acceder a distancia al Lab. Config.")
 }
 
 text gItemDesc_DaycarePhone
 {
-    format("A Phone which can remotely access the Day Care.")
+    format("Un teléfono para acceder a distancia a la Guardería.")
 }
 
 text gItemDesc_BuildingSupplies
 {
-    format("Supplies used to create and upgrade buildings.")
+    format("Materiales para construir y mejorar edificios.")
 }
 
 text gItemDesc_TM
 {
-    format("Reusable machine for teaching {PKMN} one specific move.")
+    format("Máquina reutilizable que enseña un movimiento a un {PKMN}.")
 }
 
 text gItemDesc_TR
 {
-    format("Single use machine for teaching {PKMN} one specific move.")
+    format("Máquina de un solo uso que enseña un movimiento a un {PKMN}.")
 }
 
 text gItemDesc_MaxMushroom
 {
-    format("When used on a {PKMN} they gain access their Gmax form.")
+    format("Permite a un {PKMN} acceder a su forma Gigamax.")
 }
 
 text gItemDesc_SmallCoinCase
 {
-    format("Coin Case provides ¥1000 on start of Adventure.")
+    format("Monedero que da ¥1000 al empezar una Aventura.")
 }
 
 text gItemDesc_LargeCoinCase
 {
-    format("Coin Case provides ¥10000 on start of Adventure.")
+    format("Monedero que da ¥10000 al empezar una Aventura.")
 }
 
 text gItemDesc_GoldenSeed
 {
-    format("todo - golden seed")
+    format("Semilla dorada.")
 }
 
 text gItemDesc_NormalPokeblock
 {
-    format("Can be used on Routes to attract Normal type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Normal.")
 }
 
 text gItemDesc_FightingPokeblock
 {
-    format("Can be used on Routes to attract Fighting type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Lucha.")
 }
 
 text gItemDesc_FlyingPokeblock
 {
-    format("Can be used on Routes to attract Flying type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Volador.")
 }
 
 text gItemDesc_PoisonPokeblock
 {
-    format("Can be used on Routes to attract Poison type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Veneno.")
 }
 
 text gItemDesc_GroundPokeblock
 {
-    format("Can be used on Routes to attract Ground type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Tierra.")
 }
 
 text gItemDesc_RockPokeblock
 {
-    format("Can be used on Routes to attract Rock type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Roca.")
 }
 
 text gItemDesc_BugPokeblock
 {
-    format("Can be used on Routes to attract Bug type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Bicho.")
 }
 
 text gItemDesc_GhostPokeblock
 {
-    format("Can be used on Routes to attract Ghost type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Fantasma.")
 }
 
 text gItemDesc_SteelPokeblock
 {
-    format("Can be used on Routes to attract Steel type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Acero.")
 }
 
 text gItemDesc_FirePokeblock
 {
-    format("Can be used on Routes to attract Fire type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Fuego.")
 }
 
 text gItemDesc_WaterPokeblock
 {
-    format("Can be used on Routes to attract Water type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Agua.")
 }
 
 text gItemDesc_GrassPokeblock
 {
-    format("Can be used on Routes to attract Grass type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Planta.")
 }
 
 text gItemDesc_ElectricPokeblock
 {
-    format("Can be used on Routes to attract Electric type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Eléctrico.")
 }
 
 text gItemDesc_PsychicPokeblock
 {
-    format("Can be used on Routes to attract Psychic type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Psíquico.")
 }
 
 text gItemDesc_IcePokeblock
 {
-    format("Can be used on Routes to attract Ice type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Hielo.")
 }
 
 text gItemDesc_DragonPokeblock
 {
-    format("Can be used on Routes to attract Dragon type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Dragón.")
 }
 
 text gItemDesc_DarkPokeblock
 {
-    format("Can be used on Routes to attract Dark type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Siniestro.")
 }
 
 text gItemDesc_FairyPokeblock
 {
-    format("Can be used on Routes to attract Fairy type {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} de tipo Hada.")
 }
 
 text gItemDesc_ShinyPokeblock
 {
-    format("Can be used on Routes to attract Shiny {PKMN}.")
+    format("Úsalo en Rutas para atraer {PKMN} variocolor.")
 }
 
 text gItemDesc_StatPokeblock
 {
-    format("{POKEBLOCK} used to bake treats for {PKMN}.")
+    format("{POKEBLOCK} para hornear dulces para {PKMN}.")
 }
 
 
 text gItemDesc_ShopPriceCharm
 {
-    format("Shop prices are reduced by 50%")
+    format("Los precios de las tiendas bajan un 50%.")
 }
 text gItemDesc_ShopPriceCurse
 {
-    format("Shop prices are increased by 40%")
+    format("Los precios de las tiendas suben un 40%.")
 }
 
 text gItemDesc_FlinchCharm
 {
-    format("Friendly moves have a 20% chance to flinch.")
+    format("Tus ataques tienen un 20% de hacer retroceder.")
 }
 text gItemDesc_FlinchCurse
 {
-    format("Opponent moves have a 10% chance to flinch.")
+    format("Los ataques rivales tienen un 10% de hacer retroceder.")
 }
 
 text gItemDesc_CritCharm
 {
-    format("Friendly Pokémon have an increased crit rate.")
+    format("Tus Pokémon hacen más críticos.")
 }
 text gItemDesc_CritCurse
 {
-    format("Opponent Pokémon have an increased crit rate.")
+    format("Los Pokémon rivales hacen más críticos.")
 }
 
 text gItemDesc_ShedSkinCharm
 {
-    format("Friendly Pokémon have a 33% chance to cure status.")
+    format("Tus Pokémon tienen un 33% de curarse de estados.")
 }
 text gItemDesc_ShedSkinCurse
 {
-    format("Opponent Pokémon have a 15% chance to cure status.")
+    format("Los Pokémon rivales tienen un 15% de curarse de estados.")
 }
 
 text gItemDesc_WildIVCharm
 {
-    format("Caught Pokémon are slightly stronger.")
+    format("Los Pokémon capturados son algo más fuertes.")
 }
 text gItemDesc_WildIVCurse
 {
-    format("Caught Pokémon are slightly weaker.")
+    format("Los Pokémon capturados son algo más débiles.")
 }
 
 text gItemDesc_CatchingCharm
 {
-    format("Ball effectiveness is increased by 200%.")
+    format("La eficacia de las Balls aumenta un 200%.")
 }
 text gItemDesc_CatchingCurse
 {
-    format("Ball effectiveness is decreased by 40%.")
+    format("La eficacia de las Balls baja un 40%.")
 }
 
 text gItemDesc_GraceCharm
 {
-    format("Friendly moves have x1.75 to chance for effects.")
+    format("Tus ataques: x1,75 de prob. de efectos.")
 }
 text gItemDesc_GraceCurse
 {
-    format("Opponent moves have x1.5 to chance for effects.")
+    format("Ataques rivales: x1,5 de prob. de efectos.")
 }
 
 text gItemDesc_WildCharm
 {
-    format("Routes contain 2 additional wild Pokémon.")
+    format("Las Rutas tienen 2 Pokémon salvajes más.")
 }
 text gItemDesc_WildCurse
 {
-    format("Routes contain 1 less wild Pokémon.")
+    format("Las Rutas tienen 1 Pokémon salvaje menos.")
 }
 
 text gItemDesc_PriorityCharm
 {
-    format("Friendly moves have 20% chance to apply Quick Claw.")
+    format("Tú: 20% de activar Garra Rápida.")
 }
 text gItemDesc_PriorityCurse
 {
-    format("Opponent moves have 10% chance to apply Quick Claw.")
+    format("Rivales: 10% de activar Garra Rápida.")
 }
 
 text gItemDesc_EndureCharm
 {
-    format("Friendly Pokémon have a 60% chance to endure OHKOs.")
+    format("Tus Pokémon: 60% de aguantar un KO directo.")
 }
 text gItemDesc_EndureCurse
 {
-    format("Opponent Pokémon have a 20% chance to endure OHKOs.")
+    format("Rivales: 20% de aguantar un KO directo.")
 }
 
 text gItemDesc_TormentCharm
 {
-    format("Opponent {PKMN} cannot use the same move in a row.")
+    format("Los {PKMN} rivales no pueden repetir movimiento seguido.")
 }
 text gItemDesc_TormentCurse
 {
-    format("Friendly {PKMN} cannot use the same move in a row.")
+    format("Tus {PKMN} no pueden repetir movimiento seguido.")
 }
 
 text gItemDesc_PressureCharm
 {
-    format("Opponent Pokémon consume more PP per move.")
+    format("Los Pokémon rivales gastan más PP por ataque.")
 }
 text gItemDesc_PressureCurse
 {
-    format("Friendly Pokémon consume more PP per move.")
+    format("Tus Pokémon gastan más PP por ataque.")
 }
 
 text gItemDesc_UnawareCharm
 {
-    format("Friendly {PKMN} ignore Opponent {PKMN} {UP_ARROW}stat changes.")
+    format("Tus {PKMN} ignoran las subidas {UP_ARROW} del rival.")
 }
 text gItemDesc_UnawareCurse
 {
-    format("Opponent {PKMN} ignore Friendly {PKMN} {UP_ARROW}stat changes.")
+    format("Los {PKMN} rivales ignoran tus subidas {UP_ARROW}.")
 }
 
 text gItemDesc_AdaptabilityCharm
 {
-    format("Friendly Pokémon STAB increased by 50%.")
+    format("El STAB de tus Pokémon aumenta un 50%.")
 }
 text gItemDesc_AdaptabilityCurse
 {
-    format("Opponent Pokémon STAB increased by 30%.")
+    format("El STAB de los Pokémon rivales aumenta un 30%.")
 }
 
 text gItemDesc_ExtraLifeCharm
 {
-    format("Permanent Sacred Ash effect.")
+    format("Efecto de Ceniza Sagrada permanente.")
 }
 text gItemDesc_AllowSaveScumCharm
 {
-    format("Allow regular Saving / Reloading during Runs.")
+    format("Guarda y recarga libremente en partidas.")
 }
 
 text gItemDesc_PartyCurse
 {
-    format("The maximum number of Pokémon in your party is reduced.")
+    format("Se reduce el número máximo de Pokémon del equipo.")
 }
 
 text gItemDesc_EverstoneCurse
 {
-    format("All regular Evolutions are disabled.")
+    format("Se desactivan todas las evoluciones normales.")
 }
 
 text gItemDesc_BattleItemCurse
 {
-    format("Items cannot be used in battle. (Except Poké Balls)")
+    format("Sin objetos en combate. (Salvo Poké Balls)")
 }
 
 text gItemDesc_SpeciesClauseCurse
 {
-    format("Pokémon can't be caught if species already in party.")
+    format("No puedes capturar especies que ya estén en tu equipo.")
 }
 
 text gItemDesc_ItemShuffleCurse
 {
-    format("Entering a Battle will shuffle Held Items between {PKMN}.")
+    format("Al combatir se barajan los objetos equipados.")
 }
 
 text gItemDesc_SnowballCurse
 {
-    format("For every badge, you gain an extra Random Curse.")
+    format("Una Maldición aleatoria extra por medalla.")
 }
 
 text gItemDesc_RandomanRouteSpawnCurse
 {
-    format("Mr. Randoman will occasionally appear on routes.")
+    format("El Sr. Randoman aparecerá a veces en las rutas.")
 }
 
 text gItemDesc_RandomanAlwaysSpawnCurse
 {
-    format("Mr. Randoman will always appear when possible.")
+    format("El Sr. Randoman aparecerá siempre que sea posible.")
 }
 
 text gItemDesc_AutoMoveSelectCurse
 {
-    format("Opponent and Friendly {PKMN} pick moves at random.")
+    format("Los {PKMN} rivales y aliados eligen ataques al azar.")
 }
 
 text gItemDesc_OneHitCurse
 {
-    format("Friendly {PKMN} will faint in one hit in Trainer Battles.")
+    format("Tus {PKMN} se debilitan de un golpe contra Entrenadores.")
 }
 
 text gItemDesc_SnagCurse
 {
-    format("Can only catch Trainer {PKMN} (After Trainer Battle).")
+    format("Solo capturas {PKMN} de Entrenadores tras vencerlos.")
 }
 
 text gItemDesc_WildEggSpeciesCurse
 {
-    format("Wild {PKMN} appear as their 1st evolution stage.")
+    format("Los {PKMN} salvajes aparecen en su 1.ª fase evolutiva.")
 }
 
 // Hub upgrades
@@ -375,258 +375,258 @@ text gItemDesc_WildEggSpeciesCurse
 
 text gHubAreaDesc_Todo
 {
-    format("todo - area desc")
+    format("Zona.")
 }
 
 text gHubAreaDesc_ChallengeFrontier
 {
-    format("Access various new Quests and Items…")
+    format("Accede a nuevas Misiones y Objetos…")
 }
 
 text gHubAreaDesc_BerryField
 {
-    format("Grow Berries and craft basic Potions.")
+    format("Cultiva Bayas y fabrica Pociones básicas.")
 }
 
 text gHubAreaDesc_Home
 {
-    format("Personal area to Decorate & change Outfits.")
+    format("Zona personal para Decorar y cambiar de Atuendo.")
 }
 
 text gHubAreaDesc_Marts
 {
-    format("Shops for TMs, Poké Balls, Held Items etc.")
+    format("Tiendas de MT, Poké Balls, objetos equipables, etc.")
 }
 
 text gHubAreaDesc_RideTraining
 {
-    format("Train {PKMN} to help you in the Overworld.")
+    format("Entrena {PKMN} para que te ayuden en el mapa.")
 }
 
 text gHubAreaDesc_DayCare
 {
-    format("Bring extra {PKMN} into Adventures and hatch Eggs.")
+    format("Lleva {PKMN} extra a las Aventuras y eclosiona Huevos.")
 }
 
 text gHubAreaDesc_Market
 {
-    format("Blend {POKEBLOCK} and improve {PKMN} IVs.")
+    format("Prepara {POKEBLOCK} y mejora los IV de tus {PKMN}.")
 }
 
 text gHubUpgradeDesc_Home_LowerFloor
 {
-    format("An Interior space to decorate in the Home Base.")
+    format("Un espacio interior para decorar en tu Hogar.")
 }
 
 text gHubUpgradeDesc_Home_UpperFloor
 {
-    format("A 2nd floor with a bed allowing you to rest until a specific time.")
+    format("Un 2.º piso con cama para dormir hasta otra hora.")
 }
 
 text gHubUpgradeDesc_Home_TownStyle
 {
-    format("Change styles from Home Base e.g. Path")
+    format("Cambia estilos del Hogar, p. ej. el Camino.")
 }
 
 text gHubUpgradeDesc_Home_BerryField1
 {
-    format("A small plot to plant berries.")
+    format("Una pequeña parcela para plantar bayas.")
 }
 
 text gHubUpgradeDesc_Home_BerryField2
 {
-    format("A 2nd small plot to plant berries. (Unlocks Berry Fields area)")
+    format("Otra parcela. (Abre los Campos de Bayas)")
 }
 
 text gHubUpgradeDesc_Home_GrassField
 {
-    format("A small cosmetic garden your caught {PKMN} can roam in.")
+    format("Un pequeño jardín por el que pasean tus {PKMN} capturados.")
 }
 
 text gHubUpgradeDesc_Home_FieldShed
 {
-    format("TODO - Desc")
+    format("Mejora.")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonSlots0
 {
-    format("Increase number of Unique {PKMN} that can be tracked.")
+    format("Aumenta el número de {PKMN} Únicos que puedes rastrear.")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonSlots1
 {
-    format("Increase number of Unique {PKMN} that can be tracked.")
+    format("Aumenta el número de {PKMN} Únicos que puedes rastrear.")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity0
 {
-    format("Allows Rare Unique {PKMN} to be tracked. (+Abilities)")
+    format("Permite rastrear {PKMN} Únicos Raros. (+Habilidades)")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity1
 {
-    format("Allows Epic Unique {PKMN} to be tracked. (+Moves)")
+    format("Permite rastrear {PKMN} Únicos Épicos. (+Movimientos)")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity2
 {
-    format("Allows Exotic Unique {PKMN} to be tracked. (+Designed Sets)")
+    format("Permite rastrear {PKMN} Únicos Exóticos. (+Sets diseñados)")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity3
 {
-    format("Allows Legendary Unique {PKMN} to be tracked.")
+    format("Permite rastrear {PKMN} Únicos Legendarios.")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonTyping
 {
-    format("Unique {PKMN} can have alternative typing.")
+    format("Los {PKMN} Únicos pueden tener tipos alternativos.")
 }
 
 
 text gHubUpgradeDesc_AdventureEntrance_RandomStarter
 {
-    format("Starter {PKMN} can be randomised when embarking on Runs.")
+    format("El {PKMN} inicial puede ser aleatorio al empezar partida.")
 }
 
 text gHubUpgradeDesc_AdventureEntrance_AdventureReplay
 {
-    format("Adventures can be saved and replayed again.")
+    format("Las Aventuras se pueden guardar y volver a jugar.")
 }
 
 text gHubUpgradeDesc_BerryField_Brewing
 {
-    format("Brew basic Potions from berries.")
+    format("Prepara Pociones básicas con bayas.")
 }
 
 text gHubUpgradeDesc_BerryField_ExtraField
 {
-    format("An additional plot to grown berries in.")
+    format("Una parcela adicional para cultivar bayas.")
 }
 
 text gHubUpgradeDesc_BerryField_HigherYeild
 {
-    format("Increase berries collected both in and out of Adventures.")
+    format("Aumenta las bayas recogidas dentro y fuera de Aventuras.")
 }
 
 text gHubUpgradeDesc_Mart_GeneralStock
 {
-    format("General Shop has more items for sale.")
+    format("La Tienda General vende más objetos.")
 }
 
 text gHubUpgradeDesc_Mart_PokeBalls
 {
-    format("An extra Shop which sells Poké Balls.")
+    format("Una tienda extra que vende Poké Balls.")
 }
 
 text gHubUpgradeDesc_Mart_PokeBallsStock
 {
-    format("Poké Ball Shop has more items for sale.")
+    format("La Tienda de Poké Balls vende más objetos.")
 }
 
 text gHubUpgradeDesc_Mart_TMs
 {
-    format("An extra Shop which sells TMs.")
+    format("Una tienda extra que vende MT.")
 }
 
 text gHubUpgradeDesc_Mart_TMsStock
 {
-    format("TM Shop has more items for sale.")
+    format("La Tienda de MT vende más objetos.")
 }
 
 text gHubUpgradeDesc_Mart_TravelerBattleEnhancers
 {
-    format("Battle Shop specializing in Battle Enhancers.")
+    format("Tienda de combate especializada en potenciadores.")
 }
 
 text gHubUpgradeDesc_Mart_TravelerHeldItems
 {
-    format("Battle Shop specializing in Held Items.")
+    format("Tienda de combate especializada en objetos equipables.")
 }
 
 text gHubUpgradeDesc_Mart_Bank
 {
-    format("Increase starting money for Adventures.")
+    format("Aumenta el dinero inicial de las Aventuras.")
 }
 
 
 text gHubUpgradeDesc_TownSquare_TrainerSchool
 {
-    format("Building for tips & tricks for Adventures.")
+    format("Edificio con consejos y trucos para las Aventuras.")
 }
 
 text gHubUpgradeDesc_TownSquare_MoveTutors
 {
-    format("Tutor to teach or remove moves for {PKMN}.")
+    format("Tutor que enseña u olvida movimientos a {PKMN}.")
 }
 
 
 text gHubUpgradeDesc_DayCare_DayCareSlots
 {
-    format("Adds an extra Day Care {PKMN} slot.")
+    format("Añade un hueco extra para {PKMN} en la Guardería.")
 }
 
 text gHubUpgradeDesc_DayCare_Breeder
 {
-    format("Use data from Pokédex to find {PKMN} Eggs.")
+    format("Usa la Pokédex para hallar Huevos de {PKMN}.")
 }
 
 text gHubUpgradeDesc_DayCare_BreederSeenDex
 {
-    format("Only need Seen Pokédex entry to find {PKMN} Eggs.")
+    format("Basta con haber visto un {PKMN} para encontrar su Huevo.")
 }
 
 text gHubUpgradeDesc_DayCare_Phone
 {
-    format("Remotely access Day Care in and out of Adventures.")
+    format("Acceso remoto a la Guardería, en Aventuras o no.")
 }
 
 text gHubUpgradeDesc_DayCare_Phone1
 {
-    format("Increases charges for remote Day Care access.")
+    format("Más usos del acceso remoto a la Guardería.")
 }
 
 text gHubUpgradeDesc_DayCare_Bakery
 {
-    format("Bake {POKEBLOCK} into snacks used to improve IVs.")
+    format("Hornea {POKEBLOCK} en dulces que mejoran los IV.")
 }
 
 text gHubUpgradeDesc_DayCare_PokeblockBlenders
 {
-    format("Create more {POKEBLOCK} at once.")
+    format("Crea más {POKEBLOCK} de una vez.")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShop_Vanilla
 {
-    format("Shop for {POKEBLOCK}.")
+    format("Tienda de {POKEBLOCK}.")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShop
 {
-    format("Shop for Mints to change {PKMN} natures.")
+    format("Tienda de Mentas para cambiar la naturaleza de {PKMN}.")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShopStock
 {
-    format("Treat Shop will now also sell {POKEBLOCK}.")
+    format("La Tienda de Dulces también venderá {POKEBLOCK}.")
 }
 
 text gHubUpgradeDesc_DayCare_TeaShop
 {
-    format("Tea used for changing the gender of {PKMN}.")
+    format("Té que cambia el sexo de los {PKMN}.")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare0
 {
-    format("Day Care {PKMN} gain 25% of the {LV}s the Partner does.")
+    format("Guardería: sus {PKMN} ganan 25% de {LV} del Compañero.")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare1
 {
-    format("Day Care {PKMN} gain 50% of the {LV}s the Partner does.")
+    format("Guardería: sus {PKMN} ganan 50% de {LV} del Compañero.")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare2
 {
-    format("Day Care {PKMN} gain 100% of the {LV}s the Partner does.")
+    format("Guardería: sus {PKMN} ganan 100% de {LV} del Compañero.")
 }

@@ -11,8 +11,8 @@
         [
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Z-A Royale",
-                "description": "Enable all Trainers and Rainbow Mode in the Config Lab, then win a full Run with the Mega Ring equipped and the Pokédex set to any Legend's Z-A variant.",
+                "name": "Z-A Royale", "display_name": "Royale Z-A",
+                "description": "Activa todos los Entrenadores y el Modo Arcoíris en el Lab. Config. y gana una partida completa con la Megapulsera y la Pokédex en cualquier variante de Leyendas Z-A.",
                 "flags": 
                 [
                     "CHALLENGE_DEFAULT",
@@ -63,8 +63,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_TOWN_MAP",
-                            "title": "Unique{PKMN}",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Typings Unlocked",
+                            "title": "{PKMN} Únicos",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Tipos nuevos!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     },

@@ -163,45 +163,45 @@ static const struct WindowTemplate sMonEntryWinTemplates[WIN_COUNT + 1] =
 };
 
 #ifdef ROGUE_EXPANSION
-static const u8 sTitle_Stats[] = _("Stats");
-static const u8 sTitle_Moves[] = _("Moves");
-static const u8 sTitle_Evolutions[] = _("Evolutions");
-static const u8 sTitle_Forms[] = _("Forms");
-static const u8 sTitle_Riding[] = _("Poké Ride");
+static const u8 sTitle_Stats[] = _("Caracts.");
+static const u8 sTitle_Moves[] = _("Movimientos");
+static const u8 sTitle_Evolutions[] = _("Evoluciones");
+static const u8 sTitle_Forms[] = _("Formas");
+static const u8 sTitle_Riding[] = _("Montura");
 
-static const u8 sText_Types[] = _("Types");
-static const u8 sText_Abilities[] = _("Abilities");
+static const u8 sText_Types[] = _("Tipos");
+static const u8 sText_Abilities[] = _("Habilidades");
 
 static const u8 sText_Total[] = _("Total");
 
-static const u8 sText_HP[] = _("HP");
-static const u8 sText_Attack[] = _("Atk");
+static const u8 sText_HP[] = _("PS");
+static const u8 sText_Attack[] = _("Ata");
 static const u8 sText_Defence[] = _("Def");
-static const u8 sText_SpAttack[] = _("Sp Atk");
-static const u8 sText_SpDefence[] = _("Sp Def");
-static const u8 sText_Speed[] = _("Speed");
+static const u8 sText_SpAttack[] = _("At.Es");
+static const u8 sText_SpDefence[] = _("Df.Es");
+static const u8 sText_Speed[] = _("Vel");
 
-static const u8 sText_Skills[] = _("Skills");
-static const u8 sText_SkillClimbing[] = _("Climbing");
-static const u8 sText_SkillSurf[] = _("Surfing");
-static const u8 sText_SkillFlying[] = _("Flying");
-static const u8 sText_SkillNone[] = _("None");
+static const u8 sText_Skills[] = _("Habilidad");
+static const u8 sText_SkillClimbing[] = _("Escalar");
+static const u8 sText_SkillSurf[] = _("Nadar");
+static const u8 sText_SkillFlying[] = _("Volar");
+static const u8 sText_SkillNone[] = _("Ninguna");
 
 static const u8 sText_Base[] = _("{COLOR RED}{SHADOW LIGHT_RED}Base");
-static const u8 sText_Alolan[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Alolan");
-static const u8 sText_Galarian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Galarian");
-static const u8 sText_Paldean[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Paldean");
-static const u8 sText_Hisuian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Hisuian");
-static const u8 sText_Mega[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mega Evolution");
-static const u8 sText_Primal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Primal Reversion");
-static const u8 sText_UltraBurst[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Ultra Burst");
-static const u8 sText_Gigantamax[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gigantamax");
-static const u8 sText_TeraForm[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Tera Form");
+static const u8 sText_Alolan[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}de Alola");
+static const u8 sText_Galarian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}de Galar");
+static const u8 sText_Paldean[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}de Paldea");
+static const u8 sText_Hisuian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}de Hisui");
+static const u8 sText_Mega[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Megaevolución");
+static const u8 sText_Primal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Regresión Primigenia");
+static const u8 sText_UltraBurst[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Ultraexplosión");
+static const u8 sText_Gigantamax[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gigamax");
+static const u8 sText_TeraForm[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Forma Tera");
 static const u8 sText_Debug[] = _("{COLOR RED}{SHADOW LIGHT_RED}DEBUG VIEW ONLY");
 
-static const u8 sText_NoFormData[] = _("{COLOR RED}{SHADOW LIGHT_RED}No Form data found");
+static const u8 sText_NoFormData[] = _("{COLOR RED}{SHADOW LIGHT_RED}Sin datos de formas");
 
-static const u8 sText_RevisedInspect[] = _("{A_BUTTON} Inspect");
+static const u8 sText_RevisedInspect[] = _("{A_BUTTON} Ver");
 #else
 static const u8 sTitle_Stats[] = _("STATS");
 static const u8 sTitle_Moves[] = _("MOVES");
@@ -213,7 +213,7 @@ static const u8 sText_Types[] = _("TYPES");
 static const u8 sText_Abilities[] = _("ABILITIES");
 
 static const u8 sText_Total[] = _("TOTAL");
-static const u8 sText_HP[] = _("HP");
+static const u8 sText_HP[] = _("PS");
 static const u8 sText_Attack[] = _("ATK");
 static const u8 sText_Defence[] = _("DEF");
 static const u8 sText_SpAttack[] = _("SP ATK");
@@ -235,7 +235,7 @@ static const u8 sText_RevisedUp[] = _("{REVISED_EDIT}{STAT_UP}");
 static const u8 sText_RevisedDown[] = _("{REVISED_EDIT}{STAT_DOWN}");
 
 static const u8 sText_RideStar[] = _("{STAR_ICON}");
-static const u8 sText_NoDataFound[] = _("{COLOR RED}{SHADOW LIGHT_RED}No data found");
+static const u8 sText_NoDataFound[] = _("{COLOR RED}{SHADOW LIGHT_RED}Sin datos");
 
 static const u8 sText_Add[] = _("+");
 static const u8 sText_Minus[] = _("-");

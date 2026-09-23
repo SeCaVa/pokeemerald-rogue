@@ -15,8 +15,8 @@
         "default_group":
         [
             {
-                "name": "New Frontier",
-                "description": "Defeat every Trainer in a Battle Tower and collect the Random reward.",
+                "name": "New Frontier", "display_name": "Nueva Frontera",
+                "description": "Derrota a todos los Entrenadores de una Torre Batalla y recoge la recompensa aleatoria.",
                 "triggers":
                 [
                     {

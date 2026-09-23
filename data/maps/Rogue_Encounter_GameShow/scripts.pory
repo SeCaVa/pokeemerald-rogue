@@ -53,7 +53,7 @@ script Rogue_Encounter_GameShow_TriggerIntro
     lockall
 
     setvar(VAR_GAMESHOW_TRIGGERED, 1)
-    msgbox(format("WAHEY!"), MSGBOX_DEFAULT)
+    msgbox(format("¡YUJUUU!"), MSGBOX_DEFAULT)
 
     applymovement(NPC_HOST, GameShow_Host_Spin)
     waitmovement(0)
@@ -65,7 +65,7 @@ script Rogue_Encounter_GameShow_TriggerIntro
 
     playbgm(MUS_HG_GAME_CORNER, TRUE)
 
-    msgbox(format("Welcome to my ever so lovingly setup Game Show!\pToday, you could earn some of these wonderful prizes!"), MSGBOX_DEFAULT)
+    msgbox(format("¡Bienvenid{MASC}o{FEM}a{ENDG} a mi concurso, preparado con muchísimo cariño!\p¡Hoy podrías ganar algunos de estos maravillosos premios!"), MSGBOX_DEFAULT)
 
     closemessage
     playse(SE_APPLAUSE)
@@ -73,27 +73,27 @@ script Rogue_Encounter_GameShow_TriggerIntro
     
     special(GameShow_UpdateRewardVisibility)
 
-    msgbox(format("Now, contestant!\nAre you aware how this Game Show runs?"), MSGBOX_YESNO)
+    msgbox(format("¡Y ahora, concursante!\n¿Sabes cómo funciona este concurso?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("Wonderful!\nLet's get straight into the action!"), MSGBOX_DEFAULT)
+        msgbox(format("¡Maravilloso!\n¡Vamos directos a la acción!"), MSGBOX_DEFAULT)
     }
     else
     {
-        msgbox(format("In each Game Show, we will have a specific game we will play.\pEach game will consist of several rounds.\pOnce you complete a round, you will earn a reward, you may then choose to finish the Game Show or try to push further to gain even better rewards!\pIt's all or nothing!"), MSGBOX_DEFAULT)
+        msgbox(format("En cada concurso jugaremos a un juego concreto.\pCada juego tiene varias rondas.\pAl completar una ronda ganarás un premio, y podrás elegir entre terminar el concurso o seguir para conseguir premios aún mejores.\p¡Es todo o nada!"), MSGBOX_DEFAULT)
     }
 
     begindynamicmultichoice
-    appenddynamicmultichoice("Game of Skill", GAME_CATEGORY_SKILL)
-    appenddynamicmultichoice("Game of Luck", GAME_CATEGORY_LUCK)
+    appenddynamicmultichoice("Juego de habilidad", GAME_CATEGORY_SKILL)
+    appenddynamicmultichoice("Juego de suerte", GAME_CATEGORY_LUCK)
 
-    message(format("Now, what category of Game would you like to play?"))
+    message(format("Y ahora, ¿a qué categoría de juego quieres jugar?"))
     waitmessage
     enddynamicmultichoice(19, 7, 2, FALSE)
     copyvar(VAR_GAME_CATEGORY, VAR_RESULT)
 
 
-    msgbox(format("For our show today, the game will be… … …"), MSGBOX_DEFAULT)
+    msgbox(format("En el programa de hoy, el juego será… … …"), MSGBOX_DEFAULT)
 
     if(var(VAR_GAME_CATEGORY) == GAME_CATEGORY_SKILL)
     {
@@ -141,7 +141,7 @@ script Rogue_Encounter_GameShow_TriggerIntro
     applymovement(NPC_HOST, GameShow_Host_Spin)
     waitmovement(0)
 
-    msgbox(format("That's all for now folks!\nKe ke ke"), MSGBOX_DEFAULT)
+    msgbox(format("¡Eso es todo por hoy, amigos!\nJe je je"), MSGBOX_DEFAULT)
     special(GameShow_UpdateRewardVisibility)
 
     applymovement(NPC_HOST, GameShow_Host_Exit)
@@ -161,7 +161,7 @@ script Rogue_Interact_GiveReward
 
     if(var(VAR_CURRENT_REWARD_ITEM) == ITEM_NONE)
     {
-        msgbox(format("Oh.\pIt has a note attached:\p'Cheaters never prosper ke ke ke - Randoman'"))
+        msgbox(format("Vaya.\pHay una nota:\p'Quien hace trampas nunca prospera, je je je. - Randoman'"))
 
         playmoncry(SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER)
         waitmoncry
@@ -193,18 +193,18 @@ script Rogue_Interact_GiveReward
 
 script Rogue_Encounter_GameShow_WhosThatPokemonFlow
 {
-    msgbox(format("Who's that Pokémon?!\pThere will be 6 rounds, you will have to guess the specific Pokémon based on our prompt.\pNow…"), MSGBOX_DEFAULT)
+    msgbox(format("¡¿Quién es ese Pokémon?!\pHabrá 6 rondas y tendrás que adivinar el Pokémon según la pista que te demos.\pY ahora…"), MSGBOX_DEFAULT)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         special(GameShow_SelectRandomSpecies)
         specialvar(VAR_CURRENT_SPECIES, GameShow_BufferSpecies)
 
         //  rounds of sillouettes
-        message(format("Which Pokémon does this silhouette belong to?"))
+        message(format("¿De qué Pokémon es esta silueta?"))
         showmonpic(VAR_CURRENT_SPECIES, 10, 3, TRUE)
         delay(20)
         waitmessage
@@ -212,21 +212,21 @@ script Rogue_Encounter_GameShow_WhosThatPokemonFlow
         hidemonpic
 
 
-        message(format("Which Pokémon was that?"))
+        message(format("¿Qué Pokémon era?"))
         waitmessage
 
         begindynamicmultichoice
         special(GameShow_AppendSpeciesMultichoiceOptions)
         enddynamicmultichoice(19, 4, 4, FALSE)
 
-        msgbox(format("That answer is…"))
+        msgbox(format("La respuesta es…"))
 
         if(var(VAR_RESULT) == YES)
         {
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Correct!"))
+            msgbox(format("¡Correcto!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 1)
 
@@ -239,7 +239,7 @@ script Rogue_Encounter_GameShow_WhosThatPokemonFlow
 
             bufferspeciesname(STR_VAR_1, VAR_CURRENT_SPECIES)
 
-            msgbox(format("Incorrect!\nThe answer was {STR_VAR_1}."))
+            msgbox(format("¡Incorrecto!\nLa respuesta era {STR_VAR_1}."))
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
         }
     }
@@ -247,18 +247,18 @@ script Rogue_Encounter_GameShow_WhosThatPokemonFlow
 
 script Rogue_Encounter_GameShow_WhosThatCryFlow
 {
-    msgbox(format("What's that Cry?!\pThere will be 6 rounds, you will have to guess the specific Pokémon based on their Cry.\pNow…"), MSGBOX_DEFAULT)
+    msgbox(format("¡¿De quién es ese grito?!\pHabrá 6 rondas y tendrás que adivinar el Pokémon por su grito.\pY ahora…"), MSGBOX_DEFAULT)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         special(GameShow_SelectRandomSpecies)
         specialvar(VAR_CURRENT_SPECIES, GameShow_BufferSpecies)
 
         // rounds of guess the cry
-        message(format("Which Pokémon does this cry belong to?"))
+        message(format("¿De qué Pokémon es este grito?"))
         waitmessage
         delay(30)
 
@@ -275,21 +275,21 @@ script Rogue_Encounter_GameShow_WhosThatCryFlow
         delay(90)
 
 
-        message(format("Which Pokémon did that Cry belong to?"))
+        message(format("¿De qué Pokémon era ese grito?"))
         waitmessage
 
         begindynamicmultichoice
         special(GameShow_AppendSpeciesMultichoiceOptions)
         enddynamicmultichoice(20, 7, 4, FALSE)
 
-        msgbox(format("That answer is…"))
+        msgbox(format("La respuesta es…"))
 
         if(var(VAR_RESULT) == YES)
         {
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Correct!"))
+            msgbox(format("¡Correcto!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 1)
 
@@ -302,7 +302,7 @@ script Rogue_Encounter_GameShow_WhosThatCryFlow
 
             bufferspeciesname(STR_VAR_1, VAR_CURRENT_SPECIES)
 
-            msgbox(format("Incorrect!\nThe answer was {STR_VAR_1}."))
+            msgbox(format("¡Incorrecto!\nLa respuesta era {STR_VAR_1}."))
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
         }
     }
@@ -310,14 +310,14 @@ script Rogue_Encounter_GameShow_WhosThatCryFlow
 
 script Rogue_Encounter_GameShow_VoltorbFlip
 {
-    msgbox(format("Voltorb Flip!\pThere will be 3 rounds, you will have to collect all of the 2 and 3 cards on the board without flipping any Voltorbs.\pNow…"), MSGBOX_DEFAULT)
+    msgbox(format("¡Voltorb Flip!\pHabrá 3 rondas y tendrás que conseguir todas las cartas de 2 y 3 del tablero sin levantar ningún Voltorb.\pY ahora…"), MSGBOX_DEFAULT)
 
     setvar(VAR_VOLTORB_FLIP_LVL, 0)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         special(Special_ViewVoltorbFlip)
         waitstate
@@ -327,7 +327,7 @@ script Rogue_Encounter_GameShow_VoltorbFlip
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Congratulations!"))
+            msgbox(format("¡Enhorabuena!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 2)
             addvar(VAR_VOLTORB_FLIP_LVL, 2)
@@ -339,7 +339,7 @@ script Rogue_Encounter_GameShow_VoltorbFlip
             playse(SE_BOO)
             waitse
 
-            msgbox(format("Oh no!"))
+            msgbox(format("¡Oh, no!"))
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
         }
     }
@@ -347,12 +347,12 @@ script Rogue_Encounter_GameShow_VoltorbFlip
 
 script Rogue_Encounter_GameShow_TeamTrivia 
 {
-    msgbox(format("Team Trivia!\pThere will be 6 rounds, you will asked a question about your Pokémon teams and you just have to give the correct answer.\pIt's that simple!\pNow…"), MSGBOX_DEFAULT)
+    msgbox(format("¡Preguntas del Equipo!\pHabrá 6 rondas; te haremos una pregunta sobre tu equipo Pokémon y solo tienes que dar la respuesta correcta.\p¡Así de fácil!\pY ahora…"), MSGBOX_DEFAULT)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         bufferstring(STR_VAR_1, format("1"))
         bufferstring(STR_VAR_2, format("2"))
@@ -365,7 +365,7 @@ script Rogue_Encounter_GameShow_TeamTrivia
         switch(var(VAR_RESULT))
         {
             case 0:
-                message(format("So, what would you like to wager?"))
+                message(format("Y bien, ¿qué quieres apostar?"))
 
             default:
                 message(format("???"))
@@ -377,7 +377,7 @@ script Rogue_Encounter_GameShow_TeamTrivia
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Correct!"))
+            msgbox(format("¡Correcto!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 1)
 
@@ -391,11 +391,11 @@ script Rogue_Encounter_GameShow_TeamTrivia
             switch(var(VAR_TRIVIA_ANSWER))
             {
                 case 0:
-                    msgbox(format("Incorrect!\nThe answer was {STR_VAR_1}."))
+                    msgbox(format("¡Incorrecto!\nLa respuesta era {STR_VAR_1}."))
                 case 1:
-                    msgbox(format("Incorrect!\nThe answer was {STR_VAR_2}."))
+                    msgbox(format("¡Incorrecto!\nLa respuesta era {STR_VAR_2}."))
                 case 2:
-                    msgbox(format("Incorrect!\nThe answer was {STR_VAR_3}."))
+                    msgbox(format("¡Incorrecto!\nLa respuesta era {STR_VAR_3}."))
             }
 
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
@@ -425,7 +425,7 @@ script Rogue_Encounter_GameShow_TeamTrivia_GetResult
             setvar(VAR_RESULT, NO)
     }
 
-    msgbox(format("That answer is…"))
+    msgbox(format("La respuesta es…"))
 }
 
 script Rogue_Encounter_GameShow_DisplayReward
@@ -440,7 +440,7 @@ script Rogue_Encounter_GameShow_DisplayReward
 
     if(var(VAR_CURRENT_REWARD_ITEM) == ITEM_NONE)
     {
-        msgbox(format("If you stop now, you can win yourself…\p{STR_VAR_1}!\pOr you can risk it to gain an additional prize of…\p{STR_VAR_2}!\nOr even better!\nAll or nothing!\pSo, do you want to risk it and play another round?"), MSGBOX_YESNO)
+        msgbox(format("Si te plantas ahora, puedes llevarte…\p¡{STR_VAR_1}!\pO puedes arriesgarte para ganar además…\p¡{STR_VAR_2}!\n¡O algo aún mejor!\n¡Todo o nada!\pY bien, ¿te arriesgas a jugar otra ronda?"), MSGBOX_YESNO)
     
         if(var(VAR_RESULT) == NO)
         {
@@ -453,7 +453,7 @@ script Rogue_Encounter_GameShow_DisplayReward
     {
         if(var(VAR_CURRENT_REWARD_COUNTER) >= 6)
         {
-            msgbox(format("You just won yourself…\p{STR_VAR_1}!"))
+            msgbox(format("¡Acabas de ganar…\p{STR_VAR_1}!"))
             setvar(VAR_RESULT, NO)
             copyvar(VAR_CURRENT_REWARD_ITEM, VAR_0x8004)
             copyvar(VAR_CURRENT_REWARD_COUNT, VAR_0x8005)
@@ -463,7 +463,7 @@ script Rogue_Encounter_GameShow_DisplayReward
         }
         else
         {
-            msgbox(format("You just won yourself…\p{STR_VAR_1}!\pNext round you could gain an additional prize of…\p{STR_VAR_2}!\pDo you want to risk it and play another round?"), MSGBOX_YESNO)
+            msgbox(format("¡Acabas de ganar…\p{STR_VAR_1}!\pEn la siguiente ronda podrías ganar además…\p¡{STR_VAR_2}!\p¿Te arriesgas a jugar otra ronda?"), MSGBOX_YESNO)
         
             if(var(VAR_RESULT) == NO)
             {
@@ -477,18 +477,18 @@ script Rogue_Encounter_GameShow_DisplayReward
 
 script Rogue_Encounter_GameShow_CoinFlip
 {
-    msgbox(format("Coin Flip!\pThere will be 6 rounds, just guess if the coin will land on Heads or Tails.\pNow…"), MSGBOX_DEFAULT)
+    msgbox(format("¡Cara o Cruz!\pHabrá 6 rondas; solo tienes que adivinar si la moneda saldrá cara o cruz.\pY ahora…"), MSGBOX_DEFAULT)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         begindynamicmultichoice
-        appenddynamicmultichoice("Heads", 0)
-        appenddynamicmultichoice("Tails", 1)
+        appenddynamicmultichoice("Cara", 0)
+        appenddynamicmultichoice("Cruz", 1)
 
-        message(format("What do you think my Coin will land on?"))
+        message(format("¿Qué crees que saldrá en la moneda?"))
         waitmessage
         enddynamicmultichoice(19, 7, 2, FALSE)
         copyvar(VAR_COIN_FLIP_RESULT, VAR_RESULT)
@@ -511,7 +511,7 @@ script Rogue_Encounter_GameShow_CoinFlip
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Correct!"))
+            msgbox(format("¡Correcto!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 1)
 
@@ -522,7 +522,7 @@ script Rogue_Encounter_GameShow_CoinFlip
             playse(SE_BOO)
             waitse
 
-            msgbox(format("Oh no!"))
+            msgbox(format("¡Oh, no!"))
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
         }
     }
@@ -530,7 +530,7 @@ script Rogue_Encounter_GameShow_CoinFlip
 
 script Rogue_Encounter_GameShow_HigherLower
 {
-    msgbox(format("Higher or Lower!\pThere will be 6 rounds, I'll show you a number between 1 and 100 and you will tell me if you think the next number will be higher or lower.\pNow…"), MSGBOX_DEFAULT)  
+    msgbox(format("¡Mayor o Menor!\pHabrá 6 rondas; te enseñaré un número entre 1 y 100 y tendrás que decirme si crees que el siguiente será mayor o menor.\pY ahora…"), MSGBOX_DEFAULT)  
 
     // rng initial num
     random(100)
@@ -540,7 +540,7 @@ script Rogue_Encounter_GameShow_HigherLower
     while(var(VAR_CURRENT_ROUND) <= 50)
     {
         buffernumberstring(STR_VAR_1, VAR_CURRENT_ROUND)
-        msgbox(format("Round {STR_VAR_1}!"))
+        msgbox(format("¡Ronda {STR_VAR_1}!"))
 
         // rng next num
         random(100)
@@ -548,12 +548,12 @@ script Rogue_Encounter_GameShow_HigherLower
         copyvar(VAR_HIGHER_LOWER_NEXT_NUM, VAR_RESULT)
 
         begindynamicmultichoice
-        appenddynamicmultichoice("Higher", 0)
-        appenddynamicmultichoice("Lower", 1)
+        appenddynamicmultichoice("Mayor", 0)
+        appenddynamicmultichoice("Menor", 1)
 
         buffernumberstring(STR_VAR_1, VAR_HIGHER_LOWER_CURR_NUM)
         buffernumberstring(STR_VAR_2, VAR_HIGHER_LOWER_NEXT_NUM)
-        message(format("The current number is {STR_VAR_1}.\nWhat do you think the next will be?"))
+        message(format("El número actual es {STR_VAR_1}.\n¿Cómo crees que será el siguiente?"))
         waitmessage
         enddynamicmultichoice(19, 7, 2, FALSE)
 
@@ -587,7 +587,7 @@ script Rogue_Encounter_GameShow_HigherLower
             playse(SE_DING_DONG)
             waitse
 
-            msgbox(format("Correct!\nThe new number was {STR_VAR_1}!"))
+            msgbox(format("¡Correcto!\n¡El nuevo número era {STR_VAR_1}!"))
             addvar(VAR_CURRENT_ROUND, 1)
             addvar(VAR_CURRENT_REWARD_COUNTER, 1)
 
@@ -598,7 +598,7 @@ script Rogue_Encounter_GameShow_HigherLower
             playse(SE_BOO)
             waitse
 
-            msgbox(format("Oh no!\nThe new number was {STR_VAR_1}!"))
+            msgbox(format("¡Oh, no!\n¡El nuevo número era {STR_VAR_1}!"))
             setvar(VAR_CURRENT_ROUND, FAIL_ROUND_COUNTER)
         }
 

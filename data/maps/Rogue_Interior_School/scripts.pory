@@ -6,7 +6,7 @@ script Rogue_Interior_School_ShowSetRecommendation
     lock
     faceplayer
     
-    msgbox(format("Oh hey, you look like a Trainer.\pHere, let me give you my advice on how I would setup your Pokémon, if they were mine."))
+    msgbox(format("¡Anda! Tienes pinta de Entrenador.\pDeja que te aconseje cómo prepararía a tus Pokémon si fueran míos."))
 
     setvar(VAR_0x8004, 0)
 
@@ -17,12 +17,12 @@ script Rogue_Interior_School_ShowSetRecommendation
         playmoncry(VAR_RESULT, CRY_MODE_NORMAL)
 
         callnative(ScriptMenu_DisplayRecommendedMonSet)
-        messageinstant("{DPAD_LEFTRIGHT} Cycle Party Pokémon\n{A_BUTTON} {B_BUTTON} Exit")
+        messageinstant("{DPAD_LEFTRIGHT} Cambiar de Pokémon\n{A_BUTTON} {B_BUTTON} Salir")
         waitstate
         hidemonpic
     }
 
-    msgbox(format("If you need any more help, don't hesitate to ask!"))
+    msgbox(format("Si necesitas más ayuda, ¡no dudes en preguntar!"))
 
     release
 }
@@ -32,7 +32,7 @@ script Rogue_Interior_School_TalkRunningKid0
     lockall
     faceplayer
 
-    msgbox(format("I'm double tapping B to run super fast!\pSame as if you want to escape from Wild Pokémon faster!\pSo fast!"))
+    msgbox(format("¡Pulso B dos veces para correr superrápido!\p¡También sirve para huir antes de los Pokémon salvajes!\p¡Qué rapidez!"))
 
     releaseall
 }
@@ -42,7 +42,7 @@ script Rogue_Interior_School_TalkRunningKid1
     lockall
     faceplayer
 
-    msgbox(format("Get back here!\nB B B B B B!"))
+    msgbox(format("¡Vuelve aquí!\n¡B B B B B B!"))
 
     releaseall
 }
@@ -52,7 +52,7 @@ script Rogue_Interior_School_TalkRunningStatsHint
     lockall
     faceplayer
 
-    msgbox(format("Arrgghhh!\pIt's so much harder to get my optimal EV spreads now!\pI use to just grind against Wild Pokémon, but now all your Pokémon gain EVs after Trainer battles instead.\pThe EV spread they get is based on their Nature.\pSo it' really important to have a good Nature as early as possible, if you want a good EV spread!\pAt least you can check your EVs & IVs at any time!\pYou can inspect them by pressing {A_BUTTON} on the Pokémon's Stats Summary."))
+    msgbox(format("¡Arrgghhh!\p¡Ahora cuesta mucho más conseguir el reparto de EV perfecto!\pAntes me bastaba con entrenar contra Pokémon salvajes, pero ahora los Pokémon ganan EV tras los combates contra Entrenadores.\pEl reparto de EV depende de su Naturaleza.\p¡Así que es muy importante tener una buena Naturaleza cuanto antes si quieres un buen reparto de EV!\p¡Al menos puedes consultar tus EV e IV en cualquier momento!\pPuedes verlos pulsando {A_BUTTON} en la pantalla de características del Pokémon."))
 
     releaseall
 }
@@ -62,7 +62,7 @@ script Rogue_Interior_School_TalkPokeblock
     lockall
     faceplayer
 
-    msgbox(format("My Pokémon love {POKEBLOCK}!\pDid you know, whenever you're on a Route, you can scatter some {POKEBLOCK} to try and attract new types of Pokémon."))
+    msgbox(format("¡A mis Pokémon les encantan los {POKEBLOCK}!\p¿Sabías que en cualquier Ruta puedes esparcir {POKEBLOCK} para intentar atraer Pokémon de otros tipos?"))
 
     releaseall
 }
@@ -72,7 +72,7 @@ script Rogue_Interior_School_TalkTeacher
     lockall
     faceplayer
 
-    msgbox(format("Ah! Welcome!\pI've been making sure to teach my Students as much as possible about Adventuring!\pI'm sure they would be more than happy to share their knowledge with you, if you ask nicely!"))
+    msgbox(format("¡Ah! ¡Bienvenid{MASC}o{FEM}a{ENDG}!\p¡Me esfuerzo por enseñar a mis Alumnos todo lo posible sobre las Aventuras!\p¡Seguro que estarán encantados de compartir lo que saben contigo si se lo pides amablemente!"))
 
     releaseall
 }
@@ -83,38 +83,38 @@ script Rogue_Interior_School_TalkRouteHint
     faceplayer
 
 
-    msgbox(format("I've been studying as much as I can about all the different types of encounters!\pI've still go plenty to learn.\pBut I could tell you what I've learnt so far!"))
+    msgbox(format("¡He estudiado todo lo que he podido sobre los distintos tipos de encuentros!\pTodavía me queda mucho por aprender.\p¡Pero puedo contarte lo que sé hasta ahora!"))
 
     setvar(VAR_RESULT, 0)
 
     while(var(VAR_RESULT) != MULTI_B_PRESSED)
     {
         begindynamicmultichoice
-        appenddynamicmultichoice("Route Difficulty", 0)
-        appenddynamicmultichoice("Route Types", 1)
-        appenddynamicmultichoice("Trained Pokémon Habitats", 2)
-        appenddynamicmultichoice("Honey Trees", 3)
+        appenddynamicmultichoice("Dificultad de ruta", 0)
+        appenddynamicmultichoice("Tipos de ruta", 1)
+        appenddynamicmultichoice("Hábitats entrenados", 2)
+        appenddynamicmultichoice("Árboles de Miel", 3)
 
-        message(format("Is there anything I can tell you about?"))
+        message(format("¿Hay algo de lo que quieras que te hable?"))
         waitmessage
         enddynamicmultichoice(20, 2, 5, TRUE)
         
         switch(var(VAR_RESULT))
         {
             case 0:
-                msgbox(format("SO!\nThe Routes are always described by 2 hints.\pFirstly, a Difficulty.\nSecondly, a Type.\pThere are 3 different Difficulties: Calm, Average and Tough.\pOn Calm Routes, you'll find more Wild Pokémon but fewer Items and Trainers.\pOn Tough Routes, you'll find few Wild Pokémon but you'll find there are more Items and Trainers.\pThe Items you find on these routes will typically be more valuable too.\pBut in turn, the Trainers who explore these Routes also tend to be way stronger too!\pThe Average Difficulty, is the middle ground between those 2.\pIt's usually a good safe choice, if you're not desparate to catch new Pokémon!"))
+                msgbox(format("¡BIEN!\nLas Rutas siempre se describen con 2 pistas.\pPrimero, una Dificultad.\nSegundo, un Tipo.\pHay 3 Dificultades: Tranquila, Normal y Dura.\pEn las Rutas Tranquilas encontrarás más Pokémon Salvajes, pero menos Objetos y Entrenadores.\pEn las Rutas Duras encontrarás pocos Pokémon Salvajes, pero más Objetos y Entrenadores.\pAdemás, los Objetos de esas rutas suelen ser más valiosos.\p¡Pero, a cambio, los Entrenadores que las recorren también suelen ser mucho más fuertes!\pLa Dificultad Normal es un término medio entre las otras 2.\p¡Suele ser una opción segura si no tienes prisa por capturar Pokémon nuevos!"))
 
             case 1:
-                msgbox(format("SO!\nThe Routes are always described by 2 hints.\pFirstly, a Difficulty.\nSecondly, a Type.\pThe Type hint is quite simple, each hint refers to a specific Pokémon Type. For example, Warm refers to Fire Type Pokémon, Confusing refers to Psychic Type Pokémon etc.\pThe Type Hint means that we know that at least 1 Pokémon of that Type will appear on the Route.\pIt's usually a safe bet that there will be more than 1 Pokémon that matches the Type Hint, in Calm Routes too."))
+                msgbox(format("¡BIEN!\nLas Rutas siempre se describen con 2 pistas.\pPrimero, una Dificultad.\nSegundo, un Tipo.\pLa pista de Tipo es muy sencilla: cada pista se refiere a un Tipo de Pokémon. Por ejemplo, Cálida se refiere al Tipo Fuego, Confusa al Tipo Psíquico, etc.\pLa pista de Tipo significa que en la Ruta aparecerá al menos 1 Pokémon de ese Tipo.\pEn las Rutas Tranquilas, además, lo normal es que haya más de 1 Pokémon de ese Tipo."))
 
             case 2:
-                msgbox(format("SO!\nThe Pokémon that appear at these encounters are very odd!\pIt's almost as if they've already been Trained to battle!\pThey'll usually already have a good nature, ability and moves. They often tend to have at least 1 perfect IV too!\pBecause they're so strong, they prefer to live by themselves though AND there's no knowing what Pokémon it is before entering.\pIt could be a Charizard!\nOr a Magikarp…\pSo it can be a bit of a gamble at times."))
+                msgbox(format("¡BIEN!\n¡Los Pokémon que aparecen en estos encuentros son muy raros!\p¡Es como si ya estuvieran Entrenados para combatir!\pSuelen tener ya una buena naturaleza, habilidad y movimientos. ¡Y a menudo tienen al menos 1 IV perfecto!\pComo son tan fuertes, prefieren vivir solos, Y no hay forma de saber qué Pokémon es antes de entrar.\p¡Podría ser un Charizard!\nO un Magikarp…\pAsí que a veces es un poco una apuesta."))
 
             case 3:
-                msgbox(format("SO!\nHoney Trees are only really useful to you, if you have some {POKEBLOCK}.\pThey're a location that Wild Pokémon like to go to eat and relax, so you'll usually always find a random Pokémon hanging around near it, but the Honey Tree really becomes useful when you Scatter {POKEBLOCK} by it!\pIt's pretty much a guarantee that the next time you visit the Honey Tree, you'll find a Pokémon chowing down on the {POKEBLOCK} you scattered.\pSo lets say I wanted a Bulbasaur, I could scatter some Grass and Poison {POKEBLOCK} by the Honey Tree and then the next time I visit it, there could be a Bulbasaur there!\pThere could also be an Oddish…\nOr a Bellsprout…\pThe effectiveness really depends on how unique the Pokémon's Type combination is, provided you have the necessary {POKEBLOCK} to hand."))
+                msgbox(format("¡BIEN!\nLos Árboles de Miel solo te serán útiles de verdad si tienes {POKEBLOCK}.\pSon lugares a los que los Pokémon Salvajes van a comer y descansar, así que casi siempre habrá algún Pokémon cerca. ¡Pero el Árbol de Miel es realmente útil cuando Esparces {POKEBLOCK} junto a él!\pCasi seguro que la próxima vez que lo visites encontrarás a un Pokémon zampándose los {POKEBLOCK} que esparciste.\pPor ejemplo, si quisiera un Bulbasaur, podría esparcir {POKEBLOCK} de Planta y Veneno junto al Árbol de Miel, ¡y la próxima vez podría haber un Bulbasaur!\pTambién podría haber un Oddish…\nO un Bellsprout…\pLa eficacia depende de lo única que sea la combinación de Tipos del Pokémon, siempre que tengas los {POKEBLOCK} necesarios."))
 
             case MULTI_B_PRESSED:
-                msgbox(format("Oh, OK…\nI've got plenty more to share, if you wanna know!"))
+                msgbox(format("Ah, vale…\n¡Tengo mucho más que contar, si quieres saberlo!"))
         }
     }
 

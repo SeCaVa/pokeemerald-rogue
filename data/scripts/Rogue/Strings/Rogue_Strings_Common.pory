@@ -42,20 +42,20 @@ text gPlaceholder_Trainer_PostBattleCloser
 
 text gText_PokeblockHasNoEffect
 {
-    format("This {POKEBLOCK} has no effect.{PAUSE_UNTIL_PRESS}")
+    format("Este {POKEBLOCK} no tiene efecto.{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockWouldHaveNoEffect
 {
-    format("{POKEBLOCK} would have no effect, if scatted here.{PAUSE_UNTIL_PRESS}")
+    format("Esparcir {POKEBLOCK} aquí no tendría efecto.{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockWouldHaveNoEffectHoneyTree
 {
-    format("Only Typed {POKEBLOCK} can be scattered by Honey Trees.{PAUSE_UNTIL_PRESS}")
+    format("En los Árboles de Miel solo se pueden esparcir {POKEBLOCK} de tipo.{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockAlreadyScattered
 {
-    format("{POKEBLOCK} has already been scattered here.{PAUSE_UNTIL_PRESS}")
+    format("Aquí ya se ha esparcido {POKEBLOCK}.{PAUSE_UNTIL_PRESS}")
 }

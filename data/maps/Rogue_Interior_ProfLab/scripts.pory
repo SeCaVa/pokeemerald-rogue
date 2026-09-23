@@ -53,8 +53,8 @@ script Rogue_Interior_ProfLab_FrameState0
     applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp)
     waitmovement(0)
 
-    msgbox(format("ELM: There we are!\pI must say I was pretty impressed by your catching technique!\pI can't think of a better Trainer to have going on Adventures for {POKEMON_HUB}!"))
-    msgbox(format("Now, {PLAYER}.\nDid you want me to explain how Adventures work?"), MSGBOX_YESNO)
+    msgbox(format("ELM: ¡Ya está!\p¡He de decir que tu técnica de captura me ha impresionado!\p¡No se me ocurre mejor Entrenador para ir de Aventuras en nombre de {POKEMON_HUB}!"))
+    msgbox(format("Bien, {PLAYER}.\n¿Quieres que te explique cómo funcionan las Aventuras?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -62,18 +62,18 @@ script Rogue_Interior_ProfLab_FrameState0
     }
     else
     {
-        msgbox(format("Your memory is better than I expected!\nFuhahaha!"))
+        msgbox(format("¡Tienes mejor memoria de lo que esperaba!\n¡Fuhahaha!"))
     }
 
-    msgbox(format("Before you go, you should take these!"))
+    msgbox(format("¡Antes de irte, llévate esto!"))
     giveitem(ITEM_POKE_BALL, 10)
     giveitem(ITEM_POTION, 5)
 
-    msgbox(format("And finally, your very own Pokédex!"))
+    msgbox(format("¡Y por último, tu propia Pokédex!"))
     
     if(flag(FLAG_SYS_POKEDEX_GET))
     {
-        msgbox(format("Oh, it looks like you already got a Pokédex from Pokabbie!\pI guess you don't need this one then!\nFuhahaha!"))
+        msgbox(format("¡Vaya, parece que Pokabbie ya te ha dado una Pokédex!\p¡Entonces supongo que esta no la necesitas!\n¡Fuhahaha!"))
     }
     else
     {
@@ -83,8 +83,8 @@ script Rogue_Interior_ProfLab_FrameState0
     }
     setflag(FLAG_SYS_POKEMON_GET)
 
-    msgbox(format("That Pokédex has been recently upgraded too!\pIt can show you Pokemon's stats, moves, evolutions and more!"))
-    msgbox(format("You should be all set to go now!\pGood luck, {PLAYER}!"))
+    msgbox(format("¡Además, esa Pokédex se ha actualizado hace poco!\p¡Puede mostrarte las características, movimientos, evoluciones y más de los Pokémon!"))
+    msgbox(format("¡Ya deberías estar list{MASC}o{FEM}a{ENDG} para partir!\p¡Buena suerte, {PLAYER}!"))
     closemessage
 
     addvar(VAR_ROGUE_INTRO_STATE, 1)
@@ -96,21 +96,21 @@ script Rogue_Interior_ProfLab_FrameState0
 
     setvar(VAR_0x8004, 0)
     special(BufferMonNickname)
-    msgbox(format("Hi {PLAYER}!\pYour {STR_VAR_1} seems to really enjoy walking around outside of its Poké Ball.\pWould you like {STR_VAR_1} to follow you?"), MSGBOX_YESNO)
+    msgbox(format("¡Hola, {PLAYER}!\pA tu {STR_VAR_1} parece que le encanta pasear fuera de su Poké Ball.\p¿Quieres que {STR_VAR_1} te siga?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
         setflag(FLAG_SYS_SHOW_POKE_FOLLOWER)
         special(Rogue_SetupFollowParterMonObjectEvent)
 
-        msgbox(format("{STR_VAR_1} looks so happy!"))
+        msgbox(format("¡{STR_VAR_1} parece muy feliz!"))
     }
     else
     {
         clearflag(FLAG_SYS_SHOW_POKE_FOLLOWER)
         special(Rogue_SetupFollowParterMonObjectEvent)
 
-        msgbox(format("Oh…\nIf you change your mind, just let me know."))
+        msgbox(format("Vaya…\nSi cambias de idea, dímelo."))
     }
     closemessage
 
@@ -137,7 +137,7 @@ script Rogue_Interior_ProfLab_TalkBirch
 {
     lock
     faceplayer
-    msgbox(format("ELM: Hi {PLAYER}!\pDid you want me to explain how Adventures work?"), MSGBOX_YESNO)
+    msgbox(format("ELM: ¡Hola, {PLAYER}!\p¿Quieres que te explique cómo funcionan las Aventuras?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -155,7 +155,7 @@ script Rogue_Interior_ProfLab_TalkAssistant
 
     if(var(VAR_ROGUE_INTRO_STATE) < ROGUE_INTRO_STATE_REPORT_TO_PROF)
     {
-        msgbox(format("Hi {PLAYER}!\pI hope you're doing well!\nI heard you hit your head."))
+        msgbox(format("¡Hola, {PLAYER}!\p¡Espero que estés bien!\nMe han dicho que te diste un golpe en la cabeza."))
     }
     else
     {
@@ -163,7 +163,7 @@ script Rogue_Interior_ProfLab_TalkAssistant
         special(BufferMonNickname)
         if(flag(FLAG_SYS_SHOW_POKE_FOLLOWER))
         {
-            msgbox(format("Hi {PLAYER}!\pWould you like to put {STR_VAR_1} back in its Poké Ball?"), MSGBOX_YESNO)
+            msgbox(format("¡Hola, {PLAYER}!\p¿Quieres que {STR_VAR_1} vuelva a su Poké Ball?"), MSGBOX_YESNO)
             if(var(VAR_RESULT) == YES)
             {
                 clearflag(FLAG_SYS_SHOW_POKE_FOLLOWER)
@@ -171,7 +171,7 @@ script Rogue_Interior_ProfLab_TalkAssistant
         }
         else
         {
-            msgbox(format("Hi {PLAYER}!\pWould you like {STR_VAR_1} to follow you?"), MSGBOX_YESNO)
+            msgbox(format("¡Hola, {PLAYER}!\p¿Quieres que {STR_VAR_1} te siga?"), MSGBOX_YESNO)
             if(var(VAR_RESULT) == YES)
             {
                 setflag(FLAG_SYS_SHOW_POKE_FOLLOWER)
@@ -185,11 +185,11 @@ script Rogue_Interior_ProfLab_TalkAssistant
 
 script Rogue_Interior_ProfLab_TalkBirch_AdventureExplain
 {
-    msgbox(format("As you may remember, the world outside of {POKEMON_HUB} has gone a bit strange.\pRoutes will be shuffled around and may appear in a new random order every time you embark on an Adventure."))
-    msgbox(format("When you leave on Adventures you'll notice that your Pokémon's level will get reset.\pIt will still know all of the same moves however."))
-    msgbox(format("The items in your bag also possess a strange quality.\pWhenever you leave on an Adventure the state of your Bag seems to be remembered!\pWhen you finally return to {POKEMON_HUB}, your bag will be in the very same state as it was when you left.\pLet's say, for example, you find a Super Potion whilst you're Adventuring.\pWhen you return, that Super Potion will magically have disappeared from your Bag!\pThe opposite is also true. For example, if you have a Poké Ball in your Bag when you leave and you use it on your Adventure, when you return, you'll notice that it will have reappeared right back inside your Bag!"))
-    msgbox(format("Rather unsurprisingly, Trainers are still very much itching for fights too!\pSo, be careful and make sure to train your Pokémon well!"))
-    msgbox(format("It's all very strange!\pWe're still trying to research it and figure out what's going on!"))
+    msgbox(format("Como quizá recuerdes, el mundo fuera de {POKEMON_HUB} se ha vuelto un poco extraño.\pLas rutas se mezclan y pueden aparecer en un orden aleatorio distinto cada vez que partes de Aventura."))
+    msgbox(format("Cuando partas de Aventura, verás que el nivel de tus Pokémon se reinicia.\pAun así, seguirán conociendo los mismos movimientos."))
+    msgbox(format("Los objetos de tu mochila también tienen algo extraño.\p¡Cada vez que partes de Aventura, parece que el estado de tu Mochila queda guardado!\pCuando vuelvas a {POKEMON_HUB}, tu mochila estará exactamente igual que cuando te fuiste.\pPor ejemplo, imagina que encuentras una Superpoción durante la Aventura.\p¡Al volver, esa Superpoción habrá desaparecido de tu Mochila como por arte de magia!\pY al revés también. Si llevas una Poké Ball en la Mochila al salir y la usas en tu Aventura, ¡al volver verás que ha reaparecido en tu Mochila!"))
+    msgbox(format("Como era de esperar, ¡los Entrenadores siguen con muchas ganas de combatir!\pAsí que ten cuidado y entrena bien a tus Pokémon."))
+    msgbox(format("¡Es todo muy extraño!\p¡Seguimos investigando para averiguar qué está pasando!"))
 }
 
 script Rogue_Interior_ProfLab_TriggerIntro0
@@ -221,10 +221,10 @@ script Rogue_Interior_ProfLab_TriggerIntro2
 
 script Rogue_Interior_ProfLab_TriggerIntroInternal
 {
-    msgbox(format("ELM: Hi {PLAYER}!\pIt looks like you've refreshed your memory a bit now!\pNow that {POKEMON_HUB} is properly established, we need someone to go out on Adventures to explore and gather resources.\pIf we can do that, we'll be able to build up and expand the village.\pThat's where you come in {PLAYER}!\pIn order for you to do that you'll need a Pokémon Partner…"))
+    msgbox(format("ELM: ¡Hola, {PLAYER}!\p¡Parece que ya has refrescado un poco la memoria!\pAhora que {POKEMON_HUB} está bien asentado, necesitamos a alguien que salga de Aventura a explorar y reunir recursos.\pSi lo conseguimos, podremos construir y ampliar el pueblo.\p¡Y ahí es donde entras tú, {PLAYER}!\pPara ello, necesitarás un Pokémon Compañero…"))
 
     playbgm(MUS_NONE, FALSE)
-    msgbox(format("PROFFFFFFESSOR!"))
+    msgbox(format("¡PROFEEEEESOR!"))
     closemessage
 
     setobjectxy(OBJ_EVENT_RUIN_MANIAC, 4, 11)
@@ -234,12 +234,12 @@ script Rogue_Interior_ProfLab_TriggerIntroInternal
     applymovement(OBJ_EVENT_RUIN_MANIAC, RuinManiacIntro0)
     waitmovement(0)
 
-    msgbox(format("P- P- Pokémon are invading!"))
+    msgbox(format("¡L- L- Los Pokémon nos invaden!"))
 
     applymovement(OBJ_EVENT_BIRCH, BirchIntro0)
     waitmovement(0)
 
-    msgbox(format("ELM: What do you mean!?\pThis can't be good {PLAYER}.\pWe better go help!"))
+    msgbox(format("ELM: ¡¿Qué quieres decir?!\pEsto no pinta bien, {PLAYER}.\p¡Será mejor que vayamos a ayudar!"))
     closemessage
 
     applymovement(OBJ_EVENT_RUIN_MANIAC, RuinManiacIntro1)

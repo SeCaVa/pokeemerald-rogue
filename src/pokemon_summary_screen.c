@@ -764,9 +764,9 @@ static void (*const sTextPrinterTasks[])(u8 taskId) =
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
-static const u8 sText_SummarySpAtk[] = _("SP. ATK");
-static const u8 sText_SummarySpDef[] = _("SP. DEF");
-static const u8 sText_SummarySpeed[] = _("SPEED");
+static const u8 sText_SummarySpAtk[] = _("AT. ESP.");
+static const u8 sText_SummarySpDef[] = _("DF. ESP.");
+static const u8 sText_SummarySpeed[] = _("VELOCID.");
 static const u8 sStatsLeftColumnLayout[] = _("{DYNAMIC 0}/{DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsLeftColumnLayout2[] = _("{DYNAMIC 0}  {DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsRightColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
@@ -3431,7 +3431,7 @@ static void Task_PrintInfoPage(u8 taskId)
     data[0]++;
 }
 
-static u8 const sText_UniqueMon[] = _("Unique {PKMN}");
+static u8 const sText_UniqueMon[] = _("{PKMN} único");
 
 static void PrintMonOTName(void)
 {

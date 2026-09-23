@@ -989,7 +989,7 @@ static u8 const sText_UniqueMonTitle[] = _("{STR_VAR_1} {FONT_SMALL_NARROW}{COLO
 static u8 const sText_UniqueMonTitleRare[] = _("{STR_VAR_1} {FONT_SMALL_NARROW}{COLOR RED}({STR_VAR_2})");
 static u8 const sText_UniqueMonBaseType[] = _("{STR_VAR_1}");
 static u8 const sText_UniqueMonChangedType[] = _("{COLOR BLUE}{STR_VAR_1}");
-static u8 const sText_UniqueMonAbility[] = _("A/ {COLOR GREEN}{STR_VAR_1}");
+static u8 const sText_UniqueMonAbility[] = _("H/ {COLOR GREEN}{STR_VAR_1}");
 static u8 const sText_UniqueMonMove[] = _(" -{STR_VAR_1}");
 
 static void PrintUniqueMonInfoToWindow(u8 windowId)
@@ -1072,15 +1072,15 @@ void ScriptMenu_DisplayUniqueMonInfo()
     gTasks[taskId].data[1] = RogueGift_GetDynamicUniqueMon(gSpecialVar_0x8004)->countDown;
 }
 
-static u8 const sText_PresetMonAbility_Has[] = _("Ability/ {COLOR GREEN}{STR_VAR_1}");
-static u8 const sText_PresetMonAbility_Missing[] = _("Ability/ {COLOR RED}{STR_VAR_1}");
-static u8 const sText_PresetMonItem_Has[] = _("Item/ {COLOR GREEN}{STR_VAR_1}");
-static u8 const sText_PresetMonItem_Missing[] = _("Item/ {COLOR RED}{STR_VAR_1}");
-static u8 const sText_PresetMonNature_Has[] = _("Nature/ {COLOR GREEN}{STR_VAR_1}");
-static u8 const sText_PresetMonNature_Missing[] = _("Nature/ {COLOR RED}{STR_VAR_1}");
+static u8 const sText_PresetMonAbility_Has[] = _("Habilidad/ {COLOR GREEN}{STR_VAR_1}");
+static u8 const sText_PresetMonAbility_Missing[] = _("Habilidad/ {COLOR RED}{STR_VAR_1}");
+static u8 const sText_PresetMonItem_Has[] = _("Objeto/ {COLOR GREEN}{STR_VAR_1}");
+static u8 const sText_PresetMonItem_Missing[] = _("Objeto/ {COLOR RED}{STR_VAR_1}");
+static u8 const sText_PresetMonNature_Has[] = _("Natur./ {COLOR GREEN}{STR_VAR_1}");
+static u8 const sText_PresetMonNature_Missing[] = _("Natur./ {COLOR RED}{STR_VAR_1}");
 static u8 const sText_PresetMonMove_Has[] = _(" -{COLOR GREEN}{STR_VAR_1}");
 static u8 const sText_PresetMonMove_Missing[] = _(" -{COLOR RED}{STR_VAR_1}");
-static u8 const sText_PresetMonNoData[] = _("No recommendations for\nthis Pokémon.\n\n\n(This Pokémon may need\nto evolve in order to\nget recomendations)");
+static u8 const sText_PresetMonNoData[] = _("No hay recomendaciones\npara este Pokémon.\n\n\n(Puede que este Pokémon\ntenga que evolucionar\npara tenerlas)");
 
 static void PrintRecommendedMonSetToWindow(u8 windowId, struct Pokemon* mon, struct RoguePokemonCompetitiveSet const* preset)
 {
@@ -1325,7 +1325,7 @@ void ScriptMenu_HideItemDescription()
 }
 
 static u8 const sText_RogueAssistant[] = _("{COLOR BLUE}Rogue Assistant");
-static u8 const sText_RogueAssistantInfo[] = _("Download from:\n{COLOR BLUE}https://rogue.assist.pokabbie.com\n\n{COLOR RED}Never download from other links!");
+static u8 const sText_RogueAssistantInfo[] = _("Descárgalo de:\n{COLOR BLUE}https://rogue.assist.pokabbie.com\n\n{COLOR RED}¡Nunca de otros enlaces!");
 
 static void PrintRogueAssistantNoticToWindow(u8 windowId)
 {

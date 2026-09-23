@@ -688,30 +688,30 @@ static const u8 *const sActionStringTable[] =
 
 static const u8 sText_NatureStatsNeutral[] = _("{FONT_SMALL_NARROW}- -");
 
-static const u8 sText_NatureStatsLonely[] = _("{FONT_SMALL_NARROW}+Atk -Def");
-static const u8 sText_NatureStatsBrave[] = _("{FONT_SMALL_NARROW}+Atk -Speed");
-static const u8 sText_NatureStatsAdamant[] = _("{FONT_SMALL_NARROW}+Atk -SpAtk");
-static const u8 sText_NatureStatsNaughty[] = _("{FONT_SMALL_NARROW}+Atk -SpDef");
+static const u8 sText_NatureStatsLonely[] = _("{FONT_SMALL_NARROW}+Atq -Def");
+static const u8 sText_NatureStatsBrave[] = _("{FONT_SMALL_NARROW}+Atq -Vel");
+static const u8 sText_NatureStatsAdamant[] = _("{FONT_SMALL_NARROW}+Atq -AtEsp");
+static const u8 sText_NatureStatsNaughty[] = _("{FONT_SMALL_NARROW}+Atq -DfEsp");
 
-static const u8 sText_NatureStatsBold[] = _("{FONT_SMALL_NARROW}+Def -Atk");
-static const u8 sText_NatureStatsRelaxed[] = _("{FONT_SMALL_NARROW}+Def -Speed");
-static const u8 sText_NatureStatsImpish[] = _("{FONT_SMALL_NARROW}+Def -SpAtk");
-static const u8 sText_NatureStatsLax[] = _("{FONT_SMALL_NARROW}+Def -SpDef");
+static const u8 sText_NatureStatsBold[] = _("{FONT_SMALL_NARROW}+Def -Atq");
+static const u8 sText_NatureStatsRelaxed[] = _("{FONT_SMALL_NARROW}+Def -Vel");
+static const u8 sText_NatureStatsImpish[] = _("{FONT_SMALL_NARROW}+Def -AtEsp");
+static const u8 sText_NatureStatsLax[] = _("{FONT_SMALL_NARROW}+Def -DfEsp");
 
-static const u8 sText_NatureStatsTimid[] = _("{FONT_SMALL_NARROW}+Speed -Atk");
-static const u8 sText_NatureStatsHasty[] = _("{FONT_SMALL_NARROW}+Speed -Def");
-static const u8 sText_NatureStatsJolly[] = _("{FONT_SMALL_NARROW}+Speed -SpAtk");
-static const u8 sText_NatureStatsNaive[] = _("{FONT_SMALL_NARROW}+Speed -SpDef");
+static const u8 sText_NatureStatsTimid[] = _("{FONT_SMALL_NARROW}+Vel -Atq");
+static const u8 sText_NatureStatsHasty[] = _("{FONT_SMALL_NARROW}+Vel -Def");
+static const u8 sText_NatureStatsJolly[] = _("{FONT_SMALL_NARROW}+Vel -AtEsp");
+static const u8 sText_NatureStatsNaive[] = _("{FONT_SMALL_NARROW}+Vel -DfEsp");
 
-static const u8 sText_NatureStatsModest[] = _("{FONT_SMALL_NARROW}+SpAtk -Atk");
-static const u8 sText_NatureStatsMild[] = _("{FONT_SMALL_NARROW}+SpAtk -Def");
-static const u8 sText_NatureStatsQuiet[] = _("{FONT_SMALL_NARROW}+SpAtk -Speed");
-static const u8 sText_NatureStatsRash[] = _("{FONT_SMALL_NARROW}+SpAtk -SpDef");
+static const u8 sText_NatureStatsModest[] = _("{FONT_SMALL_NARROW}+AtEsp -Atq");
+static const u8 sText_NatureStatsMild[] = _("{FONT_SMALL_NARROW}+AtEsp -Def");
+static const u8 sText_NatureStatsQuiet[] = _("{FONT_SMALL_NARROW}+AtEsp -Vel");
+static const u8 sText_NatureStatsRash[] = _("{FONT_SMALL_NARROW}+AtEsp -DfEsp");
 
-static const u8 sText_NatureStatsCalm[] = _("{FONT_SMALL_NARROW}+SpDef -Atk");
-static const u8 sText_NatureStatsGentle[] = _("{FONT_SMALL_NARROW}+SpDef -Def");
-static const u8 sText_NatureStatsSassy[] = _("{FONT_SMALL_NARROW}+SpDef -Speed");
-static const u8 sText_NatureStatsCareful[] = _("{FONT_SMALL_NARROW}+SpDef -SpAtk");
+static const u8 sText_NatureStatsCalm[] = _("{FONT_SMALL_NARROW}+DfEsp -Atq");
+static const u8 sText_NatureStatsGentle[] = _("{FONT_SMALL_NARROW}+DfEsp -Def");
+static const u8 sText_NatureStatsSassy[] = _("{FONT_SMALL_NARROW}+DfEsp -Vel");
+static const u8 sText_NatureStatsCareful[] = _("{FONT_SMALL_NARROW}+DfEsp -AtEsp");
 
 static const u8 *const sDescriptionStringTable[] =
 {

@@ -20,8 +20,8 @@
         [
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Mega Evolution",
-                "description": "Win a full Run with the Mega Ring.",
+                "name": "Mega Evolution", "display_name": "Megaevolución",
+                "description": "Gana una partida completa con la Megapulsera.",
                 "triggers":
                 [
                     {
@@ -46,8 +46,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Z-Moves",
-                "description": "Win a full Run with the Z-Power Ring.",
+                "name": "Z-Moves", "display_name": "Movimientos Z",
+                "description": "Gana una partida completa con la Pulsera Z.",
                 "triggers":
                 [
                     {
@@ -72,8 +72,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Dynamax",
-                "description": "Win a full Run with the Dynamax Band.",
+                "name": "Dynamax", "display_name": "Dinamax",
+                "description": "Gana una partida completa con la Maximuñequera.",
                 "triggers":
                 [
                     {
@@ -98,8 +98,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Terastallization",
-                "description": "Win a full Run with the Tera Orb.",
+                "name": "Terastallization", "display_name": "Teracristal",
+                "description": "Gana una partida completa con el Orbe Teracristal.",
                 "triggers":
                 [
                     {
@@ -124,8 +124,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Gimmick Overflow",
-                "description": "Win a full Run with: Healing Flask, Mega Ring, Z-Power Ring, Dynamax Band & Tera Orb.",
+                "name": "Gimmick Overflow", "display_name": "Mecánicas a tope",
+                "description": "Gana una partida completa con: Frasco Curativo, Megapulsera, Pulsera Z, Maximuñequera y Orbe Teracristal.",
                 "triggers":
                 [
                     {
@@ -153,8 +153,8 @@
                 ]
             },
             {
-                "name": "True Tactics",
-                "description": "Win a full Run, without any Pokémon ever fainting.",
+                "name": "True Tactics", "display_name": "Táctica perfecta",
+                "description": "Gana una partida completa sin que ningún Pokémon se debilite.",
                 "triggers":
                 [
                     {
@@ -179,8 +179,8 @@
                 ]
             },
             {
-                "name": "Chaos Novice",
-                "description": "Win a full Run with: Random Starter trade & always doing a Full Party trade with Mr. Randoman whenever possible.",
+                "name": "Chaos Novice", "display_name": "Aprendiz del caos",
+                "description": "Gana una partida completa con: inicial aleatorio y cambiando siempre el equipo entero con el Sr. Randoman cuando sea posible.",
                 "triggers":
                 [
                     {
@@ -226,8 +226,8 @@
                 ]
             },
             {
-                "name": "Chaos Master",
-                "description": "Win a full Run with: Wahey Curse & Wahey+ Curse.",
+                "name": "Chaos Master", "display_name": "Maestro del caos",
+                "description": "Gana una partida completa con: Maldición Yujuuu y Maldición Yujuuu+.",
                 "triggers":
                 [
                     {
@@ -253,7 +253,7 @@
             },
             {
                 "name": "Roguelocke",
-                "description": "Win a full Run with: Random Starter trade, Embargo Curse, Species Curse & 10x Wild Curses.",
+                "description": "Gana una partida completa con: inicial aleatorio, Maldición Embargo, Maldición Especie y 10x Maldiciones Salvajes.",
                 "triggers":
                 [
                     {
@@ -280,8 +280,8 @@
                 ]
             },
             {
-                "name": "Can't Pick!?",
-                "description": "Win a full Run, only ever entering Trainer battles with only Starters in your party e.g. Charmander, Totodile, Treecko, Pikachu, Eevee etc.",
+                "name": "Can't Pick!?", "display_name": "¿Cuál elijo?",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con iniciales en tu equipo, p. ej. Charmander, Totodile, Treecko, Pikachu, Eevee, etc.",
                 "triggers":
                 [
                     {
@@ -316,8 +316,8 @@
                 ]
             },
             {
-                "name": "Diversity",
-                "description": "Win a full Run, only ever entering Trainer battles with only Unique Types in your party e.g. Can't have a Bulbasaur and a Grimer at the same time.",
+                "name": "Diversity", "display_name": "Diversidad",
+                "description": "Gana una partida completa combatiendo contra Entrenadores sin repetir tipos en tu equipo, p. ej. no puedes llevar a la vez un Bulbasaur y un Grimer.",
                 "triggers":
                 [
                     {
@@ -342,8 +342,8 @@
                 ]
             },
             {
-                "name": "Apotheosis",
-                "description": "Win a full Run, only ever entering Trainer battles with only Legendary Pokémon in your party.",
+                "name": "Apotheosis", "display_name": "Apoteosis",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon Legendarios en tu equipo.",
                 "triggers":
                 [
                     {
@@ -368,8 +368,8 @@
                 ]
             },
             {
-                "name": "Aesthetics",
-                "description": "Win a full Run, only ever entering Trainer battles with only Shiny Pokémon in your party.",
+                "name": "Aesthetics", "display_name": "Estética",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon variocolor en tu equipo.",
                 "triggers":
                 [
                     {
@@ -394,8 +394,8 @@
                 ]
             },
             {
-                "name": "I am Speed",
-                "description": "Win a full Run in under 2:30hrs (in game time)",
+                "name": "I am Speed", "display_name": "Soy la velocidad",
+                "description": "Gana una partida completa en menos de 2:30 h (tiempo de juego).",
                 "triggers":
                 [
                     {
@@ -422,8 +422,8 @@
                 ]
             },
             {
-                "name": "Cursed Body",
-                "description": "Win a full Run with: Snowball Curse.",
+                "name": "Cursed Body", "display_name": "Cuerpo Maldito",
+                "description": "Gana una partida completa con: Maldición Bola de Nieve.",
                 "triggers":
                 [
                     {
@@ -455,8 +455,8 @@
             },
 
             {
-                "name": "Limited Capture",
-                "description": "Win a full Run with: Catching exactly 5 {PKMN} by the time you enter the Hall of Fame.",
+                "name": "Limited Capture", "display_name": "Captura limitada",
+                "description": "Gana una partida completa habiendo capturado exactamente 5 {PKMN} al entrar en el Hall de la Fama.",
                 "triggers":
                 [
                     {
@@ -491,8 +491,8 @@
             },
 
             {
-                "name": "BST Crown",
-                "description": "Win a full Run with: Baby Curse and only using a {PKMN} with 350 or lower Base Stat Total (viewable in the Pokédex) in Trainer Battles.",
+                "name": "BST Crown", "display_name": "Corona BST",
+                "description": "Gana una partida completa con: Maldición Bebé y usando contra Entrenadores solo {PKMN} con estadísticas base totales de 350 o menos (se ven en la Pokédex).",
                 "triggers":
                 [
                     {
@@ -528,8 +528,8 @@
                 ]
             },
             {
-                "name": "Pro-Building",
-                "description": "Win a full Run with: Auto Move Curse.",
+                "name": "Pro-Building", "display_name": "Estratega pro",
+                "description": "Gana una partida completa con: Maldición Ataque Automático.",
                 "triggers":
                 [
                     {
@@ -554,8 +554,8 @@
             },
 
             {
-                "name": "Insane Mode",
-                "description": "Win a full Run with: Fresh Start enabled, Mixed battle format, Random Starter trade, Embargo, Unaware & Species Curse & never using Legendary {PKMN}.",
+                "name": "Insane Mode", "display_name": "Modo locura",
+                "description": "Gana una partida completa con: Nuevo Comienzo activo, formato de combate Mixto, inicial aleatorio, Maldiciones Embargo, Ignorante y Especie, y sin usar {PKMN} Legendarios.",
                 "triggers":
                 [
                     {
@@ -589,8 +589,8 @@
                 ]
             },
             {
-                "name": "Iron Mono",
-                "description": "Win a full Run with: 5x Capacity Curses.",
+                "name": "Iron Mono", "display_name": "Mono de hierro",
+                "description": "Gana una partida completa con: 5x Maldiciones Capacidad.",
                 "triggers":
                 [
                     {
@@ -615,8 +615,8 @@
                 ]
             },
             {
-                "name": "Iron Kaizo",
-                "description": "Win a full Run with: Fresh Start enabled, Random Starter, Embargo Curse, 5x Capacity Curses & 99x Discount Curses.",
+                "name": "Iron Kaizo", "display_name": "Kaizo de hierro",
+                "description": "Gana una partida completa con: Nuevo Comienzo activo, inicial aleatorio, Maldición Embargo, 5x Maldiciones Capacidad y 99x Maldiciones Descuento.",
                 "triggers":
                 [
                     {
@@ -652,8 +652,8 @@
             },
 
             {
-                "name": "Rocket Triumph",
-                "description": "Defeat the Leader of Team Rocket.",
+                "name": "Rocket Triumph", "display_name": "Triunfo Rocket",
+                "description": "Derrota al Líder del Team Rocket.",
                 "display_group": "evil_team_challenges",
                 "triggers":
                 [
@@ -678,8 +678,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_GREEN_SCARF",
-                            "title": "Rocket Grunt",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Outfit Unlocked",
+                            "title": "Recluta Rocket",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Atuendo nuevo!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     },
@@ -691,8 +691,8 @@
                 ]
             },
             {
-                "name": "Aqua Triumph",
-                "description": "Defeat the Leader of Team Aqua.",
+                "name": "Aqua Triumph", "display_name": "Triunfo Aqua",
+                "description": "Derrota al Líder del Equipo Aqua.",
                 "display_group": "evil_team_challenges",
                 "triggers":
                 [
@@ -717,8 +717,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_GREEN_SCARF",
-                            "title": "Aqua Grunt",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Outfit Unlocked",
+                            "title": "Recluta Aqua",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Atuendo nuevo!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     },
@@ -730,8 +730,8 @@
                 ]
             },
             {
-                "name": "Magma Triumph",
-                "description": "Defeat the Leader of Team Magma.",
+                "name": "Magma Triumph", "display_name": "Triunfo Magma",
+                "description": "Derrota al Líder del Equipo Magma.",
                 "display_group": "evil_team_challenges",
                 "triggers":
                 [
@@ -756,8 +756,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_GREEN_SCARF",
-                            "title": "Magma Grunt",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Outfit Unlocked",
+                            "title": "Recluta Magma",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Atuendo nuevo!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     },
@@ -770,8 +770,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Galactic Triumph",
-                "description": "Defeat the Leader of Team Galactic.",
+                "name": "Galactic Triumph", "display_name": "Triunfo Galaxia",
+                "description": "Derrota al Líder del Equipo Galaxia.",
                 "display_group": "evil_team_challenges",
                 "triggers":
                 [
@@ -796,8 +796,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_GREEN_SCARF",
-                            "title": "Galactic Grunt",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Outfit Unlocked",
+                            "title": "Recluta Galaxia",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Atuendo nuevo!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     },

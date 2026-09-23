@@ -56,40 +56,40 @@ void DoSpecialTrainerBattle(void);
 static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNames
 {
     [TYPE_NORMAL] = _("Normal"),
-    [TYPE_FIGHTING] = _("Fighting"),
-    [TYPE_FLYING] = _("Flying"),
-    [TYPE_POISON] = _("Poison"),
-    [TYPE_GROUND] = _("Ground"),
-    [TYPE_ROCK] = _("Rock"),
-    [TYPE_BUG] = _("Bug"),
-    [TYPE_GHOST] = _("Ghost"),
-    [TYPE_STEEL] = _("Steel"),
+    [TYPE_FIGHTING] = _("Lucha"),
+    [TYPE_FLYING] = _("Volador"),
+    [TYPE_POISON] = _("Veneno"),
+    [TYPE_GROUND] = _("Tierra"),
+    [TYPE_ROCK] = _("Roca"),
+    [TYPE_BUG] = _("Bicho"),
+    [TYPE_GHOST] = _("Fantasma"),
+    [TYPE_STEEL] = _("Acero"),
     [TYPE_MYSTERY] = _("???"),
-    [TYPE_FIRE] = _("Fire"),
-    [TYPE_WATER] = _("Water"),
-    [TYPE_GRASS] = _("Grass"),
-    [TYPE_ELECTRIC] = _("Electric"),
-    [TYPE_PSYCHIC] = _("Psychic"),
-    [TYPE_ICE] = _("Ice"),
-    [TYPE_DRAGON] = _("Dragon"),
-    [TYPE_DARK] = _("Dark"),
+    [TYPE_FIRE] = _("Fuego"),
+    [TYPE_WATER] = _("Agua"),
+    [TYPE_GRASS] = _("Planta"),
+    [TYPE_ELECTRIC] = _("Eléctrico"),
+    [TYPE_PSYCHIC] = _("Psíquico"),
+    [TYPE_ICE] = _("Hielo"),
+    [TYPE_DRAGON] = _("Dragón"),
+    [TYPE_DARK] = _("Siniestro"),
 #ifdef ROGUE_EXPANSION
-    [TYPE_FAIRY] = _("Fairy"),
+    [TYPE_FAIRY] = _("Hada"),
 #endif
 };
 
 static const u8 sStatNamesTable[NUM_STATS][13] = // a;t versopm pf gStatNamesTable
 {
-    [STAT_HP]      = _("HP"),
-    [STAT_ATK]     = _("Attack"),
-    [STAT_DEF]     = _("Defence"),
-    [STAT_SPEED]   = _("Speed"),
-    [STAT_SPATK]   = _("Sp. Attack"),
-    [STAT_SPDEF]   = _("Sp. Defence"),
+    [STAT_HP]      = _("PS"),
+    [STAT_ATK]     = _("Ataque"),
+    [STAT_DEF]     = _("Defensa"),
+    [STAT_SPEED]   = _("Velocidad"),
+    [STAT_SPATK]   = _("At. Esp."),
+    [STAT_SPDEF]   = _("Def. Esp."),
 };
 
-static u8 const sText_The[] = _(" the ");
-static u8 const sText_TheShiny[] = _(" the shiny ");
+static u8 const sText_The[] = _(" el ");
+static u8 const sText_TheShiny[] = _(" el variocolor ");
 
 bool8 Rogue_CheckPartyHasRoomForMon(void)
 {
@@ -541,7 +541,7 @@ void Rogue_GetDynamicUniqueMonSpecies()
     }
 }
 
-static u8 const sText_Timer[] = _("{STR_VAR_1}:{STR_VAR_2} hours");
+static u8 const sText_Timer[] = _("{STR_VAR_1}:{STR_VAR_2} horas");
 
 void Rogue_BufferDynamicUniqueMonCountDown()
 {

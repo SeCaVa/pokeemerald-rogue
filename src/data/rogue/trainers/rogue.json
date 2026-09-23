@@ -33,24 +33,24 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hi {PLAYER}!\\pI really couldn't resist joining you on an Adventure!\\pSo…\\nI'll be your Rival for this run!",
-                        "POST_BATTLE_TAUNT": "Wow!\\nYou made that look easy!",
-                        "POST_BATTLE_CLOSER": "I shouldn't be surprised!\\pThis is hardly your first run!\\pBe seeing you later, {PLAYER}!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Hola, {PLAYER}!\\p¡No he podido resistirme a acompañarte en una Aventura!\\pAsí que…\\n¡seré tu Rival en esta partida!",
+                        "POST_BATTLE_TAUNT": "¡Hala!\\n¡Has hecho que parezca fácil!",
+                        "POST_BATTLE_CLOSER": "¡No debería sorprenderme!\\p¡Esta no es precisamente tu primera partida!\\p¡Nos vemos luego, {PLAYER}!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Ahh it's {PLAYER}!\\pRight!\\pLet's see if your team building has kept up with mine!",
-                        "POST_BATTLE_TAUNT": "Superb!\\pI'd give that a 9 out of 10!",
-                        "POST_BATTLE_CLOSER": "That was a really surprising strategy you used there {PLAYER}!\\pUnless it wasn't…\\nThis is prewritten text so I really have no idea.\\pAnywaaaayyy\\nI'll see you at the next battle!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Ahh, si es {PLAYER}!\\p¡Muy bien!\\p¡Veamos si tu forma de montar equipos está a la altura de la mía!",
+                        "POST_BATTLE_TAUNT": "¡Soberbio!\\p¡Le doy un 9 sobre 10!",
+                        "POST_BATTLE_CLOSER": "¡Qué estrategia tan sorprendente has usado, {PLAYER}!\\pA menos que no lo fuera…\\nEste texto está escrito de antemano, así que no tengo ni idea.\\pEn fiiiiin…\\n¡Nos vemos en el próximo combate!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: {PLAYER}!\\pOooooooo!\\nWhat team have you got this time!",
-                        "POST_BATTLE_TAUNT": "Impressive!\\nYou keep growing and growing!",
-                        "POST_BATTLE_CLOSER": "I hope I didn't rough up your team too much right before the Elite Four… … …\\p… … …\\pAnyhow!\\nSee you later!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡{PLAYER}!\\p¡Oooooooh!\\n¡¿Qué equipo traes esta vez?!",
+                        "POST_BATTLE_TAUNT": "¡Impresionante!\\n¡No paras de mejorar!",
+                        "POST_BATTLE_CLOSER": "Espero no haber dejado muy tocado a tu equipo justo antes del Alto Mando… … …\\p… … …\\p¡En fin!\\n¡Hasta luego!"
                     },
                     {
-                        "PRE_BATTLE_OPENNING": "… … …\\pYou knew this was coming, {PLAYER}…",
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Last chance for me to win, I guess!\\pLet me see if I can send you right back to {POKEMON_HUB}!",
-                        "POST_BATTLE_TAUNT": "Congratulations {PLAYER}!\\nA very well deserved victory!",
+                        "PRE_BATTLE_OPENNING": "… … …\\pSabías que esto iba a llegar, {PLAYER}…",
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Supongo que es mi última oportunidad de ganar!\\p¡A ver si consigo mandarte de vuelta a {POKEMON_HUB}!",
+                        "POST_BATTLE_TAUNT": "¡Enhorabuena, {PLAYER}!\\n¡Una victoria muy merecida!",
                         "POST_BATTLE_CLOSER": "…"
                     }
                 ],
@@ -80,7 +80,7 @@
         "gyms":
         [
             {
-                "name": "RED",
+                "name": "ROJO",
                 "type_group_override": "FINAL_TYPE_1",
                 "gfx_suffix": "RIVAL_RED",
                 "class_flags": [ "BOSS_GYM_1" ],
@@ -107,7 +107,7 @@
                 }
             },
             {
-                "name": "LEAF",
+                "name": "HOJA",
                 "type_group_override": "FINAL_TYPE_1",
                 "gfx_suffix": "RIVAL_LEAF",
                 "class_flags": [ "BOSS_GYM_1" ],
@@ -135,7 +135,7 @@
             },
 
             {
-                "name": "ETHAN",
+                "name": "ECO",
                 "type_group_override": "FINAL_TYPE_2",
                 "gfx_suffix": "RIVAL_ETHAN",
                 "class_flags": [ "BOSS_GYM_2" ],
@@ -162,7 +162,7 @@
                 }
             },
             {
-                "name": "LYRA",
+                "name": "LIRA",
                 "type_group_override": "FINAL_TYPE_2",
                 "gfx_suffix": "RIVAL_LYRA",
                 "class_flags": [ "BOSS_GYM_2" ],
@@ -190,7 +190,7 @@
             },
 
             {
-                "name": "BRENDAN",
+                "name": "BRUNO",
                 "type_group_override": "FINAL_TYPE_3",
                 "gfx_suffix": "RIVAL_BRENDAN",
                 "class_flags": [ "BOSS_GYM_3" ],
@@ -217,7 +217,7 @@
                 }
             },
             {
-                "name": "MAY",
+                "name": "AURA",
                 "type_group_override": "FINAL_TYPE_3",
                 "gfx_suffix": "RIVAL_MAY",
                 "class_flags": [ "BOSS_GYM_3" ],
@@ -245,7 +245,7 @@
             },
 
             {
-                "name": "LUCAS",
+                "name": "LEÓN",
                 "type_group_override": "FINAL_TYPE_4",
                 "gfx_suffix": "RIVAL_LUCAS",
                 "class_flags": [ "BOSS_GYM_4" ],
@@ -274,7 +274,7 @@
                 }
             },
             {
-                "name": "DAWN",
+                "name": "MAYA",
                 "type_group_override": "FINAL_TYPE_4",
                 "gfx_suffix": "RIVAL_DAWN",
                 "class_flags": [ "BOSS_GYM_4" ],
@@ -304,7 +304,7 @@
             },
 
             {
-                "name": "HILBERT",
+                "name": "LUCHO",
                 "type_group_override": "FINAL_TYPE_5",
                 "gfx_suffix": "RIVAL_HILBERT",
                 "class_flags": [ "BOSS_GYM_5" ],
@@ -333,7 +333,7 @@
                 }
             },
             {
-                "name": "HILDA",
+                "name": "LIZA",
                 "type_group_override": "FINAL_TYPE_5",
                 "gfx_suffix": "RIVAL_HILDA",
                 "class_flags": [ "BOSS_GYM_5" ],
@@ -362,7 +362,7 @@
                 }
             },
             {
-                "name": "NATE",
+                "name": "RIZZO",
                 "type_group_override": "FINAL_TYPE_5",
                 "gfx_suffix": "RIVAL_NATE",
                 "class_flags": [ "BOSS_GYM_5" ],
@@ -391,7 +391,7 @@
                 }
             },
             {
-                "name": "ROSA",
+                "name": "NANCI",
                 "type_group_override": "FINAL_TYPE_5",
                 "gfx_suffix": "RIVAL_ROSA",
                 "class_flags": [ "BOSS_GYM_5" ],
@@ -421,7 +421,7 @@
             },
 
             {
-                "name": "CALEM",
+                "name": "KALM",
                 "type_group_override": "FINAL_TYPE_6",
                 "gfx_suffix": "RIVAL_CALEM",
                 "class_flags": [ "BOSS_GYM_6" ],
@@ -671,10 +671,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Have you spoken to Pokabbie?",
-                        "PRE_BATTLE_TAUNT": "Well, don't get any big ideas!",
-                        "POST_BATTLE_TAUNT": "Oh no!",
-                        "POST_BATTLE_CLOSER": "Please don't tell her I lost!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Has hablado con Pokabbie?",
+                        "PRE_BATTLE_TAUNT": "¡Pues no te hagas ilusiones!",
+                        "POST_BATTLE_TAUNT": "¡Oh, no!",
+                        "POST_BATTLE_CLOSER": "¡Por favor, no le digas que he perdido!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -798,10 +798,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: What was that? A challenge?\\pThen let us get started!",
-                        "PRE_BATTLE_TAUNT": "You better not underestimate me!",
-                        "POST_BATTLE_TAUNT": "Woah! You're amazing!\\nLet's do this again sometime!",
-                        "POST_BATTLE_CLOSER": "It's not going to get easier from here on out.\\pI'll be rooting for you!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Qué has dicho? ¿Un desafío?\\p¡Pues empecemos!",
+                        "PRE_BATTLE_TAUNT": "¡Más te vale no subestimarme!",
+                        "POST_BATTLE_TAUNT": "¡Uau! ¡Eres increíble!\\n¡Tenemos que repetirlo algún día!",
+                        "POST_BATTLE_CLOSER": "A partir de aquí no va a ser más fácil.\\p¡Te estaré animando!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -965,10 +965,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Your willingness to adapt has brought you this far.",
-                        "PRE_BATTLE_TAUNT": "Let us see who is the better strategist!",
-                        "POST_BATTLE_TAUNT": "Seems RNG favored you this battle!",
-                        "POST_BATTLE_CLOSER": "This Pokémon League is always unpredictable.\\pGood luck!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Tu capacidad de adaptación te ha traído hasta aquí.",
+                        "PRE_BATTLE_TAUNT": "¡Veamos quién es mejor estratega!",
+                        "POST_BATTLE_TAUNT": "¡Parece que el azar te ha favorecido en este combate!",
+                        "POST_BATTLE_CLOSER": "Esta Liga Pokémon siempre es impredecible.\\p¡Suerte!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -1129,10 +1129,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Have you taken good care of your Pokémon?",
-                        "PRE_BATTLE_TAUNT": "Show me the bonds you made!",
-                        "POST_BATTLE_TAUNT": "Strong Pokémon.\\nGood job!",
-                        "POST_BATTLE_CLOSER": "If you take good care of Pokémon, even weak ones can be strong!\\pKeep it up!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Has cuidado bien de tus Pokémon?",
+                        "PRE_BATTLE_TAUNT": "¡Enséñame los vínculos que has creado!",
+                        "POST_BATTLE_TAUNT": "Pokémon fuertes.\\n¡Buen trabajo!",
+                        "POST_BATTLE_CLOSER": "¡Si cuidas bien a los Pokémon, hasta los débiles pueden ser fuertes!\\p¡Sigue así!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -1225,10 +1225,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: You've made it this far.\\nImpressive.",
-                        "PRE_BATTLE_TAUNT": "But are you strong enough to withstand this power surge?",
-                        "POST_BATTLE_TAUNT": "That was quite the shocking performance!",
-                        "POST_BATTLE_CLOSER": "Only a few more battles left.\\pI'm sure you can do it."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Has llegado hasta aquí.\\nImpresionante.",
+                        "PRE_BATTLE_TAUNT": "¿Pero eres lo bastante fuerte para resistir esta descarga de poder?",
+                        "POST_BATTLE_TAUNT": "¡Menuda actuación electrizante!",
+                        "POST_BATTLE_CLOSER": "Solo quedan unos pocos combates.\\pSeguro que puedes conseguirlo."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -1378,10 +1378,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Ah, you're finally here.\\pI've been watching you battle, you're special.\\pSince you've made it this far, there's no reason for me to hold back!",
-                        "PRE_BATTLE_TAUNT": "Show me what you're made of, {PLAYER}!",
-                        "POST_BATTLE_TAUNT": "Heh… I anticipated this would happen.\\nYou're an incredibly skilled trainer.",
-                        "POST_BATTLE_CLOSER": "Welp, you beat me. I guess you could say I'm Nacho-problem anymore, huh? Hehe.\\pHey uhm…\\pDo you think they deliver food here? I'm starving…"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Ah, por fin estás aquí.\\pTe he visto combatir; eres especial.\\pYa que has llegado hasta aquí, ¡no tengo motivos para contenerme!",
+                        "PRE_BATTLE_TAUNT": "¡Enséñame de qué pasta estás hech{MASC}o{FEM}a{ENDG}, {PLAYER}!",
+                        "POST_BATTLE_TAUNT": "Je… Ya me lo veía venir.\\nEres un entrenador increíblemente hábil.",
+                        "POST_BATTLE_CLOSER": "Bueno, me has ganado. Supongo que me has dejado hecho nachos, ¿eh? Jeje.\\pOye, eh…\\p¿Crees que aquí traen comida a domicilio? Me muero de hambre…"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -1520,7 +1520,7 @@
                     {
                         "PRE_BATTLE_OPENNING": "unused",
                         "PRE_BATTLE_TAUNT": "unused",
-                        "POST_BATTLE_TAUNT": "You are truly a fine\\nChampion of Emerald Rogue.",
+                        "POST_BATTLE_TAUNT": "Eres {MASC}un{FEM}una{ENDG} auténtic{MASC}o{FEM}a{ENDG}\\nCampe{MASC}ón{FEM}ona{ENDG} de Emerald Rogue.",
                         "POST_BATTLE_CLOSER": "unused"
                     }
                 ],

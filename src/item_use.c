@@ -1386,9 +1386,9 @@ bool32 CanThrowBall(void)
     return (GetBallThrowableState() == BALL_THROW_ABLE);
 }
 
-static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThere are two Pokémon out there!\p");
-static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a ball!\nThere's no Pokémon in sight!\p");
-static const u8 sText_CantThrowPokeBall_Disabled[] = _("POKé BALLS cannot be used\nright now!\p");
+static const u8 sText_CantThrowPokeBall_TwoMons[] = _("¡No puedes lanzar una Ball!\n¡Hay dos Pokémon ahí fuera!\p");
+static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("¡No puedes lanzar una Ball!\n¡No hay ningún Pokémon a la vista!\p");
+static const u8 sText_CantThrowPokeBall_Disabled[] = _("¡Ahora no se pueden usar\nPOKé BALLS!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
     switch (GetBallThrowableState())

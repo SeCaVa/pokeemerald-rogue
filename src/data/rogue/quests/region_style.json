@@ -39,8 +39,8 @@
         "default_group":
         [
             {
-                "name": "Regional Style",
-                "description": "Complete any of the 'Region Style' challenges.\\ne.g. Kanto Style, Johto Style, Orre Style etc.",
+                "name": "Regional Style", "display_name": "Estilo regional",
+                "description": "Completa cualquiera de los desafíos de 'Estilo regional'.\\np. ej. Estilo Kanto, Estilo Johto, Estilo Orre, etc.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -79,16 +79,16 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_TOWN_MAP",
-                            "title": "Labs",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Path Uncovered…",
+                            "title": "Laboratorios",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Camino abierto…",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
                 ]
             },
             {
-                "name": "Kanto Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Kanto variant and only Kanto Trainers enabled.",
+                "name": "Kanto Style", "display_name": "Estilo Kanto",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Kanto y solo Entrenadores de Kanto activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_KANTO",
@@ -109,8 +109,8 @@
                 ]
             },
             {
-                "name": "Johto Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Johto variant and only Johto Trainers enabled.",
+                "name": "Johto Style", "display_name": "Estilo Johto",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Johto y solo Entrenadores de Johto activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_JOHTO",
@@ -131,8 +131,8 @@
                 ]
             },
             {
-                "name": "Hoenn Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Hoenn variant and only Hoenn Trainers enabled.",
+                "name": "Hoenn Style", "display_name": "Estilo Hoenn",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Hoenn y solo Entrenadores de Hoenn activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_HOENN",
@@ -154,8 +154,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Sinnoh Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Sinnoh variant and only Sinnoh Trainers enabled.",
+                "name": "Sinnoh Style", "display_name": "Estilo Sinnoh",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Sinnoh y solo Entrenadores de Sinnoh activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_SINNOH",
@@ -177,8 +177,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Unova Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Unova variant and only Unova Trainers enabled.",
+                "name": "Unova Style", "display_name": "Estilo Teselia",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Teselia y solo Entrenadores de Teselia activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_UNOVA",
@@ -200,8 +200,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Kalos Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Kalos variant and only Kalos Trainers enabled.",
+                "name": "Kalos Style", "display_name": "Estilo Kalos",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Kalos y solo Entrenadores de Kalos activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_KALOS",
@@ -223,8 +223,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Alola Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Alola variant and only Alola Trainers enabled.",
+                "name": "Alola Style", "display_name": "Estilo Alola",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Alola y solo Entrenadores de Alola activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_ALOLA",
@@ -246,8 +246,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Galar Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Galar variant and only Galar Trainers enabled.",
+                "name": "Galar Style", "display_name": "Estilo Galar",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Galar y solo Entrenadores de Galar activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_GALAR",
@@ -269,8 +269,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Paldea Style",
-                "description": "Win a full Standard Run, with the Pokédex set to any Paldea variant and only Paldea Trainers enabled.",
+                "name": "Paldea Style", "display_name": "Estilo Paldea",
+                "description": "Gana una partida Estándar completa con la Pokédex en cualquier variante de Paldea y solo Entrenadores de Paldea activos.",
                 "template_params":
                 {
                     "POKEDEX_REGION": "POKEDEX_REGION_PALDEA",
@@ -291,8 +291,8 @@
                 ]
             },
             {
-                "name": "Orre Style",
-                "description": "Win a full Run with: Snag Curse, Doubles battle format & having Umbreon and Espeon in your party when you enter the Hall of Fame.",
+                "name": "Orre Style", "display_name": "Estilo Orre",
+                "description": "Gana una partida completa con: Maldición Robo, formato de combate Doble y Umbreon y Espeon en tu equipo al entrar en el Hall de la Fama.",
                 "triggers":
                 [
                     {

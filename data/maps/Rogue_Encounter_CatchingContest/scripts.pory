@@ -33,7 +33,7 @@ script Rogue_Encounter_CatchingContest_TalkHost
             call(Rogue_Encounter_CatchingContest_EndContest)
 
         default:
-            msgbox(format("That's all for now.\pGood luck on your adventure!"))
+            msgbox(format("Eso es todo por ahora.\p¡Suerte en tu aventura!"))
 
     }
 
@@ -43,12 +43,12 @@ script Rogue_Encounter_CatchingContest_TalkHost
 script Rogue_Encounter_CatchingContest_StartContest 
 {
     special(Rogue_BufferContestMode)
-    msgbox(format("Today we're running a {STR_VAR_1} catching contest."))
+    msgbox(format("Hoy celebramos un concurso de captura {STR_VAR_1}."))
 
     setvar(VAR_RESULT, 2)
     while(var(VAR_RESULT) == 2)
     {
-        message(format("Would you like to enter?"))
+        message(format("¿Quieres participar?"))
         waitmessage
         multichoice(20, 6, MULTI_YESNOINFO, NO)
 
@@ -63,7 +63,7 @@ script Rogue_Encounter_CatchingContest_StartContest
                 setvar(VAR_RESULT, NO)
 
             case 2: // Info
-                msgbox(format("You will be provided with 3 Safari Balls and will be tasked to catch the Pokémon with the highest in a specific Base Stat.\pIf you are correct, you will win a cash prize.\pWhether you win or not, you will be able to keep the Pokémon you exit with.\pPokémon will only appear for a limited amount of time, so don't wait too long to catch something!"))
+                msgbox(format("Te daremos 3 Safari Balls y tendrás que capturar al Pokémon con la característica base más alta de un tipo concreto.\pSi aciertas, ganarás un premio en metálico.\pGanes o no, podrás quedarte con el Pokémon con el que salgas.\pLos Pokémon solo aparecen durante un tiempo limitado, ¡así que no tardes mucho en capturar algo!"))
         }
     }
 
@@ -73,7 +73,7 @@ script Rogue_Encounter_CatchingContest_StartContest
         checkitemspace(ITEM_CATCHING_CONTEST_POKEBALL, 3)
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("Oh, it looks like your Bag is full.\pYou need to free up some space, in order to take part, I'm afraid."))
+            msgbox(format("Vaya, parece que tu Mochila está llena.\pMe temo que tendrás que hacer sitio para poder participar."))
         }
         else
         {
@@ -88,10 +88,10 @@ script Rogue_Encounter_CatchingContest_StartContest
             setobjectmovementtype(NPC_OBJ_HOST, MOVEMENT_TYPE_FACE_UP)
             turnobject(NPC_OBJ_HOST, DIR_NORTH)
 
-            msgbox(format("If you can catch the Pokémon with the highest Base {STR_VAR_2}, you will win a special reward!\pHere are some Poké Balls for you."), MSGBOX_DEFAULT)
+            msgbox(format("¡Si capturas al Pokémon con el {STR_VAR_2} base más alto, ganarás un premio especial!\pAquí tienes unas Poké Balls."), MSGBOX_DEFAULT)
             giveitem(ITEM_CATCHING_CONTEST_POKEBALL, 3)
 
-            msgbox(format("Good luck!"), MSGBOX_DEFAULT)
+            msgbox(format("¡Buena suerte!"), MSGBOX_DEFAULT)
             playbgm(MUS_HG_BUG_CATCHING_CONTEST, TRUE)
 
             addvar(VAR_CONTEST_STATE, 1)
@@ -114,12 +114,12 @@ movement Movement_Player_Enter {
 
 script Rogue_Encounter_CatchingContest_EndContest 
 {
-    msgbox(format("Are you ready to end your Contest attempt?"), MSGBOX_YESNO)
+    msgbox(format("¿Quieres terminar tu participación en el Concurso?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == NO)
     {
         special(Rogue_BufferContestMode)
-        msgbox(format("Remember, if you can catch the Pokémon with the highest Base {STR_VAR_2}, you will win a special reward!"))
+        msgbox(format("Recuerda: ¡si capturas al Pokémon con el {STR_VAR_2} base más alto, ganarás un premio especial!"))
     }
     else
     {
@@ -137,37 +137,37 @@ script Rogue_Encounter_CatchingContest_EndContest
         special(Rogue_CatchingContestEnd)
 
         fadeoutbgm(1)
-        msgbox(format("Now for the result{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …"))
+        msgbox(format("Y ahora, el resultado{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …"))
         addvar(VAR_CONTEST_STATE, 1)
 
         if(var(VAR_RESULT) == TRUE)
         {
-            message(format("You won!"))
+            message(format("¡Has ganado!"))
             playfanfare(MUS_HG_BUG_CONTEST_1ST_PLACE)
             waitfanfare
             waitmessage
 
             quest_trigger(QUEST_TRIGGER_MAP_SPECIFIC_EVENT)
 
-            msgbox(format("As for your special prize…"))
+            msgbox(format("En cuanto a tu premio especial…"))
 
             if(var(VAR_ROGUE_DIFFICULTY) >= ROGUE_ELITE_START_DIFFICULTY)
             {
                 addmoney(15000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥15000!"))
+                message(format("¡Has recibido ¥15000!"))
             }
             elif(var(VAR_ROGUE_DIFFICULTY) >= ROGUE_GYM_MID_DIFFICULTY)
             {
                 addmoney(10000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥10000!"))
+                message(format("¡Has recibido ¥10000!"))
             }
             else
             {
                 addmoney(5000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥5000!"))
+                message(format("¡Has recibido ¥5000!"))
             }
 
             waitfanfare
@@ -175,12 +175,12 @@ script Rogue_Encounter_CatchingContest_EndContest
         }
         else
         {
-            message(format("Oh no.\nYou didn't win this time round."))
+            message(format("Vaya.\nEsta vez no has ganado."))
             playfanfare(MUS_TOO_BAD)
             waitfanfare
             waitmessage
 
-            msgbox(format("The highest scorer today was {STR_VAR_2}."))
+            msgbox(format("Hoy la mejor puntuación ha sido para {STR_VAR_2}."))
         }
 
         // Check if we actually caught a mon and attempt to add it to team
@@ -191,7 +191,7 @@ script Rogue_Encounter_CatchingContest_EndContest
 
             if(var(VAR_TEMP_8) >= VAR_TEMP_9)
             {
-                msgbox(format("You will have to release a Pokémon in order to take {STR_VAR_1} with you.\pWould you like to release a Pokémon?"), MSGBOX_YESNO)
+                msgbox(format("Tendrás que liberar a un Pokémon para poder llevarte a {STR_VAR_1}.\p¿Quieres liberar a un Pokémon?"), MSGBOX_YESNO)
                 
                 if(var(VAR_RESULT) == YES)
                 {
@@ -211,13 +211,13 @@ script Rogue_Encounter_CatchingContest_EndContest
             }
             else
             {
-                msgbox(format("Please take good care of {STR_VAR_1}!"), MSGBOX_DEFAULT)
+                msgbox(format("¡Cuida bien de {STR_VAR_1}!"), MSGBOX_DEFAULT)
                 setvar(VAR_0x8004, 6)
             }
 
             if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
             {
-                msgbox(format("I will release it back into the park, in that case."))
+                msgbox(format("En ese caso, lo devolveré al parque."))
             }
             else
             {
@@ -225,7 +225,7 @@ script Rogue_Encounter_CatchingContest_EndContest
             }
         }
 
-        msgbox(format("Good luck on your adventure!"))
+        msgbox(format("¡Suerte en tu aventura!"))
         playbgm(MUS_HG_NATIONAL_PARK, TRUE)
 
         call(Rogue_ScriptShowFollower)

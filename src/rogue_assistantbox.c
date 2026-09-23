@@ -535,12 +535,12 @@ static void Task_AssitantBoxFadeOut(u8 taskId)
     }
 }
 
-static u8 const sText_Loading[] = _("Loading data…");
-static u8 const sText_Error[] = _("Disconnected…");
-static u8 const sText_BtoExit[] = _("{B_BUTTON} Exit");
+static u8 const sText_Loading[] = _("Cargando datos…");
+static u8 const sText_Error[] = _("Desconectado…");
+static u8 const sText_BtoExit[] = _("{B_BUTTON} Salir");
 
 static u8 const sText_PC[] = _("PC - ");
-static u8 const sText_Storage[] = _("Storage - ");
+static u8 const sText_Storage[] = _("Almacén - ");
 static u8 const sText_Pkmn[] = _("{PKMN}");
 
 static void DisplayAssitantLoadingText(void)

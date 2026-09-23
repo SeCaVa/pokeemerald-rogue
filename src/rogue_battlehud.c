@@ -730,12 +730,12 @@ static const u8 sText_StatUp[] = _("{STAT_UP}");
 static const u8 sText_StatDown[] = _("{STAT_DOWN}");
 static const u8 sText_StatNone[] = _("{STAT_NONE}");
 
-static const u8 sText_Atk[] = _("{FONT_NARROW}Atk");
-static const u8 sText_SpAtk[] = _("{FONT_NARROW}SpAtk");
+static const u8 sText_Atk[] = _("{FONT_NARROW}Ata");
+static const u8 sText_SpAtk[] = _("{FONT_NARROW}AtEs");
 static const u8 sText_Def[] = _("{FONT_NARROW}Def");
-static const u8 sText_SpDef[] = _("{FONT_NARROW}SpDef");
-static const u8 sText_Speed[] = _("{FONT_NARROW}Spe");
-static const u8 sText_Accuracy[] = _("{FONT_NARROW}Acc");
+static const u8 sText_SpDef[] = _("{FONT_NARROW}DfEs");
+static const u8 sText_Speed[] = _("{FONT_NARROW}Vel");
+static const u8 sText_Accuracy[] = _("{FONT_NARROW}Pre");
 static const u8 sText_Evasion[] = _("{FONT_NARROW}Eva");
 
 static u8* AppendBoostString(u8* ptr, s32 stages)

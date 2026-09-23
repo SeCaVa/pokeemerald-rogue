@@ -2350,25 +2350,25 @@ static bool8 ShouldBlockObjectEvent(struct RogueAdvPathRoom* room)
 
 static void BufferTypeAdjective(u8 type)
 {
-    const u8 gText_AdjNormal[] = _("Typical");
-    const u8 gText_AdjFighting[] = _("Mighty");
-    const u8 gText_AdjFlying[] = _("Breezy");
-    const u8 gText_AdjPoison[] = _("Corrosive");
-    const u8 gText_AdjGround[] = _("Coarse");
-    const u8 gText_AdjRock[] = _("Rugged");
-    const u8 gText_AdjBug[] = _("Swarming");
-    const u8 gText_AdjGhost[] = _("Spooky");
-    const u8 gText_AdjSteel[] = _("Sharp");
-    const u8 gText_AdjFire[] = _("Warm");
-    const u8 gText_AdjWater[] = _("Wet");
-    const u8 gText_AdjGrass[] = _("Verdant");
-    const u8 gText_AdjElectric[] = _("Energetic");
-    const u8 gText_AdjPsychic[] = _("Confusing");
-    const u8 gText_AdjIce[] = _("Chilly");
-    const u8 gText_AdjDragon[] = _("Fierce");
-    const u8 gText_AdjDark[] = _("Gloomy");
+    const u8 gText_AdjNormal[] = _("Típica");
+    const u8 gText_AdjFighting[] = _("Poderosa");
+    const u8 gText_AdjFlying[] = _("Ventosa");
+    const u8 gText_AdjPoison[] = _("Corrosiva");
+    const u8 gText_AdjGround[] = _("Áspera");
+    const u8 gText_AdjRock[] = _("Escarpada");
+    const u8 gText_AdjBug[] = _("Plagada");
+    const u8 gText_AdjGhost[] = _("Tenebrosa");
+    const u8 gText_AdjSteel[] = _("Afilada");
+    const u8 gText_AdjFire[] = _("Cálida");
+    const u8 gText_AdjWater[] = _("Húmeda");
+    const u8 gText_AdjGrass[] = _("Frondosa");
+    const u8 gText_AdjElectric[] = _("Enérgica");
+    const u8 gText_AdjPsychic[] = _("Confusa");
+    const u8 gText_AdjIce[] = _("Fría");
+    const u8 gText_AdjDragon[] = _("Feroz");
+    const u8 gText_AdjDark[] = _("Lúgubre");
 #ifdef ROGUE_EXPANSION
-    const u8 gText_AdjFairy[] = _("Magical");
+    const u8 gText_AdjFairy[] = _("Mágica");
 #endif
     const u8 gText_AdjNone[] = _("???");
 

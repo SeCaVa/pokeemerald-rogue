@@ -2,7 +2,7 @@
     "condition": "",
     "defaults":
     {
-        "name": "GRUNT",
+        "name": "RECLUTA",
         "type_assignment": "NONE",
         "trainer_class": "TRAINER_CLASS_TEAM_MAGMA",
         "music_player": "team_magma",
@@ -44,7 +44,7 @@
         "boss":
         [
             {
-                "name": "MAXIE",
+                "name": "MAGNO",
                 "object_event": "OBJ_EVENT_GFX_MAXIE",
                 "trainer_pic": "TRAINER_PIC_MAGMA_LEADER_MAXIE",
                 "trainer_class": "TRAINER_CLASS_MAGMA_LEADER",
@@ -54,10 +54,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I've seen you poking around uninvited here and there.\\pPulling cheap stunts on Team Magma…",
-                        "PRE_BATTLE_TAUNT": "I'll make you regret it!",
-                        "POST_BATTLE_TAUNT": "What makes you so adept at handling Pokémon?",
-                        "POST_BATTLE_CLOSER": "Humph…\\pThere is nothing you can do.\\pTeam Magma will not stop.\\pThis is where you and I part!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Te he visto husmeando por aquí y por allá sin invitación.\\pHaciéndole jugarretas al Equipo Magma…",
+                        "PRE_BATTLE_TAUNT": "¡Haré que te arrepientas!",
+                        "POST_BATTLE_TAUNT": "¿Qué te hace tan hábil con los Pokémon?",
+                        "POST_BATTLE_CLOSER": "Hum…\\pNo puedes hacer nada.\\pEl Equipo Magma no se detendrá.\\p¡Aquí es donde nuestros caminos se separan!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -112,9 +112,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "The world needs more land!\\pThere's no other way around that!",
-                        "POST_BATTLE_TAUNT": "Don't be so stubborn!",
-                        "POST_BATTLE_CLOSER": "You'll change your mind one day and then regret getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡El mundo necesita más tierra!\\p¡No hay otra forma de verlo!",
+                        "POST_BATTLE_TAUNT": "¡No seas tan cabezota!",
+                        "POST_BATTLE_CLOSER": "¡Algún día cambiarás de idea y te arrepentirás de habernos estorbado!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -126,9 +126,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've got no time for dumb looking kids getting in our way!",
-                        "POST_BATTLE_TAUNT": "You're still dumb.",
-                        "POST_BATTLE_CLOSER": "If you weren't dumb, you wouldn't be getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡No tengo tiempo para críos con cara de tontos que se nos cruzan!",
+                        "POST_BATTLE_TAUNT": "Sigues siendo tont{MASC}o{FEM}a{ENDG}.",
+                        "POST_BATTLE_CLOSER": "¡Si no fueras tonto, no te meterías en nuestro camino!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -143,9 +143,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Now THIS is my colour!",
-                        "POST_BATTLE_TAUNT": "Phew!",
-                        "POST_BATTLE_CLOSER": "Red is my colour."
+                        "PRE_BATTLE_TAUNT": "¡ESTE sí que es mi color!",
+                        "POST_BATTLE_TAUNT": "¡Uf!",
+                        "POST_BATTLE_CLOSER": "El rojo es mi color."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -156,9 +156,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You can't stop Team Magma!",
-                        "POST_BATTLE_TAUNT": "Oh, I guess you can…",
-                        "POST_BATTLE_CLOSER": "Please don't get in our way though…"
+                        "PRE_BATTLE_TAUNT": "¡No puedes detener al Equipo Magma!",
+                        "POST_BATTLE_TAUNT": "Vaya, parece que sí puedes…",
+                        "POST_BATTLE_CLOSER": "Aun así, por favor, no nos estorbes…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -169,9 +169,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You shouldn't be here!",
-                        "POST_BATTLE_TAUNT": "What!?",
-                        "POST_BATTLE_CLOSER": "How did you do that?!"
+                        "PRE_BATTLE_TAUNT": "¡No deberías estar aquí!",
+                        "POST_BATTLE_TAUNT": "¡¿Qué?!",
+                        "POST_BATTLE_CLOSER": "¡¿Cómo lo has hecho?!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -182,9 +182,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "No-one can stop Team Magma's expansion!",
-                        "POST_BATTLE_TAUNT": "But think of all the open space!",
-                        "POST_BATTLE_CLOSER": "We'd have so much open space, if we had more land!"
+                        "PRE_BATTLE_TAUNT": "¡Nadie puede detener la expansión del Equipo Magma!",
+                        "POST_BATTLE_TAUNT": "¡Pero piensa en todo ese espacio abierto!",
+                        "POST_BATTLE_CLOSER": "¡Tendríamos muchísimo espacio si tuviéramos más tierra!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -195,9 +195,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is my first day!\\pI'm gonna show you what I'm all about!",
-                        "POST_BATTLE_TAUNT": "I guess I wasn't ready after all…",
-                        "POST_BATTLE_CLOSER": "Maybe I should apply for Team Aqua instead?"
+                        "PRE_BATTLE_TAUNT": "¡Es mi primer día!\\p¡Voy a demostrarte de lo que soy capaz!",
+                        "POST_BATTLE_TAUNT": "Supongo que al final no estaba preparado…",
+                        "POST_BATTLE_CLOSER": "¿Y si me apunto mejor al Equipo Aqua?"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -208,9 +208,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for kids!",
-                        "POST_BATTLE_TAUNT": "Nevermind.",
-                        "POST_BATTLE_CLOSER": "I guess you'll be fine."
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para críos!",
+                        "POST_BATTLE_TAUNT": "Olvídalo.",
+                        "POST_BATTLE_CLOSER": "Supongo que te las apañarás."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -221,9 +221,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "HOT HOT HOT!",
-                        "POST_BATTLE_TAUNT": "Pstttttt!",
-                        "POST_BATTLE_CLOSER": "You snuffed out my flame…"
+                        "PRE_BATTLE_TAUNT": "¡QUEMA, QUEMA, QUEMA!",
+                        "POST_BATTLE_TAUNT": "¡Psssssst!",
+                        "POST_BATTLE_CLOSER": "Has apagado mi llama…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -234,9 +234,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I can't wait for all the new land we're going to create!",
-                        "POST_BATTLE_TAUNT": "Exciting!",
-                        "POST_BATTLE_CLOSER": "Exciting!"
+                        "PRE_BATTLE_TAUNT": "¡Estoy deseando ver toda la tierra nueva que vamos a crear!",
+                        "POST_BATTLE_TAUNT": "¡Qué emoción!",
+                        "POST_BATTLE_CLOSER": "¡Qué emoción!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -247,9 +247,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Intruder!?\\nHere!?",
-                        "POST_BATTLE_TAUNT": "Darn it!",
-                        "POST_BATTLE_CLOSER": "You still shouldn't be here!"
+                        "PRE_BATTLE_TAUNT": "¡¿Un intruso?!\\n¡¿Aquí?!",
+                        "POST_BATTLE_TAUNT": "¡Maldición!",
+                        "POST_BATTLE_CLOSER": "¡Aun así, no deberías estar aquí!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -261,9 +261,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You're the one knocking out the newbies, huh?",
-                        "POST_BATTLE_TAUNT": "Ouch!",
-                        "POST_BATTLE_CLOSER": "You're knocking us all out!?"
+                        "PRE_BATTLE_TAUNT": "Tú eres quien está tumbando a los novatos, ¿eh?",
+                        "POST_BATTLE_TAUNT": "¡Ay!",
+                        "POST_BATTLE_CLOSER": "¡¿Nos estás tumbando a todos?!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -274,9 +274,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Who are you!?\\nA spy from Team Aqua!?",
-                        "POST_BATTLE_TAUNT": "So strong!",
-                        "POST_BATTLE_CLOSER": "You're far too strong for a spy!"
+                        "PRE_BATTLE_TAUNT": "¡¿Quién eres?!\\n¡¿Un espía del Equipo Aqua?!",
+                        "POST_BATTLE_TAUNT": "¡Qué fuerte!",
+                        "POST_BATTLE_CLOSER": "¡Eres demasiado fuerte para ser {MASC}un{FEM}una{ENDG} espía!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -287,9 +287,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Erm… you don't look like you're supposed to be here.",
-                        "POST_BATTLE_TAUNT": "I guess I was wrong",
-                        "POST_BATTLE_CLOSER": "Sorry. You're not wearing the correct uniform so I got confused."
+                        "PRE_BATTLE_TAUNT": "Eh… no parece que debas estar aquí.",
+                        "POST_BATTLE_TAUNT": "Supongo que me equivocaba.",
+                        "POST_BATTLE_CLOSER": "Perdona. Como no llevas el uniforme correcto, me he confundido."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -300,9 +300,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm bringing the heat!",
-                        "POST_BATTLE_TAUNT": "Snuffed out!",
-                        "POST_BATTLE_CLOSER": "So chilly."
+                        "PRE_BATTLE_TAUNT": "¡Aquí llega el calor!",
+                        "POST_BATTLE_TAUNT": "¡Apagado!",
+                        "POST_BATTLE_CLOSER": "Qué fresquito."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -313,9 +313,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for snot nosed kids!",
-                        "POST_BATTLE_TAUNT": "Wha!!",
-                        "POST_BATTLE_CLOSER": "Wipe your nose!"
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para mocosos!",
+                        "POST_BATTLE_TAUNT": "¡¡Qué!!",
+                        "POST_BATTLE_CLOSER": "¡Límpiate los mocos!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -326,9 +326,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "It's far too warm here!",
-                        "POST_BATTLE_TAUNT": "Ouch!",
-                        "POST_BATTLE_CLOSER": "I'm getting a headache."
+                        "PRE_BATTLE_TAUNT": "¡Aquí hace demasiado calor!",
+                        "POST_BATTLE_TAUNT": "¡Ay!",
+                        "POST_BATTLE_CLOSER": "Me está dando dolor de cabeza."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -339,9 +339,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Calm it!",
-                        "POST_BATTLE_TAUNT": "Calm it!",
-                        "POST_BATTLE_CLOSER": "Have you STILL not calmed down?"
+                        "PRE_BATTLE_TAUNT": "¡Tranquilízate!",
+                        "POST_BATTLE_TAUNT": "¡Tranquilízate!",
+                        "POST_BATTLE_CLOSER": "¿TODAVÍA no te has tranquilizado?"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -352,9 +352,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'll throw intruders straight in the magma!",
-                        "POST_BATTLE_TAUNT": "Too hot!\\nToo hot!",
-                        "POST_BATTLE_CLOSER": "I… I was joking!\\pDon't worry…!"
+                        "PRE_BATTLE_TAUNT": "¡Tiraré a los intrusos directamente al magma!",
+                        "POST_BATTLE_TAUNT": "¡Qué calor!\\n¡Qué calor!",
+                        "POST_BATTLE_CLOSER": "¡E… era broma!\\p¡No te preocupes…!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -365,9 +365,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm here for some work experience.\\pLet's see how I manage!",
-                        "POST_BATTLE_TAUNT": "Youch…",
-                        "POST_BATTLE_CLOSER": "I hope that doesn't go into my report."
+                        "PRE_BATTLE_TAUNT": "Estoy aquí de prácticas.\\p¡A ver qué tal se me da!",
+                        "POST_BATTLE_TAUNT": "Auch…",
+                        "POST_BATTLE_CLOSER": "Espero que esto no salga en mi informe."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"

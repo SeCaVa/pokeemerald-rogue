@@ -1307,14 +1307,14 @@ static u8 const* MoveRelearnerItemNameCallback(s32 chosenMove, u8 const* moveNam
 }
 
 static const u8 sUnavaliableDescription_Run[] = _(
-    "Earn Badges with this {PKMN} in\n"
-    "your Party, to unlock\n"
-    "additional moves.");
+    "Gana medallas con este {PKMN}\n"
+    "en tu equipo para\n"
+    "desbloquear más movimientos.");
 
 static const u8 sUnavaliableDescription_Hub[] = _(
-    "Complete Adventures,\n"
-    "starting with this {PKMN},\n"
-    "to unlock additional moves.");
+    "Completa aventuras\n"
+    "empezando con este {PKMN}\n"
+    "para desbloquear más movs.");
 
 static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
 {

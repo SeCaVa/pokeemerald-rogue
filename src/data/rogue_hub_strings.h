@@ -1,44 +1,38 @@
 
 static const u8 sText_Desc_Home_LowerFloor[] = _(
-    "The home can be used to store items and\n"
-    "change your outfits.\p"
-    "It has access to further upgrades\n"
-    "which provide extra convenience."
+    "En la casa puedes guardar objetos y\n"
+    "cambiarte de atuendo.\pTiene acceso a más mejoras que\n"
+    "la hacen aún más cómoda."
 );
 
 static const u8 sText_Desc_Home_UpperFloor[] = _(
-    "The upper floor of the house will grant\n"
-    "access to the bed, which will allow you\l"
-    "to sleep so you may choose the time,\l"
-    "weather and season."
+    "El piso de arriba da acceso a la cama,\n"
+    "donde podrás dormir para elegir la\lhora, el tiempo y la estación."
 );
 
 static const u8 sText_Desc_Home_BerryField1[] = _(
-    "The berry field will grant you a small\n"
-    "patch where you may plant berries.\p"
-    "They will grow whilst you are out\n"
-    "adventuring."
+    "El campo de bayas te da una pequeña\n"
+    "parcela donde plantar bayas.\pCrecerán mientras estás\n"
+    "de aventura."
 );
 
 static const u8 sText_Desc_Home_BerryField2[] = _(
-    "This will grant an additional berry\n"
-    "field."
+    "Te da un campo de bayas\n"
+    "adicional."
 );
 
 static const u8 sText_Complete_Home_BerryField2[] = _(
-    "New Farming Field area expansion\n"
-    "unlocked!"
+    "¡Ampliación del Campo de Cultivo\n"
+    "desbloqueada!"
 );
 
 static const u8 sText_Desc_Home_OpenField[] = _(
-    "This field is an area which will allow\n"
-    "POKéMON from your PC to roam around\l"
-    "freely."
+    "En este campo, los POKéMON de tu PC\n"
+    "podrán pasear a sus anchas."
 );
 
 // TODO - Is this what the shed should do??
 static const u8 sText_Desc_Home_Shed[] = _(
-    "The shed is an area which will allow you\n"
-    "to pose your party of POKéMON for\l"
-    "photos."
+    "En el cobertizo puedes hacer que tu\n"
+    "equipo POKéMON pose para fotos."
 );

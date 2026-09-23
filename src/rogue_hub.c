@@ -210,11 +210,11 @@ enum
     INTERIOR_STYLE_COUNT,
 };
 
-static u8 const sText_PathStyle_Grass[] = _("Grass");
-static u8 const sText_PathStyle_Sand[] = _("Sand");
-static u8 const sText_PathStyle_Stone[] = _("Stone");
-static u8 const sText_PathStyle_Pebbles[] = _("Pebbles");
-static u8 const sText_PathStyle_MuddyTracks[] = _("Muddy Tracks");
+static u8 const sText_PathStyle_Grass[] = _("Hierba");
+static u8 const sText_PathStyle_Sand[] = _("Arena");
+static u8 const sText_PathStyle_Stone[] = _("Piedra");
+static u8 const sText_PathStyle_Pebbles[] = _("Guijarros");
+static u8 const sText_PathStyle_MuddyTracks[] = _("Barro");
 
 static u8 const* const sOptions_PathStyle[PATH_STYLE_COUNT] =
 {
@@ -225,11 +225,11 @@ static u8 const* const sOptions_PathStyle[PATH_STYLE_COUNT] =
     [PATH_STYLE_MUDDY_TRACKS] = sText_PathStyle_MuddyTracks,
 };
 
-static u8 const sText_ExteriorStyle_Cave[] = _("Cave");
-static u8 const sText_ExteriorStyle_Trees[] = _("Trees");
-static u8 const sText_ExteriorStyle_BrickHouse[] = _("Brick House");
-static u8 const sText_ExteriorStyle_WoodHouse[] = _("Wooden House");
-static u8 const sText_ExteriorStyle_Gym[] = _("Gym Building");
+static u8 const sText_ExteriorStyle_Cave[] = _("Cueva");
+static u8 const sText_ExteriorStyle_Trees[] = _("Árboles");
+static u8 const sText_ExteriorStyle_BrickHouse[] = _("Casa ladrillo");
+static u8 const sText_ExteriorStyle_WoodHouse[] = _("Casa madera");
+static u8 const sText_ExteriorStyle_Gym[] = _("Gimnasio");
 
 static u8 const* const sOptions_ExteriorStyle[EXTERIOR_STYLE_COUNT] =
 {
@@ -240,12 +240,12 @@ static u8 const* const sOptions_ExteriorStyle[EXTERIOR_STYLE_COUNT] =
     [EXTERIOR_STYLE_GYM_BUILDING] = sText_ExteriorStyle_Gym,
 };
 
-static u8 const sText_InteriorStyle_BlueCave[] = _("Blue Cave");
-static u8 const sText_InteriorStyle_BrownCave[] = _("Brown Cave");
-static u8 const sText_InteriorStyle_RedCave[] = _("Red Cave");
-static u8 const sText_InteriorStyle_DesertCave[] = _("Desert Cave");
-static u8 const sText_InteriorStyle_Shrub[] = _("Shrub");
-static u8 const sText_InteriorStyle_Tree[] = _("Tree");
+static u8 const sText_InteriorStyle_BlueCave[] = _("Cueva azul");
+static u8 const sText_InteriorStyle_BrownCave[] = _("Cueva marrón");
+static u8 const sText_InteriorStyle_RedCave[] = _("Cueva roja");
+static u8 const sText_InteriorStyle_DesertCave[] = _("Cueva desierto");
+static u8 const sText_InteriorStyle_Shrub[] = _("Arbusto");
+static u8 const sText_InteriorStyle_Tree[] = _("Árbol");
 
 static u8 const* const sOptions_InteriorStyle[INTERIOR_STYLE_COUNT] =
 {
@@ -2208,8 +2208,8 @@ enum
 #define VAR_PLACE_X                     VAR_TEMP_A
 #define VAR_PLACE_Y                     VAR_TEMP_9
 
-static u8 const sText_Exit[] = _("Exit");
-static u8 const sText_Back[] = _("Back");
+static u8 const sText_Exit[] = _("Salir");
+static u8 const sText_Back[] = _("Atrás");
 
 
 const u8* RogueHub_GetDecoratingScriptFor(u16 layoutId, struct MapPosition *position, u16 metatileBehavior, u8 direction, u8 const* existingScript)

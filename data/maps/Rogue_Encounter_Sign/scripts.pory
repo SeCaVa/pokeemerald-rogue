@@ -23,16 +23,16 @@ script Rogue_Encounter_Sign_TalkTypeHint
     lock
     faceplayer
 
-    msgbox(format("Whoa!\nWe don't get too many visitors out here.\pWe produce all of those Signs you find inside the Gyms.\pIn fact, I think we just shipped out a sign to the next Gym."))
+    msgbox(format("¡Anda!\nNo recibimos muchas visitas por aquí.\pFabricamos todos los Carteles que ves en los Gimnasios.\pDe hecho, creo que acabamos de enviar un cartel al próximo Gimnasio."))
 
     if(var(VAR_ROGUE_SPECIAL_ENCOUNTER_DATA1) == TYPE_NONE)
     {
-        msgbox(format("If I remember correctly, I believe the Gym specialises in various types of Pokémon."), MSGBOX_DEFAULT)
+        msgbox(format("Si no recuerdo mal, creo que ese Gimnasio está especializado en varios tipos de Pokémon."), MSGBOX_DEFAULT)
     }
     else
     {
         call(Rogue_Boss_BufferTypeHint)
-        msgbox(format("If I remember correctly, I believe the Gym specialises in {STR_VAR_1} type Pokémon."), MSGBOX_DEFAULT)
+        msgbox(format("Si no recuerdo mal, creo que ese Gimnasio está especializado en Pokémon de tipo {STR_VAR_1}."), MSGBOX_DEFAULT)
     }
 
     release
@@ -43,13 +43,13 @@ script Rogue_Encounter_Sign_TalkTeamHint
     lock
     faceplayer
 
-    msgbox(format("I'm in the middle of making some signs.\pYou know, I might actually have some information on the upcoming Gym Leader, if you're interested…\pAnd you're willing to throw a few coins my way."))
+    msgbox(format("Estoy fabricando unos carteles.\pOye, puede que tenga información sobre el próximo Líder de Gimnasio, si te interesa…\pY si estás dispuest{MASC}o{FEM}a{ENDG} a soltar unas monedas."))
 
-    message(format("What would you like to know about?"))
+    message(format("¿Qué quieres saber?"))
     waitmessage
 
-    bufferstring(STR_VAR_1, "Lead Pokémon")
-    bufferstring(STR_VAR_2, "Strongest Pokémon")
+    bufferstring(STR_VAR_1, "Primer Pokémon")
+    bufferstring(STR_VAR_2, "Pokémon más fuerte")
 
     
     multichoice(17, 6, MULTI_EXPAND2_EXIT, FALSE)
@@ -68,7 +68,7 @@ script Rogue_Encounter_Sign_TalkTeamHint
 
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("You know where to find me, if you change your mind."))
+        msgbox(format("Si cambias de idea, ya sabes dónde encontrarme."))
     }
 
     release
@@ -79,14 +79,14 @@ script Rogue_Encounter_Sign_TalkTeamHint_Lead
     if(flag(FLAG_PAID_FOR_LEAD))
     {
         bufferspeciesname(STR_VAR_1, VAR_ROGUE_SPECIAL_ENCOUNTER_DATA)
-        msgbox(format("I already told you that?\nTheir lead Pokémon is {STR_VAR_1}."))
+        msgbox(format("¿No te lo había dicho ya?\nSu primer Pokémon es {STR_VAR_1}."))
         setvar(VAR_RESULT, YES)
     }
     else
     {
         showmoneybox(0, 0)
 
-        msgbox(format("I'll tell you for ¥4000?"), MSGBOX_YESNO)
+        msgbox(format("¿Te lo digo por ¥4000?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
@@ -100,8 +100,8 @@ script Rogue_Encounter_Sign_TalkTeamHint_Lead
                 waitse
 
                 bufferspeciesname(STR_VAR_1, VAR_ROGUE_SPECIAL_ENCOUNTER_DATA)
-                msgbox(format("Thank you very much!"))
-                msgbox(format("Their lead Pokémon is {STR_VAR_1}."))
+                msgbox(format("¡Muchas gracias!"))
+                msgbox(format("Su primer Pokémon es {STR_VAR_1}."))
 
                 setflag(FLAG_PAID_FOR_LEAD)
                 hidemoneybox
@@ -109,7 +109,7 @@ script Rogue_Encounter_Sign_TalkTeamHint_Lead
             }
             else
             {
-                msgbox(format("Oh… it doesn't look like you have enough money."))
+                msgbox(format("Vaya… parece que no tienes suficiente dinero."))
                 hidemoneybox
                 setvar(VAR_RESULT, YES)
             }
@@ -126,14 +126,14 @@ script Rogue_Encounter_Sign_TalkTeamHint_Strongest
     if(flag(FLAG_PAID_FOR_STRONGEST))
     {
         bufferspeciesname(STR_VAR_1, VAR_ROGUE_SPECIAL_ENCOUNTER_DATA2)
-        msgbox(format("I already told you that?\nTheir strongest Pokémon is {STR_VAR_1}."))
+        msgbox(format("¿No te lo había dicho ya?\nSu Pokémon más fuerte es {STR_VAR_1}."))
         setvar(VAR_RESULT, YES)
     }
     else
     {
         showmoneybox(0, 0)
             
-        msgbox(format("I'll tell you for ¥2500?"), MSGBOX_YESNO)
+        msgbox(format("¿Te lo digo por ¥2500?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
@@ -147,8 +147,8 @@ script Rogue_Encounter_Sign_TalkTeamHint_Strongest
                 waitse
 
                 bufferspeciesname(STR_VAR_1, VAR_ROGUE_SPECIAL_ENCOUNTER_DATA2)
-                msgbox(format("Thank you very much!"))
-                msgbox(format("Their strongest Pokémon is {STR_VAR_1}."))
+                msgbox(format("¡Muchas gracias!"))
+                msgbox(format("Su Pokémon más fuerte es {STR_VAR_1}."))
 
                 setflag(FLAG_PAID_FOR_STRONGEST)
                 hidemoneybox
@@ -156,7 +156,7 @@ script Rogue_Encounter_Sign_TalkTeamHint_Strongest
             }
             else
             {
-                msgbox(format("Oh… it doesn't look like you have enough money."))
+                msgbox(format("Vaya… parece que no tienes suficiente dinero."))
                 hidemoneybox
                 setvar(VAR_RESULT, YES)
             }
@@ -171,7 +171,7 @@ script Rogue_Encounter_Sign_TalkTeamHint_Strongest
 script Rogue_Encounter_Sign_TalkInProgressSign
 {
     lock
-    msgbox(format("A mysterious sign!\pIt reads…\p'For a cost, I can provide you a glim-'\pIt's not quite finished yet."))
+    msgbox(format("¡Un cartel misterioso!\pDice…\p'Por un precio, puedo mostrarte un atis-'\pTodavía no está terminado."))
     release
 }
 
@@ -210,7 +210,7 @@ script Rogue_Encounter_Sign_EasterEgg
     applymovement(NPC_OBJ_EASTER_EGG_GIRL, Rogue_Encounter_Sign_EasterEgg_Movement0)
     waitmovement(NPC_OBJ_EASTER_EGG_GIRL)
 
-    msgbox(format("No, you're not the one…"))
+    msgbox(format("No, no eres tú…"))
     closemessage
 
     applymovement(NPC_OBJ_EASTER_EGG_GIRL, Rogue_Encounter_Sign_EasterEgg_Movement1)

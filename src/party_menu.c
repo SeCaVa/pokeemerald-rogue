@@ -5496,8 +5496,8 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
 
 void Task_AbilityCapsule(u8 taskId)
 {
-    static const u8 askText[] = _("Would you like to change {STR_VAR_1}'s\nability to {STR_VAR_2}?");
-    static const u8 doneText[] = _("{STR_VAR_1}'s ability became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("¿Quieres cambiar la habilidad de\n{STR_VAR_1} a {STR_VAR_2}?");
+    static const u8 doneText[] = _("¡La habilidad de {STR_VAR_1}\nahora es {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
     u32 otId = GetMonData(&gPlayerParty[tMonId], MON_DATA_OT_ID, NULL);
 
@@ -5585,8 +5585,8 @@ void ItemUseCB_AbilityCapsule(u8 taskId, TaskFunc task)
 
 void Task_AbilityPatch(u8 taskId)
 {
-    static const u8 askText[] = _("Would you like to change {STR_VAR_1}'s\nability to {STR_VAR_2}?");
-    static const u8 doneText[] = _("{STR_VAR_1}'s ability became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("¿Quieres cambiar la habilidad de\n{STR_VAR_1} a {STR_VAR_2}?");
+    static const u8 doneText[] = _("¡La habilidad de {STR_VAR_1}\nahora es {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
     u32 otId = GetMonData(&gPlayerParty[tMonId], MON_DATA_OT_ID, NULL);
 
@@ -5729,8 +5729,8 @@ static u8 MintItemToNature(u16 item)
 
 void Task_NatureMint(u8 taskId)
 {
-    static const u8 askText[] = _("Would you like to change {STR_VAR_1}'s\nnature to {STR_VAR_2}?");
-    static const u8 doneText[] = _("{STR_VAR_1}'s nature became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("¿Quieres cambiar la naturaleza de\n{STR_VAR_1} a {STR_VAR_2}?");
+    static const u8 doneText[] = _("¡La naturaleza de {STR_VAR_1}\nahora es {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 
     s16 *data = gTasks[taskId].data;
     struct Pokemon *mon = &gPlayerParty[tMonId];
@@ -5878,8 +5878,8 @@ static u8 TeraShardItemToType(u16 item)
 
 void Task_TeraShard(u8 taskId)
 {
-    static const u8 askText[] = _("Would you like to change {STR_VAR_1}'s\nTera Type to {STR_VAR_2}?");
-    static const u8 doneText[] = _("{STR_VAR_1}'s Tera Type became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("¿Quieres cambiar el teratipo de\n{STR_VAR_1} a {STR_VAR_2}?");
+    static const u8 doneText[] = _("¡El teratipo de {STR_VAR_1}\nahora es {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 
     s16 *data = gTasks[taskId].data;
     struct Pokemon *mon = &gPlayerParty[tMonId];
@@ -5995,9 +5995,9 @@ static bool32 HasAccessToGmaxForm(u16 species)
 
 void Task_MaxMushroom(u8 taskId)
 {
-    static const u8 askText[] = _("Would you like to give {STR_VAR_1}\nGigantamax factor?");
-    static const u8 doneText[] = _("{STR_VAR_1} gained Gigantamax factor!{PAUSE_UNTIL_PRESS}");
-    static const u8 failText[] = _("{STR_VAR_1} already has Gigantamax factor.{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("¿Quieres darle a {STR_VAR_1}\nel factor Gigamax?");
+    static const u8 doneText[] = _("¡{STR_VAR_1} tiene el factor Gigamax!{PAUSE_UNTIL_PRESS}");
+    static const u8 failText[] = _("{STR_VAR_1} ya tiene el factor Gigamax.{PAUSE_UNTIL_PRESS}");
 
     s16 *data = gTasks[taskId].data;
     struct Pokemon *mon = &gPlayerParty[tMonId];

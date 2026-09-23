@@ -29,8 +29,8 @@
         [
             
             {
-                "name": "Type Master",
-                "description": "Complete any of the 'Type Master' challenges.\\ne.g. Normal Master, Water Master etc.",
+                "name": "Type Master", "display_name": "Maestro de tipo",
+                "description": "Completa cualquiera de los desafíos de 'Maestro de tipo'.\\np. ej. Maestro Normal, Maestro Agua, etc.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -74,8 +74,8 @@
                 ]
             },
             {
-                "name": "Normal Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Normal type Pokémon in your party.",
+                "name": "Normal Master", "display_name": "Maestro Normal",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Normal en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_NORMAL"
@@ -90,8 +90,8 @@
                 ]
             },
             {
-                "name": "Fighting Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Fighting type Pokémon in your party.",
+                "name": "Fighting Master", "display_name": "Maestro Lucha",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Lucha en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_FIGHTING"
@@ -106,8 +106,8 @@
                 ]
             },
             {
-                "name": "Flying Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Flying type Pokémon in your party.",
+                "name": "Flying Master", "display_name": "Maestro Volador",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Volador en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_FLYING"
@@ -122,8 +122,8 @@
                 ]
             },
             {
-                "name": "Poison Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Poison type Pokémon in your party.",
+                "name": "Poison Master", "display_name": "Maestro Veneno",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Veneno en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_POISON"
@@ -138,8 +138,8 @@
                 ]
             },
             {
-                "name": "Ground Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Ground type Pokémon in your party.",
+                "name": "Ground Master", "display_name": "Maestro Tierra",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Tierra en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_GROUND"
@@ -154,8 +154,8 @@
                 ]
             },
             {
-                "name": "Rock Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Rock type Pokémon in your party.",
+                "name": "Rock Master", "display_name": "Maestro Roca",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Roca en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_ROCK"
@@ -170,8 +170,8 @@
                 ]
             },
             {
-                "name": "Bug Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Bug type Pokémon in your party.",
+                "name": "Bug Master", "display_name": "Maestro Bicho",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Bicho en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_BUG"
@@ -186,8 +186,8 @@
                 ]
             },
             {
-                "name": "Ghost Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Ghost type Pokémon in your party.",
+                "name": "Ghost Master", "display_name": "Maestro Fantasma",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Fantasma en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_GHOST"
@@ -202,8 +202,8 @@
                 ]
             },
             {
-                "name": "Steel Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Steel type Pokémon in your party.",
+                "name": "Steel Master", "display_name": "Maestro Acero",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Acero en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_STEEL"
@@ -218,8 +218,8 @@
                 ]
             },
             {
-                "name": "Fire Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Fire type Pokémon in your party.",
+                "name": "Fire Master", "display_name": "Maestro Fuego",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Fuego en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_FIRE"
@@ -234,8 +234,8 @@
                 ]
             },
             {
-                "name": "Water Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Water type Pokémon in your party.",
+                "name": "Water Master", "display_name": "Maestro Agua",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Agua en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_WATER"
@@ -250,8 +250,8 @@
                 ]
             },
             {
-                "name": "Grass Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Grass type Pokémon in your party.",
+                "name": "Grass Master", "display_name": "Maestro Planta",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Planta en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_GRASS"
@@ -266,8 +266,8 @@
                 ]
             },
             {
-                "name": "Electric Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Electric type Pokémon in your party.",
+                "name": "Electric Master", "display_name": "Maestro Eléctr.",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Eléctrico en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_ELECTRIC"
@@ -282,8 +282,8 @@
                 ]
             },
             {
-                "name": "Psychic Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Psychic type Pokémon in your party.",
+                "name": "Psychic Master", "display_name": "Maestro Psíquico",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Psíquico en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_PSYCHIC"
@@ -298,8 +298,8 @@
                 ]
             },
             {
-                "name": "Ice Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Ice type Pokémon in your party.",
+                "name": "Ice Master", "display_name": "Maestro Hielo",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Hielo en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_ICE"
@@ -314,8 +314,8 @@
                 ]
             },
             {
-                "name": "Dragon Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Dragon type Pokémon in your party.",
+                "name": "Dragon Master", "display_name": "Maestro Dragón",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Dragón en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_DRAGON"
@@ -330,8 +330,8 @@
                 ]
             },
             {
-                "name": "Dark Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Dark type Pokémon in your party.",
+                "name": "Dark Master", "display_name": "Maestro Sinies.",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Siniestro en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_DARK"
@@ -347,8 +347,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Fairy Master",
-                "description": "Win a full Run, only ever entering Trainer battles with Fairy type Pokémon in your party.",
+                "name": "Fairy Master", "display_name": "Maestro Hada",
+                "description": "Gana una partida completa combatiendo contra Entrenadores solo con Pokémon de tipo Hada en tu equipo.",
                 "template_params":
                 {
                     "MONO_TYPE": "TYPE_FAIRY"

@@ -10,7 +10,7 @@ script Rogue_Hub_Clothes_TalkAssistant
 {
     lockall
     faceplayer
-    msgbox(format("Are you feeling bored of your look?\nIf so you're in the right place!\pJust walk up to one of the statues to swap your avatar!"), MSGBOX_DEFAULT)
+    msgbox(format("¿Te aburre tu aspecto?\n¡Pues estás en el lugar adecuado!\p¡Acércate a una de las estatuas para cambiar tu avatar!"), MSGBOX_DEFAULT)
     releaseall
 }
 
@@ -18,9 +18,9 @@ script Rogue_Hub_Clothes_ChangeStyle0
 {
     lock
 
-    msgbox(format("Hello!\nI can help with adjusting your appearance"))
+    msgbox(format("¡Hola!\nPuedo ayudarte a cambiar tu aspecto."))
     
-    message(format("Which appearance option would you like to swap to?"))
+    message(format("¿Qué aspecto quieres elegir?"))
     waitmessage
     multichoice(20, 4, MULTI_STYLE_CHOICE, NO)
 
@@ -43,7 +43,7 @@ script Rogue_Hub_Clothes_ChangeStyle0
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("¡Vuelve cuando quieras!"))
     }
 
     release
@@ -53,9 +53,9 @@ script Rogue_Hub_Clothes_ChangeStyle1
 {
     lock
 
-    msgbox(format("Hello!\nI can help with adjusting your clothing style"))
+    msgbox(format("¡Hola!\nPuedo ayudarte a cambiar tu estilo de ropa."))
     
-    message(format("Which clothing style option would you like to swap to?"))
+    message(format("¿Qué estilo de ropa quieres elegir?"))
     waitmessage
     multichoice(20, 2, MULTI_STYLE2_CHOICE, NO)
 
@@ -78,7 +78,7 @@ script Rogue_Hub_Clothes_ChangeStyle1
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("¡Vuelve cuando quieras!"))
     }
 
     release
@@ -88,7 +88,7 @@ script Rogue_Hub_Clothes_ChangeName
 {
     lock
 
-    msgbox(format("Would you like to change your name?"), MSGBOX_YESNO)
+    msgbox(format("¿Quieres cambiar tu nombre?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -96,11 +96,11 @@ script Rogue_Hub_Clothes_ChangeName
         special(ChangePlayerNickname)
         waitstate
 
-        msgbox(format("{PLAYER} it is!"))
+        msgbox(format("¡Pues {PLAYER}!"))
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("¡Vuelve cuando quieras!"))
     }
 
     release
@@ -111,7 +111,7 @@ script Rogue_Hub_Clothes_ChangePokemonHubName
 {
     lock
 
-    msgbox(format("Would you like to change the village name?"), MSGBOX_YESNO)
+    msgbox(format("¿Quieres cambiar el nombre del pueblo?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -119,11 +119,11 @@ script Rogue_Hub_Clothes_ChangePokemonHubName
         special(ChangePokemonHubName)
         waitstate
 
-        msgbox(format("{POKEMON_HUB} it is!"))
+        msgbox(format("¡Pues {POKEMON_HUB}!"))
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("¡Vuelve cuando quieras!"))
     }
 
     release
@@ -134,7 +134,7 @@ script Rogue_Hub_Clothes_SetStyle_Brendan
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -155,7 +155,7 @@ script Rogue_Hub_Clothes_SetStyle_May
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -176,7 +176,7 @@ script Rogue_Hub_Clothes_SetStyle_Red
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -197,7 +197,7 @@ script Rogue_Hub_Clothes_SetStyle_Leaf
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -218,7 +218,7 @@ script Rogue_Hub_Clothes_SetStyle_Ethan
 {
     lock
 
-    msgbox(format("Change to this style?\n(WARNING UNFINISHED)"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?\n(ATENCIÓN: SIN TERMINAR)"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -239,7 +239,7 @@ script Rogue_Hub_Clothes_SetStyle_Lyra
 {
     lock
 
-    msgbox(format("Change to this style?\n(WARNING UNFINISHED)"), MSGBOX_YESNO)
+    msgbox(format("¿Cambiar a este estilo?\n(ATENCIÓN: SIN TERMINAR)"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)

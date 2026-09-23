@@ -116,14 +116,14 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Mega Ring!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("¡Es una Megapulsera!\pEste objeto solo está disponible en la versión EX de Emerald Rogue."))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_MEGA_RING)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Mega Ring?"), MSGBOX_YESNO)
+                msgbox(format("¿Quieres devolver la Megapulsera?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_MEGA_RING)
@@ -131,7 +131,7 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
             }
             else
             {
-                message("Would you like to take the Mega Ring?")
+                message("¿Quieres coger la Megapulsera?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -146,7 +146,7 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to Mega Evolve when a Pokémon is holding the correct Mega Stone."), MSGBOX_DEFAULT)
+                        msgbox(format("Permite a ti y a otros Entrenadores megaevolucionar cuando un Pokémon lleva la Megapiedra adecuada."), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -167,14 +167,14 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Z-Power Ring!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("¡Es una Pulsera Z!\pEste objeto solo está disponible en la versión EX de Emerald Rogue."))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_Z_POWER_RING)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Z-Power Ring?"), MSGBOX_YESNO)
+                msgbox(format("¿Quieres devolver la Pulsera Z?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_Z_POWER_RING)
@@ -182,7 +182,7 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
             }
             else
             {
-                message("Would you like to take the Z-Power Ring?")
+                message("¿Quieres coger la Pulsera Z?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -197,7 +197,7 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to use Z-Moves when a Pokémon is holding the correct Z-Crystal."), MSGBOX_DEFAULT)
+                        msgbox(format("Permite a ti y a otros Entrenadores usar Movimientos Z cuando un Pokémon lleva el Cristal Z adecuado."), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -226,7 +226,7 @@ script Rogue_Interior_ChallengeFrontier_TryWarnAboutDynamaxAndTera
                 checkitem(ITEM_TERA_ORB)
                 if(var(VAR_RESULT) == YES)
                 {
-                    msgbox(format("Warning…\pYou are holding both the Dynamax Band and the Tera Orb.\pBoth of these cannot be activated at once.\pSo, at the start of battles where they would be active, one of them of them will be randomly selected to be active and the other will be temporarily deactivated."))
+                    msgbox(format("Atención…\pLlevas la Maximuñequera y el Orbe Teracristal a la vez.\pNo se pueden activar los dos al mismo tiempo.\pAsí que, al empezar los combates en los que estarían activos, se elegirá uno al azar y el otro se desactivará temporalmente."))
                 }
             }
         }
@@ -241,14 +241,14 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Dynamax Band!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("¡Es una Maximuñequera!\pEste objeto solo está disponible en la versión EX de Emerald Rogue."))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_DYNAMAX_BAND)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Dynamax Band?"), MSGBOX_YESNO)
+                msgbox(format("¿Quieres devolver la Maximuñequera?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_DYNAMAX_BAND)
@@ -256,7 +256,7 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
             }
             else
             {
-                message("Would you like to take the Dynamax Band?")
+                message("¿Quieres coger la Maximuñequera?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -272,7 +272,7 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Key Trainer's (e.g. Strong Trainers, Rivals) the ability to Dynamax or Gigantamax, if the Pokémon has a Gigantamax form available."), MSGBOX_DEFAULT)
+                        msgbox(format("Permite a ti y a otros Entrenadores clave (p. ej. Entrenadores Fuertes o Rivales) dinamaxizar o gigamaxizar, si el Pokémon tiene forma Gigamax."), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -293,14 +293,14 @@ script Rogue_Interior_ChallengeFrontier_Tera
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Tera Orb!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("¡Es un Orbe Teracristal!\pEste objeto solo está disponible en la versión EX de Emerald Rogue."))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_TERA_ORB)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Tera Orb?"), MSGBOX_YESNO)
+                msgbox(format("¿Quieres devolver el Orbe Teracristal?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_TERA_ORB)
@@ -308,7 +308,7 @@ script Rogue_Interior_ChallengeFrontier_Tera
             }
             else
             {
-                message("Would you like to take the Tera Orb?")
+                message("¿Quieres coger el Orbe Teracristal?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -324,7 +324,7 @@ script Rogue_Interior_ChallengeFrontier_Tera
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to Terastallize.\pUnlike in Scarlet and Violet, the Tera Orb will be recharged upon entering every encounter/map, so you may Terastallize more freely."), MSGBOX_DEFAULT)
+                        msgbox(format("Permite a ti y a otros Entrenadores teracristalizar.\pA diferencia de Escarlata y Púrpura, el Orbe Teracristal se recarga al entrar en cada encuentro/mapa, así que podrás teracristalizar con más libertad."), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -344,7 +344,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
     checkitem(ITEM_HEALING_FLASK)
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("Would you like to put back the Healing Flask?"), MSGBOX_YESNO)
+        msgbox(format("¿Quieres devolver el Frasco Curativo?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
             removeitem(ITEM_HEALING_FLASK)
@@ -352,7 +352,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
     }
     else
     {
-        message("Would you like to take the Healing Flask?")
+        message("¿Quieres coger el Frasco Curativo?")
         waitmessage
 
         multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -367,7 +367,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
                 setvar(VAR_RESULT, NO)
 
             case 2: // Info
-                msgbox(format("When Adventuring with the Healing Flask, your Party will not get automatically healed after Key Battles e.g. Strong Trainers or Rival Battles.\pInstead you will be given a number of Healing charges you may use via the Healing Flask.\pThe Healing Flask will only be refilled when your Party is healed at any Nurse.\pThis will give you another Resource to manage and generally make Adventures more tedious, as you will have to be stricter with healing items."), MSGBOX_DEFAULT)
+                msgbox(format("Si vas de Aventura con el Frasco Curativo, tu equipo no se curará automáticamente tras los combates clave, como Entrenadores Fuertes o Rivales.\pEn su lugar, tendrás varios usos de curación que podrás gastar con el Frasco Curativo.\pEl Frasco Curativo solo se rellena cuando una Enfermera cura a tu equipo.\pEs un recurso más que gestionar, y en general hará las Aventuras más exigentes, ya que tendrás que ser más cuidadoso con los objetos curativos."), MSGBOX_DEFAULT)
 
             case MULTI_B_PRESSED:
                 setvar(VAR_RESULT, NO)
@@ -383,7 +383,7 @@ script Rogue_Interior_ChallengeFrontier_GiveGimickItemTutorial
     if(!flag(FLAG_ROGUE_GIMICK_TUTORIAL))
     {
         setflag(FLAG_ROGUE_GIMICK_TUTORIAL)
-        msgbox(format("If you later wish to play without using this, simply place it back on this pedestal."))
+        msgbox(format("Si más adelante quieres jugar sin esto, solo tienes que devolverlo a este pedestal."))
     }
 }
 
@@ -394,11 +394,11 @@ script Rogue_Interior_ChallengeFrontier_TalkScott
 
     if(var(VAR_ROGUE_POST_GAME_TUTORIAL) == 1)
     {
-        msgbox(format("You've still got plenty of things to find around here!\pDon't you worry!"))
+        msgbox(format("¡Todavía te quedan muchas cosas por descubrir por aquí!\p¡No te preocupes!"))
     }
     else
     {
-        msgbox(format("Well, if it isn't {PLAYER}!\pHope your Questing is going well!"))
+        msgbox(format("¡Vaya, si es {PLAYER}!\p¡Espero que tus Misiones vayan bien!"))
     }
 
     //msgbox(format("todo - unlock challenges"))
@@ -417,7 +417,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroLeft
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("¡Ah!\n¡Tú debes de ser {PLAYER}!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Left)
@@ -434,7 +434,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroRight
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("¡Ah!\n¡Tú debes de ser {PLAYER}!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Right)
@@ -451,7 +451,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroCentre
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("¡Ah!\n¡Tú debes de ser {PLAYER}!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Centre)
@@ -465,18 +465,18 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroCommon
 {
     addvar(VAR_ROGUE_POST_GAME_TUTORIAL, 1)
 
-    msgbox(format("SCOTT: The name's Scott!\pPokabbie told me to keep an eye out for a Champion in the making.\pI'm guessing that's you, right?"))
+    msgbox(format("TRETO: ¡Me llamo Treto!\pPokabbie me pidió que estuviera atento a un futuro Campeón.\pSupongo que eres tú, ¿verdad?"))
 
     if(flag(FLAG_IS_CHAMPION))
     {
-        msgbox(format("And would you look at that…\pYou already put your name in the Hall of Fame!\pYou're gonna fit in well around here!"))
+        msgbox(format("Y mira por dónde…\p¡Ya has puesto tu nombre en el Hall de la Fama!\p¡Vas a encajar muy bien por aquí!"))
     }
     else
     {
-        msgbox(format("You still look a little fresh, but I see the potential!\pI bet you could even enter the Hall of Fame, if you put your mind to it!"))
+        msgbox(format("Todavía te veo un poco verde, ¡pero tienes potencial!\p¡Apuesto a que podrías entrar en el Hall de la Fama si te lo propones!"))
     }
 
-    msgbox(format("You see, this Building is an area for those who want to push themselves to complete some of the toughest Challenges imaginable!\pIn fact…\nWhy don't you have a look around?\pI'm sure you'll find plenty of the things around here interesting!"))
+    msgbox(format("Verás, este Edificio es para quienes quieren superarse completando los Desafíos más duros que te puedas imaginar.\pDe hecho…\n¿Por qué no echas un vistazo?\p¡Seguro que muchas cosas de aquí te parecen interesantes!"))
     
     quest_trigger(QUEST_TRIGGER_MAP_SPECIFIC_EVENT)
 }
@@ -517,7 +517,7 @@ script Rogue_Interior_ChallengeFrontier_ScottBlockExit
     else
     {
         turnobject(OBJ_EVENT_ID_PLAYER, DIR_NORTH)
-        msgbox(format("SCOTT: {PLAYER}, you can't head out just yet.\pThere's still more for you to see!"))
+        msgbox(format("TRETO: {PLAYER}, todavía no puedes irte.\p¡Aún te queda mucho por ver!"))
 
         closemessage
         applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player1)
@@ -546,45 +546,45 @@ script Rogue_Interior_ChallengeFrontier_TalkMasteries
 
     if(!flag(FLAG_SYS_MASTERIES_UNLOCKED))
     {
-        msgbox(format("Hello, {PLAYER}.\pI've enjoyed seeing your progress so far!\pI would like to issue you some additional Quests.\pThese Quests will prove your skill with using a variety of Pokémon.\pAs such, they are appropriately named, Pokémon Masteries.\pHere, take a look!"))
+        msgbox(format("Hola, {PLAYER}.\p¡Me ha gustado mucho ver tus progresos!\pMe gustaría encargarte algunas Misiones adicionales.\pEstas Misiones demostrarán tu habilidad con muy diversos Pokémon.\pPor eso se llaman, como es lógico, Maestrías Pokémon.\p¡Echa un vistazo!"))
         
         special(Rogue_UnlockMasteryQuests)
         special(Rogue_ShowNewMonMasteries)
         waitstate
 
-        msgbox(format("You may also have noticed that you have access to the {PKMN} Tracker alongside the Quests I mentioned.\pThe {PKMN} Tracker keeps track of every Pokémon line you have entered into the Hall of Fame.\pDon't worry.\nYou are not required to fill the {PKMN} Tracker, in order to reach 100% Quest Completion.\pJust the Pokémon Mastery Quests listed."))
+        msgbox(format("Quizá también te hayas fijado en que tienes acceso al Registro {PKMN} junto a esas Misiones.\pEl Registro {PKMN} anota cada línea evolutiva de Pokémon que has llevado al Hall de la Fama.\pNo te preocupes.\nNo hace falta completar el Registro {PKMN} para llegar al 100% de las Misiones.\pSolo las Misiones de Maestría Pokémon de la lista."))
         
     
         poryswitch(ROGUE_VERSION)
         {
             ROGUE_VERSION_VANILLA
             {
-                msgbox(format("I wish you the best of luck with your Pokémon Masteries, {PLAYER}!"))
+                msgbox(format("¡Te deseo mucha suerte con tus Maestrías Pokémon, {PLAYER}!"))
             }
             ROGUE_VERSION_EXPANSION
             {
-                msgbox(format("Once, you have completed any of those Quests, their Special Items may be available for purchase.\pYou may speak to me, at any time, to buy any Special Items you gain access to through completing Quests.\pI wish you the best of luck with your Pokémon Masteries, {PLAYER}!"))
+                msgbox(format("Cuando completes alguna de esas Misiones, sus Objetos Especiales podrán estar a la venta.\pPuedes hablar conmigo en cualquier momento para comprar los Objetos Especiales que desbloquees completando Misiones.\p¡Te deseo mucha suerte con tus Maestrías Pokémon, {PLAYER}!"))
             }
         }
     }
     else
     {
-        msgbox(format("Hello, {PLAYER}."))
+        msgbox(format("Hola, {PLAYER}."))
 
         poryswitch(ROGUE_VERSION)
         {
             ROGUE_VERSION_VANILLA
             {
-                msgbox(format("I hope your Pokémon Masteries are going well!"))
+                msgbox(format("¡Espero que tus Maestrías Pokémon vayan bien!"))
             }
             ROGUE_VERSION_EXPANSION
             {
-                message(format("Would you like to purchase any Special Item rewards?"))
+                message(format("¿Quieres comprar algún Objeto Especial de recompensa?"))
                 waitmessage
 
                 rogue_dynamicpokemart(ROGUE_SHOP_RARE_HELD_ITEMS)
 
-                msgbox(format("Best of luck with you Pokémon Masteries, {PLAYER}."))
+                msgbox(format("Mucha suerte con tus Maestrías Pokémon, {PLAYER}."))
             }
         }
     }
@@ -599,17 +599,17 @@ script Rogue_Interior_ChallengeFrontier_TalkChallenges
 
     if(!flag(FLAG_SYS_CHALLENGES_UNLOCKED))
     {
-        msgbox(format("What's that?\pThat little Quest Book you have there?\pSo you're trying to complete Quests, huh?\pWell, have I got just the thing for you!\pChallenges!\pChallenges are a special type of Quest that can be way more in depth!\pHere, take a look."))
+        msgbox(format("¿Qué es eso?\p¿Ese librito de Misiones que llevas?\pAsí que intentas completar Misiones, ¿eh?\p¡Pues tengo justo lo que necesitas!\p¡Desafíos!\p¡Los Desafíos son un tipo especial de Misión mucho más complejo!\pMira."))
         
         special(Rogue_UnlockChallengeQuests)
         special(Rogue_ShowNewQuests)
         waitstate
         
-        msgbox(format("Challenges are different from regular Quests, as they track which Difficulty you last completed them on.\pThere's even some exclusive Rewards for completing them on higher difficulties too!\pIf you want to retry a Challenge on a harder difficulty, just head on over to the Config Lab and keep an eye on the Reward Difficulty.\pSounds exciting, right?\pShow me what you can do, {PLAYER}!"))
+        msgbox(format("Los Desafíos se diferencian de las Misiones normales en que registran en qué Dificultad los completaste por última vez.\p¡Incluso hay Recompensas exclusivas por completarlos en dificultades más altas!\pSi quieres repetir un Desafío en una dificultad mayor, ve al Lab. Config. y fíjate en la Dificultad de Recompensa.\pSuena emocionante, ¿verdad?\p¡Demuéstrame de lo que eres capaz, {PLAYER}!"))
     }
     else
     {
-        msgbox(format("Hi there, {PLAYER}.\pHow have your Challenges been going?\nWell I hope!"))
+        msgbox(format("Hola, {PLAYER}.\p¿Qué tal van tus Desafíos?\n¡Bien, espero!"))
     }
 
     release

@@ -15,7 +15,7 @@ script Rogue_Interior_Home_TurnOnPC
     special(DoPCTurnOnEffect)
 
     playse(SE_PC_ON)
-    msgbox(format("{PLAYER} booted up the PC."), MSGBOX_DEFAULT)
+    msgbox(format("{PLAYER} ha encendido el PC."), MSGBOX_DEFAULT)
     special(BedroomPC)
     waitstate
     
@@ -38,7 +38,7 @@ script Rogue_Interior_Home_TurnOnPCLowerFloor
         special(DoPCTurnOnEffect)
 
         playse(SE_PC_ON)
-        msgbox(format("{PLAYER} booted up the PC."), MSGBOX_DEFAULT)
+        msgbox(format("{PLAYER} ha encendido el PC."), MSGBOX_DEFAULT)
         special(BedroomPC)
         waitstate
         
@@ -56,7 +56,7 @@ script Rogue_Interior_Home_NoteBook
 {
     lockall
 
-    msgbox(format("It's a notebook!\pIt has a bunch of incoherent scribblings from…\psomeone called…\pTate?\pWhy's it here?"), MSGBOX_DEFAULT)
+    msgbox(format("¡Es un cuaderno!\pEstá lleno de garabatos sin sentido de…\palguien llamado…\p¿Vito?\p¿Qué hace aquí?"), MSGBOX_DEFAULT)
 
     releaseall
 }
@@ -72,7 +72,7 @@ script Rogue_Interior_Home_ChangeClothes
         call(Rogue_Common_DisplayPopups)
     }
 
-    message(format("What would you like to do?"))
+    message(format("¿Qué quieres hacer?"))
     waitmessage
 
     multichoice(20, 6, MULTI_CHANGE_CLOTHES, NO)
@@ -100,7 +100,7 @@ script Rogue_Interior_Home_EnterBed
 {
     lockall
 
-    message(format("What time would you like to wake up?"))
+    message(format("¿A qué hora quieres despertarte?"))
     waitmessage
 
     multichoice(21, 4, MULTI_SELECT_TIME, NO)
@@ -111,7 +111,7 @@ script Rogue_Interior_Home_EnterBed
 
     if(var(VAR_RESULT) != MULTI_B_PRESSED)
     {
-        message(format("Which season would you like to wake up in?"))
+        message(format("¿En qué estación quieres despertarte?"))
         waitmessage
 
         multichoice(21, 4, MULTI_SELECT_SEASON, NO)

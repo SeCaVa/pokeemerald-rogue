@@ -62,34 +62,34 @@ script Rogue_Area_Home_InteractWithWorkbench
         if(var(VAR_RESULT) == YES)
         {
             lock
-            msgbox(format("It's a workbench!\pIt has a bunch of complicated designs and tools on top."))
+            msgbox(format("¡Es un banco de trabajo!\pEncima hay un montón de planos complicados y herramientas."))
             release
         }
         else
         {
             begindynamicmultichoice
-            appenddynamicmultichoice("Build / Upgrade", 0)
+            appenddynamicmultichoice("Construir/Mejorar", 0)
 
             if(var(VAR_ROGUE_SPECIAL_MODE) == ROGUE_SPECIAL_MODE_DECORATING)
             {
-                appenddynamicmultichoice("Stop Decorating", 1)
+                appenddynamicmultichoice("Dejar de decorar", 1)
             }
             else
             {
-                appenddynamicmultichoice("Start Decorating", 1)
+                appenddynamicmultichoice("Decorar", 1)
             }
         
             hubupgradeunlocked(HUB_UPGRADE_HOME_EDIT_STYLE)
             if(var(VAR_RESULT) == YES)
             {
-                appenddynamicmultichoice("Edit Styles", 2)
+                appenddynamicmultichoice("Editar estilos", 2)
             }
 
-            appenddynamicmultichoice("Clear Decorations", 3)
-            appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+            appenddynamicmultichoice("Quitar adornos", 3)
+            appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
 
-            message(format("What would you like to do?"))
+            message(format("¿Qué quieres hacer?"))
             waitmessage
             enddynamicmultichoice(1, 0, 6, TRUE)
         
@@ -115,7 +115,7 @@ script Rogue_Area_Home_InteractWithWorkbench
                     call(Rogue_Area_Home_EditStyles)
 
                 case 3:
-                    msgbox(format("This will clear all currently placed decorations.\nThere is no way to undo this.\pAre you sure you want to clear all decorations?"), MSGBOX_YESNO)
+                    msgbox(format("Esto quitará todos los adornos colocados.\nNo se puede deshacer.\p¿Seguro que quieres quitar todos los adornos?"), MSGBOX_YESNO)
                     if(var(VAR_RESULT) == YES)
                     {
                         special(RogueHub_ClearAllDecorations)
@@ -132,12 +132,12 @@ script Rogue_Area_Home_EditStyles
 {
     begindynamicmultichoice
 
-    appenddynamicmultichoice("Paths", 0)
-    appenddynamicmultichoice("Base Exterior", 1)
-    appenddynamicmultichoice("Base Interior", 2)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("Caminos", 0)
+    appenddynamicmultichoice("Exterior", 1)
+    appenddynamicmultichoice("Interior", 2)
+    appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-    message(format("What style would you like to change?"))
+    message(format("¿Qué estilo quieres cambiar?"))
     waitmessage
     enddynamicmultichoice(1, 0, 6, TRUE)
     
@@ -158,9 +158,9 @@ script Rogue_Area_Home_EditPathStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Paths)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-    message(format("What style would you like to use?"))
+    message(format("¿Qué estilo quieres usar?"))
     waitmessage
     enddynamicmultichoice(1, 0, 6, TRUE)
     
@@ -179,9 +179,9 @@ script Rogue_Area_Home_EditExteriorStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Exterior)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-    message(format("What style would you like to use?"))
+    message(format("¿Qué estilo quieres usar?"))
     waitmessage
     enddynamicmultichoice(1, 0, 6, TRUE)
     
@@ -201,9 +201,9 @@ script Rogue_Area_Home_EditInteriorStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Interior)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-    message(format("What style would you like to use?"))
+    message(format("¿Qué estilo quieres usar?"))
     waitmessage
     enddynamicmultichoice(1, 0, 6, TRUE)
     
@@ -241,7 +241,7 @@ script Rogue_Area_Home_ChooseDecoration_Internal
         }
         else
         {
-            message(format("What would you like to place?"))
+            message(format("¿Qué quieres colocar?"))
             waitmessage
 
             begindynamicmultichoice(48)
@@ -259,27 +259,27 @@ script Rogue_Area_Home_PlaceDecoration
 
     if(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_CODE_NO_ROOM)
     {
-        msgbox(format("The area cannot be decorated any more."))
+        msgbox(format("Esta zona no se puede decorar más."))
         setvar(VAR_MENU_DEPTH, MENU_DEPTH_CHOOSE_GROUP)
         setvar(VAR_RESULT, NO)
     }
     elif(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_TOO_MANY_OBJECTS_NEAR || var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_TOO_MANY_OF_TYPE || var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_CODE_NOT_HERE)
     {
         begindynamicmultichoice
-        appenddynamicmultichoice("Change Decor", 1)
-        appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+        appenddynamicmultichoice("Cambiar adorno", 1)
+        appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
         if(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_TOO_MANY_OF_TYPE)
         {
-            message(format("Reached limit for this type of Decor.\nCannot place any more in this area."))
+            message(format("Has llegado al límite de este tipo de adorno.\nNo puedes colocar más en esta zona."))
         }
         elif(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_CODE_NOT_HERE)
         {
-            message(format("Decor can't be placed here."))
+            message(format("Aquí no se pueden colocar adornos."))
         }
         else
         {
-            message(format("Too many other Objects nearby.\nTry placing elsewhere."))
+            message(format("Hay demasiados objetos cerca.\nPrueba a colocarlo en otro sitio."))
         }
 
         waitmessage
@@ -310,21 +310,21 @@ script Rogue_Area_Home_PlaceDecoration
         {
             if(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_CANNOT_REMOVE)
             {
-                appenddynamicmultichoice("Change Decor", 1)
-                appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+                appenddynamicmultichoice("Cambiar adorno", 1)
+                appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-                message(format("There's nothing to remove here.\nWhat would you like to do?"))
+                message(format("Aquí no hay nada que quitar.\n¿Qué quieres hacer?"))
                 waitmessage
 
                 enddynamicmultichoice(20, 6, 2, TRUE)
             }
             else
             {
-                appenddynamicmultichoice("Remove This", 0)
-                appenddynamicmultichoice("Change Decor", 1)
-                appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+                appenddynamicmultichoice("Quitar esto", 0)
+                appenddynamicmultichoice("Cambiar adorno", 1)
+                appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-                message(format("Would you like to remove this decor?"))
+                message(format("¿Quieres quitar este adorno?"))
                 waitmessage
 
                 enddynamicmultichoice(20, 6, 3, TRUE)
@@ -332,11 +332,11 @@ script Rogue_Area_Home_PlaceDecoration
         }
         else
         {
-            appenddynamicmultichoice("Place Here", 0)
-            appenddynamicmultichoice("Change Decor", 1)
-            appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+            appenddynamicmultichoice("Colocar aquí", 0)
+            appenddynamicmultichoice("Cambiar adorno", 1)
+            appenddynamicmultichoice("Salir", MULTI_B_PRESSED)
 
-            message(format("Would you like to place this here?"))
+            message(format("¿Quieres colocarlo aquí?"))
             waitmessage
 
             enddynamicmultichoice(20, 6, 3, TRUE)
@@ -373,7 +373,7 @@ script Rogue_Area_Home_ChangeClothes
         call(Rogue_Common_DisplayPopups)
     }
 
-    message(format("What would you like to do?"))
+    message(format("¿Qué quieres hacer?"))
     waitmessage
 
     multichoice(20, 6, MULTI_CHANGE_CLOTHES, NO)
@@ -401,7 +401,7 @@ script Rogue_Area_Home_EnterBed
 {
     lock
 
-    message(format("What time would you like to wake up?"))
+    message(format("¿A qué hora quieres despertarte?"))
     waitmessage
 
     multichoice(21, 4, MULTI_SELECT_TIME, NO)
@@ -412,7 +412,7 @@ script Rogue_Area_Home_EnterBed
 
     if(var(VAR_RESULT) != MULTI_B_PRESSED)
     {
-        message(format("Which season would you like to wake up in?"))
+        message(format("¿En qué estación quieres despertarte?"))
         waitmessage
 
         multichoice(21, 4, MULTI_SELECT_SEASON, NO)

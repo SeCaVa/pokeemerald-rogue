@@ -2,7 +2,7 @@
     "condition": "",
     "defaults":
     {
-        "name": "GRUNT",
+        "name": "RECLUTA",
         "type_assignment": "NONE",
         "trainer_class": "TRAINER_CLASS_TEAM_NEOPLASMA",
         "music_player": "team_neoplasma",
@@ -35,7 +35,7 @@
         "boss":
         [
             {
-                "name": "COLRESS",
+                "name": "ACROMO",
                 "object_event": "OBJ_EVENT_GFX_TEAM_NEO_PLASMA_COLRESS",
                 "trainer_pic": "TRAINER_PIC_GALACTIC_CYRUS",
                 "trainer_class": "TRAINER_CLASS_TEAM_NEOPLASMA_LEADER",
@@ -45,10 +45,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: My aim is to rid our world of the vague and incomplete thing we call spirit.\\pBy freeing ourselves of that, our world can be made complete.",
-                        "PRE_BATTLE_TAUNT": "That is my justice!\\nNo one can interfere!",
-                        "POST_BATTLE_TAUNT": "I won't accept this!\\nThis can't be!",
-                        "POST_BATTLE_CLOSER": "I can't accept this!\\pNot after all the sacrifices we've made to get this far!\\pWhat of my new world?!\\nOf my new galaxy?!\\pI'll never accept this!\\pI shall never stop!\\pMark my words!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Mi objetivo es librar al mundo de esa cosa vaga e incompleta a la que llamamos espíritu.\\pSi nos liberamos de ella, nuestro mundo podrá ser completo.",
+                        "PRE_BATTLE_TAUNT": "¡Esa es mi justicia!\\n¡Nadie puede interferir!",
+                        "POST_BATTLE_TAUNT": "¡No lo aceptaré!\\n¡No puede ser!",
+                        "POST_BATTLE_CLOSER": "¡No puedo aceptarlo!\\p¡No después de todos los sacrificios que hemos hecho para llegar hasta aquí!\\p¡¿Qué será de mi nuevo mundo?!\\n¡¿De mi nueva galaxia?!\\p¡Jamás lo aceptaré!\\p¡Nunca me detendré!\\p¡Recuerda mis palabras!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -112,9 +112,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Hey!\\nYou're in my personal Space!",
-                        "POST_BATTLE_TAUNT": "My bubble is gone…",
-                        "POST_BATTLE_CLOSER": "Do you really have to stand that close!?"
+                        "PRE_BATTLE_TAUNT": "¡Eh!\\n¡Estás invadiendo mi Espacio personal!",
+                        "POST_BATTLE_TAUNT": "Mi burbuja ha desaparecido…",
+                        "POST_BATTLE_CLOSER": "¡¿De verdad tienes que ponerte tan cerca?!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -126,9 +126,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "We will remold the Universe in our own image!",
-                        "POST_BATTLE_TAUNT": "Think of the possibilities!",
-                        "POST_BATTLE_CLOSER": "The Universe could be improved ten-fold!"
+                        "PRE_BATTLE_TAUNT": "¡Remodelaremos el Universo a nuestra imagen!",
+                        "POST_BATTLE_TAUNT": "¡Piensa en las posibilidades!",
+                        "POST_BATTLE_CLOSER": "¡El Universo podría ser diez veces mejor!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -143,9 +143,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've got no time for dumb looking kids getting in our way!",
-                        "POST_BATTLE_TAUNT": "You're still dumb.",
-                        "POST_BATTLE_CLOSER": "If you weren't dumb, you wouldn't be getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡No tengo tiempo para críos con cara de tontos que se nos cruzan!",
+                        "POST_BATTLE_TAUNT": "Sigues siendo tont{MASC}o{FEM}a{ENDG}.",
+                        "POST_BATTLE_CLOSER": "¡Si no fueras tonto, no te meterías en nuestro camino!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -156,9 +156,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You shouldn't be here!",
-                        "POST_BATTLE_TAUNT": "What!?",
-                        "POST_BATTLE_CLOSER": "How did you do that?!"
+                        "PRE_BATTLE_TAUNT": "¡No deberías estar aquí!",
+                        "POST_BATTLE_TAUNT": "¡¿Qué?!",
+                        "POST_BATTLE_CLOSER": "¡¿Cómo lo has hecho?!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -169,9 +169,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for kids!",
-                        "POST_BATTLE_TAUNT": "Nevermind.",
-                        "POST_BATTLE_CLOSER": "I guess you'll be fine."
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para críos!",
+                        "POST_BATTLE_TAUNT": "Olvídalo.",
+                        "POST_BATTLE_CLOSER": "Supongo que te las apañarás."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -182,9 +182,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Intruder!?\\nHere!?",
-                        "POST_BATTLE_TAUNT": "Darn it!",
-                        "POST_BATTLE_CLOSER": "You still shouldn't be here!"
+                        "PRE_BATTLE_TAUNT": "¡¿Un intruso?!\\n¡¿Aquí?!",
+                        "POST_BATTLE_TAUNT": "¡Maldición!",
+                        "POST_BATTLE_CLOSER": "¡Aun así, no deberías estar aquí!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -195,9 +195,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "The power of Time and Space in the palm of our hands!",
-                        "POST_BATTLE_TAUNT": "Nothing will stand in our way!\\nNOTHING!",
-                        "POST_BATTLE_CLOSER": "Hello, {PLAYER}…"
+                        "PRE_BATTLE_TAUNT": "¡El poder del Tiempo y el Espacio en la palma de nuestras manos!",
+                        "POST_BATTLE_TAUNT": "¡Nada se interpondrá en nuestro camino!\\n¡NADA!",
+                        "POST_BATTLE_CLOSER": "Hola, {PLAYER}…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -208,9 +208,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Erm… you don't look like you're supposed to be here.",
-                        "POST_BATTLE_TAUNT": "I guess I was wrong",
-                        "POST_BATTLE_CLOSER": "Sorry. You're not wearing the correct uniform so I got confused."
+                        "PRE_BATTLE_TAUNT": "Eh… no parece que debas estar aquí.",
+                        "POST_BATTLE_TAUNT": "Supongo que me equivocaba.",
+                        "POST_BATTLE_CLOSER": "Perdona. Como no llevas el uniforme correcto, me he confundido."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -221,9 +221,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I don't really understand our Leader's grand ambition, but surely he can't be wrong!",
-                        "POST_BATTLE_TAUNT": "I still believe!",
-                        "POST_BATTLE_CLOSER": "Our Leader simply cannot be wrong!"
+                        "PRE_BATTLE_TAUNT": "No entiendo muy bien la gran ambición de nuestro Líder, ¡pero seguro que no se equivoca!",
+                        "POST_BATTLE_TAUNT": "¡Yo sigo creyendo!",
+                        "POST_BATTLE_CLOSER": "¡Nuestro Líder simplemente no puede equivocarse!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -234,9 +234,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm going to make my own Space just for me!",
-                        "POST_BATTLE_TAUNT": "Aww…\\nMy space…",
-                        "POST_BATTLE_CLOSER": "I wanted a Space just for me…"
+                        "PRE_BATTLE_TAUNT": "¡Voy a crear mi propio Espacio solo para mí!",
+                        "POST_BATTLE_TAUNT": "Oh…\\nMi espacio…",
+                        "POST_BATTLE_CLOSER": "Quería un Espacio solo para mí…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -247,9 +247,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm pretty sure we don't let snot nosed kids into our operation.",
-                        "POST_BATTLE_TAUNT": "Maybe I was wrong?",
-                        "POST_BATTLE_CLOSER": "Sorry, I thought you were a spy or something."
+                        "PRE_BATTLE_TAUNT": "Estoy casi seguro de que no dejamos entrar a mocosos en nuestra operación.",
+                        "POST_BATTLE_TAUNT": "¿Quizá me equivocaba?",
+                        "POST_BATTLE_CLOSER": "Perdona, creía que eras {MASC}un{FEM}una{ENDG} espía o algo así."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -261,9 +261,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You don't seem too interested in our grand ambition.\\pHere, let me explain it for you.",
-                        "POST_BATTLE_TAUNT": "Do you get it now?",
-                        "POST_BATTLE_CLOSER": "No!?\\nGaah, why do I even bother."
+                        "PRE_BATTLE_TAUNT": "No pareces muy interesad{MASC}o{FEM}a{ENDG} en nuestra gran ambición.\\pVen, deja que te la explique.",
+                        "POST_BATTLE_TAUNT": "¿Lo entiendes ahora?",
+                        "POST_BATTLE_CLOSER": "¡¿No?!\\nAgh, no sé ni para qué me molesto."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -274,9 +274,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Stop right there!",
-                        "POST_BATTLE_TAUNT": "S-stop!",
-                        "POST_BATTLE_CLOSER": "I- I mean it!"
+                        "PRE_BATTLE_TAUNT": "¡Alto ahí!",
+                        "POST_BATTLE_TAUNT": "¡A-alto!",
+                        "POST_BATTLE_CLOSER": "¡L-lo digo en serio!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -287,9 +287,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You're the one knocking out the newbies, huh?",
-                        "POST_BATTLE_TAUNT": "Ouch!",
-                        "POST_BATTLE_CLOSER": "You're knocking us all out!?"
+                        "PRE_BATTLE_TAUNT": "Tú eres quien está tumbando a los novatos, ¿eh?",
+                        "POST_BATTLE_TAUNT": "¡Ay!",
+                        "POST_BATTLE_CLOSER": "¡¿Nos estás tumbando a todos?!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -300,9 +300,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "The Universe holds all of it's secrets from us, so we will pry the answers out ourselves!",
-                        "POST_BATTLE_TAUNT": "You can never truly stop us!",
-                        "POST_BATTLE_CLOSER": "You can never truly stop us!"
+                        "PRE_BATTLE_TAUNT": "El Universo nos oculta todos sus secretos, ¡así que le arrancaremos las respuestas nosotros mismos!",
+                        "POST_BATTLE_TAUNT": "¡Nunca podrás detenernos de verdad!",
+                        "POST_BATTLE_CLOSER": "¡Nunca podrás detenernos de verdad!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -313,9 +313,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Space!",
-                        "POST_BATTLE_TAUNT": "Spaace!\\nSpaaaacceee!",
-                        "POST_BATTLE_CLOSER": "The…\\nCake…"
+                        "PRE_BATTLE_TAUNT": "¡Espacio!",
+                        "POST_BATTLE_TAUNT": "¡Espaacio!\\n¡Espaaaaaciooo!",
+                        "POST_BATTLE_CLOSER": "La…\\ntarta…"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -326,9 +326,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Make like Hawking Radiation-",
-                        "POST_BATTLE_TAUNT": "-and disappear!",
-                        "POST_BATTLE_CLOSER": "You get it? Funny, right!"
+                        "PRE_BATTLE_TAUNT": "Haz como la radiación de Hawking…",
+                        "POST_BATTLE_TAUNT": "…¡y evapórate!",
+                        "POST_BATTLE_CLOSER": "¿Lo pillas? ¡Tiene gracia!, ¿eh?"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -339,9 +339,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "If I don't understand what's going on here, what makes you think you do?!",
-                        "POST_BATTLE_TAUNT": "This proves nothing!",
-                        "POST_BATTLE_CLOSER": "Something about space?"
+                        "PRE_BATTLE_TAUNT": "Si yo no entiendo qué está pasando aquí, ¡¿qué te hace pensar que tú sí?!",
+                        "POST_BATTLE_TAUNT": "¡Esto no demuestra nada!",
+                        "POST_BATTLE_CLOSER": "¿Algo del espacio?"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -352,9 +352,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm here for some work experience.\\pLet's see how I manage!",
-                        "POST_BATTLE_TAUNT": "Youch…",
-                        "POST_BATTLE_CLOSER": "I hope that doesn't go into my report."
+                        "PRE_BATTLE_TAUNT": "Estoy aquí de prácticas.\\p¡A ver qué tal se me da!",
+                        "POST_BATTLE_TAUNT": "Auch…",
+                        "POST_BATTLE_CLOSER": "Espero que esto no salga en mi informe."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -365,9 +365,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for snot nosed kids!",
-                        "POST_BATTLE_TAUNT": "Wha!!",
-                        "POST_BATTLE_CLOSER": "Wipe your nose!"
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para mocosos!",
+                        "POST_BATTLE_TAUNT": "¡¡Qué!!",
+                        "POST_BATTLE_CLOSER": "¡Límpiate los mocos!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"

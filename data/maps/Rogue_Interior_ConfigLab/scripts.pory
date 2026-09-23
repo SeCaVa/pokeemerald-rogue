@@ -64,11 +64,11 @@ script Rogue_Interior_ConfigLab_TalkHiddenDoor
     {
         lock
 
-        msgbox(format("What's this?\pA hidden switch!\pPress the switch?"), MSGBOX_YESNO)
+        msgbox(format("¿Qué es esto?\p¡Un interruptor oculto!\p¿Pulsar el interruptor?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("WARNING!\nPressing this switch will skip ahead and activate post-game content.\pYou're recommended to complete a run normally before pressing this switch.\pPress the switch?"), MSGBOX_YESNO)
+            msgbox(format("¡ATENCIÓN!\nSi pulsas este interruptor, te saltarás parte del juego y activarás el contenido posterior.\pSe recomienda completar una partida normal antes de pulsarlo.\p¿Pulsar el interruptor?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -88,12 +88,12 @@ script Rogue_Interior_ConfigLab_TalkFennel
 {
     lock
     faceplayer
-    msgbox(format("FENNEL: Oh, hi {PLAYER}!"), MSGBOX_DEFAULT)
+    msgbox(format("FENNEL: ¡Ah, hola, {PLAYER}!"), MSGBOX_DEFAULT)
     
     if(!flag(FLAG_ROGUE_MET_FENNEL))
     {
-        msgbox(format("Now everything has settled a bit, I can finally continue my research.\pI've had a bit of a shift in my research.\nI'm now trying to figure what is happening out there whilst people are out on Adventures."))
-        msgbox(format("Speaking of Adventures…\pI did figure out how to adjust the behaviour of the Adventures you go on.\pHere, take a look!"))
+        msgbox(format("Ahora que todo se ha calmado un poco, por fin puedo seguir con mi investigación.\pHe cambiado un poco el enfoque.\nAhora intento averiguar qué pasa ahí fuera mientras la gente está de Aventura."))
+        msgbox(format("Hablando de Aventuras…\p¡He descubierto cómo ajustar el funcionamiento de tus Aventuras!\p¡Mira!"))
     }
     else
     {
@@ -101,16 +101,16 @@ script Rogue_Interior_ConfigLab_TalkFennel
 
         if(var(VAR_RESULT) == FALSE && flag(FLAG_CAN_GIVE_C_GEAR))
         {
-            msgbox(format("Just the Trainer I wanted to see!\pI have something for you!"), MSGBOX_DEFAULT)
+            msgbox(format("¡Justo {MASC}el{FEM}la{ENDG} Entrenador{MASC}{FEM}a{ENDG} que quería ver!\p¡Tengo algo para ti!"), MSGBOX_DEFAULT)
 
             giveitem(ITEM_C_GEAR)
 
             bufferitemname(STR_VAR_1, ITEM_C_GEAR)
-            msgbox(format("I repurposed that {STR_VAR_1} so you can view and edit Config Lab settings remotely!\pYou can even use it whilst you're Adventuring to double check your settings!\pNow…\nDid you want to adjust your Adventure settings?"), MSGBOX_DEFAULT)
+            msgbox(format("¡He adaptado {STR_VAR_1} para que puedas ver y cambiar los ajustes del Lab. Config. a distancia!\p¡Incluso puedes usarlo durante una Aventura para revisar tus ajustes!\pBueno…\n¿Quieres cambiar los ajustes de tus Aventuras?"), MSGBOX_DEFAULT)
         }
         else
         {
-            msgbox(format("Did you want to adjust your Adventure settings?"), MSGBOX_DEFAULT)
+            msgbox(format("¿Quieres cambiar los ajustes de tus Aventuras?"), MSGBOX_DEFAULT)
         }
     }
 
@@ -121,10 +121,10 @@ script Rogue_Interior_ConfigLab_TalkFennel
     if(!flag(FLAG_ROGUE_MET_FENNEL))
     {
         setflag(FLAG_ROGUE_MET_FENNEL)
-        msgbox(format("I don't really understand it all myself yet.\pBut I'm sure, if you keep exploring, I'll eventually gather enough data to be able to unlock the secrets of Adventures and share them with you!"))
+        msgbox(format("Todavía no lo entiendo todo.\p¡Pero estoy segura de que, si sigues explorando, acabaré reuniendo datos suficientes para desvelar los secretos de las Aventuras y compartirlos contigo!"))
     }
 
-    msgbox(format("If you ever want to adjust your Adventure settings again, please do come talk to me.")) 
+    msgbox(format("Si alguna vez quieres volver a cambiar los ajustes de tus Aventuras, ven a hablar conmigo.")) 
 
     release
 }
@@ -140,23 +140,23 @@ script Rogue_Interior_ConfigLab_TriggerMeetPokabbie
 
     playbgm(MUS_PL_MYSTERY_GIFT, TRUE)
 
-    msgbox(format("{PLAYER}?!\pWhat are you doing here, I didn't expect you to come so soon?\pWho am I?\pMy name's Pokabbie.\nI'm the Developer of Emerald Rogue!"))
+    msgbox(format("¡¿{PLAYER}?!\p¿Qué haces aquí? ¡No esperaba que vinieras tan pronto!\p¿Que quién soy?\pMe llamo Pokabbie.\n¡Soy quien desarrolla Emerald Rogue!"))
     closemessage
 
     applymovement(OBJ_EVENT_POKABBIE, Pokabbie_Spin_FaceLeft)
     waitmovement(0)
 
-    msgbox(format("POKABBIE: Ta-da!\pI must admit, I didn't expect to be speaking to you until after you had become Champion and entered the Hall of Fame.\pBut I guess we can sequence break a bit…\nLet me remember my speech.\pEhem.\pNow that you're the, {FONT_NARROW}hopefully soon to be{FONT_NORMAL}, Champion, there's sooooo much more fun stuff for you!\pSpeaking of…\nCan you lend me your Pokédex for one second, please."))
+    msgbox(format("POKABBIE: ¡Tachán!\pHe de admitir que no esperaba hablar contigo hasta que fueras Campeón y entraras en el Hall de la Fama.\pPero supongo que podemos saltarnos un poco el orden…\nA ver si recuerdo mi discurso.\pEjem.\pAhora que eres, {FONT_NARROW}o pronto serás, con suerte,{FONT_NORMAL} Campeón, ¡tienes muchíiiisimas más cosas divertidas por hacer!\pHablando de eso…\n¿Me prestas tu Pokédex un segundo, por favor?"))
 
     if(!flag(FLAG_SYS_POKEDEX_GET))
     {
-        msgbox(format("What?\pYou haven't even gotten a Pokédex yet!?\pWow… you are reaaaaallly keen, huh?\pWell, here I guess you can have this one."))
+        msgbox(format("¿Qué?\p¡¿Ni siquiera tienes Pokédex todavía?!\pVaya… sí que tienes ganas, ¿eh?\pBueno, toma, puedes quedarte con esta."))
         
         callnative(Rogue_PushPopup_UnlockPokedex)
         call(Rogue_Common_DisplayPopups)
         setflag(FLAG_SYS_POKEDEX_GET)
 
-        msgbox(format("{FONT_NARROW}Now that's sorted, I can continue with my script…{FONT_NORMAL}\pCan you lend me your Pokédex for one second, please."))
+        msgbox(format("{FONT_NARROW}Ahora que eso está resuelto, puedo seguir con mi guion…{FONT_NORMAL}\p¿Me prestas tu Pokédex un segundo, por favor?"))
     }
 
     closemessage
@@ -186,39 +186,39 @@ script Rogue_Interior_ConfigLab_TriggerMeetPokabbie
     applymovement(OBJ_EVENT_POKABBIE, Rogue_Interior_ConfigLab_Pokabbie2)
     waitmovement(0)
 
-    msgbox(format("POKABBIE: Phew…\nAll done!\pI've got a few upgrades for you!\pFirstly, your Pokédex can now change its mode to different Regions.\pHere, take a look."))
+    msgbox(format("POKABBIE: Uf…\n¡Listo!\p¡Tengo unas cuantas mejoras para ti!\pPrimero, ahora tu Pokédex puede cambiar de modo a distintas Regiones.\pMira."))
 
     waitse
     special(Special_ViewRoguePokedex)
     waitstate
 
-    msgbox(format("If you change your Pokédex mode, when you next set off on an Adventure, you'll encounter Pokémon only present in that Pokédex mode!\pThe next thing I did was upgrade the Config Lab for you!"))
+    msgbox(format("Si cambias el modo de tu Pokédex, en tu próxima Aventura ¡solo encontrarás Pokémon de ese modo de Pokédex!\p¡Lo siguiente que he hecho ha sido mejorarte el Lab. Config.!"))
 
     checkitem(ITEM_C_GEAR)
     if(var(VAR_RESULT) == NO)
     {
         bufferitemname(STR_VAR_1, ITEM_C_GEAR)
 
-        msgbox(format("What!?\nYou don't even have a {STR_VAR_1} of your own?\pWe can't have that!\nHere!"))
+        msgbox(format("¡¿Qué?!\n¿Ni siquiera tienes {STR_VAR_1} propio?\p¡Eso no puede ser!\n¡Toma!"))
         giveitem(ITEM_C_GEAR)
 
-        msgbox(format("The {STR_VAR_1} allows you to remotely access the Config Lab from wherever you are!\pYou can change your settings from wherever you are in {POKEMON_HUB}, or you can even check your settings, in the middle of an Adventure.\pAnyhow, I'm getting distracted!\pThat's not actually the thing I upgraded for you…"))
+        msgbox(format("¡Con {STR_VAR_1} puedes acceder al Lab. Config. estés donde estés!\pPuedes cambiar los ajustes desde cualquier lugar de {POKEMON_HUB}, o incluso revisarlos en mitad de una Aventura.\pEn fin, ¡que me distraigo!\pEn realidad, eso no es lo que te he mejorado…"))
     }
 
-    msgbox(format("I upgraded the Config Lab to have new settings for you.\pHere, take a look."))
+    msgbox(format("He mejorado el Lab. Config. para que tenga ajustes nuevos.\pMira."))
 
     waitse
     special(Special_ViewDifficultyConfigMenu)
     waitstate
 
-    msgbox(format("Annnnddddd!\pFinally, I've added a new upgrade you may build for {POKEMON_HUB}, the Challenge Area!"))
+    msgbox(format("¡Yyyyyyy!\p¡Por último, he añadido una nueva mejora que puedes construir en {POKEMON_HUB}: la Zona de Desafíos!"))
 
     if(var(VAR_ROGUE_INTRO_STATE) <= ROGUE_INTRO_STATE_LEARN_TO_BUILD)
     {
-        msgbox(format("Oh, shoot!\nYou haven't even learnt about upgrades yet?\pYou spoke to me so fast that you hadn't even finished the Tutorial yet!\pNo matter.\nYou'll learn about it as soon as you return from your first Adventure."))
+        msgbox(format("¡Vaya, hombre!\n¿Todavía no sabes lo que son las mejoras?\p¡Has hablado conmigo tan pronto que ni siquiera has terminado el Tutorial!\pNo importa.\nLo aprenderás en cuanto vuelvas de tu primera Aventura."))
     }
 
-    msgbox(format("I won't spoil it for you, but in the Challenge Area there is a lot of stuff that I'm sure you'll find super fun!\pNow, you get going and complete yourself some Adventures!"))
+    msgbox(format("No te voy a hacer spoiler, ¡pero en la Zona de Desafíos hay un montón de cosas que seguro que te parecen superdivertidas!\p¡Ahora ponte en marcha y completa unas cuantas Aventuras!"))
 
     fadedefaultbgm
     release
@@ -238,23 +238,23 @@ script Rogue_Interior_ConfigLab_TalkPokabbie
     if(var(VAR_RESULT) == YES)
     {
         setflag(FLAG_ROGUE_UNLOCKED_PIKIN_EASTER_EGG)
-        msgbox(format("POKABBIE: Hi {PLAYER}!\pIs that-\pThat is!\nIt's one of my Mareep!\pSo it ended up with you, huh?\pI guess you'll at least be able to show it some exciting Adventures!"))
+        msgbox(format("POKABBIE: ¡Hola, {PLAYER}!\p¿Ese es...?\p¡Sí que lo es!\n¡Es uno de mis Mareep!\pAsí que ha acabado contigo, ¿eh?\p¡Al menos podrás llevarlo a Aventuras emocionantes!"))
 
         poryswitch(ROGUE_VERSION)
         {
             ROGUE_VERSION_VANILLA
             {
-                msgbox(format("You know Pikin can also learn Blizzard too?\pHere, you should be able to teach Pikin it now from the Learn Moves menu!\pI hope you show Pikin some exciting Adventures!"))
+                msgbox(format("¿Sabías que Pikin también puede aprender Ventisca?\p¡Ya deberías poder enseñárselo desde el menú Aprender Movimientos!\p¡Espero que lleves a Pikin a Aventuras emocionantes!"))
             }
             ROGUE_VERSION_EXPANSION
             {
-                msgbox(format("You know I once made a challenge hack for a friend of mine where I gave Pikin its very own Mega!\pA Mega Mareep!\pIt was a bit insane in that ROM hack though…\pOh I forgot, doh!\pYou can Mega Evolve Pikin in Emerald Rogue too!\pYou need to teach it Hurricane and then it will be able to Mega Evolve.\p… … …\pYes… like Mega Rayquaza…\pLook… I love Mareep alright!\pThere!\pYou should be able to teach Pikin Hurricane now from the Learn Moves menu.\pWhy not give Mega Mareep a try for yourself!\pJust be careful not to evolve it, otherwise you're going to have to hunt down yet another Pikin…\pTo be fair…\nThere are many Pikins…\pI hope you show Pikin some exciting Adventures!"))
+                msgbox(format("¿Sabes que una vez hice un hack de desafío para un amigo en el que le di a Pikin su propia Megaevolución?\p¡Un Mega-Mareep!\pAunque en aquel ROM hack estaba un poco roto…\p¡Ay, se me olvidaba!\p¡En Emerald Rogue también puedes megaevolucionar a Pikin!\pTienes que enseñarle Vendaval y así podrá megaevolucionar.\p… … …\pSí… como Mega-Rayquaza…\pMira… ¡es que me encantan los Mareep!\p¡Listo!\pYa deberías poder enseñarle Vendaval a Pikin desde el menú Aprender Movimientos.\p¡Prueba tú mismo a Mega-Mareep!\pEso sí, ten cuidado de no hacerlo evolucionar, o tendrás que buscar otro Pikin…\pAunque, la verdad…\nHay muchos Pikin…\p¡Espero que lleves a Pikin a Aventuras emocionantes!"))
             }
         }
     }
     else
     {
-        msgbox(format("POKABBIE: Hi {PLAYER}!\pI hope you're enjoying Emerald Rogue!\pIf not…\nI dunno?\lSorry I guess?"))
+        msgbox(format("POKABBIE: ¡Hola, {PLAYER}!\p¡Espero que estés disfrutando de Emerald Rogue!\pSi no…\n¿Qué sé yo?\l¿Lo siento, supongo?"))
     }
 
     release

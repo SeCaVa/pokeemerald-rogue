@@ -360,50 +360,50 @@ static const struct WindowTemplate sQuestWinTemplates[WIN_COUNT + 1] =
     [WIN_COUNT] = DUMMY_WIN_TEMPLATE,
 };
 
-static u8 const sText_EarlyGameTodo[] = _("·{COLOR BLUE}To-Do");
-static u8 const sText_EarlyGameComplete[] = _("·{COLOR GREEN}Done");
-static u8 const sText_EarlyGameActive[] = _("·{COLOR BLUE}Active");
-static u8 const sText_EarlyGameInactive[] = _("·{COLOR RED}Inactive");
+static u8 const sText_EarlyGameTodo[] = _("·{COLOR BLUE}Pendiente");
+static u8 const sText_EarlyGameComplete[] = _("·{COLOR GREEN}Hecha");
+static u8 const sText_EarlyGameActive[] = _("·{COLOR BLUE}Activa");
+static u8 const sText_EarlyGameInactive[] = _("·{COLOR RED}Inactiva");
 
-static u8 const sText_QuestsTodo[] = _("Main·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_QuestsComplete[] = _("Main·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_QuestsActive[] = _("Main·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_QuestsInactive[] = _("Main·{FONT_SMALL_NARROW}{COLOR RED}Inactive");
+static u8 const sText_QuestsTodo[] = _("Principal·{FONT_SMALL_NARROW}{COLOR BLUE}Pendiente");
+static u8 const sText_QuestsComplete[] = _("Principal·{FONT_SMALL_NARROW}{COLOR GREEN}Hecha");
+static u8 const sText_QuestsActive[] = _("Principal·{FONT_SMALL_NARROW}{COLOR BLUE}Activa");
+static u8 const sText_QuestsInactive[] = _("Principal·{FONT_SMALL_NARROW}{COLOR RED}Inactiva");
 
-static u8 const sText_ChallengesTodo[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_ChallengesComplete[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_ChallengesActive[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_ChallengesInactive[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR RED}Inactiv");
+static u8 const sText_ChallengesTodo[] = _("Desafío·{FONT_SMALL_NARROW}{COLOR BLUE}Pendiente");
+static u8 const sText_ChallengesComplete[] = _("Desafío·{FONT_SMALL_NARROW}{COLOR GREEN}Hecho");
+static u8 const sText_ChallengesActive[] = _("Desafío·{FONT_SMALL_NARROW}{COLOR BLUE}Activo");
+static u8 const sText_ChallengesInactive[] = _("Desafío·{FONT_SMALL_NARROW}{COLOR RED}Inactivo");
 
-static u8 const sText_MonMastery[] = _("{PKMN} Mastery");
-static u8 const sText_MonMasteryTracker[] = _("{PKMN} Tracker");
-static u8 const sText_MonMasteryTodo[] = _("Quests·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_MonMasteryComplete[] = _("Quests·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_MonMasteryActive[] = _("Mastery·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_MonMasteryInactive[] = _("Mastery·{FONT_SMALL_NARROW}{COLOR RED}Inactive");
+static u8 const sText_MonMastery[] = _("Maestría {PKMN}");
+static u8 const sText_MonMasteryTracker[] = _("Registro {PKMN}");
+static u8 const sText_MonMasteryTodo[] = _("Misiones·{FONT_SMALL_NARROW}{COLOR BLUE}Pendiente");
+static u8 const sText_MonMasteryComplete[] = _("Misiones·{FONT_SMALL_NARROW}{COLOR GREEN}Hechas");
+static u8 const sText_MonMasteryActive[] = _("Maestría·{FONT_SMALL_NARROW}{COLOR BLUE}Activa");
+static u8 const sText_MonMasteryInactive[] = _("Maestría·{FONT_SMALL_NARROW}{COLOR RED}Inactiva");
 
-static u8 const sText_Stats[] = _("{FONT_SMALL_NARROW}Adventure Stats");
+static u8 const sText_Stats[] = _("{FONT_SMALL_NARROW}Estadísticas");
 
-static u8 const sText_Pinned[] = _("·Pinned Quests·");
-static u8 const sText_InProgress[] = _("In Progress…");
-static u8 const sText_Inactive[] = _("Inactive");
-static u8 const sText_Todo[] = _("To-do");
-static u8 const sText_Complete[] = _("Complete");
-static u8 const sText_Back[] = _("Back");
-static u8 const sText_Progress[] = _("Progress");
-static u8 const sText_AButtonPin[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{A_BUTTON} Pin  {SELECT_BUTTON} Sort");
+static u8 const sText_Pinned[] = _("·Misiones fijadas·");
+static u8 const sText_InProgress[] = _("En curso…");
+static u8 const sText_Inactive[] = _("Inactiva");
+static u8 const sText_Todo[] = _("Pendiente");
+static u8 const sText_Complete[] = _("Completa");
+static u8 const sText_Back[] = _("Atrás");
+static u8 const sText_Progress[] = _("Progreso");
+static u8 const sText_AButtonPin[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{A_BUTTON} Fijar  {SELECT_BUTTON} Ordenar");
 
-static u8 const sText_MarkerInProgress[] = _("{COLOR BLUE}·In Progress·");
-static u8 const sText_MarkerInactive[] = _("{COLOR RED}·Inactive·");
-static u8 const sText_MarkerPendingRewards[] = _("{COLOR GREEN}·Ready to Collect!·");
-static u8 const sText_MarkerComplete[] = _("{COLOR GREEN}·Complete·");
-static u8 const sText_MarkerCompleteEasy[] = _("{COLOR GREEN}·Complete {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteAverage[] = _("{COLOR GREEN}·Complete {COLOR GREEN}{SHADOW LIGHT_GRAY}Average{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteHard[] = _("{COLOR GREEN}·Complete {COLOR RED}{SHADOW LIGHT_GRAY}Hard{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteBrutal[] = _("{COLOR GREEN}·Complete {COLOR RED}{SHADOW LIGHT_RED}Brutal{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerRewards[] = _("{COLOR DARK_GRAY}Rewards");
+static u8 const sText_MarkerInProgress[] = _("{COLOR BLUE}·En curso·");
+static u8 const sText_MarkerInactive[] = _("{COLOR RED}·Inactiva·");
+static u8 const sText_MarkerPendingRewards[] = _("{COLOR GREEN}·¡Para recoger!·");
+static u8 const sText_MarkerComplete[] = _("{COLOR GREEN}·Completa·");
+static u8 const sText_MarkerCompleteEasy[] = _("{COLOR GREEN}·Completa {COLOR GREEN}{SHADOW LIGHT_GREEN}Fácil{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteAverage[] = _("{COLOR GREEN}·Completa {COLOR GREEN}{SHADOW LIGHT_GRAY}Normal{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteHard[] = _("{COLOR GREEN}·Completa {COLOR RED}{SHADOW LIGHT_GRAY}Difícil{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteBrutal[] = _("{COLOR GREEN}·Completa {COLOR RED}{SHADOW LIGHT_RED}Brutal{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerRewards[] = _("{COLOR DARK_GRAY}Premios");
 
-static u8 const sText_PkmnMastery[] = _("{PKMN} Mastery");
+static u8 const sText_PkmnMastery[] = _("Maestría {PKMN}");
 
 // Index Page
 static u8 const sText_Index_InProgressPerc[] = _("{COLOR BLUE}{STR_VAR_1}%");
@@ -411,23 +411,23 @@ static u8 const sText_Index_FinishedPerc[] = _("{COLOR GREEN}{STR_VAR_1}%");
 static u8 const sText_Index_ActiveCount[] = _("{COLOR BLUE}{STR_VAR_1} / {STR_VAR_2}");
 static u8 const sText_Index_NoneActiveCount[] = _("{COLOR RED}{STR_VAR_1} / {STR_VAR_2}");
 
-static u8 const sText_Index_Main[] = _("Main");
-static u8 const sText_Index_Challenge[] = _("Challenge");
-static u8 const sText_Index_Mastery[] = _("Mastery");
+static u8 const sText_Index_Main[] = _("Principales");
+static u8 const sText_Index_Challenge[] = _("Desafíos");
+static u8 const sText_Index_Mastery[] = _("Maestrías");
 static u8 const sText_Index_Total[] = _("Total");
-static u8 const sText_Index_ActiveQuests[] = _("Active Quests");
-static u8 const sText_Index_ChallengeDifficulty[] = _("Challenges");
-static u8 const sText_Index_Easy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy");
-static u8 const sText_Index_Average[] = _("{COLOR GREEN}{SHADOW LIGHT_GRAY}Average");
-static u8 const sText_Index_Hard[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}Hard");
+static u8 const sText_Index_ActiveQuests[] = _("Misiones activas");
+static u8 const sText_Index_ChallengeDifficulty[] = _("Desafíos");
+static u8 const sText_Index_Easy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Fácil");
+static u8 const sText_Index_Average[] = _("{COLOR GREEN}{SHADOW LIGHT_GRAY}Normal");
+static u8 const sText_Index_Hard[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}Difícil");
 static u8 const sText_Index_Brutal[] = _("{COLOR RED}{SHADOW LIGHT_RED}Brutal");
 static u8 const sText_EasyStar[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
 static u8 const sText_AverageStar[] = _("{COLOR GREEN}{SHADOW LIGHT_GRAY}");
 static u8 const sText_HardStar[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}");
 static u8 const sText_BrutalStar[] = _("{COLOR RED}{SHADOW LIGHT_RED}");
-static u8 const sText_Index_Quests[] = _("Quests");
+static u8 const sText_Index_Quests[] = _("Misiones");
 
-static u8 const sText_Index_PendingRewards[] = _("{COLOR GREEN}Rewards ready to\nbe Collected!");
+static u8 const sText_Index_PendingRewards[] = _("{COLOR GREEN}¡Tienes premios\npor recoger!");
 
 
 EWRAM_DATA static struct QuestMenuData* sQuestMenuData = NULL;
@@ -1975,7 +1975,7 @@ static void HandleInput_MasteryLandingPage(u8 taskId)
 }
 
 
-static u8 const sText_Mastery_LandingDesc[] = _("Enter the Hall of\nFame with any {PKMN}\nfrom it's Evolution\nline to Complete\nit's Mastery!\n\nSpecific {PKMN} have\nRewards/Quests\nassociated with\nthem.");
+static u8 const sText_Mastery_LandingDesc[] = _("¡Entra en el Hall\nde la Fama con un\n{PKMN} de su línea\nevolutiva para\ncompletar su\nMaestría!\n\nAlgunos {PKMN}\ntienen premios o\nmisiones propias.");
 
 static void Draw_MasteryLandingPage()
 {
@@ -2070,8 +2070,8 @@ static void HandleInput_MasteryTrackerPage(u8 taskId)
 extern const u16 gRogueBake_EggSpecies[];
 
 static u8 const sText_PageMarker[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}");
-static u8 const sText_ChangePageLeft[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{DPAD_LEFT} back");
-static u8 const sText_ChangePageRight[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}next {DPAD_RIGHT}");
+static u8 const sText_ChangePageLeft[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{DPAD_LEFT} atrás");
+static u8 const sText_ChangePageRight[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}sig. {DPAD_RIGHT}");
 
 static void Draw_MasteryTrackerPage()
 {
@@ -2184,40 +2184,40 @@ struct DisplayStat
     u8 statId;
 };
 
-static u8 const sStatName_TotalRuns[] = _("Total Adventures");
-static u8 const sStatName_TotalWins[] = _("Wins");
-static u8 const sStatName_TotalCurrentWinStreak[] = _("Current Win Streak");
-static u8 const sStatName_TotalLongestWinStreak[] = _("Longest Win Streak");
-static u8 const sStatName_TotalLosses[] = _("Wipes");
-static u8 const sStatName_TotalCurrentLossStreak[] = _("Current Wipe Streak");
-static u8 const sStatName_TotalLongestLossStreak[] = _("Longest Wipe Streak");
+static u8 const sStatName_TotalRuns[] = _("Aventuras totales");
+static u8 const sStatName_TotalWins[] = _("Victorias");
+static u8 const sStatName_TotalCurrentWinStreak[] = _("Racha de victorias");
+static u8 const sStatName_TotalLongestWinStreak[] = _("Mejor racha vict.");
+static u8 const sStatName_TotalLosses[] = _("Derrotas");
+static u8 const sStatName_TotalCurrentLossStreak[] = _("Racha de derrotas");
+static u8 const sStatName_TotalLongestLossStreak[] = _("Peor racha derr.");
 
-static u8 const sStatName_FirstHoF[] = _("First HoF Time");
-static u8 const sStatName_FastestHoF[] = _("Fastest HoF Time");
-static u8 const sStatName_SlowestHoF[] = _("Slowest HoF Time");
+static u8 const sStatName_FirstHoF[] = _("Primer Hall Fama");
+static u8 const sStatName_FastestHoF[] = _("Hall Fama rápido");
+static u8 const sStatName_SlowestHoF[] = _("Hall Fama lento");
 
-static u8 const sStatName_TotalBadges[] = _("Total Badges");
-static u8 const sStatName_GymBadges[] = _("Gym Badges");
-static u8 const sStatName_EliteBadges[] = _("Elite Badges");
-static u8 const sStatName_ChampionBadges[] = _("Champion Badges");
+static u8 const sStatName_TotalBadges[] = _("Medallas totales");
+static u8 const sStatName_GymBadges[] = _("Medallas Gimnasio");
+static u8 const sStatName_EliteBadges[] = _("Medallas Élite");
+static u8 const sStatName_ChampionBadges[] = _("Medallas Campeón");
 
-static u8 const sStatName_TotalBattles[] = _("Total Battles");
-static u8 const sStatName_WildBattles[] = _("Wild Battles");
-static u8 const sStatName_TrainerBattles[] = _("Trainer Battles");
-static u8 const sStatName_RivalBattles[] = _("Rival Battles");
+static u8 const sStatName_TotalBattles[] = _("Combates totales");
+static u8 const sStatName_WildBattles[] = _("Combates salvajes");
+static u8 const sStatName_TrainerBattles[] = _("Combates Entrenad.");
+static u8 const sStatName_RivalBattles[] = _("Combates Rival");
 
-static u8 const sStatName_PokemonCaught[] = _("Pokémon Caught");
-static u8 const sStatName_ShinyCaught[] = _("Shinies Caught");
-static u8 const sStatName_LegendsCaught[] = _("Legends Caught");
-static u8 const sStatName_RoamersCaught[] = _("Roamers Caught");
+static u8 const sStatName_PokemonCaught[] = _("Pokémon capturados");
+static u8 const sStatName_ShinyCaught[] = _("Vario capturados");
+static u8 const sStatName_LegendsCaught[] = _("Legendarios capt.");
+static u8 const sStatName_RoamersCaught[] = _("Errantes capt.");
 
-static u8 const sStatName_RandoTradeTotal[] = _("Randoman {PKMN}");
-static u8 const sStatName_RandoTradeParty[] = _("Party Trades");
-static u8 const sStatName_RandoTradeSingle[] = _("Single Trades");
+static u8 const sStatName_RandoTradeTotal[] = _("{PKMN} de Randoman");
+static u8 const sStatName_RandoTradeParty[] = _("Cambios de equipo");
+static u8 const sStatName_RandoTradeSingle[] = _("Cambios sueltos");
 
-static u8 const sStatName_ReleasedPokemon[] = _("Pokémon Released");
-static u8 const sStatName_FaintedPokemon[] = _("Pokémon Fainted");
-static u8 const sStatName_EvolvedPokemon[] = _("Pokémon Evolved");
+static u8 const sStatName_ReleasedPokemon[] = _("Pokémon liberados");
+static u8 const sStatName_FaintedPokemon[] = _("Debilitados");
+static u8 const sStatName_EvolvedPokemon[] = _("Evoluciones");
 
 static u8 const sStatFormat_HofTime[] = _("{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}");
 

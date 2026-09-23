@@ -1,187 +1,187 @@
 
 static const u8 sRazorWindDescription_Revised[] = _(
-    "Charges up to unleash wind\n"
-    "with a high critical hit rate.");
+    "Carga energía y suelta un\n"
+    "viento con crítico alto.");
 
 static const u8 sCutDescription_Revised[] = _(
-    "Cuts the foe with sharp\n"
-    "implements. High crit ratio.");
+    "Corta al rival con utensilios\n"
+    "afilados. Crítico alto.");
 
 static const u8 sRollingKickDescription_Revised[] = _(
-    "A roundhouse kick that\n"
-    "may make the target flinch.");
+    "Patada circular que puede\n"
+    "hacer retroceder.");
 
 static const u8 sStrengthDescription_Revised[] = _(
-    "Slams the foe with great\n"
-    "power. May raise Attack.");
+    "Golpea con gran fuerza.\n"
+    "Puede subir el Ataque.");
 
 static const u8 sCurseDescription_Revised[] = _(
-    "+Attack, +Defense, -Speed.\n"
-    "Ghost-type: curse target.");
+    "+Atq. +Def. -Vel. Si es tipo\n"
+    "Fantasma, maldice.");
 
 static const u8 sAeroblastDescription_Revised[] = _(
-    "Launches a vacuumed blast.\n"
-    "Switches the foe out.");
+    "Lanza un golpe de vacío.\n"
+    "Obliga al rival a cambiarse.");
 
 static const u8 sOctazookaDescription_Revised[] = _(
-    "Fires ink to attack. High\n"
-    "crit ratio. May cut accuracy.");
+    "Dispara tinta. Crítico alto.\n"
+    "Puede bajar la precisión.");
 
 static const u8 sRapidSpinDescription_Revised[] = _(
-    "Spins to remove hazards\n"
-    "and raise user's Speed.");
+    "Gira para quitar trampas y\n"
+    "sube su Velocidad.");
 
 static const u8 sRockSmashDescription_Revised[] = _(
-    "A rock-crushing attack\n"
-    "that lowers target's Defense.");
+    "Ataque que rompe rocas y\n"
+    "baja la Defensa.");
 
 static const u8 sFakeOutDescription_Revised[] = _(
-    "Strikes 1st to cause flinch.\n"
-    "Must be used immediately.");
+    "Golpea primero y hace\n"
+    "retroceder. Solo al entrar.");
 
 static const u8 sWishDescription_Revised[] = _(
-    "Restores half user's HP\n"
-    "to party member in turn.");
+    "Cura la mitad de sus PS al\n"
+    "compañero que entra.");
 
 static const u8 sSuperpowerDescription_Revised[] = _(
-    "Attacks with super strength\n"
-    "but lowers physical stats.");
+    "Fuerza enorme, pero baja sus\n"
+    "características físicas.");
 
 static const u8 sTailGlowDescription_Revised[] = _(
-    "Flashes a light that raises\n"
-    "Sp. Atk drastically.");
+    "Emite un destello que sube\n"
+    "muchísimo el At. Esp.");
 
 static const u8 sMeFirstDescription_Revised[] = _(
-    "Copies and strengthens foe's\n"
-    "move, if user moves first.");
+    "Copia y mejora el ataque del\n"
+    "rival si va primero.");
 
 static const u8 sXScissorDescription_Revised[] = _(
-    "Slashes the foe with crossed\n"
-    "implements. High crit ratio.");
+    "Corte en cruz con utensilios\n"
+    "afilados. Crítico alto.");
 
 static const u8 sRoarOfTimeDescription_Revised[] = _(
-    "Warps the fabric of time\n"
-    "to always strike first.");
+    "Distorsiona el tiempo para\n"
+    "golpear siempre primero.");
 
 static const u8 sSpacialRendDescription_Revised[] = _(
-    "Tears space to always hit.\n"
-    "High critical-hit ratio.");
+    "Rasga el espacio y nunca\n"
+    "falla. Crítico alto.");
 
 static const u8 sCircleThrowDescription_Revised[] = _(
-    "Knocks the foe away to\n"
-    "force opponent to switch.");
+    "Aparta al rival de un golpe y\n"
+    "le obliga a cambiarse.");
 
 static const u8 sRetaliateDescription_Revised[] = _(
-    "Deals double damage if\n"
-    "an ally fainted last turn.");
+    "Doble de daño si un aliado se\n"
+    "debilitó el turno anterior.");
 
 static const u8 sIceHammerDescription_Revised[] = _(
-    "Swings an icy fist. Has\n"
-    "a high-critical hit ratio.");
+    "Puñetazo helado. Índice de\n"
+    "crítico alto.");
 
 static const u8 sBouncyBubbleDescription_Revised[] = _(
-    "A bubble attack that absorbs\n"
-    "half the damage inflicted.");
+    "Ataque de burbujas que\n"
+    "absorbe la mitad del daño.");
 
 static const u8 sBuzzyBuzzDescription_Revised[] = _(
-    "Shoots a jolt of electricity\n"
-    "with a high paralysis chance.");
+    "Descarga eléctrica con alta\n"
+    "probabilidad de paralizar.");
 
 static const u8 sSizzlySlideDescription_Revised[] = _(
-    "A fiery dash attack with a\n"
-    "high chance to burn.");
+    "Carga ígnea con alta\n"
+    "probabilidad de quemar.");
 
 static const u8 sSnipeShotDescription_Revised[] = _(
-    "A water jet with a high crit\n"
-    "rate. Can't be redirected.");
+    "Chorro de agua con crítico\n"
+    "alto. No se puede desviar.");
 
 static const u8 sSteelRollerDescription_Revised[] = _(
-    "Rampages to hit the foe and\n"
-    "destroy any terrain.");
+    "Arrasa al rival y destruye\n"
+    "cualquier campo.");
 
 static const u8 sDireClawDescription_Revised[] = _(
-    "A dire claw strike with a high\n"
-    "critical rate. May paralyze.");
+    "Zarpazo feroz con crítico\n"
+    "alto. Puede paralizar.");
 
 static const u8 sStoneAxeDescription_Revised[] = _(
-    "Swings stone axes at the foe.\n"
-    "High critical-hit ratio.");
+    "Golpea con hachas de piedra.\n"
+    "Crítico alto.");
 
 static const u8 sMysticalPowerDescription_Revised[] = _(
-    "A mysterious power strikes.\n"
-    "May raise user's Sp. Atk.");
+    "Un poder misterioso golpea.\n"
+    "Puede subir el At. Esp.");
 
 static const u8 sEsperWingDescription_Revised[] = _(
-    "High critical hit ratio.\n"
-    "May raise the user's speed.");
+    "Crítico alto. Puede subir la\n"
+    "Velocidad del usuario.");
 
 static const u8 sBitterMaliceDescription_Revised[] = _(
-    "A spine-chilling resentment\n"
-    "that may cause frostbite.");
+    "Rencor escalofriante que\n"
+    "puede congelar.");
 
 static const u8 sShelterDescription_Revised[] = _(
-    "Evades damage, and raises\n"
-    "user's Defense when struck.");
+    "Evita el daño y sube su\n"
+    "Defensa si le golpean.");
 
 static const u8 sTripleArrowsDescription_Revised[] = _(
-    "Shoots three arrows in a row\n"
-    "with rising intensity.");
+    "Dispara tres flechas cada\n"
+    "vez más fuertes.");
 
 static const u8 sInfernalParadeDescription_Revised[] = _(
-    "Attacks with ghostly balls\n"
-    "of fire. May leave a burn.");
+    "Bolas de fuego fantasmal.\n"
+    "Puede quemar.");
 
 static const u8 sCeaselessEdgeDescription_Revised[] = _(
-    "Slashes with a shell blade.\n"
-    "High critical-hit ratio.");
+    "Corta con una concha\n"
+    "afilada. Crítico alto.");
 
 static const u8 sLastRespectsDescription_Revised[] = _(
-    "Deals double damage if\n"
-    "an ally fainted last turn.");
+    "Doble de daño si un aliado se\n"
+    "debilitó el turno anterior.");
 
 static const u8 sLuminaCrashDescription_Revised[] = _(
-    "A mind-affecting light that\n"
-    "lowers target's Sp. Def.");
+    "Luz que afecta a la mente y\n"
+    "baja la Def. Esp.");
 
 static const u8 sTripleDiveDescription_Revised[] = _(
-    "Splashes the foe three times\n"
-    "with rising intensity.");
+    "Salpica al rival tres veces,\n"
+    "cada vez más fuerte.");
 
 static const u8 sTorchSongDescription_Revised[] = _(
-    "A scorching song that may\n"
-    "raise the user's Sp. Atk.");
+    "Canto abrasador que puede\n"
+    "subir el At. Esp.");
 
 static const u8 sAquaStepDescription_Revised[] = _(
-    "A light, fluid dance that\n"
-    "may raise the user's Speed.");
+    "Baile ligero y fluido. Puede\n"
+    "subir la Velocidad.");
 
 static const u8 sMakeItRainDescription_Revised[] = _(
-    "Harshly lowers user's Sp. Atk\n"
-    "and scatters coins on field.");
+    "Baja mucho su At. Esp. y\n"
+    "esparce monedas.");
 
 static const u8 sRageFistDescription_Revised[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+    "Arrasa durante 2 o 3 turnos\n"
+    "y luego se confunde.");
 
 static const u8 sIcePunchDescription_Revised[] = _(
-    "An icy punch that may\n"
-    "leave the foe with frostbite.");
+    "Puñetazo helado que puede\n"
+    "congelar al rival.");
 
 static const u8 sIceBeamDescription_Revised[] = _(
-    "Blasts the foe with an icy\n"
-    "beam. May cause frostbite.");
+    "Rayo de hielo que puede\n"
+    "congelar al rival.");
 
 static const u8 sBlizzardDescription_Revised[] = _(
-    "Hits the foe with an icy\n"
-    "storm. May cause frostbite.");
+    "Tormenta helada que puede\n"
+    "congelar al rival.");
 
 static const u8 sFreezingGlareDescription_Revised[] = _(
-    "Shoots psychic power from\n"
-    "the eyes. May frostbite.");
+    "Poder psíquico por los ojos.\n"
+    "Puede congelar.");
 
 static const u8 sSwirlingBladeDescription_Revised[] = _(
-    "A strike with a sword.\n"
-    "High critical-hit ratio.");
+    "Un golpe de espada. Índice de\n"
+    "crítico alto.");
 
 const u8 *const gMoveDescriptionPointers_Revised[MOVES_COUNT - 1] =
 {

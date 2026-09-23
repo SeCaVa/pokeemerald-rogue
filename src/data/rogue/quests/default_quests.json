@@ -14,8 +14,8 @@
         "default_group":
         [
             {
-                "name": "To Adventure!",
-                "description": "Embark on your first Adventure!",
+                "name": "To Adventure!", "display_name": "¡A la Aventura!",
+                "description": "¡Parte en tu primera Aventura!",
                 "display_group": "starter_quests",
                 "triggers":
                 [
@@ -35,8 +35,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_QUEST_LOG",
-                            "title": "Adventure Stats",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Page Unlocked",
+                            "title": "Estadísticas",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Página nueva!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
@@ -44,9 +44,9 @@
             },
             
             {
-                "name": "Gym Badge 1",
+                "name": "Gym Badge 1", "display_name": "Medalla 1",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 1st Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 1.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -63,9 +63,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 2",
+                "name": "Gym Badge 2", "display_name": "Medalla 2",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 2nd Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 2.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -82,9 +82,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 3",
+                "name": "Gym Badge 3", "display_name": "Medalla 3",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 3rd Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 3.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -101,9 +101,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 4",
+                "name": "Gym Badge 4", "display_name": "Medalla 4",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 4th Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 4.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -120,9 +120,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 5",
+                "name": "Gym Badge 5", "display_name": "Medalla 5",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 5th Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 5.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -139,9 +139,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 6",
+                "name": "Gym Badge 6", "display_name": "Medalla 6",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 6th Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 6.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -158,9 +158,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 7",
+                "name": "Gym Badge 7", "display_name": "Medalla 7",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 7th Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 7.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -177,9 +177,9 @@
                 ]
             },
             {
-                "name": "Gym Badge 8",
+                "name": "Gym Badge 8", "display_name": "Medalla 8",
                 "display_group": "starter_quests",
-                "description": "Defeat a Mighty Trainer and collect your 8th Gym Badge",
+                "description": "Derrota a un Entrenador Poderoso y consigue tu 8.ª Medalla.",
                 "triggers":
                 [
                     {
@@ -197,9 +197,9 @@
             },
 
             {
-                "name": "Elite Master",
+                "name": "Elite Master", "display_name": "Maestro Élite",
                 "display_group": "starter_quests",
-                "description": "Defeat all Trainers of the Elite Four.",
+                "description": "Derrota a todos los miembros del Alto Mando.",
                 "triggers":
                 [
                     {
@@ -216,9 +216,9 @@
                 ]
             },
             {
-                "name": "Champion",
+                "name": "Champion", "display_name": "Campeón",
                 "display_group": "starter_quests",
-                "description": "Defeat the final Champion and enter the Hall of Fame.",
+                "description": "Derrota al Campeón final y entra en el Hall de la Fama.",
                 "triggers":
                 [
                     {
@@ -236,8 +236,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_VS_SEEKER",
-                            "title": "Victory Lap",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Feature Unlocked!",
+                            "title": "Vuelta de Honor",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Función nueva!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
@@ -245,8 +245,8 @@
             },
 
             {
-                "name": "Welcome Home",
-                "description": "Build all of the available areas.",
+                "name": "Welcome Home", "display_name": "Dulce hogar",
+                "description": "Construye todas las zonas disponibles.",
                 "display_group": "starter_quests",
                 "flags":
                 [
@@ -270,8 +270,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_TOWN_MAP",
-                            "title": "Town Map Upgrade",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Teleport Unlocked!",
+                            "title": "Mejora del Mapa",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Teletransporte!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
@@ -279,9 +279,9 @@
             },
 
             {
-                "name": "Post Game?",
+                "name": "Post Game?", "display_name": "¿Posjuego?",
                 "display_group": "starter_quests",
-                "description": "Meet ??? in ??? and then meet ??? to active all post game content.",
+                "description": "Visita a ??? en ??? y luego a ??? para activar todo el contenido posterior.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -314,9 +314,9 @@
                 ]
             },
             {
-                "name": "One Last Quest…",
+                "name": "One Last Quest…", "display_name": "Última Misión…",
                 "display_group": "final_quests",
-                "description": "Complete all other Main Quests in order to unlock the 'Final Quest'",
+                "description": "Completa todas las demás Misiones Principales para desbloquear la 'Misión Final'.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -340,8 +340,8 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_C_GEAR",
-                            "title": "Rogue Trainers",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Unlocked in Config Lab",
+                            "title": "Entren. Rogue",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}En Lab. Config.",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
@@ -349,9 +349,9 @@
             },
             {
                 "#if": "!defined(ROGUE_EXPANSION)",
-                "name": "The Final Run.",
+                "name": "The Final Run.", "display_name": "La partida final.",
                 "display_group": "final_quests",
-                "description": "Win a full Standard Run, with the Pokédex set to National Gen3 and only Rogue Trainers enabled.",
+                "description": "Gana una partida Estándar completa con la Pokédex en Nacional Gen. 3 y solo los Entrenadores Rogue activos.",
                 "triggers":
                 [
                     {
@@ -381,9 +381,9 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "The Final Run.",
+                "name": "The Final Run.", "display_name": "La partida final.",
                 "display_group": "starter_quests",
-                "description": "Win a full Standard Run, with the Pokédex set to National Gen9 and only Rogue Trainers enabled.",
+                "description": "Gana una partida Estándar completa con la Pokédex en Nacional Gen. 9 y solo los Entrenadores Rogue activos.",
                 "triggers":
                 [
                     {
@@ -413,8 +413,8 @@
             },
 
             {
-                "name": "Collector",
-                "description": "Collect data for 15 Pokémon in the Pokédex.",
+                "name": "Collector", "display_name": "Coleccionista",
+                "description": "Registra datos de 15 Pokémon en la Pokédex.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -440,8 +440,8 @@
                 ]
             },
             {
-                "name": "Collector +",
-                "description": "Collect data for 100 Pokémon in the Pokédex.",
+                "name": "Collector +", "display_name": "Coleccionista +",
+                "description": "Registra datos de 100 Pokémon en la Pokédex.",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -464,8 +464,8 @@
                 ]
             },
             {
-                "name": "Collector S",
-                "description": "Collect data for 10 Shiny Pokémon in the Pokédex.\n\n(Pokémon can be chained to increase odds by knocking out back to back)",
+                "name": "Collector S", "display_name": "Coleccionista S",
+                "description": "Registra datos de 10 Pokémon variocolor en la Pokédex.\n\n(Puedes encadenar Pokémon derrotándolos seguidos para aumentar la probabilidad)",
                 "flags": 
                 [
                     "MAIN_QUEST_DEFAULT",
@@ -489,8 +489,8 @@
                 ]
             },
             {
-                "name": "Collector X",
-                "description": "Defeat every Elite Four Trainer with a Pokémon of Legends in your party.",
+                "name": "Collector X", "display_name": "Coleccionista X",
+                "description": "Derrota a todo el Alto Mando con un Pokémon de Leyenda en tu equipo.",
                 "triggers":
                 [
                     {
@@ -520,8 +520,8 @@
             },
 
             {
-                "name": "Care Tactics",
-                "description": "Defeat the first 4 Gym Leaders, without your Partner Pokémon ever fainting.",
+                "name": "Care Tactics", "display_name": "Táctica prudente",
+                "description": "Derrota a los 4 primeros Líderes de Gimnasio sin que tu Pokémon Compañero se debilite.",
                 "triggers":
                 [
                     {
@@ -544,8 +544,8 @@
                 ]
             },
             {
-                "name": "Smart Tactics",
-                "description": "Defeat all 8 Gym Leaders, without your Partner Pokémon ever fainting.",
+                "name": "Smart Tactics", "display_name": "Táctica astuta",
+                "description": "Derrota a los 8 Líderes de Gimnasio sin que tu Pokémon Compañero se debilite.",
                 "triggers":
                 [
                     {
@@ -569,8 +569,8 @@
             },
 
             {
-                "name": "Mr. Randoman",
-                "description": "Trade a Pokémon with Mr. Randoman.",
+                "name": "Mr. Randoman", "display_name": "Sr. Randoman",
+                "description": "Intercambia un Pokémon con el Sr. Randoman.",
                 "triggers":
                 [
                     {
@@ -592,8 +592,8 @@
                 ]
             },
             {
-                "name": "Shopping Spree",
-                "description": "Spend at least ¥20000 in shops during a single visit to any Rest Stop.",
+                "name": "Shopping Spree", "display_name": "De compras",
+                "description": "Gasta al menos ¥20000 en tiendas en una sola visita a un Área de Descanso.",
                 "triggers":
                 [
                     {
@@ -618,8 +618,8 @@
                 ]
             },
             {
-                "name": "Big Saver",
-                "description": "Exit a Rest Stop with at least ¥50000 in your pocket.",
+                "name": "Big Saver", "display_name": "Gran ahorrador",
+                "description": "Sal de un Área de Descanso con al menos ¥50000 en el bolsillo.",
                 "triggers":
                 [
                     {
@@ -644,8 +644,8 @@
 
 
             {
-                "name": "True Legend",
-                "description": "During an Adventure, catch any Pokémon of Legends (Mythicals and other forms count as Legends too).",
+                "name": "True Legend", "display_name": "Leyenda real",
+                "description": "Durante una Aventura, captura un Pokémon de Leyenda (los Singulares y otras formas también cuentan).",
                 "triggers":
                 [
                     {
@@ -663,16 +663,16 @@
                         "custom_popup":
                         {
                             "item_icon": "ITEM_TOWN_MAP",
-                            "title": "Safari Area",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Mountains shift…",
+                            "title": "Zona Safari",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Algo cambia…",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                     }
                 ]
             },
             {
-                "name": "Shiny a Day",
-                "description": "During an Adventure, catch any Shiny Pokémon.",
+                "name": "Shiny a Day", "display_name": "Un vario al día",
+                "description": "Durante una Aventura, captura un Pokémon variocolor.",
                 "triggers":
                 [
                     {
@@ -690,8 +690,8 @@
             },
 
             {
-                "name": "Hidden Grotto",
-                "description": "During an Adventure, catch a Trained Pokémon from a secluded den.",
+                "name": "Hidden Grotto", "display_name": "Gruta oculta",
+                "description": "Durante una Aventura, captura un Pokémon entrenado de una guarida apartada.",
                 "triggers":
                 [
                     {
@@ -708,8 +708,8 @@
                 ]
             },
             {
-                "name": "Poké Ball, Go!",
-                "description": "During an Adventure, win a Pokémon Catching Contest.",
+                "name": "Poké Ball, Go!", "display_name": "¡Poké Ball, ve!",
+                "description": "Durante una Aventura, gana un Concurso de Captura Pokémon.",
                 "triggers":
                 [
                     {
@@ -726,8 +726,8 @@
                 ]
             },
             {
-                "name": "Enticing {POKEBLOCK}",
-                "description": "During an Adventure, attract a Pokémon to a Honey Tree and catch it.",
+                "name": "Enticing {POKEBLOCK}", "display_name": "{POKEBLOCK} tentador",
+                "description": "Durante una Aventura, atrae a un Pokémon a un Árbol de Miel y captúralo.",
                 "triggers":
                 [
                     {
@@ -744,8 +744,8 @@
                 ]
             },
             {
-                "name": "Elo Climb",
-                "description": "Win a fight in the Battle Simulator.",
+                "name": "Elo Climb", "display_name": "Subida de Elo",
+                "description": "Gana un combate en el Simulador de Combate.",
                 "triggers":
                 [
                     {
@@ -762,8 +762,8 @@
                 ]
             },
             {
-                "name": "All Skill",
-                "description": "Win every single round in the Game Show.",
+                "name": "All Skill", "display_name": "Pura habilidad",
+                "description": "Gana todas las rondas del concurso.",
                 "triggers":
                 [
                     {
@@ -780,8 +780,8 @@
                 ]
             },
             {
-                "name": "Fateful Encounter",
-                "description": "During an Adventure, visit the Lab and reunite with a Friend from the past.",
+                "name": "Fateful Encounter", "display_name": "Reencuentro",
+                "description": "Durante una Aventura, visita el Laboratorio y reencuéntrate con un Amigo del pasado.",
                 "triggers":
                 [
                     {
@@ -798,8 +798,8 @@
                 ]
             },
             {
-                "name": "Blasting Off",
-                "description": "Put a stop to an Evil Team, by defeating their Leader.",
+                "name": "Blasting Off", "display_name": "¡Adiós, villanos!",
+                "description": "Detén a un Equipo malvado derrotando a su Líder.",
                 "triggers":
                 [
                     {
@@ -818,8 +818,8 @@
                 ]
             },
             {
-                "name": "Mankey's Paw",
-                "description": "Make a Dark Deal, during an Adventure…",
+                "name": "Mankey's Paw", "display_name": "La pata de Mankey",
+                "description": "Haz un Trato Oscuro durante una Aventura…",
                 "triggers":
                 [
                     {
@@ -837,8 +837,8 @@
                 ]
             },
             {
-                "name": "Blessing's Favour",
-                "description": "Find some Sacred Ash, during an Adventure.",
+                "name": "Blessing's Favour", "display_name": "Bendición",
+                "description": "Encuentra Ceniza Sagrada durante una Aventura.",
                 "triggers":
                 [
                     {
@@ -857,8 +857,8 @@
             },
 
             {
-                "name": "Not Today!",
-                "description": "Use an Escape Rope to avoid a Rival battle.",
+                "name": "Not Today!", "display_name": "¡Hoy no!",
+                "description": "Usa una Cuerda Huida para evitar un combate contra un Rival.",
                 "triggers":
                 [
                     {
@@ -883,8 +883,8 @@
             },
 
             {
-                "name": "Double Trouble",
-                "description": "Win a full Run with Double battle format enabled in the Config Lab.",
+                "name": "Double Trouble", "display_name": "Doble problema",
+                "description": "Gana una partida completa con el formato de combate Doble activado en el Lab. Config.",
                 "triggers":
                 [
                     {
@@ -906,8 +906,8 @@
 
             {
                 "#if": "!defined(ROGUE_EXPANSION)",
-                "name": "Taste the Rainbow",
-                "description": "Enable all 3 Generations of Trainers and Rainbow Mode in the Config Lab, then win a full Run.",
+                "name": "Taste the Rainbow", "display_name": "Todo arcoíris",
+                "description": "Activa las 3 Generaciones de Entrenadores y el Modo Arcoíris en el Lab. Config. y gana una partida completa.",
                 "triggers":
                 [
                     {
@@ -939,8 +939,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Taste the Rainbow",
-                "description": "Enable all 9 Generations of Trainers and Rainbow Mode in the Config Lab, then win a full Run.",
+                "name": "Taste the Rainbow", "display_name": "Todo arcoíris",
+                "description": "Activa las 9 Generaciones de Entrenadores y el Modo Arcoíris en el Lab. Config. y gana una partida completa.",
                 "triggers":
                 [
                     {
@@ -978,8 +978,8 @@
             },
 
             {
-                "name": "Long Haul",
-                "description": "Bring up to 6 Pokémon into a Gauntlet Mode Adventure and enter the Hall of Fame.",
+                "name": "Long Haul", "display_name": "Larga distancia",
+                "description": "Lleva hasta 6 Pokémon a una Aventura en Modo Desafío y entra en el Hall de la Fama.",
                 "triggers":
                 [
                     {
@@ -1003,8 +1003,8 @@
 
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Battle Gimmick",
-                "description": "Win a full Run with any of: Mega Ring, Z-Power Ring, Dynamax Band or Tera Orb.",
+                "name": "Battle Gimmick", "display_name": "Mecánica extra",
+                "description": "Gana una partida completa con cualquiera de: Megapulsera, Pulsera Z, Maximuñequera u Orbe Teracristal.",
                 "triggers":
                 [
                     {

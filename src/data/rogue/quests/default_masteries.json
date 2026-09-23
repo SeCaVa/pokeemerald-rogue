@@ -2,8 +2,8 @@
     "condition": "",
     "defaults":
     {
-        "name": "%MON_SPECIES% Mastery",
-        "description": "Enter the Hall of Fame with a Pokémon from the %MON_SPECIES% line in your party.",
+        "name": "%MON_SPECIES% Mastery", "display_name": "Maestría %MON_SPECIES%",
+        "description": "Entra en el Hall de la Fama con un Pokémon de la línea de %MON_SPECIES% en tu equipo.",
         "display_group": "mon_masteries",
         "flags": 
         [
@@ -40,8 +40,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_VENUSAUR_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -63,8 +63,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_CHARIZARD_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -85,8 +85,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_BLASTOISE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -106,8 +106,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_BUTTERFREE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -153,8 +153,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_PIKACHU_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -174,8 +174,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_MEOWTH_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -206,8 +206,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_MACHAMP_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -239,8 +239,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_GENGAR_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -271,8 +271,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_KINGLER_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -336,8 +336,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_LAPRAS_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -358,8 +358,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_EEVEE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -391,8 +391,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_SNORLAX_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -658,8 +658,8 @@
                 ]
             },
             {
-                "name": "Lati Mastery",
-                "description": "Enter the Hall of Fame with Latias or Latios in your party.",
+                "name": "Lati Mastery", "display_name": "Maestría Lati",
+                "description": "Entra en el Hall de la Fama con Latias o Latios en tu equipo.",
                 "triggers":
                 [
                     {
@@ -899,8 +899,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_GARBODOR_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -908,8 +908,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Genie Mastery",
-                "description": "Enter the Hall of Fame with Tornadus, Thundurus, Landorus or Enamorus in your party.",
+                "name": "Genie Mastery", "display_name": "Maestría Genio",
+                "description": "Entra en el Hall de la Fama con Tornadus, Thundurus, Landorus o Enamorus en tu equipo.",
                 "triggers":
                 [
                     {
@@ -1095,8 +1095,8 @@
             },
             {
                 "#if": "defined(ROGUE_EXPANSION)",
-                "name": "Tapu Mastery",
-                "description": "Enter the Hall of Fame with Tapu Koko, Tapu Lele, Tapu Bulu or Tapu Fini in your party.",
+                "name": "Tapu Mastery", "display_name": "Maestría Tapu",
+                "description": "Entra en el Hall de la Fama con Tapu Koko, Tapu Lele, Tapu Bulu o Tapu Fini en tu equipo.",
                 "triggers":
                 [
                     {
@@ -1176,8 +1176,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_MELMETAL_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1198,8 +1198,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_RILLABOOM_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1219,8 +1219,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_CINDERACE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1240,8 +1240,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_INTELEON_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1261,8 +1261,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_CORVIKNIGHT_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1282,8 +1282,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_ORBEETLE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1303,8 +1303,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_DREDNAW_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1324,8 +1324,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_COALOSSAL_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1345,8 +1345,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_FLAPPLE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1366,8 +1366,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_SANDACONDA_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1387,8 +1387,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_TOXTRICITY_AMPED_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1408,8 +1408,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_CENTISKORCH_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1429,8 +1429,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_HATTERENE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1450,8 +1450,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_GRIMMSNARL_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1471,8 +1471,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_ALCREMIE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1492,8 +1492,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_COPPERAJAH_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1513,8 +1513,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_DURALUDON_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }
@@ -1558,8 +1558,8 @@
                         "custom_popup":
                         {
                             "species_icon": "SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX",
-                            "title": "Gmax Form",
-                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}Perma Unlocked!",
+                            "title": "Forma Gigamax",
+                            "subtitle": "{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Para siempre!",
                             "fanfare": "MUS_RG_OBTAIN_KEY_ITEM"
                         }
                      }

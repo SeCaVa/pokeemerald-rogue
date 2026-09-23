@@ -11,7 +11,7 @@
         "rivals":
         [
             {
-                "name": "WALLY",
+                "name": "BLASCO",
                 "type_assignment": "NONE",
                 "gfx_suffix": "WALLY",
                 "trainer_class": "TRAINER_CLASS_RIVAL",
@@ -22,24 +22,24 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Oh…\\nHi there.\\pYou look like a really strong Trainer!\\pI want to get stronger so that I can challenge Gyms.\\pPlease, will you help by battling with me?",
-                        "POST_BATTLE_TAUNT": "… … … … … … …\\pI lost…",
-                        "POST_BATTLE_CLOSER": "{PLAYER}, thank you.\\nBeing a Trainer is tough, isn't it?\\pI'll train harder along with my Pokémon to see if I can become strong enough to beat you!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Ah…\\nHola.\\p¡Pareces {MASC}un{FEM}una{ENDG} Entrenador{MASC}{FEM}a{ENDG} muy fuerte!\\pQuiero hacerme más fuerte para poder retar a los Gimnasios.\\p¿Me ayudarías combatiendo conmigo, por favor?",
+                        "POST_BATTLE_TAUNT": "… … … … … … …\\pHe perdido…",
+                        "POST_BATTLE_CLOSER": "{PLAYER}, gracias.\\nSer Entrenador es duro, ¿verdad?\\p¡Entrenaré más con mis Pokémon para ver si llego a ser lo bastante fuerte como para ganarte!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: I lost to you last time, {PLAYER}.\\pBut I've been training really hard!\\pI'm sure my Pokémon and I can put up a better fight now!",
-                        "POST_BATTLE_TAUNT": "So strong!",
-                        "POST_BATTLE_CLOSER": "I'm going to Challenge Pokémon Gyms and become a great Trainer!\\pPlease watch me, {PLAYER}.\\nI'm going to be even stronger than you."
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: La última vez perdí contra ti, {PLAYER}.\\p¡Pero he entrenado muchísimo!\\p¡Seguro que ahora mis Pokémon y yo podemos plantarte más cara!",
+                        "POST_BATTLE_TAUNT": "¡Qué fuerte!",
+                        "POST_BATTLE_CLOSER": "¡Voy a retar a los Gimnasios Pokémon y a convertirme en un gran Entrenador!\\pNo me pierdas de vista, {PLAYER}.\\nVoy a ser aún más fuerte que tú."
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hi, {PLAYER}!\\pI've been training really hard!\\pPlease, will you battle me again so I can show you!",
-                        "POST_BATTLE_TAUNT": "I still need to get stronger…",
-                        "POST_BATTLE_CLOSER": "My Pokémon and I have such a strong connection now.\\pI'm certain we can get stronger with one final push!\\pWhen we next meet, I'm going to challenge you to another battle and win for sure!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Hola, {PLAYER}!\\p¡He entrenado muchísimo!\\p¡Combate otra vez conmigo, por favor, para que pueda demostrártelo!",
+                        "POST_BATTLE_TAUNT": "Todavía tengo que hacerme más fuerte…",
+                        "POST_BATTLE_CLOSER": "Ahora mis Pokémon y yo estamos muy unidos.\\p¡Seguro que con un último esfuerzo podemos ser más fuertes!\\p¡La próxima vez que nos veamos, te retaré otra vez y ganaré seguro!"
                     },
                     {
                         "PRE_BATTLE_OPENNING": "… … …",
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hi! {PLAYER}!\\pI bet you're surprised to see me here!I made it all the way here, and it's all thanks to you!\\pI'm not going to lose this time…\\pI'm going to win! For the Pokémon who gave me courage and strength!",
-                        "POST_BATTLE_TAUNT": "Wow!\\n{PLAYER}, you are strong, after all!",
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Hola, {PLAYER}!\\p¡Seguro que te sorprende verme aquí! ¡He llegado hasta aquí y todo gracias a ti!\\pEsta vez no voy a perder…\\p¡Voy a ganar! ¡Por los Pokémon que me dieron valor y fuerza!",
+                        "POST_BATTLE_TAUNT": "¡Hala!\\n¡{PLAYER}, está claro que eres fuerte!",
                         "POST_BATTLE_CLOSER": "…"
                     }
                 ],
@@ -62,7 +62,7 @@
                 }
             },
             {
-                "name": "BRENDAN",
+                "name": "BRUNO",
                 "type_assignment": "NONE",
                 "object_event": "OBJ_EVENT_GFX_LINK_RS_BRENDAN",
                 "trainer_pic": "TRAINER_PIC_RS_BRENDAN",
@@ -73,24 +73,24 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hey!\\pWho might you be?\\p{PLAYER}, is it?\\pI see you're a Pokémon Trainer.\\nYou look really strong!\\pSince we're here, let's have a little battle!",
-                        "POST_BATTLE_TAUNT": "Huh, {PLAYER}, you're not too shabby.",
-                        "POST_BATTLE_CLOSER": "Your Pokémon were so strong!\\pI get the feeling that you're able to befriend any kind of Pokémon with ease.\\pI'm looking forward to the next time we'll get to battle!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Eh!\\p¿Quién eres tú?\\p¿{PLAYER}, dices?\\pVeo que eres Entrenador Pokémon.\\n¡Pareces muy fuerte!\\pYa que estamos aquí, ¡echemos un combatito!",
+                        "POST_BATTLE_TAUNT": "Vaya, {PLAYER}, no lo haces nada mal.",
+                        "POST_BATTLE_CLOSER": "¡Tus Pokémon eran muy fuertes!\\pTengo la sensación de que puedes hacerte amig{MASC}o{FEM}a{ENDG} de cualquier Pokémon con facilidad.\\p¡Tengo ganas de que volvamos a combatir!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hey, {PLAYER}.\\nSo this is where you were.\\nHow's it going?\\pHave you been raising your Pokémon?\\nI'll check for you.",
-                        "POST_BATTLE_TAUNT": "Hmm…\\nYou're pretty good.",
-                        "POST_BATTLE_CLOSER": "{PLAYER}, you've trained without me noticing…\\pYou're so in sync with your Pokémon!\\pAnyway, I'm off to look for new Pokémon."
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hola, {PLAYER}.\\nAsí que estabas aquí.\\n¿Qué tal te va?\\p¿Has estado criando a tus Pokémon?\\nVoy a comprobarlo.",
+                        "POST_BATTLE_TAUNT": "Mmm…\\nEres bastante bueno.",
+                        "POST_BATTLE_CLOSER": "{PLAYER}, has entrenado sin que me diera cuenta…\\p¡Estás muy compenetrad{MASC}o{FEM}a{ENDG} con tus Pokémon!\\pBueno, me voy a buscar Pokémon nuevos."
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: {PLAYER}! So this is where you've been looking for Pokémon?\\pLet me see how good you got.\\nI'll test you!\\pNow!\\nIt's a battle, so battle!",
-                        "POST_BATTLE_TAUNT": "Hmm…\\nYou've gotten pretty darn decent.",
-                        "POST_BATTLE_CLOSER": "I'd say you're good enough to search for Pokémon anywhere.\\pYou're a real natural!\\pAnyway, I have to move along."
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡{PLAYER}! ¿Así que es aquí donde buscabas Pokémon?\\pA ver cuánto has mejorado.\\n¡Te pondré a prueba!\\p¡Venga!\\n¡Esto es un combate, así que a combatir!",
+                        "POST_BATTLE_TAUNT": "Mmm…\\nTe has vuelto bastante bueno, la verdad.",
+                        "POST_BATTLE_CLOSER": "Yo diría que ya puedes buscar Pokémon en cualquier parte.\\p¡Tienes un don natural!\\pBueno, tengo que seguir mi camino."
                     },
                     {
                         "PRE_BATTLE_OPENNING": "… … …",
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: {PLAYER}!\\nIt's been a while!\\pWant to have a battle to see who's been raising Pokémon better?\\pWho am I kidding?\\nOf course you do!\\pBut you know I'm not going to lose to no {PLAYER}!",
-                        "POST_BATTLE_TAUNT": "Humph…\\nYou've gotten so strong.",
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡{PLAYER}!\\n¡Cuánto tiempo!\\p¿Quieres un combate para ver quién ha criado mejor a sus Pokémon?\\p¿A quién quiero engañar?\\n¡Claro que quieres!\\p¡Pero ya sabes que no pienso perder contra ningún {PLAYER}!",
+                        "POST_BATTLE_TAUNT": "Hum…\\nTe has vuelto muy fuerte.",
                         "POST_BATTLE_CLOSER": "…"
                     }
                 ],
@@ -114,7 +114,7 @@
                 }
             },
             {
-                "name": "MAY",
+                "name": "AURA",
                 "type_assignment": "NONE",
                 "object_event": "OBJ_EVENT_GFX_LINK_RS_MAY",
                 "trainer_pic": "TRAINER_PIC_RS_MAY",
@@ -125,24 +125,24 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Oh, hi!\\pWho might you be?\\p{PLAYER}, is it?\\pI see you're a Pokémon Trainer.\\nYou look really strong!\\pSince we're here, let's have a quick battle!",
-                        "POST_BATTLE_TAUNT": "Wow! That's great!\\n{PLAYER}, you're pretty good!",
-                        "POST_BATTLE_CLOSER": "Your Pokémon were so strong!\\pI bet you're able to befriend any kind of Pokémon easily.\\pI hope we'll get to battle again some time!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Ah, hola!\\p¿Quién eres tú?\\p¿{PLAYER}, dices?\\pVeo que eres Entrenador Pokémon.\\n¡Pareces muy fuerte!\\pYa que estamos aquí, ¡echemos un combate rápido!",
+                        "POST_BATTLE_TAUNT": "¡Hala! ¡Genial!\\n¡{PLAYER}, eres bastante buen{MASC}o{FEM}a{ENDG}!",
+                        "POST_BATTLE_CLOSER": "¡Tus Pokémon eran muy fuertes!\\pSeguro que puedes hacerte amig{MASC}o{FEM}a{ENDG} de cualquier Pokémon fácilmente.\\p¡Espero que volvamos a combatir algún día!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Hi, {PLAYER}, long time no see!\\pWhile I was searching for other Pokémon, my Pokémon grew stronger.\\pSo…\\nHow about a little battle?",
-                        "POST_BATTLE_TAUNT": "Yikes!\\nYou're better than I expected!",
-                        "POST_BATTLE_CLOSER": "{PLAYER}, you've been busy training, too, haven't you?\\pI can tell by how in sync you are with your Pokémon!\\pOkay, {PLAYER}, let's meet again soon!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Hola, {PLAYER}, cuánto tiempo!\\pMientras buscaba otros Pokémon, los míos se han hecho más fuertes.\\pAsí que…\\n¿Qué tal un combatito?",
+                        "POST_BATTLE_TAUNT": "¡Ay!\\n¡Eres mejor de lo que esperaba!",
+                        "POST_BATTLE_CLOSER": "{PLAYER}, tú también has estado entrenando, ¿verdad?\\p¡Se nota por lo compenetrad{MASC}o{FEM}a{ENDG} que estás con tus Pokémon!\\p¡Bueno, {PLAYER}, a ver si nos vemos pronto!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: {PLAYER}!\\nWhere were you? I was looking for you!\\pHow much stronger have you gotten?\\nLet me check for you!\\pReady with your Pokémon?\\nOf course you are! Go!",
-                        "POST_BATTLE_TAUNT": "Achah!\\n{PLAYER}, you're strong!",
-                        "POST_BATTLE_CLOSER": "I was worried that you might be struggling with your training.\\pBut I had absolutely nothing to worry about! Keep it up!\\pWell, let's meet again somewhere!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡{PLAYER}!\\n¿Dónde estabas? ¡Te estaba buscando!\\p¿Cuánto más fuerte te has hecho?\\n¡Deja que lo compruebe!\\p¿Tienes listos a tus Pokémon?\\n¡Claro que sí! ¡Vamos!",
+                        "POST_BATTLE_TAUNT": "¡Ajá!\\n¡{PLAYER}, eres fuerte!",
+                        "POST_BATTLE_CLOSER": "Me preocupaba que te costara entrenar.\\p¡Pero no tenía por qué preocuparme! ¡Sigue así!\\p¡Bueno, ya nos veremos por ahí!"
                     },
                     {
                         "PRE_BATTLE_OPENNING": "… … …",
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: {PLAYER}!\\nYou made it!\\pI've caught a whole lot of Pokémon, and I'm raising them properly, too.\\pActually, I'm more worried if you're raising Pokémon properly, {PLAYER}.\\pSo…\\nFor one last time…\\pI'll battle with you, so you can show me the strength of your Pokémon!",
-                        "POST_BATTLE_TAUNT": "Wow!\\nYou've become this strong, {PLAYER}!",
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡{PLAYER}!\\n¡Lo has conseguido!\\pHe capturado un montón de Pokémon y los estoy criando como es debido.\\pEn realidad, me preocupa más si tú estás criando bien a los tuyos, {PLAYER}.\\pAsí que…\\nUna última vez…\\p¡Combatiré contigo para que me enseñes la fuerza de tus Pokémon!",
+                        "POST_BATTLE_TAUNT": "¡Hala!\\n¡Qué fuerte te has vuelto, {PLAYER}!",
                         "POST_BATTLE_CLOSER": "…"
                     }
                 ],
@@ -169,7 +169,7 @@
         "gyms":
         [
             {
-                "name": "ROXANNE",
+                "name": "PETRA",
                 "type_assignment": "ROCK",
                 "object_event": "OBJ_EVENT_GFX_ROXANNE",
                 "trainer_pic": "TRAINER_PIC_LEADER_ROXANNE",
@@ -179,10 +179,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I became a Gym Leader so that I might apply what I learned at the Trainer School.",
-                        "PRE_BATTLE_TAUNT": "Would you kindly demonstrate how you battle?",
-                        "POST_BATTLE_TAUNT": "So… I lost…",
-                        "POST_BATTLE_CLOSER": "It seems that I still have much more to learn…\\pI wish you the best of luck in your Adventure!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Me hice Líder de Gimnasio para poner en práctica lo que aprendí en la Escuela de Entrenadores.",
+                        "PRE_BATTLE_TAUNT": "¿Serías tan amable de mostrarme cómo combates?",
+                        "POST_BATTLE_TAUNT": "Así que… he perdido…",
+                        "POST_BATTLE_CLOSER": "Parece que aún me queda mucho por aprender…\\p¡Te deseo mucha suerte en tu Aventura!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -211,7 +211,7 @@
                 }
             },
             {
-                "name": "BRAWLY",
+                "name": "MARCIAL",
                 "type_assignment": "FIGHTING",
                 "object_event": "OBJ_EVENT_GFX_BRAWLY",
                 "trainer_pic": "TRAINER_PIC_LEADER_BRAWLY",
@@ -221,10 +221,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: So you wanted to challenge me?",
-                        "PRE_BATTLE_TAUNT": "Let me see what you're made of!",
-                        "POST_BATTLE_TAUNT": "Whoah, wow! You made a much bigger splash than I expected!",
-                        "POST_BATTLE_CLOSER": "You swamped me!\\pI'm certain you're gonna go far!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Así que querías retarme?",
+                        "PRE_BATTLE_TAUNT": "¡Veamos de qué pasta estás hech{MASC}o{FEM}a{ENDG}!",
+                        "POST_BATTLE_TAUNT": "¡Uau! ¡Has causado mucha más sensación de la que esperaba!",
+                        "POST_BATTLE_CLOSER": "¡Me has arrollado!\\p¡Seguro que llegarás lejos!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -253,7 +253,7 @@
                 }
             },
             {
-                "name": "WATTSON",
+                "name": "ERICO",
                 "type_assignment": "ELECTRIC",
                 "object_event": "OBJ_EVENT_GFX_WATTSON",
                 "trainer_pic": "TRAINER_PIC_LEADER_WATTSON",
@@ -263,10 +263,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: You want to battle?\\pWahahahah!",
-                        "PRE_BATTLE_TAUNT": "I shall electrify you!",
-                        "POST_BATTLE_TAUNT": "Wahahahah!\\nI lost!",
-                        "POST_BATTLE_CLOSER": "You ended up giving me a thrill!\\pI hope your future battles are just as exciting!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Quieres combatir?\\p¡Juajuajuajua!",
+                        "PRE_BATTLE_TAUNT": "¡Te voy a electrizar!",
+                        "POST_BATTLE_TAUNT": "¡Juajuajuajua!\\n¡He perdido!",
+                        "POST_BATTLE_CLOSER": "¡Al final me has hecho vibrar!\\p¡Espero que tus próximos combates sean igual de emocionantes!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -294,7 +294,7 @@
                 }
             },
             {
-                "name": "FLANNERY",
+                "name": "CANDELA",
                 "type_assignment": "FIRE",
                 "object_event": "OBJ_EVENT_GFX_FLANNERY",
                 "trainer_pic": "TRAINER_PIC_LEADER_FLANNERY",
@@ -304,10 +304,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Puny Trainer, how good to see you've made it here!\\pI shall, uh…",
-                        "PRE_BATTLE_TAUNT": "demonstrate the hot moves we have honed on this land!",
-                        "POST_BATTLE_TAUNT": "I guess I was trying too hard…",
-                        "POST_BATTLE_CLOSER": "I tried too hard to be someone I'm not.\\pI have to do things my natural way.\\pThanks for teaching me that."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Humilde Entrenador, qué alegría ver que has llegado hasta aquí!\\pAhora, eh…",
+                        "PRE_BATTLE_TAUNT": "¡te mostraré los ardientes movimientos que hemos perfeccionado en esta tierra!",
+                        "POST_BATTLE_TAUNT": "Supongo que me he esforzado demasiado…",
+                        "POST_BATTLE_CLOSER": "Me he esforzado demasiado en ser quien no soy.\\pTengo que hacer las cosas a mi manera.\\pGracias por enseñármelo."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -350,10 +350,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I will do everything in my power to win.",
-                        "PRE_BATTLE_TAUNT": "You'd better give it your best shot, too!",
-                        "POST_BATTLE_TAUNT": "I… I can't…\\nI can't believe it.",
-                        "POST_BATTLE_CLOSER": "I'm truly shocked.\\pYou definitely have the strength to go far."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Haré todo lo que esté en mi mano para ganar.",
+                        "PRE_BATTLE_TAUNT": "¡Más te vale dar lo mejor de ti también!",
+                        "POST_BATTLE_TAUNT": "No… no puede…\\nNo me lo puedo creer.",
+                        "POST_BATTLE_CLOSER": "Estoy realmente impactado.\\pSin duda tienes la fuerza necesaria para llegar lejos."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -392,7 +392,7 @@
                 }
             },
             {
-                "name": "WINONA",
+                "name": "ALANA",
                 "type_assignment": "FLYING",
                 "object_event": "OBJ_EVENT_GFX_WINONA",
                 "trainer_pic": "TRAINER_PIC_LEADER_WINONA",
@@ -402,10 +402,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I have become one with Bird Pokémon and have soared the skies…",
-                        "PRE_BATTLE_TAUNT": "Witness the elegant choreography of Bird Pokémon and I!",
-                        "POST_BATTLE_TAUNT": "Never before have I seen a Trainer command Pokémon with more grace.",
-                        "POST_BATTLE_CLOSER": "I recognise your prowess.\\pGood luck with your Adventure."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Me he convertido en uno con los Pokémon pájaro y he surcado los cielos…",
+                        "PRE_BATTLE_TAUNT": "¡Contempla la elegante coreografía de los Pokémon pájaro y yo!",
+                        "POST_BATTLE_TAUNT": "Nunca había visto a {MASC}un{FEM}una{ENDG} Entrenador{MASC}{FEM}a{ENDG} dirigir a sus Pokémon con tanta gracia.",
+                        "POST_BATTLE_CLOSER": "Reconozco tu destreza.\\pSuerte en tu Aventura."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -439,7 +439,7 @@
                 }
             },
             {
-                "name": "LIZA",
+                "name": "LETI",
                 "type_assignment": "PSYCHIC",
                 "object_event": "OBJ_EVENT_GFX_LIZA",
                 "trainer_pic": "TRAINER_PIC_LEADER_TATE_AND_LIZA",
@@ -449,10 +449,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: My mind is in sync with my Pokémon!",
-                        "PRE_BATTLE_TAUNT": "Can you and your Pokémon beat us?",
-                        "POST_BATTLE_TAUNT": "What?!\\nMy Pokémon…",
-                        "POST_BATTLE_CLOSER": "You were more in sync with your Pokémon than I was.\\pKeep that up, as your Adventure will be harder from here on out!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Mi mente está en sintonía con mis Pokémon!",
+                        "PRE_BATTLE_TAUNT": "¿Podréis tus Pokémon y tú vencernos?",
+                        "POST_BATTLE_TAUNT": "¡¿Qué?!\\nMis Pokémon…",
+                        "POST_BATTLE_CLOSER": "Estabas más en sintonía con tus Pokémon que yo.\\pSigue así, ¡porque a partir de ahora tu Aventura será más dura!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -485,7 +485,7 @@
                 }
             },
             {
-                "name": "JUAN",
+                "name": "GALANO",
                 "type_assignment": "WATER",
                 "object_event": "OBJ_EVENT_GFX_JUAN",
                 "trainer_pic": "TRAINER_PIC_LEADER_JUAN",
@@ -495,10 +495,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Please, you shall bear witness to our artistry.",
-                        "PRE_BATTLE_TAUNT": "A grand illusion of water sculpted by Pokémon and myself!",
-                        "POST_BATTLE_TAUNT": "Ahahaha, excellent!",
-                        "POST_BATTLE_CLOSER": "From you, I sense the brilliant shine of skill that will overcome all.\\pGood luck with your journey!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Por favor, sé testigo de nuestro arte.",
+                        "PRE_BATTLE_TAUNT": "¡Una gran ilusión de agua esculpida por mis Pokémon y por mí!",
+                        "POST_BATTLE_TAUNT": "¡Ajajaja, excelente!",
+                        "POST_BATTLE_CLOSER": "Percibo en ti el brillo de un talento capaz de superarlo todo.\\p¡Suerte en tu viaje!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -532,7 +532,7 @@
         "elite":
         [
             {
-                "name": "SIDNEY",
+                "name": "SIXTO",
                 "type_assignment": "DARK",
                 "object_event": "OBJ_EVENT_GFX_SIDNEY",
                 "trainer_pic": "TRAINER_PIC_ELITE_FOUR_SIDNEY",
@@ -542,10 +542,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I like the look you're giving me. I guess you'll give me a good match.",
-                        "PRE_BATTLE_TAUNT": "All right! You and me, let's enjoy a battle for the ages!",
-                        "POST_BATTLE_TAUNT": "Well, how do you like that? I lost!",
-                        "POST_BATTLE_CLOSER": "You've got what it takes to go far.\\pGood luck!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Me gusta cómo me miras. Supongo que me darás un buen combate.",
+                        "PRE_BATTLE_TAUNT": "¡Muy bien! ¡Tú y yo, disfrutemos de un combate para la historia!",
+                        "POST_BATTLE_TAUNT": "Vaya, ¿qué te parece? ¡He perdido!",
+                        "POST_BATTLE_CLOSER": "Tienes lo necesario para llegar lejos.\\p¡Suerte!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -578,7 +578,7 @@
                 }
             },
             {
-                "name": "PHOEBE",
+                "name": "FÁTIMA",
                 "type_assignment": "GHOST",
                 "object_event": "OBJ_EVENT_GFX_PHOEBE",
                 "trainer_pic": "TRAINER_PIC_ELITE_FOUR_PHOEBE",
@@ -588,10 +588,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: While I trained, I gained the ability to commune with Ghost-type Pokémon.",
-                        "PRE_BATTLE_TAUNT": "So, come on, just try and see if you can even inflict damage on my Pokémon!",
-                        "POST_BATTLE_TAUNT": "Oh, darn.\\nI've gone and lost.",
-                        "POST_BATTLE_CLOSER": "There's a definite bond between you and your Pokémon, too.\\pCarry that bond forward, {PLAYER}."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Mientras entrenaba, adquirí la capacidad de comunicarme con los Pokémon de tipo Fantasma.",
+                        "PRE_BATTLE_TAUNT": "Así que venga, ¡intenta a ver si eres capaz siquiera de hacer daño a mis Pokémon!",
+                        "POST_BATTLE_TAUNT": "Vaya, qué pena.\\nHe perdido.",
+                        "POST_BATTLE_CLOSER": "Entre tus Pokémon y tú también hay un vínculo claro.\\pConsérvalo, {PLAYER}."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -629,7 +629,7 @@
                 }
             },
             {
-                "name": "GLACIA",
+                "name": "NÍVEA",
                 "type_assignment": "ICE",
                 "object_event": "OBJ_EVENT_GFX_GLACIA",
                 "trainer_pic": "TRAINER_PIC_ELITE_FOUR_GLACIA",
@@ -639,10 +639,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: All I have seen are challenges by weak Trainers and their Pokémon.",
-                        "PRE_BATTLE_TAUNT": "I wonder.\\nHow will you do?",
-                        "POST_BATTLE_TAUNT": "You and your Pokémon…\\nHow hot your spirits burn!",
-                        "POST_BATTLE_CLOSER": "Finally!\\pYou have posed a good challenge for my Pokémon and I.\\pCarry that strength onward!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Solo he visto desafíos de Entrenadores débiles y sus Pokémon.",
+                        "PRE_BATTLE_TAUNT": "Me pregunto…\\n¿Qué tal lo harás tú?",
+                        "POST_BATTLE_TAUNT": "Tus Pokémon y tú…\\n¡Qué ardor el de vuestro espíritu!",
+                        "POST_BATTLE_CLOSER": "¡Por fin!\\pHas supuesto un buen desafío para mis Pokémon y para mí.\\p¡Lleva esa fuerza contigo!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -675,7 +675,7 @@
                 }
             },
             {
-                "name": "DRAKE",
+                "name": "DRACÓN",
                 "type_assignment": "DRAGON",
                 "object_event": "OBJ_EVENT_GFX_DRAKE",
                 "trainer_pic": "TRAINER_PIC_ELITE_FOUR_DRAKE",
@@ -686,10 +686,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: For us to battle with Pokémon as partners, do you know what it takes?\\pIf you don't…",
-                        "PRE_BATTLE_TAUNT": "Then you will never prevail over me!",
-                        "POST_BATTLE_TAUNT": "Superb, it should be said.",
-                        "POST_BATTLE_CLOSER": "You deserve every credit for coming this far as a Trainer of Pokémon.\\pI look forward to seeing how your bond with your Pokémon blossoms, going forward."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Sabes qué hace falta para combatir con los Pokémon como compañeros?\\pSi no lo sabes…",
+                        "PRE_BATTLE_TAUNT": "¡jamás podrás vencerme!",
+                        "POST_BATTLE_TAUNT": "Hay que decirlo: soberbio.",
+                        "POST_BATTLE_CLOSER": "Mereces todo el reconocimiento por haber llegado tan lejos como Entrenador Pokémon.\\pTengo ganas de ver cómo florece el vínculo con tus Pokémon a partir de ahora."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -741,7 +741,7 @@
         "champ":
         [
             {
-                "name": "WALLACE",
+                "name": "PLUBIO",
                 "type_assignment": "WATER",
                 "object_event": "OBJ_EVENT_GFX_WALLACE",
                 "trainer_pic": "TRAINER_PIC_CHAMPION_WALLACE",
@@ -751,10 +751,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Who can most elegantly dance with their Pokémon?\\pYou?\\nOr I?",
-                        "PRE_BATTLE_TAUNT": "Show me right here and now!",
-                        "POST_BATTLE_TAUNT": "You were elegant, infuriatingly so.\\nAnd yet it was utterly glorious!",
-                        "POST_BATTLE_CLOSER": "Kudos to you, {PLAYER}!\\pYou share a bond with your Pokémon that will surely only assist you in your future battles!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Quién baila con más elegancia junto a sus Pokémon?\\p¿Tú?\\n¿O yo?",
+                        "PRE_BATTLE_TAUNT": "¡Demuéstramelo aquí y ahora!",
+                        "POST_BATTLE_TAUNT": "Has estado elegante, exasperantemente elegante.\\n¡Y aun así ha sido glorioso!",
+                        "POST_BATTLE_CLOSER": "¡Mis felicitaciones, {PLAYER}!\\p¡Compartes con tus Pokémon un vínculo que sin duda te ayudará en tus próximos combates!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -787,7 +787,7 @@
                 }
             },
             {
-                "name": "STEVEN",
+                "name": "MÁXIMO",
                 "type_assignment": "STEEL",
                 "gfx_suffix": "STEVEN",
                 "trainer_class": "TRAINER_CLASS_LEADER",
@@ -796,10 +796,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Tell me…\\pWhat have you seen on your journey with your Pokémon?",
-                        "PRE_BATTLE_TAUNT": "Come at me with all that you've learned!",
-                        "POST_BATTLE_TAUNT": "So I…\\nFall in defeat.",
-                        "POST_BATTLE_CLOSER": "{PLAYER}, you are truly an excellent Trainer\\pYou share a bond with your Pokémon that will surely only assist you in your future battles!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Dime…\\p¿Qué has visto en tu viaje junto a tus Pokémon?",
+                        "PRE_BATTLE_TAUNT": "¡Ven a por mí con todo lo que has aprendido!",
+                        "POST_BATTLE_TAUNT": "Así que…\\ncaigo derrotado.",
+                        "POST_BATTLE_CLOSER": "{PLAYER}, eres de verdad un Entrenador excelente.\\p¡Compartes con tus Pokémon un vínculo que sin duda te ayudará en tus próximos combates!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",

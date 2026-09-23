@@ -286,126 +286,126 @@ static EWRAM_DATA struct PopupManager sRoguePopups = { 0 };
 
 extern const u8 gText_Space[];
 
-static const u8 sText_Popup_QuestComplete[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Quest Completed!");
-static const u8 sText_Popup_QuestFail[] = _("{COLOR LIGHT_RED}{SHADOW RED}Quest Failed");
-static const u8 sText_Popup_QuestUnlocked[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Quest Unlocked!");
-static const u8 sText_Popup_LegendaryClause[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Clause Activated!");
-static const u8 sText_Popup_RoamerLegendary[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Started Roaming!");
-static const u8 sText_Popup_GiftPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gift Pokémon!");
-static const u8 sText_Popup_GiftShinyPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gift Shiny {PKMN}!");
-static const u8 sText_Popup_GiftCustomPokemon[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Gift Unique {PKMN}!");
-static const u8 sText_Popup_DaycarePokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Pokémon Egg");
-static const u8 sText_Popup_UniquePokemon[] = _("Unique Pokémon");
-static const u8 sText_Popup_UniquePokemonSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Detected nearby!");
+static const u8 sText_Popup_QuestComplete[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Misión cumplida!");
+static const u8 sText_Popup_QuestFail[] = _("{COLOR LIGHT_RED}{SHADOW RED}Misión fallida");
+static const u8 sText_Popup_QuestUnlocked[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Misión nueva!");
+static const u8 sText_Popup_LegendaryClause[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Cláusula activa");
+static const u8 sText_Popup_RoamerLegendary[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Deambula libre!");
+static const u8 sText_Popup_GiftPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Pokémon regalo!");
+static const u8 sText_Popup_GiftShinyPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡{PKMN} vario regalo!");
+static const u8 sText_Popup_GiftCustomPokemon[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡{PKMN} Único regalo!");
+static const u8 sText_Popup_DaycarePokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Huevo Pokémon");
+static const u8 sText_Popup_UniquePokemon[] = _("Pokémon Único");
+static const u8 sText_Popup_UniquePokemonSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Está cerca!");
 static const u8 sText_Popup_None[] = _("");
 
-static const u8 sText_Popup_NewMoves[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}New Moves!");
-static const u8 sText_Popup_NewEvolution[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}New Evolution!");
+static const u8 sText_Popup_NewMoves[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Movs. nuevos!");
+static const u8 sText_Popup_NewEvolution[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Nueva evolución");
 
-static const u8 sText_Popup_PokemonChain[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}{STR_VAR_1} Chain");
-static const u8 sText_Popup_PokemonChainBroke[] = _("{COLOR LIGHT_RED}{SHADOW RED}Broken Chain");
+static const u8 sText_Popup_PokemonChain[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Cadena de {STR_VAR_1}");
+static const u8 sText_Popup_PokemonChainBroke[] = _("{COLOR LIGHT_RED}{SHADOW RED}Cadena rota");
 
-static const u8 sText_Popup_BagFull[] = _("{COLOR LIGHT_RED}{SHADOW RED}Bag too full.");
+static const u8 sText_Popup_BagFull[] = _("{COLOR LIGHT_RED}{SHADOW RED}Mochila llena.");
 static const u8 sText_Popup_SingleItem[] = _("{STR_VAR_1}");
 static const u8 sText_Popup_MultipleItem[] = _("{STR_VAR_1} {COLOR LIGHT_GREEN}{SHADOW GREEN}x{STR_VAR_2}");
 static const u8 sText_Popup_Money[] = _("¥{STR_VAR_1}");
-static const u8 sText_Popup_LostItem[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Item.");
-static const u8 sText_Popup_LostMoney[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Money.");
-static const u8 sText_Popup_UnlockedInShops[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Can now be bought!");
-static const u8 sText_Popup_UnlockedDecor[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Decor Unlocked!");
-static const u8 sText_Popup_TypePlateItem[] = _("Type Plates");
-static const u8 sText_Popup_TypeMemoryItem[] = _("Type Memories");
+static const u8 sText_Popup_LostItem[] = _("{COLOR LIGHT_RED}{SHADOW RED}Objeto perdido.");
+static const u8 sText_Popup_LostMoney[] = _("{COLOR LIGHT_RED}{SHADOW RED}Dinero perdido.");
+static const u8 sText_Popup_UnlockedInShops[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Ya a la venta!");
+static const u8 sText_Popup_UnlockedDecor[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Adorno nuevo!");
+static const u8 sText_Popup_TypePlateItem[] = _("Tablas de tipo");
+static const u8 sText_Popup_TypeMemoryItem[] = _("Discos de tipo");
 
-static const u8 sText_Popup_BerriesRequipSuccess[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Re-equipped");
-static const u8 sText_Popup_BerriesRequipSuccessSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Taken from Bag");
+static const u8 sText_Popup_BerriesRequipSuccess[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Reequipado");
+static const u8 sText_Popup_BerriesRequipSuccessSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}De la Mochila");
 
-static const u8 sText_Popup_BerriesRequipFail[] = _("Re-equip Fail");
-static const u8 sText_Popup_BerriesRequipFailSubtitle[] = _("{COLOR LIGHT_RED}{SHADOW RED}None in Bag");
+static const u8 sText_Popup_BerriesRequipFail[] = _("Fallo al equipar");
+static const u8 sText_Popup_BerriesRequipFailSubtitle[] = _("{COLOR LIGHT_RED}{SHADOW RED}No hay en Mochila");
 
-static const u8 sText_Popup_WeakLegendaryClause[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Basic Legend");
-static const u8 sText_Popup_StrongLegendaryClause[] = _("{COLOR LIGHT_RED}{SHADOW RED}Strong Legend");
+static const u8 sText_Popup_WeakLegendaryClause[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Leyenda básica");
+static const u8 sText_Popup_StrongLegendaryClause[] = _("{COLOR LIGHT_RED}{SHADOW RED}Leyenda fuerte");
 
-static const u8 sText_Popup_CampaignNoneScore[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Campaign Active!");
-static const u8 sText_Popup_CampaignHighScore[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Aim for High Score!");
-static const u8 sText_Popup_CampaignLowScore[] = _("{COLOR RED}{SHADOW LIGHT_RED}Aim for Low Score!");
+static const u8 sText_Popup_CampaignNoneScore[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}¡Campaña activa!");
+static const u8 sText_Popup_CampaignHighScore[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}¡Puntúa alto!");
+static const u8 sText_Popup_CampaignLowScore[] = _("{COLOR RED}{SHADOW LIGHT_RED}¡Puntúa bajo!");
 
-static const u8 sText_Popup_SafariArea[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Safari Area");
+static const u8 sText_Popup_SafariArea[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Zona Safari");
 
-static const u8 sText_Popup_StarterWarning[] = _("{COLOR LIGHT_RED}{SHADOW RED}Evos. Disabled");
-static const u8 sText_Popup_GotWeaker[] = _("{COLOR LIGHT_RED}{SHADOW RED}Got Weaker.");
-static const u8 sText_Popup_GotStronger[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Got Stronger!");
-static const u8 sText_Popup_LostShiny[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Shininess.");
-static const u8 sText_Popup_GotShiny[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Shiny!");
-static const u8 sText_Popup_BecameMale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Male!");
-static const u8 sText_Popup_BecameFemale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Female!");
+static const u8 sText_Popup_StarterWarning[] = _("{COLOR LIGHT_RED}{SHADOW RED}Sin evoluciones");
+static const u8 sText_Popup_GotWeaker[] = _("{COLOR LIGHT_RED}{SHADOW RED}Más débil.");
+static const u8 sText_Popup_GotStronger[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Más fuerte!");
+static const u8 sText_Popup_LostShiny[] = _("{COLOR LIGHT_RED}{SHADOW RED}Ya no es vario.");
+static const u8 sText_Popup_GotShiny[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Ahora es vario!");
+static const u8 sText_Popup_BecameMale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Ahora es macho!");
+static const u8 sText_Popup_BecameFemale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Ahora es hembra!");
 
-static const u8 sText_Popup_EncounterChain[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Encounter Chain");
-static const u8 sText_Popup_EncounterChainEnd[] = _("{COLOR RED}{SHADOW LIGHT_RED}Chain Lost");
+static const u8 sText_Popup_EncounterChain[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Cadena activa");
+static const u8 sText_Popup_EncounterChainEnd[] = _("{COLOR RED}{SHADOW LIGHT_RED}Cadena perdida");
 
-static const u8 sText_Popup_PokedexUnlock[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Received Pokedex!");
-static const u8 sText_Popup_PokedexUpgrade[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Pokedex Upgraded!");
+static const u8 sText_Popup_PokedexUnlock[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Tienes Pokédex!");
+static const u8 sText_Popup_PokedexUpgrade[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Pokédex mejorada");
 
-static const u8 sText_Popup_SpeedupEnabled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Speedup Enabled");
-static const u8 sText_Popup_SpeedupDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Speedup Disabled");
-static const u8 sText_Popup_SpeedupTip[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}{L_BUTTON} to toggle");
+static const u8 sText_Popup_SpeedupEnabled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Acelerar: SÍ");
+static const u8 sText_Popup_SpeedupDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Acelerar: NO");
+static const u8 sText_Popup_SpeedupTip[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}{L_BUTTON} para cambiar");
 
-static const u8 sText_Popup_BagUpdate[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Bag Upgraded!");
-static const u8 sText_Popup_UpgradeSlots[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}+{STR_VAR_1} ({STR_VAR_2}) slots"); // assuming ITEM_BAG_SLOTS_PER_UPGRADE value
+static const u8 sText_Popup_BagUpdate[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Mochila mejorada");
+static const u8 sText_Popup_UpgradeSlots[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}+{STR_VAR_1} ({STR_VAR_2}) huecos"); // assuming ITEM_BAG_SLOTS_PER_UPGRADE value
 
 
 static const u8 sText_Popup_RogueAssistant[] = _("Rogue Assistant");
-static const u8 sText_Popup_Connected[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Connected!");
-static const u8 sText_Popup_Disconnected[] = _("{COLOR RED}{SHADOW LIGHT_RED}Disconnected.");
+static const u8 sText_Popup_Connected[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Conectado!");
+static const u8 sText_Popup_Disconnected[] = _("{COLOR RED}{SHADOW LIGHT_RED}Desconectado.");
 
-static const u8 sText_Popup_OutfitUnlocked[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Outfit Unlocked!");
-static const u8 sText_Popup_ItsASecret[] = _("Shh… its a secret");
+static const u8 sText_Popup_OutfitUnlocked[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Atuendo nuevo!");
+static const u8 sText_Popup_ItsASecret[] = _("Chis… secreto");
 
-static const u8 sText_Popup_ExtraLifeTitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Extra Life!");
-static const u8 sText_Popup_ExtraLifeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Sacred Ash used");
+static const u8 sText_Popup_ExtraLifeTitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Vida extra!");
+static const u8 sText_Popup_ExtraLifeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}C. Sagrada usada");
 
-static const u8 sText_Popup_HealingFlaskRefilled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Flask Refilled!");
+static const u8 sText_Popup_HealingFlaskRefilled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}¡Frasco relleno!");
 
 static const u8 sText_Popup_ChargeRemaining[] = _("{STR_VAR_1} / {STR_VAR_2}");
-static const u8 sText_Popup_FlightChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Flight Charges");
-static const u8 sText_Popup_DaycarePhoneChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Pokégear Charges");
+static const u8 sText_Popup_FlightChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Vuelos");
+static const u8 sText_Popup_DaycarePhoneChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Usos Pokégear");
 
-static const u8 sText_Popup_GymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gym Badge {STR_VAR_1}");
-static const u8 sText_Popup_EliteBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Elite Badge {STR_VAR_1}");
-static const u8 sText_Popup_ChampBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Champion Badge");
-static const u8 sText_Popup_VictoryLapGymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Victory Badge {STR_VAR_1}");
-static const u8 sText_Popup_EarnBadge[] = _("Received badge!");
+static const u8 sText_Popup_GymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Medalla {STR_VAR_1}");
+static const u8 sText_Popup_EliteBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Medalla Élite {STR_VAR_1}");
+static const u8 sText_Popup_ChampBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Medalla Campeón");
+static const u8 sText_Popup_VictoryLapGymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Medalla Victoria {STR_VAR_1}");
+static const u8 sText_Popup_EarnBadge[] = _("¡Medalla nueva!");
 
-static const u8 sText_Popup_AdventureReplay[] = _("Adventure Replay");
-static const u8 sText_Popup_AdventureReplaySubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Active");
+static const u8 sText_Popup_AdventureReplay[] = _("Repetir Aventura");
+static const u8 sText_Popup_AdventureReplaySubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Activa");
 
-static const u8 sText_Popup_QuestsDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Quests Inactive");
-static const u8 sText_Popup_ChallengesDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Challenge Inactiv");
-static const u8 sText_Popup_QuestsDisabledSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Current Mode");
+static const u8 sText_Popup_QuestsDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Sin misiones");
+static const u8 sText_Popup_ChallengesDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Desafío inactivo");
+static const u8 sText_Popup_QuestsDisabledSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Modo actual");
 
-static const u8 sText_Popup_WeatherActive[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Weather Active");
+static const u8 sText_Popup_WeatherActive[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Clima activo");
 
 static const u8 sWeatherNames[22][14] = {
-    [WEATHER_NONE]               = _("None"),
-    [WEATHER_SUNNY_CLOUDS]       = _("Sunny"),
-    [WEATHER_SUNNY]              = _("Sunny"),
-    [WEATHER_RAIN]               = _("Rain"),
-    [WEATHER_SNOW]               = _("Snow"),
-    [WEATHER_RAIN_THUNDERSTORM]  = _("Thunderstorm"),
+    [WEATHER_NONE]               = _("Ninguno"),
+    [WEATHER_SUNNY_CLOUDS]       = _("Soleado"),
+    [WEATHER_SUNNY]              = _("Soleado"),
+    [WEATHER_RAIN]               = _("Lluvia"),
+    [WEATHER_SNOW]               = _("Nieve"),
+    [WEATHER_RAIN_THUNDERSTORM]  = _("Tormenta"),
 #ifdef ROGUE_EXPANSION
-    [WEATHER_PSYCHIC_FOG]        = _("Psychic Fog"),
-    [WEATHER_MISTY_FOG]          = _("Misty Fog"),
+    [WEATHER_PSYCHIC_FOG]        = _("Niebla psíq."),
+    [WEATHER_MISTY_FOG]          = _("Neblina"),
 #else
-    [WEATHER_PSYCHIC_FOG]        = _("Fog"),
-    [WEATHER_MISTY_FOG]          = _("Fog"),
+    [WEATHER_PSYCHIC_FOG]        = _("Niebla"),
+    [WEATHER_MISTY_FOG]          = _("Niebla"),
 #endif
-    [WEATHER_VOLCANIC_ASH]       = _("Ash"),
-    [WEATHER_SANDSTORM]          = _("Sandstorm"),
-    [WEATHER_UNDERWATER]         = _("Underwater"),
-    [WEATHER_SHADE]              = _("Shade"),
-    [WEATHER_DROUGHT]            = _("Drought"),
-    [WEATHER_DOWNPOUR]           = _("Downpour"),
-    [WEATHER_UNDERWATER_BUBBLES] = _("Bubbles"),
-    [WEATHER_ABNORMAL]           = _("Abnormal"),
+    [WEATHER_VOLCANIC_ASH]       = _("Ceniza"),
+    [WEATHER_SANDSTORM]          = _("Torm. arena"),
+    [WEATHER_UNDERWATER]         = _("Bajo el agua"),
+    [WEATHER_SHADE]              = _("Sombra"),
+    [WEATHER_DROUGHT]            = _("Sequía"),
+    [WEATHER_DOWNPOUR]           = _("Diluvio"),
+    [WEATHER_UNDERWATER_BUBBLES] = _("Burbujas"),
+    [WEATHER_ABNORMAL]           = _("Anómalo"),
     [WEATHER_ROUTE119_CYCLE]     = _("???"),
     [WEATHER_ROUTE123_CYCLE]     = _("???"),
 };
@@ -1022,24 +1022,24 @@ static void HideQuestPopUpWindow(void)
 //static u8* AppendTypeName(u8* strPointer, u8 type)
 //{
 //    const u8 gText_AdjNormal[] = _("NORMAL");
-//    const u8 gText_AdjFighting[] = _("FIGHT"); // Shortened for convienience
-//    const u8 gText_AdjFlying[] = _("FLYING");
-//    const u8 gText_AdjPoison[] = _("POISON");
-//    const u8 gText_AdjGround[] = _("GROUND");
-//    const u8 gText_AdjRock[] = _("ROCK");
-//    const u8 gText_AdjBug[] = _("BUG");
-//    const u8 gText_AdjGhost[] = _("GHOST");
-//    const u8 gText_AdjSteel[] = _("STEEL");
-//    const u8 gText_AdjFire[] = _("FIRE");
-//    const u8 gText_AdjWater[] = _("WATER");
-//    const u8 gText_AdjGrass[] = _("GRASS");
-//    const u8 gText_AdjElectric[] = _("ELEC"); // Shortened for convienience
-//    const u8 gText_AdjPsychic[] = _("PSYCHIC");
-//    const u8 gText_AdjIce[] = _("ICE");
-//    const u8 gText_AdjDragon[] = _("DRAGON");
-//    const u8 gText_AdjDark[] = _("DARK");
+//    const u8 gText_AdjFighting[] = _("LUCHA"); // Shortened for convienience
+//    const u8 gText_AdjFlying[] = _("VOLADOR");
+//    const u8 gText_AdjPoison[] = _("VENENO");
+//    const u8 gText_AdjGround[] = _("TIERRA");
+//    const u8 gText_AdjRock[] = _("ROCA");
+//    const u8 gText_AdjBug[] = _("BICHO");
+//    const u8 gText_AdjGhost[] = _("FANTASMA");
+//    const u8 gText_AdjSteel[] = _("ACERO");
+//    const u8 gText_AdjFire[] = _("FUEGO");
+//    const u8 gText_AdjWater[] = _("AGUA");
+//    const u8 gText_AdjGrass[] = _("PLANTA");
+//    const u8 gText_AdjElectric[] = _("ELÉC."); // Shortened for convienience
+//    const u8 gText_AdjPsychic[] = _("PSÍQUICO");
+//    const u8 gText_AdjIce[] = _("HIELO");
+//    const u8 gText_AdjDragon[] = _("DRAGÓN");
+//    const u8 gText_AdjDark[] = _("SINIESTRO");
 //#ifdef ROGUE_EXPANSION
-//    const u8 gText_AdjFairy[] = _("FAIRY");
+//    const u8 gText_AdjFairy[] = _("HADA");
 //#endif
 //    const u8 gText_AdjNone[] = _("???");
 //

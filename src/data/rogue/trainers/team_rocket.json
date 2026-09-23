@@ -46,10 +46,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: So we meet at last!\\pYou've been such a thorn in my side.\\pKeep your nose out of grown-up matters…",
-                        "PRE_BATTLE_TAUNT": "Or, experience a world of pain!",
-                        "POST_BATTLE_TAUNT": "Arrgh!!",
-                        "POST_BATTLE_CLOSER": "Blast it all!\\nYou ruined our plans!\\pBut, Team Rocket will never fall!\\p{PLAYER}! Never forget that all Pokémon exist for Team Rocket!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Por fin nos vemos!\\pHas sido una auténtica espina clavada.\\pNo metas las narices en asuntos de mayores…",
+                        "PRE_BATTLE_TAUNT": "¡O conocerás el verdadero dolor!",
+                        "POST_BATTLE_TAUNT": "¡¡Arrgh!!",
+                        "POST_BATTLE_CLOSER": "¡Maldita sea!\\n¡Has arruinado nuestros planes!\\p¡Pero el Team Rocket nunca caerá!\\p¡{PLAYER}! ¡No olvides nunca que todos los Pokémon existen para el Team Rocket!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -79,46 +79,46 @@
         "route":
         [
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "trainer_flags": [ "REGION_ANY", "CLASS_ROUTE" ],
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Team Rocket ain't stopping!",
-                        "POST_BATTLE_TAUNT": "Too fast!",
-                        "POST_BATTLE_CLOSER": "I thought this was a sweet gig…\\pI guess not…"
+                        "PRE_BATTLE_TAUNT": "¡El Team Rocket no se detiene!",
+                        "POST_BATTLE_TAUNT": "¡Demasiado rápido!",
+                        "POST_BATTLE_CLOSER": "Creía que este trabajo era un chollo…\\pPues parece que no…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "trainer_flags": [ "REGION_ANY", "CLASS_ROUTE" ],
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've got no time for dumb looking kids getting in our way!",
-                        "POST_BATTLE_TAUNT": "Whaa!",
-                        "POST_BATTLE_CLOSER": "If you weren't dumb, you wouldn't be getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡No tengo tiempo para críos con cara de tontos que se nos cruzan!",
+                        "POST_BATTLE_TAUNT": "¡Buah!",
+                        "POST_BATTLE_CLOSER": "¡Si no fueras tonto, no te meterías en nuestro camino!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "trainer_flags": [ "REGION_ANY", "CLASS_ROUTE" ],
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Science is the future!",
-                        "POST_BATTLE_TAUNT": "The future is now!",
-                        "POST_BATTLE_CLOSER": "You can't stop me!"
+                        "PRE_BATTLE_TAUNT": "¡La ciencia es el futuro!",
+                        "POST_BATTLE_TAUNT": "¡El futuro es ahora!",
+                        "POST_BATTLE_CLOSER": "¡No puedes detenerme!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -151,185 +151,185 @@
         "hideout":
         [
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Team Rocket ain't stopping!",
-                        "POST_BATTLE_TAUNT": "Too fast!",
-                        "POST_BATTLE_CLOSER": "I thought this was a sweet gig…\\pI guess not…"
+                        "PRE_BATTLE_TAUNT": "¡El Team Rocket no se detiene!",
+                        "POST_BATTLE_TAUNT": "¡Demasiado rápido!",
+                        "POST_BATTLE_CLOSER": "Creía que este trabajo era un chollo…\\pPues parece que no…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "What do you think you're doing snooping around!?",
-                        "POST_BATTLE_TAUNT": "Err…\\nYou still shouldn't be here…",
-                        "POST_BATTLE_CLOSER": "You still shouldn't be here…"
+                        "PRE_BATTLE_TAUNT": "¡¿Qué crees que haces fisgoneando por aquí?!",
+                        "POST_BATTLE_TAUNT": "Eh…\\nAun así, no deberías estar aquí…",
+                        "POST_BATTLE_CLOSER": "Aun así, no deberías estar aquí…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You'll give up your Pokémon now if you know what's good for you!",
-                        "POST_BATTLE_TAUNT": "Too strong!",
-                        "POST_BATTLE_CLOSER": "It would be way easier to steal trainer's Pokémon if the boss gave us stronger Pokémon in the first place."
+                        "PRE_BATTLE_TAUNT": "¡Si sabes lo que te conviene, entrégame tus Pokémon ahora mismo!",
+                        "POST_BATTLE_TAUNT": "¡Demasiado fuerte!",
+                        "POST_BATTLE_CLOSER": "Sería mucho más fácil robar Pokémon a los entrenadores si el jefe nos diera Pokémon más fuertes."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "It's rude to break into Secret Hideouts you know!",
-                        "POST_BATTLE_TAUNT": "Baah?!",
-                        "POST_BATTLE_CLOSER": "You're so rude sneaking in here."
+                        "PRE_BATTLE_TAUNT": "¡Colarse en Guaridas Secretas es de mala educación!, ¿sabes?",
+                        "POST_BATTLE_TAUNT": "¡¿Bah?!",
+                        "POST_BATTLE_CLOSER": "Qué maleducado eres, colándote aquí."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Time to test my latest haul!",
-                        "POST_BATTLE_TAUNT": "What!?\\nThese are all just weak!",
-                        "POST_BATTLE_CLOSER": "I stole from the wrong trainer!"
+                        "PRE_BATTLE_TAUNT": "¡Hora de probar mi último botín!",
+                        "POST_BATTLE_TAUNT": "¡¿Qué?!\\n¡Si todos son débiles!",
+                        "POST_BATTLE_CLOSER": "¡Le robé al entrenador equivocado!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_M",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_M",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is a really comfortable outfit, you know!",
-                        "POST_BATTLE_TAUNT": "Wait?\\nWere we suppose to be battling?",
-                        "POST_BATTLE_CLOSER": "I'm far to comfortable to battle at full strength."
+                        "PRE_BATTLE_TAUNT": "¡Este uniforme es comodísimo!, ¿sabes?",
+                        "POST_BATTLE_TAUNT": "¿Espera?\\n¿Se suponía que estábamos combatiendo?",
+                        "POST_BATTLE_CLOSER": "Estoy demasiado cómodo para combatir a tope."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
             },
 
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've got no time for dumb looking kids getting in our way!",
-                        "POST_BATTLE_TAUNT": "Whaa!",
-                        "POST_BATTLE_CLOSER": "If you weren't dumb, you wouldn't be getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡No tengo tiempo para críos con cara de tontos que se nos cruzan!",
+                        "POST_BATTLE_TAUNT": "¡Buah!",
+                        "POST_BATTLE_CLOSER": "¡Si no fueras tonto, no te meterías en nuestro camino!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "What are you doing here!?\\pDid the guards fall asleep or something!?",
-                        "POST_BATTLE_TAUNT": "Oh…\\nThat was unexpected…",
-                        "POST_BATTLE_CLOSER": "That was unexpected…"
+                        "PRE_BATTLE_TAUNT": "¡¿Qué haces aquí?!\\p¡¿Se han dormido los guardias o qué?!",
+                        "POST_BATTLE_TAUNT": "Vaya…\\nEso no me lo esperaba…",
+                        "POST_BATTLE_CLOSER": "Eso no me lo esperaba…"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I only joined Team Rocket recently so I've got to prove myself now!",
-                        "POST_BATTLE_TAUNT": "Read the room…",
-                        "POST_BATTLE_CLOSER": "You could've just let me win."
+                        "PRE_BATTLE_TAUNT": "¡Me uní al Team Rocket hace poco, así que tengo que demostrar lo que valgo!",
+                        "POST_BATTLE_TAUNT": "Lee el ambiente, hombre…",
+                        "POST_BATTLE_CLOSER": "Podrías haberme dejado ganar."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'll beat you to a pulp!",
-                        "POST_BATTLE_TAUNT": "Redo…?",
-                        "POST_BATTLE_CLOSER": "That was disappointing…"
+                        "PRE_BATTLE_TAUNT": "¡Te voy a hacer papilla!",
+                        "POST_BATTLE_TAUNT": "¿Repetimos…?",
+                        "POST_BATTLE_CLOSER": "Qué decepción…"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "These outfits are in need of a glow up.",
-                        "POST_BATTLE_TAUNT": "That gives me some ideas!",
-                        "POST_BATTLE_CLOSER": "I bet if we added some colour the outfits would look way better!\\pWhat about some Rainbow colours instead of Red?\\pHmm\\pI'll have to have a good think."
+                        "PRE_BATTLE_TAUNT": "Estos uniformes necesitan un cambio de look.",
+                        "POST_BATTLE_TAUNT": "¡Eso me da algunas ideas!",
+                        "POST_BATTLE_CLOSER": "¡Seguro que con algo de color los uniformes quedarían mucho mejor!\\p¿Y si usamos los colores del arcoíris en vez del rojo?\\pMmm\\pTendré que pensarlo bien."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
             {
-                "name": "GRUNT",
+                "name": "RECLUTA",
                 "object_event": "OBJ_EVENT_GFX_ROCKET_F",
                 "trainer_pic": "TRAINER_PIC_ROCKET_GRUNT_F",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Another kid breaking in?",
-                        "POST_BATTLE_TAUNT": "Why are there so many today?!",
-                        "POST_BATTLE_CLOSER": "Another kid came through here not to long ago.\\pI thought this was suppose to be a Secret Hideout…"
+                        "PRE_BATTLE_TAUNT": "¿Otro crío colándose?",
+                        "POST_BATTLE_TAUNT": "¡¿Por qué hay tantos hoy?!",
+                        "POST_BATTLE_CLOSER": "Hace poco pasó por aquí otro crío.\\pCreía que esto era una Guarida Secreta…"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
             },
 
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Science is the future!",
-                        "POST_BATTLE_TAUNT": "The future is now!",
-                        "POST_BATTLE_CLOSER": "You can't stop me!"
+                        "PRE_BATTLE_TAUNT": "¡La ciencia es el futuro!",
+                        "POST_BATTLE_TAUNT": "¡El futuro es ahora!",
+                        "POST_BATTLE_CLOSER": "¡No puedes detenerme!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -358,15 +358,15 @@
                 }
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've used the power of science to train my Pokémon!",
-                        "POST_BATTLE_TAUNT": "Why have you failed me science!?",
-                        "POST_BATTLE_CLOSER": "Why have you failed me science!?"
+                        "PRE_BATTLE_TAUNT": "¡He usado el poder de la ciencia para entrenar a mis Pokémon!",
+                        "POST_BATTLE_TAUNT": "¡¿Por qué me has fallado, ciencia?!",
+                        "POST_BATTLE_CLOSER": "¡¿Por qué me has fallado, ciencia?!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -395,15 +395,15 @@
                 }
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Do you think this lab coat makes me look cool?",
-                        "POST_BATTLE_TAUNT": "Ouch…",
-                        "POST_BATTLE_CLOSER": "You could have just said no!"
+                        "PRE_BATTLE_TAUNT": "¿Crees que esta bata me queda guay?",
+                        "POST_BATTLE_TAUNT": "Ay…",
+                        "POST_BATTLE_CLOSER": "¡Podrías haber dicho que no, sin más!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -432,15 +432,15 @@
                 }
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Team Rocket knows science is the way forward!",
-                        "POST_BATTLE_TAUNT": "I feel like I'm going backwards…",
-                        "POST_BATTLE_CLOSER": "I feel like I'm going backwards…"
+                        "PRE_BATTLE_TAUNT": "¡El Team Rocket sabe que la ciencia es el camino!",
+                        "POST_BATTLE_TAUNT": "Siento que voy hacia atrás…",
+                        "POST_BATTLE_CLOSER": "Siento que voy hacia atrás…"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -469,15 +469,15 @@
                 }
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Dihydrogen Monoxide is too dangerous!",
-                        "POST_BATTLE_TAUNT": "Splash!",
-                        "POST_BATTLE_CLOSER": "It's just water.\\pGosh you didn't even know that ku ku ku\\pKids these days ku ku ku"
+                        "PRE_BATTLE_TAUNT": "¡El monóxido de dihidrógeno es peligrosísimo!",
+                        "POST_BATTLE_TAUNT": "¡Chof!",
+                        "POST_BATTLE_CLOSER": "Es solo agua.\\pMadre mía, ni siquiera lo sabías, ju ju ju\\pLos críos de hoy en día, ju ju ju"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -506,15 +506,15 @@
                 }
             },
             {
-                "name": "SCIENTIST",
+                "name": "CIENTÍFICO",
                 "object_event": "OBJ_EVENT_GFX_MISC_SCIENTIST",
                 "trainer_pic": "TRAINER_PIC_SCIENTIST",
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You shouldn't eavesdrop!",
-                        "POST_BATTLE_TAUNT": "Now it's all over…",
-                        "POST_BATTLE_CLOSER": "I guess you know all our secrets now…"
+                        "PRE_BATTLE_TAUNT": "¡No deberías escuchar a escondidas!",
+                        "POST_BATTLE_TAUNT": "Ahora se acabó todo…",
+                        "POST_BATTLE_CLOSER": "Supongo que ahora conoces todos nuestros secretos…"
                     }
                 ],
                 "preferred_mon_gender": "MALE",

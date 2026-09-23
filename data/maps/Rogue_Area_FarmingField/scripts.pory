@@ -73,14 +73,14 @@ script Rogue_Area_FarmingField_MakePotions
 
     turnobject(OBJ_EVENT_MART, DIR_WEST)
 
-    msgbox(format("Oh, would you like me to help you craft some potions?"))
+    msgbox(format("¿Quieres que te ayude a preparar pociones?"))
     
-    message("What would you like to craft?")
+    message("¿Qué quieres preparar?")
     waitmessage
 
     rogue_custompokemart(OranBerryShop, ITEM_ORAN_BERRY)
 
-    msgbox(format("Please let me know, if you'd like to craft anything else!"))
+    msgbox(format("¡Avísame si quieres preparar algo más!"))
     turnobject(OBJ_EVENT_MART, DIR_SOUTH)
 
     release

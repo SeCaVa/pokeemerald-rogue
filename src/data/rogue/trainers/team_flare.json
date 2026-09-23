@@ -2,7 +2,7 @@
     "condition": "",
     "defaults":
     {
-        "name": "GRUNT",
+        "name": "RECLUTA",
         "type_assignment": "NONE",
         "trainer_class": "TRAINER_CLASS_TEAM_FLARE",
         "music_player": "team_flare",
@@ -35,7 +35,7 @@
         "boss":
         [
             {
-                "name": "LYSANDRE",
+                "name": "LYSSON",
                 "object_event": "OBJ_EVENT_GFX_TEAM_FLARE_LYSANDER",
                 "trainer_pic": "TRAINER_PIC_FLARE_LYSANDRE",
                 "trainer_class": "TRAINER_CLASS_TEAM_FLARE_LEADER",
@@ -45,10 +45,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Pokémon are wonderful beings.\\pHumans have worked with Pokémon, and we have helped each other flourish.\\pBut precisely because of that, they will inevitably become tools for war and theft!\\pEnough of this.",
-                        "PRE_BATTLE_TAUNT": "I won't allow you to befoul this beautiful world!",
-                        "POST_BATTLE_TAUNT": "Fools with no vision will continue to befoul this beautiful world.",
-                        "POST_BATTLE_CLOSER": "I can only see one future.\\pOne where selfish foolish humans think about nothing other than themselves and steal more and more from one another…\\pThey will go on until the only thing left to do is squabble over the remaining scraps of hope…\\pI won't sit idle and wait for us to reach such a future.\\pTeam Flare's ambition will not end, with this defeat!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Los Pokémon son seres maravillosos.\\pLos humanos han trabajado con ellos y nos hemos ayudado mutuamente a prosperar.\\p¡Pero precisamente por eso, acabarán inevitablemente convertidos en herramientas para la guerra y el robo!\\pBasta ya.",
+                        "PRE_BATTLE_TAUNT": "¡No permitiré que mancilles este hermoso mundo!",
+                        "POST_BATTLE_TAUNT": "Los necios sin visión seguirán mancillando este hermoso mundo.",
+                        "POST_BATTLE_CLOSER": "Solo veo un futuro posible.\\pUno en el que los humanos, necios y egoístas, solo piensan en sí mismos y se roban cada vez más unos a otros…\\pY seguirán así hasta que solo quede pelearse por las últimas migajas de esperanza…\\pNo me quedaré de brazos cruzados esperando a que llegue ese futuro.\\p¡La ambición del Team Flare no terminará con esta derrota!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -110,9 +110,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "How dare you sully this beautiful world!",
-                        "POST_BATTLE_TAUNT": "Ergh…",
-                        "POST_BATTLE_CLOSER": "It wasn't supposed to go like this."
+                        "PRE_BATTLE_TAUNT": "¡Cómo te atreves a ensuciar este hermoso mundo!",
+                        "POST_BATTLE_TAUNT": "Argh…",
+                        "POST_BATTLE_CLOSER": "No se suponía que fuera a salir así."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -124,9 +124,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "We will ensure the world's beauty above all else!",
-                        "POST_BATTLE_TAUNT": "What a waste.",
-                        "POST_BATTLE_CLOSER": "Think of how beautiful the world could be, if you were to join us!"
+                        "PRE_BATTLE_TAUNT": "¡Garantizaremos la belleza del mundo por encima de todo!",
+                        "POST_BATTLE_TAUNT": "Qué desperdicio.",
+                        "POST_BATTLE_CLOSER": "¡Piensa en lo hermoso que podría ser el mundo si te unieras a nosotros!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -141,9 +141,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I've got no time for dumb looking kids getting in our way!",
-                        "POST_BATTLE_TAUNT": "You're still dumb.",
-                        "POST_BATTLE_CLOSER": "If you weren't dumb, you wouldn't be getting in our way!"
+                        "PRE_BATTLE_TAUNT": "¡No tengo tiempo para críos con cara de tontos que se nos cruzan!",
+                        "POST_BATTLE_TAUNT": "Sigues siendo tont{MASC}o{FEM}a{ENDG}.",
+                        "POST_BATTLE_CLOSER": "¡Si no fueras tonto, no te meterías en nuestro camino!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -154,9 +154,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You shouldn't be here!",
-                        "POST_BATTLE_TAUNT": "What!?",
-                        "POST_BATTLE_CLOSER": "How did you do that?!"
+                        "PRE_BATTLE_TAUNT": "¡No deberías estar aquí!",
+                        "POST_BATTLE_TAUNT": "¡¿Qué?!",
+                        "POST_BATTLE_CLOSER": "¡¿Cómo lo has hecho?!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -167,9 +167,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for kids!",
-                        "POST_BATTLE_TAUNT": "Nevermind.",
-                        "POST_BATTLE_CLOSER": "I guess you'll be fine."
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para críos!",
+                        "POST_BATTLE_TAUNT": "Olvídalo.",
+                        "POST_BATTLE_CLOSER": "Supongo que te las apañarás."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -180,9 +180,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Intruder!?\\nHere!?",
-                        "POST_BATTLE_TAUNT": "Darn it!",
-                        "POST_BATTLE_CLOSER": "You still shouldn't be here!"
+                        "PRE_BATTLE_TAUNT": "¡¿Un intruso?!\\n¡¿Aquí?!",
+                        "POST_BATTLE_TAUNT": "¡Maldición!",
+                        "POST_BATTLE_CLOSER": "¡Aun así, no deberías estar aquí!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -193,9 +193,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Yikes! Outfits like THAT are the exact reason I joined Team Flare.",
-                        "POST_BATTLE_TAUNT": "Your outfit is still hideous…",
-                        "POST_BATTLE_CLOSER": "Your outfit is still hideous…"
+                        "PRE_BATTLE_TAUNT": "¡Qué horror! Por atuendos como ESE me uní al Team Flare.",
+                        "POST_BATTLE_TAUNT": "Tu atuendo sigue siendo horrendo…",
+                        "POST_BATTLE_CLOSER": "Tu atuendo sigue siendo horrendo…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -206,9 +206,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Erm… you don't look like you're supposed to be here.",
-                        "POST_BATTLE_TAUNT": "I guess I was wrong",
-                        "POST_BATTLE_CLOSER": "Sorry. You're not wearing the correct uniform so I got confused."
+                        "PRE_BATTLE_TAUNT": "Eh… no parece que debas estar aquí.",
+                        "POST_BATTLE_TAUNT": "Supongo que me equivocaba.",
+                        "POST_BATTLE_CLOSER": "Perdona. Como no llevas el uniforme correcto, me he confundido."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -219,9 +219,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I don't really understand our Leader's grand ambition, but surely he can't be wrong!",
-                        "POST_BATTLE_TAUNT": "I still believe!",
-                        "POST_BATTLE_CLOSER": "Our Leader simply cannot be wrong!"
+                        "PRE_BATTLE_TAUNT": "No entiendo muy bien la gran ambición de nuestro Líder, ¡pero seguro que no se equivoca!",
+                        "POST_BATTLE_TAUNT": "¡Yo sigo creyendo!",
+                        "POST_BATTLE_CLOSER": "¡Nuestro Líder simplemente no puede equivocarse!"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -232,9 +232,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "B-E-A-UTIFUL!",
+                        "PRE_BATTLE_TAUNT": "¡PRE-CI-O-SO!",
                         "POST_BATTLE_TAUNT": "B- B- B-",
-                        "POST_BATTLE_CLOSER": "B- B- B-\\nNevermind…"
+                        "POST_BATTLE_CLOSER": "P- P- P-\\nOlvídalo…"
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -245,9 +245,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm pretty sure we don't let snot nosed kids into our operation.",
-                        "POST_BATTLE_TAUNT": "Maybe I was wrong?",
-                        "POST_BATTLE_CLOSER": "Sorry, I thought you were a spy or something."
+                        "PRE_BATTLE_TAUNT": "Estoy casi seguro de que no dejamos entrar a mocosos en nuestra operación.",
+                        "POST_BATTLE_TAUNT": "¿Quizá me equivocaba?",
+                        "POST_BATTLE_CLOSER": "Perdona, creía que eras {MASC}un{FEM}una{ENDG} espía o algo así."
                     }
                 ],
                 "preferred_mon_gender": "MALE"
@@ -259,9 +259,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You don't seem too interested in our grand ambition.\\pHere, let me explain it for you.",
-                        "POST_BATTLE_TAUNT": "Do you get it now?",
-                        "POST_BATTLE_CLOSER": "No!?\\nGaah, why do I even bother."
+                        "PRE_BATTLE_TAUNT": "No pareces muy interesad{MASC}o{FEM}a{ENDG} en nuestra gran ambición.\\pVen, deja que te la explique.",
+                        "POST_BATTLE_TAUNT": "¿Lo entiendes ahora?",
+                        "POST_BATTLE_CLOSER": "¡¿No?!\\nAgh, no sé ni para qué me molesto."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -272,9 +272,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Stop right there!",
-                        "POST_BATTLE_TAUNT": "S-stop!",
-                        "POST_BATTLE_CLOSER": "I- I mean it!"
+                        "PRE_BATTLE_TAUNT": "¡Alto ahí!",
+                        "POST_BATTLE_TAUNT": "¡A-alto!",
+                        "POST_BATTLE_CLOSER": "¡L-lo digo en serio!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -285,9 +285,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "You're the one knocking out the newbies, huh?",
-                        "POST_BATTLE_TAUNT": "Ouch!",
-                        "POST_BATTLE_CLOSER": "You're knocking us all out!?"
+                        "PRE_BATTLE_TAUNT": "Tú eres quien está tumbando a los novatos, ¿eh?",
+                        "POST_BATTLE_TAUNT": "¡Ay!",
+                        "POST_BATTLE_CLOSER": "¡¿Nos estás tumbando a todos?!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -298,9 +298,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "People really do make the world uglier with their every action.",
-                        "POST_BATTLE_TAUNT": "Case and point.",
-                        "POST_BATTLE_CLOSER": "Case and point."
+                        "PRE_BATTLE_TAUNT": "Las personas afean el mundo con cada cosa que hacen.",
+                        "POST_BATTLE_TAUNT": "Prueba de ello.",
+                        "POST_BATTLE_CLOSER": "Prueba de ello."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -311,9 +311,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "What do you think?\\nAm I ROCKING this look?",
-                        "POST_BATTLE_TAUNT": "Sheesh…\\nYou've could've just said no.",
-                        "POST_BATTLE_CLOSER": "I do miss my long hair.\\pI do wonder why we all have to get the same hair style."
+                        "PRE_BATTLE_TAUNT": "¿Qué te parece?\\n¿A que me queda GENIAL este look?",
+                        "POST_BATTLE_TAUNT": "Jo…\\nPodrías haber dicho que no, sin más.",
+                        "POST_BATTLE_CLOSER": "Echo de menos mi pelo largo.\\pMe pregunto por qué tenemos que llevar todos el mismo peinado."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -324,9 +324,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Wow.\\nThat outfit is SO last season.",
-                        "POST_BATTLE_TAUNT": "Now I get a closer look at it…",
-                        "POST_BATTLE_CLOSER": "Now I get a closer look at it…\\nIt's OK. I guess."
+                        "PRE_BATTLE_TAUNT": "Vaya.\\nEse atuendo es TAN de la temporada pasada.",
+                        "POST_BATTLE_TAUNT": "Ahora que lo veo de cerca…",
+                        "POST_BATTLE_CLOSER": "Ahora que lo veo de cerca…\\nNo está mal. Supongo."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -337,9 +337,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "If I don't understand what's going on here, what makes you think you do?!",
-                        "POST_BATTLE_TAUNT": "This proves nothing!",
-                        "POST_BATTLE_CLOSER": "Something about beauty?"
+                        "PRE_BATTLE_TAUNT": "Si yo no entiendo qué está pasando aquí, ¡¿qué te hace pensar que tú sí?!",
+                        "POST_BATTLE_TAUNT": "¡Esto no demuestra nada!",
+                        "POST_BATTLE_CLOSER": "¿Algo de la belleza?"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -350,9 +350,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'm here for some work experience.\\pLet's see how I manage!",
-                        "POST_BATTLE_TAUNT": "Youch…",
-                        "POST_BATTLE_CLOSER": "I hope that doesn't go into my report."
+                        "PRE_BATTLE_TAUNT": "Estoy aquí de prácticas.\\p¡A ver qué tal se me da!",
+                        "POST_BATTLE_TAUNT": "Auch…",
+                        "POST_BATTLE_CLOSER": "Espero que esto no salga en mi informe."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"
@@ -363,9 +363,9 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "This is no place for snot nosed kids!",
-                        "POST_BATTLE_TAUNT": "Wha!!",
-                        "POST_BATTLE_CLOSER": "Wipe your nose!"
+                        "PRE_BATTLE_TAUNT": "¡Este no es lugar para mocosos!",
+                        "POST_BATTLE_TAUNT": "¡¡Qué!!",
+                        "POST_BATTLE_CLOSER": "¡Límpiate los mocos!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE"

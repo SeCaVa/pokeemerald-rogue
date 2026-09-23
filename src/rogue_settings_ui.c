@@ -96,30 +96,30 @@ enum
 
 static u8 const sMenu_SparkleIcon[] = _("{SPARKLE_ICON}");
 
-static u8 const sMenuName_Back[] = _("Back");
-static u8 const sMenuName_SaveAndExit[] = _("Save & Exit");
-static u8 const sMenuName_DifficultySubmenu[] = _("Edit Difficulty");
-static u8 const sMenuName_AdventureSubmenu[] = _("Adventure");
-static u8 const sMenuName_TrainersSubmenu[] = _("Trainers");
-static u8 const sMenuName_GameModesSubmenu[] = _("Game Modes");
+static u8 const sMenuName_Back[] = _("Atrás");
+static u8 const sMenuName_SaveAndExit[] = _("Guardar y salir");
+static u8 const sMenuName_DifficultySubmenu[] = _("Editar dificultad");
+static u8 const sMenuName_AdventureSubmenu[] = _("Aventura");
+static u8 const sMenuName_TrainersSubmenu[] = _("Entrenadores");
+static u8 const sMenuName_GameModesSubmenu[] = _("Modos de juego");
 
-static u8 const sMenuName_BattleFormat[] = _("Battle Format");
-static u8 const sMenuName_BattleFormatSingles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Singles");
-static u8 const sMenuName_BattleFormatDoubles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Doubles");
-static u8 const sMenuName_BattleFormatMixed[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mixed");
+static u8 const sMenuName_BattleFormat[] = _("Formato combate");
+static u8 const sMenuName_BattleFormatSingles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Individual");
+static u8 const sMenuName_BattleFormatDoubles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Doble");
+static u8 const sMenuName_BattleFormatMixed[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mixto");
 
-static u8 const sMenuName_TrainerOrder[] = _("Trainer Order");
-static u8 const sMenuName_TrainerOrderDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Default");
-static u8 const sMenuName_TrainerOrderRainbow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Rainbow");
-static u8 const sMenuName_TrainerOrderOfficial[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Official");
+static u8 const sMenuName_TrainerOrder[] = _("Orden entrenad.");
+static u8 const sMenuName_TrainerOrderDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
+static u8 const sMenuName_TrainerOrderRainbow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Arcoíris");
+static u8 const sMenuName_TrainerOrderOfficial[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Oficial");
 
-static u8 const sMenuName_GameMode_Standard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Classic");
-static u8 const sMenuName_GameMode_Gauntlet[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gauntlet");
-static u8 const sMenuName_GameMode_FastPath[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Fast Path");
+static u8 const sMenuName_GameMode_Standard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Clásica");
+static u8 const sMenuName_GameMode_Gauntlet[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Desafío");
+static u8 const sMenuName_GameMode_FastPath[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Rápida");
 
-static u8 const sMenuName_Affection[] = _("Affection FX");
-static u8 const sMenuName_ReleaseMons[] = _("Release Fainted {PKMN}");
-static u8 const sMenuName_TrainerDiversity[] = _("Diverse Trainer {PKMN}");
+static u8 const sMenuName_Affection[] = _("Efectos cariño");
+static u8 const sMenuName_ReleaseMons[] = _("Liberar {PKMN} KO");
+static u8 const sMenuName_TrainerDiversity[] = _("{PKMN} variados");
 
 static u8 const sMenuName_TrainerRogue[] = _("Rogue");
 static u8 const sMenuName_TrainerKanto[] = _("Kanto");
@@ -127,38 +127,38 @@ static u8 const sMenuName_TrainerJohto[] = _("Johto");
 static u8 const sMenuName_TrainerHoenn[] = _("Hoenn");
 #ifdef ROGUE_EXPANSION
 static u8 const sMenuName_TrainerSinnoh[] = _("Sinnoh");
-static u8 const sMenuName_TrainerUnova[] = _("Unova");
+static u8 const sMenuName_TrainerUnova[] = _("Teselia");
 static u8 const sMenuName_TrainerKalos[] = _("Kalos");
 static u8 const sMenuName_TrainerAlola[] = _("Alola");
 static u8 const sMenuName_TrainerGalar[] = _("Galar");
 static u8 const sMenuName_TrainerPaldea[] = _("Paldea");
 #endif
 
-static u8 const sText_ErrorInvalidSelection[] = _("Error: {COLOR GREEN}{SHADOW LIGHT_GREEN}Invalid selection.");
+static u8 const sText_ErrorInvalidSelection[] = _("Error: {COLOR GREEN}{SHADOW LIGHT_GREEN}Selección no válida.");
 
 const u8 sMenuNameDesc_PresetDescription_Easy[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "For those who want a casual experience,\n"
-    "comparable to modern {PKMN} games."
+    "Para quien busca una experiencia casual,\n"
+    "como en los juegos {PKMN} modernos."
 );
 const u8 sMenuNameDesc_PresetDescription_Average[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Recommended for those who have good {PKMN}\n"
-    "knowledge and enjoy a challenge."
+    "Para quien conoce bien los juegos {PKMN}\n"
+    "y disfruta de un buen desafío."
 );
 const u8 sMenuNameDesc_PresetDescription_Hard[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "A punishing experience intended for\n"
-    "those who enjoy increased difficulty."
+    "Una experiencia exigente pensada\n"
+    "para quien disfruta de más dificultad."
 );
 const u8 sMenuNameDesc_PresetDescription_Brutal[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "An even more punishing experience than\n"
-    "Hard, for those who want to suffer."
+    "Aún más exigente que Difícil, para\n"
+    "quien quiere sufrir de verdad."
 );
 const u8 sMenuNameDesc_PresetDescription_Custom[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Your rules, your way!"
+    "¡Tus reglas, a tu manera!"
 );
 static u8 const* const sMenuNameDesc_PresetDescription[] = 
 {
@@ -172,13 +172,13 @@ static u8 const* const sMenuNameDesc_PresetDescription[] =
 
 const u8 sMenuNameDesc_DifficultyOverLvlOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} will stop gaining lvls once they\n"
-    "reach the Level Cap."
+    "Los {PKMN} dejarán de subir de nivel\n"
+    "al llegar al Nivel Máximo."
 );
 const u8 sMenuNameDesc_DifficultyOverLvlOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} can gain levels over the Level Cap.\n"
-    "(After the Level Cap, will Level slowly)"
+    "Los {PKMN} pueden superar el Nivel Máx.\n"
+    "(Después subirán de nivel despacio)"
 );
 static u8 const* const sMenuNameDesc_DifficultyOverLvl[] = 
 {
@@ -188,28 +188,28 @@ static u8 const* const sMenuNameDesc_DifficultyOverLvl[] =
 
 static u8 const sMenuNameDesc_TrainersSubmenu[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enable or Disable groups of Trainers that\n"
-    "you would like to encounter."
+    "Activa o desactiva los grupos de\n"
+    "Entrenadores que quieres encontrar."
 );
 
 static u8 const sMenuNameDesc_GameModesSubmenu[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Choose custom rule sets or scenarios\n"
-    "you to play with."
+    "Elige reglas o escenarios especiales\n"
+    "con los que jugar."
 );
 
 static u8 const sMenuNameDesc_BattleFormatSingles[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will always be 1v1."
+    "Los combates serán siempre 1 contra 1."
 );
 static u8 const sMenuNameDesc_BattleFormatDoubles[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will always be 2v2."
+    "Los combates serán siempre 2 contra 2."
 );
 static u8 const sMenuNameDesc_BattleFormatMixed[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will randomly be 1v1 or\n"
-    "2v2. (Equal chance for both)"
+    "Los combates serán al azar 1 contra 1\n"
+    "o 2 contra 2. (Misma probabilidad)"
 );
 static u8 const* const sMenuNameDesc_BattleFormat[] = 
 {
@@ -220,18 +220,18 @@ static u8 const* const sMenuNameDesc_BattleFormat[] =
 
 static u8 const sMenuNameDesc_TrainerOrderDefault[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear somewhat randomly\n"
-    "based on their Trainer Class."
+    "Los Entrenadores aparecen algo al azar\n"
+    "según su clase de Entrenador."
 );
 static u8 const sMenuNameDesc_TrainerOrderDoubles[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear randomly without\n"
-    "repeating types e.g. E4 can be Gyms."
+    "Los Entrenadores aparecen al azar sin\n"
+    "repetir tipos; p. ej. Alto Mando = Gim."
 );
 static u8 const sMenuNameDesc_TrainerOrderOfficial[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear in the order they appear\n"
-    "in official games. (Disables Challenges)"
+    "Los Entrenadores aparecen en el orden\n"
+    "oficial. (Desactiva los Desafíos)"
 );
 
 static u8 const* const sMenuNameDesc_TrainerOrder[] = 
@@ -243,20 +243,20 @@ static u8 const* const sMenuNameDesc_TrainerOrder[] =
 
 const u8 sMenuNameDesc_Affection[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} with high friendship may have special\n"
-    "effects e.g. enduring, extra crits etc."
+    "Los {PKMN} con mucha amistad pueden\n"
+    "aguantar golpes, hacer más críticos, etc."
 );
 
 const u8 sMenuNameDesc_ReleaseMonsOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "When {PKMN} faint, they will be released.\n"
-    "from your party."
+    "Los {PKMN} que se debiliten serán\n"
+    "liberados de tu equipo."
 );
 
 const u8 sMenuNameDesc_ReleaseMonsOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Fainted {PKMN} will remain in your party, but\n"
-    "can only be revived by Nurses or Revives."
+    "Los {PKMN} debilitados siguen en tu equipo,\n"
+    "pero solo los reanima una Enfermera o Revivir."
 );
 static u8 const* const sMenuNameDesc_ReleaseMons[] = 
 {
@@ -266,13 +266,13 @@ static u8 const* const sMenuNameDesc_ReleaseMons[] =
 
 const u8 sMenuNameDesc_TrainerDiversityOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers will mostly stick to their type\n"
-    "specialties e.g. Brock has Rock"
+    "Los Entrenadores usarán sobre todo su\n"
+    "tipo; p. ej. Brock usa tipo Roca."
 );
 const u8 sMenuNameDesc_TrainerDiversityOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers can have wider type specialties\n"
-    "e.g. Brock has a mix of Rock & Steel"
+    "Los Entrenadores pueden usar más tipos;\n"
+    "p. ej. Brock mezcla Roca y Acero."
 );
 static u8 const* const sMenuNameDesc_TrainerDiversity[] = 
 {
@@ -282,86 +282,86 @@ static u8 const* const sMenuNameDesc_TrainerDiversity[] =
 
 static u8 const sMenuNameDesc_Rogue[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the… Rogue\n"
-    "region? (Rainbow mode not supported)\n"
+    "Activa entrenadores de la región…\n"
+    "¿Rogue? (No disponible en Arcoíris)\n"
 );
 
 static u8 const sMenuNameDesc_Kanto[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Kanto region.\n"
+    "Activa entrenadores de Kanto.\n"
 );
 
 static u8 const sMenuNameDesc_Johto[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Johto region.\n"
+    "Activa entrenadores de Johto.\n"
 );
 
 static u8 const sMenuNameDesc_Hoenn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Hoenn region.\n"
+    "Activa entrenadores de Hoenn.\n"
 );
 
 #ifdef ROGUE_EXPANSION
 static u8 const sMenuNameDesc_Sinnoh[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Sinnoh region.\n"
+    "Activa entrenadores de Sinnoh.\n"
 );
 
 static u8 const sMenuNameDesc_Unova[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Unova region.\n"
+    "Activa entrenadores de Teselia.\n"
 );
 
 static u8 const sMenuNameDesc_Kalos[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Kalos region.\n"
+    "Activa entrenadores de Kalos.\n"
 );
 
 static u8 const sMenuNameDesc_Alola[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Alola region.\n"
+    "Activa entrenadores de Alola.\n"
 );
 
 static u8 const sMenuNameDesc_Galar[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Galar region.\n"
+    "Activa entrenadores de Galar.\n"
 );
 
 static u8 const sMenuNameDesc_Paldea[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Paldea region.\n"
+    "Activa entrenadores de Paldea.\n"
 );
 #endif
 
 static u8 const sMenuNameDesc_GameMode_Standard[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Standard Adventure with with slow\n"
-    "pacing. Provides decent Encounters,\n"
-    "Items and {PKMN} at the cost of slower Runs."
+    "Aventura estándar de ritmo lento.\n"
+    "Da buenos encuentros, objetos y\n"
+    "{PKMN}, a cambio de partidas más largas."
 );
 static u8 const sMenuNameDesc_GameMode_Gauntlet[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Prepare your team and then fight Mighty\n"
-    "Trainers back to back without a chance\n"
-    "to catch any {PKMN}. (Disables Challenges)"
+    "Prepara tu equipo y lucha seguido contra\n"
+    "Entrenadores Poderosos sin poder\n"
+    "capturar {PKMN}. (Desactiva Desafíos)"
 );
 static u8 const sMenuNameDesc_GameMode_FastPath[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Standard Adventure with with fast\n"
-    "pacing. Provides fast Runs at the cost\n"
-    "of fewer Encounters, Items and {PKMN}."
+    "Aventura estándar de ritmo rápido.\n"
+    "Partidas rápidas a cambio de menos\n"
+    "encuentros, objetos y {PKMN}."
 );
 
 
 static const u8 sText_DifficultyExpAllDescOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Only {PKMN} send into battle will be awarded\n"
-    "Exp. (Not recommended)"
+    "Solo ganan Exp. los {PKMN} que salgan\n"
+    "a combatir. (No recomendado)"
 );
 static const u8 sText_DifficultyExpAllDescOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "All {PKMN} in the party will be awarded Exp.\n"
-    "even if they didn't enter the battle."
+    "Todos los {PKMN} del equipo ganan Exp.,\n"
+    "aunque no hayan salido a combatir."
 );
 static u8 const* const sText_DifficultyExpAllDesc[] = 
 {
@@ -372,13 +372,13 @@ static u8 const* const sText_DifficultyExpAllDesc[] =
 
 static const u8 sText_DifficultyOverworldMonsDescOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Wild {PKMN} will spawn randomly as you move.\n"
-    "(Classic {PKMN} Game style encounters)"
+    "Los {PKMN} salvajes aparecen al azar al\n"
+    "caminar. (Como en los juegos clásicos)"
 );
 static const u8 sText_DifficultyOverworldMonsDescOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Wild {PKMN} can be encounted and interacted\n"
-    "with in the overworld."
+    "Los {PKMN} salvajes se ven y se puede\n"
+    "interactuar con ellos en el mapa."
 );
 static u8 const* const sText_DifficultyOverworldMonsDesc[] = 
 {
@@ -389,12 +389,12 @@ static u8 const* const sText_DifficultyOverworldMonsDesc[] =
 
 const u8 sText_DifficultyEVGainDescOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "All {PKMN} will never have EVs."
+    "Ningún {PKMN} tendrá EV."
 );
 const u8 sText_DifficultyEVGainDescOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} gain EVs from Trainer battles based\n"
-    "on their nature.(Trainers never have EVs)"
+    "Los {PKMN} ganan EV contra Entrenadores\n"
+    "según su naturaleza. (Ellos no tienen EV)"
 );
 static u8 const* const sText_DifficultyEVGainDesc[] = 
 {
@@ -405,13 +405,13 @@ static u8 const* const sText_DifficultyEVGainDesc[] =
 
 const u8 sText_DifficultySwitchModeDescOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "After fainting an opposing {PKMN}, you will\n"
-    "not be able to switch out until your turn."
+    "Tras debilitar a un {PKMN} rival, no\n"
+    "podrás cambiar hasta tu turno."
 );
 const u8 sText_DifficultySwitchModeDescOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "After fainting an opposing {PKMN} you will be\n"
-    "given a chance to switch out immediately."
+    "Tras debilitar a un {PKMN} rival, podrás\n"
+    "cambiar de Pokémon al momento."
 );
 static u8 const* const sText_DifficultySwitchModeDesc[] = 
 {
@@ -422,13 +422,13 @@ static u8 const* const sText_DifficultySwitchModeDesc[] =
 
 const u8 sText_DifficultyBagWipeDescOff[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "You can take all Meta-Progression\n"
-    "into Adventures. (e.g. Items, Day Care)"
+    "Llevas todo tu progreso permanente\n"
+    "a las Aventuras. (Objetos, Guardería…)"
 );
 const u8 sText_DifficultyBagWipeDescOn[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Only your Partner {PKMN} and Key Items will\n"
-    "be taken into runs."
+    "Solo llevarás a las partidas a tu\n"
+    "{PKMN} Compañero y los objetos clave."
 );
 static u8 const* const sText_DifficultyBagWipeDesc[] = 
 {
@@ -436,43 +436,43 @@ static u8 const* const sText_DifficultyBagWipeDesc[] =
     sText_DifficultyBagWipeDescOn,
 };
 
-static u8 const sMenuName_RevisionMode[] = _("Revised Mode");
-static u8 const sMenuName_RevisionModeNever[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Disabled");
-static u8 const sMenuName_RevisionModeInRun[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Enabled in Runs");
-static u8 const sMenuName_RevisionModeAlwaysOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Enabled Always");
-static u8 const sMenuName_RevisionModeYes[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Yes");
+static u8 const sMenuName_RevisionMode[] = _("Modo Revisado");
+static u8 const sMenuName_RevisionModeNever[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Desactivado");
+static u8 const sMenuName_RevisionModeInRun[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}En partidas");
+static u8 const sMenuName_RevisionModeAlwaysOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Siempre");
+static u8 const sMenuName_RevisionModeYes[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Sí");
 //static u8 const sMenuName_RevisionModeNo[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}No");
 
 const u8 sText_RevisionModeDesc[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enable {PKMN} edits, indicated by {FONT_SMALL_NARROW}{REVISED_EDIT}{FONT_NORMAL} icon.\n"
-    "Revised Typings, Abilities, Moves etc."
+    "Activa cambios en {PKMN}, marcados con {FONT_SMALL_NARROW}{REVISED_EDIT}{FONT_NORMAL}.\n"
+    "Tipos, habilidades, movimientos, etc."
 );
 
 const u8 sText_RevisionModeNeverDesc[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "No changes active.\n"
+    "Sin cambios activos.\n"
 );
 
 const u8 sText_RevisionModeInRunDesc[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Changes are only active while on an\n"
-    "Adventure.\n"
-    "(Can be viewed in the Pokédex)"
+    "Los cambios solo se aplican durante\n"
+    "una Aventura.\n"
+    "(Se pueden ver en la Pokédex)"
 );
 
 const u8 sText_RevisionModeAlwaysOnDesc[] = _(
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Changes are always active.\n"
-    "This cannot be turned off once Enabled.\n"
-    "(Can be viewed in the Pokédex)"
+    "Los cambios están siempre activos.\n"
+    "Una vez activado, no se puede quitar.\n"
+    "(Se pueden ver en la Pokédex)"
 );
 
 const u8 sText_RevisionModeYesDesc[] = _(
-    "Are you sure?\n"
+    "¿Estás segur{MASC}o{FEM}a{ENDG}?\n"
     "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Your save file will be permanently\n"
-    "locked to this setting."
+    "Tu partida quedará bloqueada\n"
+    "para siempre con este ajuste."
 );
 
 

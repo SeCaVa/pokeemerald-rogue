@@ -33,7 +33,7 @@ script Rogue_Debug_FillPCWithGen
         switch(var(VAR_RESULT))
         {
             case MULTI_B_PRESSED: 
-                msgbox(format("No worries!\nCome chat to me if you ever change your mind."), MSGBOX_DEFAULT)
+                msgbox(format("¡No pasa nada!\nVen a hablar conmigo si cambias de idea."), MSGBOX_DEFAULT)
 
             default:
         case 8:

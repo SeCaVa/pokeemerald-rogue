@@ -33,7 +33,7 @@
         "#if defined(ROGUE_DEBUG)":
         [
             {
-                "name": "TRAINER",
+                "name": "ENTRENADOR",
                 "gfx_suffix": "DEBUG_NPC",
                 "trainer_class": "TRAINER_CLASS_COOLTRAINER",
                 "music_player": "kanto_boss",
@@ -54,7 +54,7 @@
         "misc_trainers":
         [
             {
-                "name": "ASSISTANT",
+                "name": "ASISTENTE",
                 "level_override": 1,
                 "object_event": "OBJ_EVENT_GFX_MISC_POKE_FAN_F",
                 "trainer_pic": "TRAINER_PIC_POKEFAN_F",
@@ -65,8 +65,8 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "I'll try to be gentle!",
-                        "POST_BATTLE_TAUNT": "I hope that helped!"
+                        "PRE_BATTLE_TAUNT": "¡Intentaré ir con cuidado!",
+                        "POST_BATTLE_TAUNT": "¡Espero que te haya servido!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -80,7 +80,7 @@
                 }
             },
             {
-                "name": "JOEY",
+                "name": "JOAQUÍN",
                 "object_event": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_pic": "TRAINER_PIC_YOUNGSTER",
                 "trainer_class": "TRAINER_CLASS_YOUNGSTER",
@@ -90,8 +90,8 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "Let's go!",
-                        "POST_BATTLE_TAUNT": "Wow wow wow!"
+                        "PRE_BATTLE_TAUNT": "¡Vamos!",
+                        "POST_BATTLE_TAUNT": "¡Hala, hala, hala!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",

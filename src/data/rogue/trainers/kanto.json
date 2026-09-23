@@ -12,7 +12,7 @@
         [
             
             {
-                "name": "BLUE",
+                "name": "AZUL",
                 "type_assignment": "NONE",
                 "gfx_suffix": "KANTO_BLUE",
                 "trainer_class": "TRAINER_CLASS_RIVAL",
@@ -22,24 +22,24 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: What?\\pWho are you?\\pSo it's {PLAYER}?\\nAnd you're out Adventuring?\\pI bet you have some strong Pokémon!\\pCome on, I'll take you on!",
-                        "POST_BATTLE_TAUNT": "Awww!\\nYou just lucked out!",
-                        "POST_BATTLE_CLOSER": "Okay! I'll make my Pokémon battle to toughen them up!\\pSmell ya later, {PLAYER}!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¿Qué?\\p¿Quién eres?\\p¿Así que eres {PLAYER}?\\n¿Y estás de Aventura?\\p¡Seguro que tienes Pokémon fuertes!\\p¡Venga, te reto!",
+                        "POST_BATTLE_TAUNT": "¡Bah!\\n¡Has tenido suerte!",
+                        "POST_BATTLE_CLOSER": "¡Vale! ¡Haré combatir a mis Pokémon para endurecerlos!\\p¡Hasta luego, {PLAYER}!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Yo! {PLAYER}!\\pWhat are you doing here?\\pYou should quit following me!\\pI bet you can't even beat my Pokémon.",
-                        "POST_BATTLE_TAUNT": "Humph!\\pAt least you're raising your Pokémon!",
-                        "POST_BATTLE_CLOSER": "I heard a rumor about some pretty strong Pokémon.\\pYou better quit following me.\\pThere's no way you'd be able to deal with them anyway!\\nSmell ya later, {PLAYER}!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¡Eh! ¡{PLAYER}!\\p¿Qué haces aquí?\\p¡Deja de seguirme!\\pApuesto a que ni siquiera puedes con mis Pokémon.",
+                        "POST_BATTLE_TAUNT": "¡Hum!\\p¡Al menos estás criando a tus Pokémon!",
+                        "POST_BATTLE_CLOSER": "He oído rumores sobre unos Pokémon muy fuertes.\\pMás te vale dejar de seguirme.\\p¡De todos modos, no podrías con ellos!\\n¡Hasta luego, {PLAYER}!"
                     },
                     {
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: What kept you, {PLAYER}?\\pLast to the party as always!\\nHahaha!\\pHere, let me see what Pokémon you caught, {PLAYER}!",
-                        "POST_BATTLE_TAUNT": "Oh, man!\\nYou just caught me off guard.",
-                        "POST_BATTLE_CLOSER": "I've got a lot to accomplish, unlike you.\\pSmell ya later!"
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: ¿Por qué has tardado tanto, {PLAYER}?\\p¡El último en llegar, como siempre!\\n¡Jajaja!\\p¡A ver qué Pokémon has capturado, {PLAYER}!",
+                        "POST_BATTLE_TAUNT": "¡Anda ya!\\nMe has pillado desprevenido.",
+                        "POST_BATTLE_CLOSER": "Yo tengo mucho que hacer, no como tú.\\p¡Hasta luego!"
                     },
                     {
-                        "PRE_BATTLE_OPENNING": "… … …\\pI was looking forward to seeing you, {PLAYER}.",
-                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Whilst travelling, I assembled teams that would beat any Pokémon type.\\pDo you know what that means, {PLAYER}?\\pI am the most powerful Trainer in the world!",
-                        "POST_BATTLE_TAUNT": "NO!\\nThat can't be!",
+                        "PRE_BATTLE_OPENNING": "… … …\\pTenía ganas de verte, {PLAYER}.",
+                        "PRE_BATTLE_TAUNT": "{STR_VAR_1}: Durante mi viaje, he reunido equipos capaces de vencer a cualquier tipo de Pokémon.\\p¿Sabes lo que eso significa, {PLAYER}?\\p¡Que soy el Entrenador más poderoso del mundo!",
+                        "POST_BATTLE_TAUNT": "¡NO!\\n¡No puede ser!",
                         "POST_BATTLE_CLOSER": "…"
                     }
                 ],
@@ -74,10 +74,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Let's see if you can break past the rock-hard willpower of my Pokémon!",
-                        "PRE_BATTLE_TAUNT": "Show me your best!",
-                        "POST_BATTLE_TAUNT": "I took you for granted, and so I lost.",
-                        "POST_BATTLE_CLOSER": "Let's see how far you can go.\\pGood luck."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡A ver si eres capaz de romper la voluntad de piedra de mis Pokémon!",
+                        "PRE_BATTLE_TAUNT": "¡Enséñame lo mejor que tienes!",
+                        "POST_BATTLE_TAUNT": "Te subestimé, y por eso he perdido.",
+                        "POST_BATTLE_CLOSER": "Veamos hasta dónde llegas.\\pSuerte."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -128,10 +128,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Only those Trainers who have a policy about Pokémon can turn pro.",
-                        "PRE_BATTLE_TAUNT": "Can you handle my all-out offensive of Water-type Pokémon?",
-                        "POST_BATTLE_TAUNT": "Wow!\\nYou're too much!",
-                        "POST_BATTLE_CLOSER": "There's plenty strong of Trainers still ahead of you.\\pStay strong!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Solo los Entrenadores con una filosofía clara sobre los Pokémon llegan a profesionales.",
+                        "PRE_BATTLE_TAUNT": "¿Podrás aguantar la ofensiva total de mis Pokémon de tipo Agua?",
+                        "POST_BATTLE_TAUNT": "¡Hala!\\n¡Eres demasiado!",
+                        "POST_BATTLE_CLOSER": "Aún te esperan muchos Entrenadores fuertes.\\p¡No flaquees!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -165,7 +165,7 @@
                 }
             },
             {
-                "name": "LT. SURGE",
+                "name": "TTE. SURGE",
                 "type_assignment": "ELECTRIC",
                 "gfx_suffix": "KANTO_LTSURGE",
                 "class_flags": [ "BOSS_GYM_3" ],
@@ -173,10 +173,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: You won't live long in combat!",
-                        "PRE_BATTLE_TAUNT": "Not with your puny power!",
-                        "POST_BATTLE_TAUNT": "You're lightning-quick, kid!",
-                        "POST_BATTLE_CLOSER": "I tell you, kid, my electric Pokémon and me trust each other to the end!\\pTrust your Pokémon, and they'll always have your back!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡No durarás mucho en combate!",
+                        "PRE_BATTLE_TAUNT": "¡No con esa fuerza tan enclenque!",
+                        "POST_BATTLE_TAUNT": "¡Eres rápid{MASC}o{FEM}a{ENDG} como el rayo, {MASC}chaval{FEM}chavala{ENDG}!",
+                        "POST_BATTLE_CLOSER": "Te lo digo, {MASC}chaval{FEM}chavala{ENDG}: ¡mis Pokémon eléctricos y yo confiamos el uno en el otro hasta el final!\\p¡Confía en tus Pokémon y siempre te cubrirán las espaldas!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -226,10 +226,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I must have dozed off. Welcome!",
-                        "PRE_BATTLE_TAUNT": "I hope you're prepared.\\nI do not plan on losing!",
-                        "POST_BATTLE_TAUNT": "I concede defeat.\\nYou are remarkably strong.",
-                        "POST_BATTLE_CLOSER": "I must say I'm impressed!\\pBest of luck to you in your future battles!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Debo de haberme quedado dormida. ¡Bienvenid{MASC}o{FEM}a{ENDG}!",
+                        "PRE_BATTLE_TAUNT": "Espero que estés preparad{MASC}o{FEM}a{ENDG}.\\n¡No pienso perder!",
+                        "POST_BATTLE_TAUNT": "Acepto la derrota.\\nEres extraordinariamente fuerte.",
+                        "POST_BATTLE_CLOSER": "¡He de decir que me has impresionado!\\p¡Mucha suerte en tus próximos combates!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -279,10 +279,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Fwahahaha!\\pA mere child like you dares to challenge me?",
-                        "PRE_BATTLE_TAUNT": "Despair to the creeping horror of Poison-type Pokémon!",
-                        "POST_BATTLE_TAUNT": "Humph!",
-                        "POST_BATTLE_CLOSER": "You have proven your worth!\\pLet's just see how long you can last…"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Fuajajaja!\\p¿Un simple crío como tú se atreve a desafiarme?",
+                        "PRE_BATTLE_TAUNT": "¡Desespera ante el horror sigiloso de los Pokémon de tipo Veneno!",
+                        "POST_BATTLE_TAUNT": "¡Hum!",
+                        "POST_BATTLE_CLOSER": "¡Has demostrado tu valía!\\pVeamos cuánto aguantas…"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -333,10 +333,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I had a vision of your arrival.\\pI dislike battling, but if you wish…",
-                        "PRE_BATTLE_TAUNT": "I will show you my powers!",
-                        "POST_BATTLE_TAUNT": "This loss shocks me!",
-                        "POST_BATTLE_CLOSER": "A loss is a loss.\\pTread carefully, I see difficult battles in your future."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Tuve una visión de tu llegada.\\pNo me gusta combatir, pero si así lo deseas…",
+                        "PRE_BATTLE_TAUNT": "¡Te mostraré mis poderes!",
+                        "POST_BATTLE_TAUNT": "¡Esta derrota me deja atónita!",
+                        "POST_BATTLE_CLOSER": "Una derrota es una derrota.\\pAnda con cuidado: veo combates difíciles en tu futuro."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -390,10 +390,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: My fiery Pokémon are all rough and ready with intense heat!",
-                        "PRE_BATTLE_TAUNT": "You better have a Burn Heal!",
-                        "POST_BATTLE_TAUNT": "I have burned down to nothing!",
-                        "POST_BATTLE_CLOSER": "Not even ashes remain!\\pI like your style, kid!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Mis Pokémon de fuego están listos y ardiendo con un calor intenso!",
+                        "PRE_BATTLE_TAUNT": "¡Más te vale llevar Antiquemar!",
+                        "POST_BATTLE_TAUNT": "¡Me he consumido por completo!",
+                        "POST_BATTLE_CLOSER": "¡No quedan ni las cenizas!\\p¡Me gusta tu estilo, {MASC}chaval{FEM}chavala{ENDG}!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -444,10 +444,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Fwahahaha!\\pMy Pokémon shall bring me glory!",
-                        "PRE_BATTLE_TAUNT": "I'm not holding back!",
-                        "POST_BATTLE_TAUNT": "That was a truly intense fight.",
-                        "POST_BATTLE_CLOSER": "You have won.\\pThat is all I have to say."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Fuajajaja!\\p¡Mis Pokémon me traerán la gloria!",
+                        "PRE_BATTLE_TAUNT": "¡No pienso contenerme!",
+                        "POST_BATTLE_TAUNT": "Ha sido un combate realmente intenso.",
+                        "POST_BATTLE_CLOSER": "Has ganado.\\pEs todo lo que tengo que decir."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -495,10 +495,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Your Pokémon will be at my mercy when they are frozen solid.\\pHahaha!",
-                        "PRE_BATTLE_TAUNT": "Are you ready?",
-                        "POST_BATTLE_TAUNT": "…Things shouldn't be this way!",
-                        "POST_BATTLE_CLOSER": "You're better than I though.\\pGo on ahead."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Tus Pokémon estarán a mi merced cuando se queden congelados.\\p¡Jajaja!",
+                        "PRE_BATTLE_TAUNT": "¿Estás list{MASC}o{FEM}a{ENDG}?",
+                        "POST_BATTLE_TAUNT": "…¡Las cosas no deberían ser así!",
+                        "POST_BATTLE_CLOSER": "Eres mejor de lo que pensaba.\\pSigue adelante."
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -549,10 +549,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Through rigorous training, people and Pokémon can become stronger without limit.",
-                        "PRE_BATTLE_TAUNT": "My Pokémon will grind you down with our superior power!",
-                        "POST_BATTLE_TAUNT": "How could I lose?",
-                        "POST_BATTLE_CLOSER": "My job is done.\\pGo face your next challenge."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Con un entrenamiento riguroso, personas y Pokémon pueden hacerse fuertes sin límite.",
+                        "PRE_BATTLE_TAUNT": "¡Mis Pokémon te aplastarán con nuestra fuerza superior!",
+                        "POST_BATTLE_TAUNT": "¿Cómo he podido perder?",
+                        "POST_BATTLE_CLOSER": "Mi trabajo ha terminado.\\pVe a por tu próximo desafío."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -607,10 +607,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Pokémon are for battling!",
-                        "PRE_BATTLE_TAUNT": "I'll show you how a real Trainer battles!",
-                        "POST_BATTLE_TAUNT": "Oh, my!\\nYou're something special, child",
-                        "POST_BATTLE_CLOSER": "I have nothing else to say.\\pRun along now, child!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¡Los Pokémon son para combatir!",
+                        "PRE_BATTLE_TAUNT": "¡Te enseñaré cómo combate un Entrenador de verdad!",
+                        "POST_BATTLE_TAUNT": "¡Vaya!\\nEres especial, criatura.",
+                        "POST_BATTLE_CLOSER": "No tengo nada más que decir.\\p¡Sigue tu camino, criatura!"
                     }
                 ],
                 "preferred_mon_gender": "FEMALE",
@@ -666,10 +666,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Are you ready to lose?",
-                        "PRE_BATTLE_TAUNT": "Your Adventure ends with me, {PLAYER}!",
-                        "POST_BATTLE_TAUNT": "That's it!",
-                        "POST_BATTLE_CLOSER": "I hate to admit it, but you have bested me.\\pI shall eagerly watch your path forward."
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: ¿Estás list{MASC}o{FEM}a{ENDG} para perder?",
+                        "PRE_BATTLE_TAUNT": "¡Tu Aventura termina conmigo, {PLAYER}!",
+                        "POST_BATTLE_TAUNT": "¡Se acabó!",
+                        "POST_BATTLE_CLOSER": "Me cuesta admitirlo, pero me has superado.\\pSeguiré tu camino con mucho interés."
                     }
                 ],
                 "preferred_mon_gender": "MALE",
@@ -735,10 +735,10 @@
                 "encounter_text":
                 [
                     {
-                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: I am usually a man of research.\\pBut at this moment in time…",
-                        "PRE_BATTLE_TAUNT": "I shall battle, as I did in my youth!",
-                        "POST_BATTLE_TAUNT": "That was marvelous, {PLAYER}!",
-                        "POST_BATTLE_CLOSER": "You were truly astounding, battling alongside your Pokémon.\\pI wish you the best of luck moving forward!"
+                        "PRE_BATTLE_OPENNING": "{STR_VAR_1}: Normalmente me dedico a la investigación.\\pPero en este preciso momento…",
+                        "PRE_BATTLE_TAUNT": "¡Combatiré como en mi juventud!",
+                        "POST_BATTLE_TAUNT": "¡Ha sido maravilloso, {PLAYER}!",
+                        "POST_BATTLE_CLOSER": "Has estado asombroso combatiendo junto a tus Pokémon.\\p¡Te deseo toda la suerte del mundo en adelante!"
                     }
                 ],
                 "preferred_mon_gender": "MALE",

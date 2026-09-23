@@ -1672,7 +1672,7 @@ const u8* Rogue_ModifyFieldMessage(const u8* str)
 extern const u8* const gBattleStringsTable[];
 extern const u8 sText_Trainer1SentOutPkmn2[];
 
-static const u8 sText_FinalQuestFinalMonSendOut[] = _("Wahey!\nI'm not through yet!");
+static const u8 sText_FinalQuestFinalMonSendOut[] = _("¡Yujuuu!\n¡Aún no he terminado!");
 
 const u8* Rogue_ModifyBattleMessage(const u8* str)
 {
@@ -8829,7 +8829,7 @@ void Rogue_SwapMonInDaycare(struct Pokemon* partyMon, u8 daycareSlot)
     CalculatePlayerPartyCount();
 }
 
-static const u8 sText_EmptyDaycareSlot[] = _("Empty / -");
+static const u8 sText_EmptyDaycareSlot[] = _("Vacío / -");
 static const u8 sText_DaycareSlotSpacing[] = _(" / ");
 
 void Rogue_DaycareMultichoiceCallback(struct MenuAction* outList, u8* outCount, u8 listCapacity)
