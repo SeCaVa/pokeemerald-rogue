@@ -2940,13 +2940,13 @@ u8* Rogue_GetMiniMenuContent(void)
     if(Rogue_IsRunActive())
     {
         // Run time
-        ConvertIntToDecimalStringN(gStringVar1, gSaveBlock2Ptr->playTimeHours, STR_CONV_MODE_RIGHT_ALIGN, 3);
+        ConvertIntToDecimalStringN(gStringVar1, gSaveBlock2Ptr->playTimeHours, STR_CONV_MODE_LEFT_ALIGN, 3);
         ConvertIntToDecimalStringN(gStringVar2, gSaveBlock2Ptr->playTimeMinutes, STR_CONV_MODE_LEADING_ZEROS, 2);
         StringExpandPlaceholders(gStringVar3, gText_StatusTimer);
         strPointer = StringAppend(strPointer, gStringVar3);
 
         // Badges
-        ConvertIntToDecimalStringN(gStringVar1, Rogue_GetCurrentDifficulty(), STR_CONV_MODE_RIGHT_ALIGN, 4);
+        ConvertIntToDecimalStringN(gStringVar1, Rogue_GetCurrentDifficulty(), STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar3, gText_StatusBadges);
         strPointer = StringAppend(strPointer, gStringVar3);
     }
@@ -2954,7 +2954,7 @@ u8* Rogue_GetMiniMenuContent(void)
     // Score
     if(Rogue_IsActiveCampaignScored())
     {
-        ConvertIntToDecimalStringN(gStringVar1, Rogue_GetCampaignScore(), STR_CONV_MODE_RIGHT_ALIGN, 6);
+        ConvertIntToDecimalStringN(gStringVar1, Rogue_GetCampaignScore(), STR_CONV_MODE_LEFT_ALIGN, 6);
 
         StringExpandPlaceholders(gStringVar3, gText_StatusScore);
         strPointer = StringAppend(strPointer, gStringVar3);
