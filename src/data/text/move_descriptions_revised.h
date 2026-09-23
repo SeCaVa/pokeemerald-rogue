@@ -4,7 +4,7 @@ static const u8 sRazorWindDescription_Revised[] = _(
     "viento con crítico alto.");
 
 static const u8 sCutDescription_Revised[] = _(
-    "Corta al rival con utensilios\n"
+    "Corta con utensilios\n"
     "afilados. Crítico alto.");
 
 static const u8 sRollingKickDescription_Revised[] = _(
@@ -44,7 +44,7 @@ static const u8 sWishDescription_Revised[] = _(
     "compañero que entra.");
 
 static const u8 sSuperpowerDescription_Revised[] = _(
-    "Fuerza enorme, pero baja sus\n"
+    "Gran fuerza, pero baja sus\n"
     "características físicas.");
 
 static const u8 sTailGlowDescription_Revised[] = _(
@@ -56,8 +56,8 @@ static const u8 sMeFirstDescription_Revised[] = _(
     "rival si va primero.");
 
 static const u8 sXScissorDescription_Revised[] = _(
-    "Corte en cruz con utensilios\n"
-    "afilados. Crítico alto.");
+    "Corte en cruz con\n"
+    "utensilios. Crítico alto.");
 
 static const u8 sRoarOfTimeDescription_Revised[] = _(
     "Distorsiona el tiempo para\n"
@@ -68,12 +68,12 @@ static const u8 sSpacialRendDescription_Revised[] = _(
     "falla. Crítico alto.");
 
 static const u8 sCircleThrowDescription_Revised[] = _(
-    "Aparta al rival de un golpe y\n"
-    "le obliga a cambiarse.");
+    "Aparta al rival de un golpe\n"
+    "y le obliga a cambiarse.");
 
 static const u8 sRetaliateDescription_Revised[] = _(
-    "Doble de daño si un aliado se\n"
-    "debilitó el turno anterior.");
+    "Doble de daño si un aliado\n"
+    "cayó el turno anterior.");
 
 static const u8 sIceHammerDescription_Revised[] = _(
     "Puñetazo helado. Índice de\n"
@@ -136,8 +136,8 @@ static const u8 sCeaselessEdgeDescription_Revised[] = _(
     "afilada. Crítico alto.");
 
 static const u8 sLastRespectsDescription_Revised[] = _(
-    "Doble de daño si un aliado se\n"
-    "debilitó el turno anterior.");
+    "Doble de daño si un aliado\n"
+    "cayó el turno anterior.");
 
 static const u8 sLuminaCrashDescription_Revised[] = _(
     "Luz que afecta a la mente y\n"
@@ -180,8 +180,8 @@ static const u8 sFreezingGlareDescription_Revised[] = _(
     "Puede congelar.");
 
 static const u8 sSwirlingBladeDescription_Revised[] = _(
-    "Un golpe de espada. Índice de\n"
-    "crítico alto.");
+    "Un golpe de espada. Índice\n"
+    "de crítico alto.");
 
 const u8 *const gMoveDescriptionPointers_Revised[MOVES_COUNT - 1] =
 {

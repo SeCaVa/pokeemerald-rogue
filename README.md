@@ -2,7 +2,7 @@
 
 Traducción no oficial al **castellano de España** de **Emerald Rogue EX v2.2.1a**, el *roguelite* basado en Pokémon Esmeralda creado por **[Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue)**.
 
-> Todo el juego (diseño, programación, contenido, gráficos y equilibrio) es obra de **Pokabbie** y de quienes han colaborado en Emerald Rogue. Este fork **solo traduce los textos** y hace los ajustes de código imprescindibles para que el castellano quepa y se vea bien. Si te gusta el juego, apoya el proyecto original.
+> Todo el juego (diseño, programación, contenido, gráficos y equilibrio) es obra de **Pokabbie** y de quienes han colaborado en Emerald Rogue. Este fork **solo traduce los textos y los gráficos con texto** y hace los ajustes de código imprescindibles para que el castellano quepa y se vea bien. Si te gusta el juego, apoya el proyecto original.
 
 La rama que contiene la traducción es **`castellano`**.
 
@@ -17,6 +17,14 @@ La rama que contiene la traducción es **`castellano`**.
 - **Nombres oficiales** de movimientos, habilidades, objetos, bayas, naturalezas, clases de entrenador y categorías de especie.
 - **Descripciones** de movimientos, habilidades, objetos y bayas.
 - **Nombres de personajes** con su versión oficial en España (por ejemplo, Blasco, Máximo, Treto o Aria).
+- **Textos de sistema de Pokémon Esmeralda que Rogue sigue usando**: guardar partida, interacciones del mapa (rocas, árboles, cascadas, Surf, Buceo), Centro Pokémon, bayas, PC, Repelente, Buscapelea, la presentación del Prof. Abedul y los avisos de la Zona Safari.
+- **Gráficos con texto**, tomados de Pokémon Edición Esmeralda en castellano para que se vean igual que en el juego original:
+  - "PULSA START" de la pantalla de título.
+  - Iconos de tipos y de categorías de concurso, y etiquetas TIPO / POTENC. / PRECIS. / EFECTO.
+  - Iconos de estado (ENV, PAR, DOR, CON, QUE, DEB).
+  - Pantalla de datos del Pokémon (PERFIL, HABILIDAD, CARACTERÍST., EXPERIENCIA, MOVIMIENTOS, DESCRIPCIÓN…).
+  - Ficha de entrenador, menú de las cajas y botones del teclado de nombres.
+  - Lo que no existe en Esmeralda se ha dibujado con las mismas letras: tipos HADA y ASTRAL, estado CGL (congelación), AMISTAD, "MISIONES" del libro de misiones y "A·ABRIR / SELECT·EDITAR" de la Pokédex de Rogue.
 
 ### Criterios de la traducción
 
@@ -30,7 +38,9 @@ La rama que contiene la traducción es **`castellano`**.
   - Donde el texto oficial describe una mecánica que Rogue cambia (congelación, turnos de las ataduras, efectos de Ácido y Triturar…) o se refiere a otro juego, se ha redactado un texto propio.
 - **Límites de GBA**:
   - Los nombres largos se abrevian al estilo de los juegos de GBA ("Pantalla Humo", "Colmillo Ven.", "Torm. Arena").
-  - Todo se ha medido en píxeles con las fuentes reales del juego para que nada se corte.
+  - Todo se ha medido en píxeles con las fuentes reales del juego para que nada se corte (las descripciones de movimientos, a la ventana más estrecha en que aparecen: la de aprender movimientos).
+- **Mensajes de combate** con la estructura del Esmeralda en castellano: "¡Ataque de Zigzagoon bajó!", "¡Defensa de Zigzagoon bajó mucho!".
+- **Abreviaturas de características**: PS, Atq, Def, At. Esp, Df. Esp, Vel.
 
 ---
 
@@ -49,6 +59,9 @@ Son los cambios mínimos para que la traducción funcione:
 | Marca de salvaje o rival detrás del nombre | "Zigzagoon salvaje" en lugar de "Salvaje Zigzagoon". |
 | Números alineados a la izquierda en el menú START | Las etiquetas en castellano son más largas. |
 | Diálogos reorganizados en páginas de 2 líneas | El castellano ocupa más que el inglés. |
+| Verbo antes del adverbio en los cambios de características | "bajó mucho" en lugar de "mucho bajó". |
+| Cantidad de objetos en la segunda línea de los avisos emergentes | Los nombres de objeto en castellano son más largos y cortaban el "x2". |
+| Pista "SELECT·EDITAR" de la Pokédex de Rogue dos casillas más ancha | "EDITAR" es más largo que "EDIT". |
 | Títulos de misión en fuente estrecha y títulos visibles separados del identificador interno | Para que los títulos traducidos quepan sin romper las misiones. |
 | Arreglos para compilar con GCC moderno | `json11` y `scaninc`. |
 
@@ -68,9 +81,9 @@ El resultado es una ROM de Emerald Rogue EX en castellano. **Este repositorio no
 
 ## Qué no está traducido
 
-- **Pantalla de título**: el "PRESS START" y otros textos que forman parte de imágenes.
 - **Entradas de la Pokédex**: Emerald Rogue no las incluye en la ROM.
-- **Funciones de Pokémon Esmeralda que Rogue no usa**: Sala Unión, Regalo Misterioso, llamadas del PokéNav, Frente Batalla, Tritura Bayas y decoraciones.
+- **Funciones de Pokémon Esmeralda que Rogue no usa**: Sala Unión, Regalo Misterioso, llamadas del PokéNav, televisión, Frente Batalla, Tritura Bayas, decoraciones y los mapas originales de la Zona Safari.
+- **Logotipos**: el logotipo del título y el de la Pokédex se dejan como en el original.
 
 Si encuentras un texto sin traducir, cortado o con errores, abre una *issue* en este repositorio.
 
@@ -81,7 +94,7 @@ Si encuentras un texto sin traducir, cortado o con errores, abre una *issue* en 
 - **Emerald Rogue / Emerald Rogue EX**: [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue) y colaboradores. Todo el mérito del juego es suyo.
 - **pokeemerald-expansion**: [RHH (ROM Hacking Hideout)](https://github.com/rh-hideout/pokeemerald-expansion) y su [lista de colaboradores](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits). Emerald Rogue se basa en su proyecto.
 - **pokeemerald**: el proyecto de descompilación de [pret](https://github.com/pret/pokeemerald).
-- **Datos de referencia**: [PokeAPI](https://pokeapi.co) y [WikiDex](https://www.wikidex.net) para los nombres y las descripciones oficiales en castellano.
+- **Datos de referencia**: [PokeAPI](https://pokeapi.co) y [WikiDex](https://www.wikidex.net) para los nombres y las descripciones oficiales en castellano; Pokémon Edición Esmeralda en castellano para los nombres cortos, los mensajes de sistema y los gráficos con texto.
 - **Traducción al castellano**: SeCaVa, con ayuda de Claude (Anthropic).
 
 El README original del proyecto se conserva en [README_ORIGINAL.md](README_ORIGINAL.md).

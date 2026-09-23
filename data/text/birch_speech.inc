@@ -1,5 +1,5 @@
 gText_Birch_Welcome::
-	.string "Hello!\p"
+	.string "¡Hola!\p"
 	.string "$"
 
 gText_Birch_Pokemon::
@@ -7,41 +7,40 @@ gText_Birch_Pokemon::
 	.string "$"
 
 gText_Birch_MainSpeech::
-	.string "In this game, every time you embark \n"
-	.string "on an Adventure...\p"
-	.string "the world and the POKéMON you\n"
-	.string "encounter will be different!\p"
+	.string "En este juego, cada vez que te\n"
+	.string "embarques en una aventura…\p"
+	.string "¡el mundo y los Pokémon que\n"
+	.string "encuentres serán diferentes!\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "Now...\n"
-	.string "Time to tell me about yourself$"
-	.string "$"
+	.string "Ahora…\n"
+	.string "Háblame un poco de ti.$"
 
 gText_Birch_BoyOrGirl::
-	.string "Select an avatar$"
+	.string "Elige un avatar$"
 
 gText_Birch_AvatarStyle0::
-	.string "Select an appearance$"
+	.string "Elige una apariencia$"
 
 gText_Birch_AvatarStyle1::
-	.string "Select clothing style$"
+	.string "Elige un estilo de ropa$"
 
 gText_Birch_WhatsYourName::
-	.string "Now, what is your name?$"
+	.string "Bueno, ¿cómo te llamas?$"
 
 gText_Birch_HappyWithAvatar::
-	.string "So this is your avatar?\n(Can be changed later)$"
+	.string "¿Este es tu avatar?\n"
+	.string "(Puedes cambiarlo más adelante)$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's {PLAYER}{KUN}?$"
+	.string "Así que te llamas {PLAYER}{KUN}, ¿no?$"
 
 gText_Birch_YourePlayer::
-	.string "Ah, okay!\p"
-	.string "{PLAYER}{KUN}!"
-	.string "$"
+	.string "¡Ah, muy bien!\p"
+	.string "¡{PLAYER}{KUN}!$"
 
 gText_Birch_AreYouReady::
-	.string "I'll be waiting for you in my LAB!\p"
-	.string "Come and find me once you arrive.\p"
+	.string "¡Te espero en mi laboratorio!\p"
+	.string "Ven a buscarme cuando llegues.\p"
 	.string "$"

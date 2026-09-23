@@ -377,9 +377,9 @@ gText_PokemonCenterSign::
 	.string "POKéMON CENTER$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
+	.string "A {STR_VAR_1} le gustará este programa.\n"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string "¡Bueno, en marcha!$"
 
 gText_WhichFloorWouldYouLike::
 	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
@@ -390,8 +390,9 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "Up to four items in the Bag can be\n"
-	.string "registered to {SELECT_BUTTON} for easy use.$"
+	.string "Puedes registrar hasta 4 objetos\n"
+	.string "de la Mochila en {SELECT_BUTTON}\l"
+	.string "para usarlos con facilidad.$"
 
 gText_PokemonTrainerSchoolEmail::
 	.string "There's an e-mail from POKéMON TRAINER\n"
@@ -413,12 +414,13 @@ gText_UnusedNicknameReceivedPokemon::
 	.string "the {STR_VAR_2} you received?$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "POKéMON!\p{PLAYER} whited out!$"
+	.string "¡A {PLAYER} no le quedan\n"
+	.string "Pokémon en condiciones!\p"
+	.string "¡{PLAYER} se ha desmayado!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "Registered {STR_VAR_1} {STR_VAR_2}\n"
-	.string "in the POKéNAV.$"
+	.string "Has registrado a\n"
+	.string "{STR_VAR_1} {STR_VAR_2} en el PokéNav.$"
 
 gText_ComeBackWithSecretPower::
 	.string "Do you know the TM SECRET POWER?\p"
@@ -430,13 +432,13 @@ gText_ComeBackWithSecretPower::
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
-	.string "except that they are microscopic life-\l"
-	.string "forms that attach to POKéMON.\p"
-	.string "While infected, POKéMON are said to\n"
-	.string "grow exceptionally well.$"
+	.string "Puede que tus Pokémon estén\n"
+	.string "infectados con Pokérus.\p"
+	.string "Se sabe poco del Pokérus, salvo que\n"
+	.string "son formas de vida microscópicas\l"
+	.string "que se adhieren a los Pokémon.\p"
+	.string "Se dice que los Pokémon infectados\n"
+	.string "crecen excepcionalmente bien.$"
 
 	.include "data/text/surf.inc"
 
@@ -453,8 +455,8 @@ gText_SorryWirelessClubAdjustments::
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "Parece que está en\n"
+	.string "fase de ajustes…$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
@@ -475,7 +477,7 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "MYSTERY GIFT System.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found {STR_VAR_1}!$"
+	.string "¡{PLAYER} encontró {STR_VAR_1}!$"
 
 gText_Sudowoodo_Attacked::
 	.string "The weird tree doesn't like the\n"

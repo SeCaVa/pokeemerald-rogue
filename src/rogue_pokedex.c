@@ -174,12 +174,12 @@ static const u8 sText_Abilities[] = _("Habilidades");
 
 static const u8 sText_Total[] = _("Total");
 
-static const u8 sText_HP[] = _("PS");
-static const u8 sText_Attack[] = _("Ata");
-static const u8 sText_Defence[] = _("Def");
-static const u8 sText_SpAttack[] = _("At.Es");
-static const u8 sText_SpDefence[] = _("Df.Es");
-static const u8 sText_Speed[] = _("Vel");
+static const u8 sText_HP[] = _("{FONT_NARROW}PS");
+static const u8 sText_Attack[] = _("{FONT_NARROW}Atq");
+static const u8 sText_Defence[] = _("{FONT_NARROW}Def");
+static const u8 sText_SpAttack[] = _("{FONT_NARROW}At. Esp");
+static const u8 sText_SpDefence[] = _("{FONT_NARROW}Df. Esp");
+static const u8 sText_Speed[] = _("{FONT_NARROW}Vel");
 
 static const u8 sText_Skills[] = _("Habilidad");
 static const u8 sText_SkillClimbing[] = _("Escalar");
@@ -213,7 +213,7 @@ static const u8 sText_Types[] = _("TYPES");
 static const u8 sText_Abilities[] = _("ABILITIES");
 
 static const u8 sText_Total[] = _("TOTAL");
-static const u8 sText_HP[] = _("PS");
+static const u8 sText_HP[] = _("{FONT_NARROW}PS");
 static const u8 sText_Attack[] = _("ATK");
 static const u8 sText_Defence[] = _("DEF");
 static const u8 sText_SpAttack[] = _("SP ATK");

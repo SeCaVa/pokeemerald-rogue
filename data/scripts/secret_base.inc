@@ -8,7 +8,7 @@ SecretBase_Text_TreeUseSecretPower:
 	.string "Use the SECRET POWER?$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "¡Ha caído una liana gruesa!$"
 
 SecretBase_Text_ClumpOfGrass:
 	.string "If this clump of grass can be moved,\n"
@@ -20,7 +20,7 @@ SecretBase_Text_ClumpUseSecretPower:
 	.string "Use the SECRET POWER?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "¡Has descubierto una pequeña entrada!$"
 
 	.include "data/text/secret_base_trainers.inc"
 

@@ -47,8 +47,8 @@ Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "Parece que este árbol\n"
+	.string "se puede cortar.$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -104,8 +104,8 @@ Text_WantToSmash:
 	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "Es una roca muy dura, pero un\n"
+	.string "Pokémon podría hacerla añicos.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -152,17 +152,17 @@ Text_WantToStrength:
 	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "¡{STR_VAR_1} usó Fuerza!\p"
+	.string "¡Gracias a la Fuerza de {STR_VAR_1},\n"
+	.string "ya puedes mover las rocas!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "Es una roca enorme, pero un\n"
+	.string "Pokémon podría apartarla.$"
 
 Text_StrengthActivated:
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "Gracias a Fuerza, ya puedes\n"
+	.string "mover las rocas.$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -186,8 +186,8 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "Una enorme cascada cae con\n"
+	.string "un rugido atronador.$"
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
@@ -249,30 +249,30 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "El mar es muy profundo aquí.\n"
+	.string "Un Pokémon podría sumergirse.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "El mar es muy profundo en esta zona.\n"
+	.string "¿Quieres usar Buceo?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} usó Buceo.$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "La luz se filtra desde arriba.\n"
+	.string "Un Pokémon podría emerger.$"
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "La luz se filtra desde arriba.\n"
+	.string "¿Quieres usar Buceo?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "Parece que aquí no hay nada…$"
 	
 FollowerPositionFixScript::
 	setvar 0x8000 0x0

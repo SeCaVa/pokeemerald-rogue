@@ -209,7 +209,7 @@ SecretBase_Text_IndentUseSecretPower::
 	.string "Use the SECRET POWER?$"
 
 SecretBase_Text_DiscoveredSmallCavern::
-	.string "Discovered a small cavern!$"
+	.string "¡Has descubierto una pequeña cueva!$"
 
 SecretBase_Text_WantToMakeYourSecretBaseHere:
 	.string "Want to make your SECRET BASE here?$"

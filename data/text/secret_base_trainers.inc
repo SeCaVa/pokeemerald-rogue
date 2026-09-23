@@ -270,8 +270,8 @@ SecretBase_Text_Trainer9DeclineBattle:
 	.string "anytime.$"
 
 SecretBase_Text_Trainer9Defeated::
-	.string "You're supremely talented!\n"
-	.string "Your power seems to be limitless…$"
+	.string "¡Tienes un talento extraordinario!\n"
+	.string "Tu poder parece no tener límites…$"
 
 SecretBase_Text_Trainer9PostBattle:
 	.string "What did you think of my style?\n"
