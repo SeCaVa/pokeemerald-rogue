@@ -1,190 +1,93 @@
-# pokeemerald-expansion
+# Emerald Rogue EX — Traducción al castellano
 
-## What is pokeemerald-expansion?
+Traducción no oficial al **castellano de España** de **Emerald Rogue EX v2.2.1a**, el *roguelite* basado en Pokémon Esmeralda creado por **[Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue)**.
 
-pokeemerald-expansion is a decomp hack base project based off pret's [pokeemerald](https://github.com/pret/pokeemerald) decompilation project. It's recommended that any new projects that plan on using it, to clone this repository instead of pret's vanilla repository, as we regurlarly incorporate pret's documentation changes. This is ***NOT*** a standalone romhack, and as such, most features will be unavailable and/or unbalanced if played as is.
+> Todo el juego (diseño, programación, contenido, gráficos y equilibrio) es obra de **Pokabbie** y de quienes han colaborado en Emerald Rogue. Este fork **solo traduce los textos** y hace los ajustes de código imprescindibles para que el castellano quepa y se vea bien. Si te gusta el juego, apoya el proyecto original.
 
-If you use pokeemerald-expansion in your hack, please add RHH (Rom Hacking Hideout) to your credits list. Optionally, you can list the version used, so it can help players know what features to expect.
-You can phrase it as the following:
-```
-Based off RHH's pokeemerald-expansion v1.7.3 https://github.com/rh-hideout/pokeemerald-expansion/
-```
+La rama que contiene la traducción es **`castellano`**.
 
-## What features are included?
-- ***IMPORTANT*❗❗ Read through these to learn what features you can toggle**:
-    - [Battle configurations](/include/config/battle.h)
-    - [Pokémon configurations](/include/config/pokemon.h)
-    - [Item configurations](/include/config/item.h)
-    - [Overworld configurations](/include/config/overworld.h)
-    - [Debug configurations](/include/config/debug.h)
-- ***Upgraded battle engine.***
-    - Gen5+ damage calculation.
-    - 2v2 Wild battles support.
-    - 1v2/2v1 battles support.
-    - Fairy Type (configurable).
-    - Physical/Special/Status Category Split (configurable).
-    - New moves and abilities up to Scarlet and Violet.
-        - Custom Contest data up to SwSh, newer moves are WIP. ([source](https://pokemonurpg.com/info/contests/rse-move-list/))
-    - Mega Evolution
-    - Primal Reversion
-    - Ultra Burst
-    - Z-Moves
-        - Gen 8+ damaging moves are given power extrapolated from Gen 7.
-        - Gen 8+ status moves have no additional effects, like Healing Wish.
-    - Dynamax
-        - Gigantamax forms
-    - Initial battle parameters
-        - Queueing stat boosts (aka, Totem Boosts)
-        - Setting Terrains.
-    - Mid-turn speed recalculation.
-    - Quick Poké Ball selection in Wild Battles
-        - Press `R` to use last selected Poké Ball.
-        - Hold `R` to change selection with the D-Pad.
-    - Run option shortcut
-    - Faster battle intro
-        - Message and animation/cry happens at the same time.
-    - Faster HP drain.
-    - Battle Debug menu.
-        - Accessed by pressing `Select` on the "Fight/Bag/Pokémon/Run" menu.
-    - Option to use AI flags in wild Pokémon battles.
-    - FRLG/Gen4+ whiteout money calculation.
-    - Configurable experience settings
-        - Experience on catch.
-        - Splitting experience.
-        - Trainer experience.
-        - Scaled experience.
-        - Unevolved experience boost.
-    - Frostbite.
-        - Doesn't replace freezing unless a config is enabled, so you can mix and match.
-    - Critical capture.
-    - Removed badge boosts (configurable).
-    - Recalculating stats at the end of every battle.
-    - Level 100 Pokémon can earn EVs.
-    - Inverse battle support.
-    - TONS of other features listed [here](/include/config/battle.h).
-- ***Full Trainer customization***
-    - Nickname, EVs, IVs, moves, ability, ball, friendship, nature, gender, shininess.
-    - Custom tag battle support (teaming up an NPC in a double battle).
-    - Sliding trainer messages.
-    - Upgraded Trainer AI
-        - Considers newer move effects.
-        - New flag options to let you customize the intelligence of your trainers.
-        - Faster calculations.
-    - Specify Poké Balls by Trainer class.
-- ***Pokémon Species from Generations 1-9.***
-    - Simplified process to add new Pokémon.
-    - Option to disable unwanted families.
-    - Updated sprites to DS style.
-    - Updated stats, types, abilities and egg groups (configurable).
-    - Updated Hoenn's Regional Dex to match ORAS' (configurable).
-    - Updated National Dex incorporating the new species.
-    - Sprite and animation visualizer.
-        - Accesible by pressing `Select` on a Pokémon's Summary screen.
-    - Gen4+ evolution methods, with some changes:
-        - Mossy Rock, Icy Rock and Magnetic Field locations match ORAS'.
-            - Leaf, Ice and Thunder Stones may also be used.
-        - Inkay just needs level 30 to evolve.
-            - You can't physically have both the RTC and gyroscope, so we skip this requirement.
-        - Sylveon uses Gen8+'s evolution method (friendship + Fairy Move).
-        - Option to use hold evolution items directly like stones.
-    - Hidden Abilities.
-        - Available via Ability Patch.
-        - Compatible with Ghoul's DexNav branch.
-    - All gender differences.
-        - Custom female icons for female Hippopotas Hippowdon, Pikachu and Wobbufett
-    - 3 Perfect IVs on Legendaries, Mythicals and Ultra Beasts.
-- ***Customizable form change tables. Full list of methods [here](/include/constants/form_change_types.h).***
-    - Item holding (eg. Giratina/Arceus)
-    - Item using (eg. Oricorio)
-        - Time of day option for Shaymin
-    - Fainting
-    - Battle begin and end (eg. Xerneas)
-        - Move change option for Zacian/Zamazenta
-    - Battle end in terrains (eg. Burmy)
-    - Switched in battle (eg. Palafin)
-    - HP Threshold (eg. Darmanitan)
-    - Weather (eg. Castform)
-    - End of turn (eg. Morpeko)
-    - Time of day (Shaymin)
-- ***Breeding Improvements***
-    - Incense Baby Pokémon now happen automatically (configurable).
-    - Level 1 eggs (configurable).
-    - Poké Ball inheriting (configurable).
-    - Egg Move Transfer, including Mirror Herb (configurable).
-    - Nature inheriting 100% of the time with Everstone (configurable)
-    - Gen6+ Ability inheriting (configurable).
-- ***Items from newer Generations. Full list [here](/include/constants/items.h).***
-    - ***Gen 6+ Exp. Share*** (configurable)
-    - Berserk Gene
-    - Most battle items from Gen 4+
-    - Existing item data but missing effects:
-        - Mints
-        - Dynamax Candy
-        - Mulches
-        - Gimmighoul Coin
-        - Booster Energy
-        - Tera Shards
-        - Tera Orb
-- ***Feature branches incorporated (with permission):***
-    - [RHH intro credits](https://github.com/Xhyzi/pokeemerald/tree/rhh-intro-credits) by @Xhyzi.
-        - A small signature from all of us to show the collective effort in the project :)
-    - [Overworld debug](https://github.com/TheXaman/pokeemerald/tree/tx_debug_system) by @TheXaman
-        - May be disabled.
-        - Accesible by pressing `R + Start` in the overworld by default.
-        - **Additional features**:
-            - *Clear Boxes*: cleans every Pokémon from the Boxes.
-            - *Hatch an Egg*: lets you choose an Egg in your party and immediately hatch it.
-    - [HGSS Pokédex](https://github.com/TheXaman/pokeemerald/tree/tx_pokedexPlus_hgss) by @TheXaman
-        - May be disabled.
-        - **Additional features**:
-            - *Support for new evolution methods*.
-            - *Dark Mode*.
-    - [Nature Colors](https://github.com/DizzyEggg/pokeemerald/tree/nature_color) in summary screen by @DizzyEggg
-- ***Other features***
-    - Pressing B while holding a Pokémon drops them like in modern games (configurable).
-    - Running indoors (configurable).
-    - Configurable overworld poison damage.
-    - Configurable flags for disabling Wild encounters and Trainer battles.
-    - Configurable flags for forcing or disabling Shinies.
-    - Reusable TM (configurable).
-    - B2W2+ Repel system that also supports LGPE's Lures
-    - Gen6+'s EV cap.
-    - All bugfixes from pret included.
-    - Fixed overworld snow effect.
+---
 
-There are some mechanics, moves and abilities that are missing and being developed. Check [the project's milestones](https://github.com/rh-hideout/pokeemerald-expansion/milestones) to see which ones.
+## Qué está traducido
 
+- **Diálogos de Rogue**: la base, los laboratorios, la tienda de ropa, la panadería, la escuela, los eventos de aventura, los tutoriales, etc.
+- **Misiones** y **entrenadores**: nombres de misiones, descripciones y todas las frases de los Líderes, el Alto Mando, los Campeones, los rivales y los equipos villanos.
+- **Menús e interfaz**: menú principal, opciones, ajustes de Rogue, tablero de misiones, estadísticas, recuadro del menú START, Pokédex de Rogue, avisos emergentes, personalización del personaje…
+- **Combate**: todos los mensajes, los menús de combate, la eficacia de los movimientos, los tipos y los climas.
+- **Nombres oficiales** de movimientos, habilidades, objetos, bayas, naturalezas, clases de entrenador y categorías de especie.
+- **Descripciones** de movimientos, habilidades, objetos y bayas.
+- **Nombres de personajes** con su versión oficial en España (por ejemplo, Blasco, Máximo, Treto o Aria).
 
-### [Documentation on features can be found here](https://github.com/rh-hideout/pokeemerald-expansion/wiki)
+### Criterios de la traducción
 
-## If I already have a project based on regular pokeemerald, can I use pokeemerald-expansion?
-Yes! Keep in mind that we keep up with pret's documentation of pokeemerald, which means that if your project a bit old, you might get merge conflicts that you need to solve manually.
-- If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
-- Once you have your remote set up, run the command `git pull RHH master`.
+- **Castellano de España** y terminología oficial de los juegos.
+- **Nombres oficiales**:
+  - Los nombres y abreviaturas cortas se han comprobado con Pokémon Edición Esmeralda en castellano.
+  - Los de generaciones posteriores se han comprobado con [WikiDex](https://www.wikidex.net) y con los datos en castellano de España (idioma `es`) de [PokeAPI](https://pokeapi.co).
+- **Descripciones de movimientos**:
+  - Movimientos 1–354: textos de Pokémon Esmeralda en castellano.
+  - Movimientos posteriores, habilidades y objetos: descripciones oficiales en castellano de España de PokeAPI, **resumidas** para que quepan en las ventanas de GBA.
+  - Donde el texto oficial describe una mecánica que Rogue cambia (congelación, turnos de las ataduras, efectos de Ácido y Triturar…) o se refiere a otro juego, se ha redactado un texto propio.
+- **Límites de GBA**:
+  - Los nombres largos se abrevian al estilo de los juegos de GBA ("Pantalla Humo", "Colmillo Ven.", "Torm. Arena").
+  - Todo se ha medido en píxeles con las fuentes reales del juego para que nada se corte.
 
-With this, you'll get the latest version of pokeemerald-expansion, plus a couple of bugfixes that haven't been released into the next patch version :)
+---
 
-## **How do I update my version of pokeemerald-expansion?**
-- If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
-- Once you have your remote set up, run the command `git pull RHH expansion/1.7.4`.
+## Cambios en el código
 
-### Please consider crediting the entire [list of contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits) in your project, as they have all worked hard to develop this project :)
+Son los cambios mínimos para que la traducción funcione:
 
-## There's a bug in the project. How do I let you guys know?
-Please submit any issues with the project [here](https://github.com/rh-hideout/pokeemerald-expansion/issues). Make sure that the issue wasn't reported by someone else by searching using the filters.
+| Cambio | Motivo |
+|---|---|
+| Textos con variante masculina y femenina según el personaje elegido | "¡Bienvenido/a!", "¿Estás listo/a?", "chaval/chavala"… Se usan los códigos de texto nuevos `{MASC}…{FEM}…{ENDG}`. |
+| Tildes y eñe en el teclado de nombres | Se añaden á é í ó ú ñ Á É Í Ó Ú Ñ a la página de símbolos, para el nombre del jugador, los motes y las cajas. |
+| Nombres de movimiento de hasta 16 caracteres | Muchos nombres oficiales en castellano superan los 12 caracteres. |
+| Fuente estrecha en la pantalla de datos del Pokémon | Nombres y descripciones de movimientos, descripción de la habilidad y columna de estadísticas. |
+| Categoría de especie en orden castellano | "Pokémon Semilla" en lugar de "Semilla Pokémon". |
+| Nombre del Pokémon en su sitio en la pantalla de motes | "¿Mote de Doduo?". |
+| Marca de salvaje o rival detrás del nombre | "Zigzagoon salvaje" en lugar de "Salvaje Zigzagoon". |
+| Números alineados a la izquierda en el menú START | Las etiquetas en castellano son más largas. |
+| Diálogos reorganizados en páginas de 2 líneas | El castellano ocupa más que el inglés. |
+| Títulos de misión en fuente estrecha y títulos visibles separados del identificador interno | Para que los títulos traducidos quepan sin romper las misiones. |
+| Arreglos para compilar con GCC moderno | `json11` y `scaninc`. |
 
-## Can I contribute even if I'm not a member of ROM Hacking Hideout?
+---
 
-Yes! Contributions are welcome via Pull Requests and they will be reviewed by maintainers. Don't feel discouraged if we take a bit to review your PR, we'll get to it.
+## Cómo compilar
 
-## Who maintains the project?
+La rama `castellano` se compila igual que Emerald Rogue original:
 
-The project was originally started by DizzyEgg alongside other contributors.
+1. Sigue las instrucciones de [INSTALL.md](INSTALL.md) para preparar el entorno.
+2. Descarga la rama `castellano`.
+3. Compila con `make`.
 
-The project has now gotten larger and DizzyEgg is now maintaining the project as part of the ROM Hacking Hideout community. Some members of this community are taking on larger roles to help maintain the project.
+El resultado es una ROM de Emerald Rogue EX en castellano. **Este repositorio no incluye ninguna ROM**: para jugar necesitas tu propia copia de Pokémon Esmeralda y aplicar el parche o compilar el juego.
 
-## What is the ROM Hacking Hideout?
+---
 
-A Discord-based ROM hacking community that has many members who hack using the disassembly and decompilation projects for Pokémon. Quite a few contributors to the original feature branches by DizzyEgg were members of ROM Hacking Hideout. You can call it RHH for short!
+## Qué no está traducido
 
-[Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
+- **Pantalla de título**: el "PRESS START" y otros textos que forman parte de imágenes.
+- **Entradas de la Pokédex**: Emerald Rogue no las incluye en la ROM.
+- **Funciones de Pokémon Esmeralda que Rogue no usa**: Sala Unión, Regalo Misterioso, llamadas del PokéNav, Frente Batalla, Tritura Bayas y decoraciones.
+
+Si encuentras un texto sin traducir, cortado o con errores, abre una *issue* en este repositorio.
+
+---
+
+## Créditos
+
+- **Emerald Rogue / Emerald Rogue EX**: [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue) y colaboradores. Todo el mérito del juego es suyo.
+- **pokeemerald-expansion**: [RHH (ROM Hacking Hideout)](https://github.com/rh-hideout/pokeemerald-expansion) y su [lista de colaboradores](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits). Emerald Rogue se basa en su proyecto.
+- **pokeemerald**: el proyecto de descompilación de [pret](https://github.com/pret/pokeemerald).
+- **Datos de referencia**: [PokeAPI](https://pokeapi.co) y [WikiDex](https://www.wikidex.net) para los nombres y las descripciones oficiales en castellano.
+- **Traducción al castellano**: SeCaVa, con ayuda de Claude (Anthropic).
+
+El README original del proyecto se conserva en [README_ORIGINAL.md](README_ORIGINAL.md).
+
+---
+
+## Aviso legal
+
+Proyecto hecho por fans y sin ánimo de lucro. No está afiliado ni respaldado por Nintendo, Game Freak, The Pokémon Company, Pokabbie ni RHH. Pokémon y todos los nombres relacionados son marcas registradas de sus respectivos propietarios. Este repositorio no distribuye ROMs.
