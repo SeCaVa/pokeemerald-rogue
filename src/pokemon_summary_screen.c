@@ -764,6 +764,9 @@ static void (*const sTextPrinterTasks[])(u8 taskId) =
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
+static const u8 sText_SummarySpAtk[] = _("SP. ATK");
+static const u8 sText_SummarySpDef[] = _("SP. DEF");
+static const u8 sText_SummarySpeed[] = _("SPEED");
 static const u8 sStatsLeftColumnLayout[] = _("{DYNAMIC 0}/{DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsLeftColumnLayout2[] = _("{DYNAMIC 0}  {DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsRightColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
@@ -3210,12 +3213,13 @@ static void PrintPageNamesAndStats(void)
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, gText_Attack3, statsXPos, 17, 0, SelectStatColor(STAT_ATK));
     statsXPos = 6 + GetStringCenterAlignXOffset(FONT_NORMAL, gText_Defense3, 42);
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, gText_Defense3, statsXPos, 33, 0, SelectStatColor(STAT_DEF));
-    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NORMAL, gText_SpAtk4, 36);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, gText_SpAtk4, statsXPos, 1, 0, SelectStatColor(STAT_SPATK));
-    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NORMAL, gText_SpDef4, 36);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, gText_SpDef4, statsXPos, 17, 0, SelectStatColor(STAT_SPDEF));
-    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NORMAL, gText_Speed2, 36);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, gText_Speed2, statsXPos, 33, 0, SelectStatColor(STAT_SPEED));
+    // Narrow font and own labels so translated names fit the 5-tile column
+    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NARROW, sText_SummarySpAtk, 36);
+    PrintMoveNameOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, sText_SummarySpAtk, statsXPos, 1, SelectStatColor(STAT_SPATK));
+    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NARROW, sText_SummarySpDef, 36);
+    PrintMoveNameOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, sText_SummarySpDef, statsXPos, 17, SelectStatColor(STAT_SPDEF));
+    statsXPos = 2 + GetStringCenterAlignXOffset(FONT_NARROW, sText_SummarySpeed, 36);
+    PrintMoveNameOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, sText_SummarySpeed, statsXPos, 33, SelectStatColor(STAT_SPEED));
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, gText_ExpPoints, 6, 1, 0, 1);
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, gText_NextLv, 6, 17, 0, 1);
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATUS, gText_Status, 2, 1, 0, 1);
