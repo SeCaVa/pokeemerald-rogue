@@ -2516,7 +2516,7 @@ static void TitleScreen_RefillBg()
     if(!RoguePokedex_IsVariantEditEnabled())
     {
         // Remove prompt hint
-        FillBgTilemapBufferRect_Palette0(1, 0x04, 19, 18, 8, 1);
+        FillBgTilemapBufferRect_Palette0(1, 0x04, 17, 18, 10, 1);
     }
 
     if(!RoguePokedex_IsVariantEditUnlocked())
