@@ -4198,16 +4198,16 @@ static void PrintMoveDetails(u16 move)
                 ShowSplitIcon(GetBattleMoveSplit(move));
             
             if (moveEffect == EFFECT_PLACEHOLDER)
-                PrintTextOnWindow(windowId, gNotDoneYetDescription, 6, 1, 0, 0);
+                PrintMoveNameOnWindow(windowId, gNotDoneYetDescription, 6, 1, 0);
             else if(overrideDesc != NULL)
             {
                 PrintMovePowerAndAccuracy(move);
-                PrintTextOnWindow(windowId, overrideDesc, 6, 1, 0, SUMMARY_TEXT_COLOR_BLUE_REVISED);
+                PrintMoveNameOnWindow(windowId, overrideDesc, 6, 1, SUMMARY_TEXT_COLOR_BLUE_REVISED);
             }
             else
             {
                 PrintMovePowerAndAccuracy(move);
-                PrintTextOnWindow(windowId, gMoveDescriptionPointers[move - 1], 6, 1, 0, 0);
+                PrintMoveNameOnWindow(windowId, gMoveDescriptionPointers[move - 1], 6, 1, 0);
             }
         }
         else
