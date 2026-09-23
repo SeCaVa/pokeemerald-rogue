@@ -1007,6 +1007,11 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->printerTemplate.currentChar++;
             switch (currChar)
             {
+            case EXT_CTRL_CODE_GENDER_MASC:
+            case EXT_CTRL_CODE_GENDER_FEM:
+            case EXT_CTRL_CODE_GENDER_END:
+                textPrinter->printerTemplate.currentChar = SkipGenderedText(currChar, textPrinter->printerTemplate.currentChar);
+                return RENDER_REPEAT;
             case EXT_CTRL_CODE_COLOR:
                 textPrinter->printerTemplate.fgColor = *textPrinter->printerTemplate.currentChar;
                 textPrinter->printerTemplate.currentChar++;
@@ -1463,6 +1468,11 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case EXT_CTRL_CODE_BEGIN:
             switch (*++str)
             {
+            case EXT_CTRL_CODE_GENDER_MASC:
+            case EXT_CTRL_CODE_GENDER_FEM:
+            case EXT_CTRL_CODE_GENDER_END:
+                str = SkipGenderedText(*str, str + 1) - 1;
+                break;
             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
                 ++str;
             case EXT_CTRL_CODE_PLAY_BGM:

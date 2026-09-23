@@ -1516,6 +1516,38 @@ u16 RoguePlayer_GetOutfitId()
     return gSaveBlock2Ptr->playerGender;
 }
 
+// Used by gendered text ({MASC}/{FEM}/{ENDG}) in translations
+bool8 RoguePlayer_IsFemale(void)
+{
+    switch (RoguePlayer_GetOutfitId())
+    {
+    case PLAYER_OUTFIT_LEAF:
+    case PLAYER_OUTFIT_LYRA:
+    case PLAYER_OUTFIT_MAY:
+    case PLAYER_OUTFIT_DAWN:
+    case PLAYER_OUTFIT_HILDA:
+    case PLAYER_OUTFIT_ROSA:
+    case PLAYER_OUTFIT_SERENA:
+    case PLAYER_OUTFIT_SELENE:
+    case PLAYER_OUTFIT_GLORIA:
+    case PLAYER_OUTFIT_JULIANA:
+    case PLAYER_OUTFIT_ROCKET_GRUNT_F:
+    case PLAYER_OUTFIT_ROCKET_ADMIN_F:
+    case PLAYER_OUTFIT_AQUA_GRUNT_F:
+    case PLAYER_OUTFIT_MAGMA_GRUNT_F:
+    case PLAYER_OUTFIT_GALACTIC_GRUNT_F:
+    case PLAYER_OUTFIT_PLASMA_GRUNT_F:
+    case PLAYER_OUTFIT_NEO_PLASMA_GRUNT_F:
+    case PLAYER_OUTFIT_FLARE_GRUNT_F:
+    case PLAYER_OUTFIT_POKABBIE:
+    case PLAYER_OUTFIT_KATE:
+    case PLAYER_OUTFIT_RAVEN:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 u32 RoguePlayer_GetOutfitTrainerFlags()
 {
     return GetCurrentOutfit()->relatedTrainerFlags;

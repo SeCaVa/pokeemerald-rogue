@@ -58,6 +58,7 @@ void RoguePlayer_RandomiseOutfit(bool8 includeOutfitId);
 
 void RoguePlayer_SetOutfitId(u16 outfit);
 u16 RoguePlayer_GetOutfitId();
+bool8 RoguePlayer_IsFemale(void);
 u32 RoguePlayer_GetOutfitTrainerFlags();
 
 bool8 RoguePlayer_HasUnlockedOutfitId(u16 outfit);

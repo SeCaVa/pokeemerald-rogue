@@ -40,6 +40,8 @@ u8 *WriteColorChangeControlCode(u8 *dest, u32 colorType, u8 color);
 bool32 IsStringJapanese(u8 *str);
 bool32 IsStringNJapanese(u8 *str, s32 n);
 u8 GetExtCtrlCodeLength(u8 code);
+bool8 IsGenderedTextCode(u8 code);
+const u8 *SkipGenderedText(u8 code, const u8 *src);
 s32 StringCompareWithoutExtCtrlCodes(const u8 *str1, const u8 *str2);
 void ConvertInternationalString(u8 *s, u8 language);
 void StripExtCtrlCodes(u8 *str);

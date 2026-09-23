@@ -361,6 +361,32 @@ u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 
     return dest;
 }
 
+bool8 RoguePlayer_IsFemale(void);
+
+bool8 IsGenderedTextCode(u8 code)
+{
+    return code == EXT_CTRL_CODE_GENDER_MASC || code == EXT_CTRL_CODE_GENDER_FEM || code == EXT_CTRL_CODE_GENDER_END;
+}
+
+// Called after reading a gendered text code; returns where to continue reading.
+// Skips the segment that doesn't match the player's gender.
+const u8 *SkipGenderedText(u8 code, const u8 *src)
+{
+    bool8 isFemale = RoguePlayer_IsFemale();
+
+    if (code == EXT_CTRL_CODE_GENDER_MASC && isFemale)
+    {
+        while (*src != EOS && !(src[0] == EXT_CTRL_CODE_BEGIN && (src[1] == EXT_CTRL_CODE_GENDER_FEM || src[1] == EXT_CTRL_CODE_GENDER_END)))
+            src++;
+    }
+    else if (code == EXT_CTRL_CODE_GENDER_FEM && !isFemale)
+    {
+        while (*src != EOS && !(src[0] == EXT_CTRL_CODE_BEGIN && src[1] == EXT_CTRL_CODE_GENDER_END))
+            src++;
+    }
+    return src;
+}
+
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
     for (;;)
@@ -377,6 +403,12 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
             dest = StringExpandPlaceholders(dest, expandedString);
             break;
         case EXT_CTRL_CODE_BEGIN:
+            if (IsGenderedTextCode(*src))
+            {
+                c = *src++;
+                src = SkipGenderedText(c, src);
+                break;
+            }
             *dest++ = c;
             c = *src++;
             *dest++ = c;
@@ -726,6 +758,9 @@ u8 GetExtCtrlCodeLength(u8 code)
         [EXT_CTRL_CODE_RESUME_MUSIC]           = 1,
         [EXT_CTRL_CODE_PUSH_FONT]              = 1,
         [EXT_CTRL_CODE_POP_FONT]               = 1,
+        [EXT_CTRL_CODE_GENDER_MASC]            = 1,
+        [EXT_CTRL_CODE_GENDER_FEM]             = 1,
+        [EXT_CTRL_CODE_GENDER_END]             = 1,
     };
 
     u8 length = 0;

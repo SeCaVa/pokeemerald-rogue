@@ -232,6 +232,10 @@
 #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
 #define EXT_CTRL_CODE_PUSH_FONT              0x19
 #define EXT_CTRL_CODE_POP_FONT               0x1A
+// Gendered text: {MASC}text for male players{FEM}text for female players{ENDG}
+#define EXT_CTRL_CODE_GENDER_MASC           0x1B
+#define EXT_CTRL_CODE_GENDER_FEM            0x1C
+#define EXT_CTRL_CODE_GENDER_END            0x1D
 
 #define TEXT_COLOR_TRANSPARENT  0x0
 #define TEXT_COLOR_WHITE        0x1
