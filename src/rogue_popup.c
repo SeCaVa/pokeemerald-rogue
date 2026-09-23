@@ -310,6 +310,9 @@ static const u8 sText_Popup_SingleItem[] = _("{STR_VAR_1}");
 static const u8 sText_Popup_MultipleItem[] = _("{STR_VAR_1} {COLOR LIGHT_GREEN}{SHADOW GREEN}x{STR_VAR_2}");
 static const u8 sText_Popup_Money[] = _("¥{STR_VAR_1}");
 static const u8 sText_Popup_LostItem[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Item.");
+// Translation build: the amount goes on the second line, translated item names are too long to share the first one
+static const u8 sText_Popup_ItemAmount[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}x{STR_VAR_2}");
+static const u8 sText_Popup_LostItemAmount[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Item. x{STR_VAR_2}");
 static const u8 sText_Popup_LostMoney[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Money.");
 static const u8 sText_Popup_UnlockedInShops[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Can now be bought!");
 static const u8 sText_Popup_UnlockedDecor[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Decor Unlocked!");
@@ -1559,8 +1562,8 @@ void Rogue_PushPopup_AddItem2(u16 itemId, u16 amount, u32 pickupType)
     }
     else
     {
-        popup->titleText = sText_Popup_MultipleItem;
-        popup->subtitleText = NULL;
+        popup->titleText = sText_Popup_SingleItem;
+        popup->subtitleText = sText_Popup_ItemAmount;
     }
 
     popup->expandTextData[0] = itemId;
@@ -1588,8 +1591,8 @@ void Rogue_PushPopup_LostItem(u16 itemId, u16 amount)
     }
     else
     {
-        popup->titleText = sText_Popup_MultipleItem;
-        popup->subtitleText = sText_Popup_LostItem;
+        popup->titleText = sText_Popup_SingleItem;
+        popup->subtitleText = sText_Popup_LostItemAmount;
     }
 
     popup->expandTextData[0] = itemId;
@@ -1616,8 +1619,8 @@ void Rogue_PushPopup_AddBerry(u16 itemId, u16 amount)
     }
     else
     {
-        popup->titleText = sText_Popup_MultipleItem;
-        popup->subtitleText = NULL;
+        popup->titleText = sText_Popup_SingleItem;
+        popup->subtitleText = sText_Popup_ItemAmount;
     }
 
     popup->expandTextData[0] = itemId;
