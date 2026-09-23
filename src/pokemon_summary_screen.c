@@ -3528,11 +3528,11 @@ static void PrintMonAbilityDescription(void)
     
     if(overrideDesc != NULL)
     {        
-        PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), overrideDesc, 0, 17, 0, SUMMARY_TEXT_COLOR_BLUE_REVISED);
+        PrintMoveNameOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), overrideDesc, 0, 17, SUMMARY_TEXT_COLOR_BLUE_REVISED);
     }
     else
     {
-        PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilityDescriptionPointers[ability], 0, 17, 0, 0);
+        PrintMoveNameOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilityDescriptionPointers[ability], 0, 17, 0);
     }
 }
 
