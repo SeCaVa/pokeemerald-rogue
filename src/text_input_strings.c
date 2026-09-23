@@ -15,10 +15,10 @@ const u8 gText_NamingScreenKeyboard_ABCDEF[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}
 const u8 gText_NamingScreenKeyboard_GHIJKL[] = _("{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L{CLEAR 6} {CLEAR 30},");
 const u8 gText_NamingScreenKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ");
 const u8 gText_NamingScreenKeyboard_TUVWXYZ[] = _("{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ");
-const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR 11}0{CLEAR 16}1{CLEAR 16}2{CLEAR 16}3{CLEAR 16}4{CLEAR 16} ");
-const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR 11}5{CLEAR 16}6{CLEAR 16}7{CLEAR 16}8{CLEAR 16}9{CLEAR 16} ");
-const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{CLEAR 12}!{CLEAR 17}?{CLEAR 16}♂{CLEAR 16}♀{CLEAR 16}/{CLEAR 17}-");
-const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{CLEAR 11}…{CLEAR 16}“{CLEAR 16}”{CLEAR 18}‘{CLEAR 19}'{CLEAR 18} ");
+const u8 gText_NamingScreenKeyboard_01234[] = _("{CLEAR_TO 11}0{CLEAR_TO 28}1{CLEAR_TO 45}2{CLEAR_TO 62}3{CLEAR_TO 79}4{CLEAR_TO 96}á{CLEAR_TO 113}é{CLEAR_TO 131}í");
+const u8 gText_NamingScreenKeyboard_56789[] = _("{CLEAR_TO 11}5{CLEAR_TO 28}6{CLEAR_TO 45}7{CLEAR_TO 62}8{CLEAR_TO 79}9{CLEAR_TO 96}ó{CLEAR_TO 113}ú{CLEAR_TO 130}ñ");
+const u8 gText_NamingScreenKeyboard_Symbols1[] = _("{CLEAR_TO 12}!{CLEAR_TO 28}?{CLEAR_TO 45}♂{CLEAR_TO 62}♀{CLEAR_TO 79}/{CLEAR_TO 96}-{CLEAR_TO 113}Á{CLEAR_TO 130}É");
+const u8 gText_NamingScreenKeyboard_Symbols2[] = _("{CLEAR_TO 11}…{CLEAR_TO 28}“{CLEAR_TO 45}”{CLEAR_TO 63}'{CLEAR_TO 80}Í{CLEAR_TO 96}Ó{CLEAR_TO 113}Ú{CLEAR_TO 130}Ñ");
 
 // Union Room Chat keyboard
 const u8 gText_UnionRoomChatKeyboard_ABCDE[] = _("ABCDE");
