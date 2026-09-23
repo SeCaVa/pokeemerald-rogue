@@ -3064,6 +3064,11 @@ static void PrintTextOnWindow(u8 windowId, const u8 *string, u8 x, u8 y, u8 line
     AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, lineSpacing, sTextColors[colorId], 0, string);
 }
 
+static void PrintMoveNameOnWindow(u8 windowId, const u8 *string, u8 x, u8 y, u8 colorId)
+{
+    AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y, 0, 0, sTextColors[colorId], 0, string);
+}
+
 static void PrintMonInfo(void)
 {
     FillWindowPixelBuffer(PSS_LABEL_WINDOW_PORTRAIT_DEX_NUMBER, PIXEL_FILL(0));
@@ -4048,7 +4053,7 @@ static void PrintMoveNameAndPP(u8 moveIndex)
     if (move != 0)
     {
         pp = CalculatePPWithBonus(move, summary->ppBonuses, moveIndex);
-        PrintTextOnWindow(moveNameWindowId, gMoveNames[move], 0, moveIndex * 16 + 1, 0, 1);
+        PrintMoveNameOnWindow(moveNameWindowId, gMoveNames[move], 0, moveIndex * 16 + 1, 1);
         ConvertIntToDecimalStringN(gStringVar1, summary->pp[moveIndex], STR_CONV_MODE_RIGHT_ALIGN, 2);
         ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
         DynamicPlaceholderTextUtil_Reset();
@@ -4244,9 +4249,9 @@ static void PrintNewMoveDetailsOrCancelText(void)
         }
 
         if (sMonSummaryScreen->currPageIndex == PSS_PAGE_BATTLE_MOVES)
-            PrintTextOnWindow(windowId1, gMoveNames[move], 0, 65, 0, 6);
+            PrintMoveNameOnWindow(windowId1, gMoveNames[move], 0, 65, 6);
         else
-            PrintTextOnWindow(windowId1, gMoveNames[move], 0, 65, 0, 5);
+            PrintMoveNameOnWindow(windowId1, gMoveNames[move], 0, 65, 5);
 
         ConvertIntToDecimalStringN(gStringVar1, gBattleMoves[move].pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
         DynamicPlaceholderTextUtil_Reset();
