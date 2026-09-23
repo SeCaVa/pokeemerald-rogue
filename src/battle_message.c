@@ -3121,21 +3121,17 @@ static void GetBattlerNick(u32 battler, u8 *dst)
     StringGet_Nickname(dst);
 }
 
+// Translation build: the wild/foe marker goes after the name ("PIKACHU salvaje"),
+// so sText_WildPkmnPrefix / sText_FoePkmnPrefix are used as suffixes.
 #define HANDLE_NICKNAME_STRING_CASE(battler)                          \
+    GetBattlerNick(battler, text);                                    \
     if (GetBattlerSide(battler) != B_SIDE_PLAYER)                     \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
-            toCpy = sText_FoePkmnPrefix;                                \
+            StringAppend(text, sText_FoePkmnPrefix);                    \
         else                                                            \
-            toCpy = sText_WildPkmnPrefix;                               \
-        while (*toCpy != EOS)                                           \
-        {                                                               \
-            dst[dstID] = *toCpy;                                        \
-            dstID++;                                                    \
-            toCpy++;                                                    \
-        }                                                               \
+            StringAppend(text, sText_WildPkmnPrefix);                   \
     }                                                                   \
-    GetBattlerNick(battler, text);                                    \
     toCpy = text;
 
 static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text, u8 multiplayerId, u8 battler)
