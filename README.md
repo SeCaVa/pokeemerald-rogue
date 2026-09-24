@@ -27,6 +27,8 @@ La rama que contiene la traducción es **`castellano`**.
   - Pantalla de datos del Pokémon (PERFIL, HABILIDAD, CARACTERÍST., EXPERIENCIA, MOVIMIENTOS, DESCRIPCIÓN…).
   - Ficha de entrenador, menú de las cajas y botones del teclado de nombres.
   - Etiquetas MT, DT y MO del bolsillo de máquinas de la Mochila.
+  - Pantalla de intercambio y aviso de emulador poco preciso ("¡AVISO!").
+  - Propios de Rogue, redibujados con su mismo estilo de letra: "PS" de la barra de vida, iconos de teratipo (LUCHA, VOLAD, FUEGO…), estados DOR y QUE del marcador de combate y botón "NOTAS" de Voltorb Flip.
   - Lo que no existe en Esmeralda se ha dibujado con las mismas letras: tipos HADA y ASTRAL, estado CGL (congelación), AMISTAD, "MISIONES" del libro de misiones y "A·ABRIR / SELECT·EDITAR" de la Pokédex de Rogue.
 
 ### Criterios de la traducción
@@ -89,8 +91,8 @@ El resultado es una ROM de Emerald Rogue EX en castellano. **Este repositorio no
 ## Qué no está traducido
 
 - **Entradas de la Pokédex**: Emerald Rogue no las incluye en la ROM.
-- **Funciones de Pokémon Esmeralda que Rogue no usa**: Sala Unión, Regalo Misterioso, llamadas del PokéNav, televisión, Frente Batalla, Tritura Bayas, decoraciones y los mapas originales de la Zona Safari.
-- **Logotipos**: el logotipo del título y el de la Pokédex se dejan como en el original.
+- **Funciones de Pokémon Esmeralda que Rogue no usa**: Sala Unión, Regalo Misterioso, PokéNav, televisión, Frente Batalla y Pase Frontera, Pokédex original, casino, concursos, caja de Pokécubos, Tritura Bayas, decoraciones y los mapas originales de la Zona Safari (textos y gráficos).
+- **Logotipos**: el logotipo del título, el de pokeemerald-expansion y el de la Pokédex se dejan como en el original.
 
 Si encuentras un texto sin traducir, cortado o con errores, abre una *issue* en este repositorio.
 
@@ -133,7 +135,7 @@ The translation lives in the **`castellano`** branch.
 - **Descriptions** of moves, abilities, items and berries.
 - **Character names** using their official Spanish (Spain) versions (e.g. Blasco, Máximo, Treto, Aria).
 - **Pokémon Emerald system text still used by Rogue**: saving, map interactions (rocks, trees, waterfalls, Surf, Dive), Pokémon Center, berries, PC, Repel, VS Seeker, Prof. Birch's introduction and Safari Zone prompts.
-- **Graphics containing text**, taken from the Spanish release of Pokémon Emerald so they look like the original game: "PULSA START", type and contest icons, TIPO / POTENC. / PRECIS. / EFECTO labels, status icons, summary screen, trainer card, PC box menu, naming screen buttons and the MT / DT / MO labels in the Bag. Graphics that don't exist in Emerald (Fairy and Stellar types, frostbite status, friendship label, the quest book title and the Rogue Pokédex hints) were drawn with the same lettering.
+- **Graphics containing text**, taken from the Spanish release of Pokémon Emerald so they look like the original game: "PULSA START", type and contest icons, TIPO / POTENC. / PRECIS. / EFECTO labels, status icons, summary screen, trainer card, PC box menu, naming screen buttons, the MT / DT / MO labels in the Bag, the trade screen and the inaccurate-emulator warning ("¡AVISO!"). Rogue's own graphics were redrawn in their original lettering: the "PS" (HP) label on the health bar, the Tera type icons, the DOR/QUE (sleep/burn) battle status labels and Voltorb Flip's "NOTAS" button. Graphics that don't exist in Emerald (Fairy and Stellar types, frostbite status, friendship label, the quest book title and the Rogue Pokédex hints) were drawn with the same lettering.
 
 ### Translation guidelines
 
@@ -182,8 +184,8 @@ The `castellano` branch builds exactly like the original Emerald Rogue:
 ### Not translated
 
 - **Pokédex entries**: Emerald Rogue doesn't include them in the ROM.
-- **Pokémon Emerald features Rogue doesn't use**: Union Room, Mystery Gift, PokéNav calls, TV, Battle Frontier, Berry Crush, decorations and the original Safari Zone maps.
-- **Logos**: the title screen logo and the Pokédex logo are left as in the original.
+- **Pokémon Emerald features Rogue doesn't use**: Union Room, Mystery Gift, PokéNav, TV, Battle Frontier and Frontier Pass, the original Pokédex, Game Corner, contests, Pokéblock case, Berry Crush, decorations and the original Safari Zone maps (text and graphics).
+- **Logos**: the title screen, pokeemerald-expansion and Pokédex logos are left as in the original.
 
 If you find untranslated, cut-off or wrong text, please open an issue in this repository.
 

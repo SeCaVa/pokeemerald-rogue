@@ -117,21 +117,23 @@ static const u16 sTextBoxBottomPal[] = {
 static const u8 sTextColors_ErrorMsg[] = {TEXT_COLOR_TRANSPARENT, 1, 2};
 static const u8 sTextColors_Bottom[] = {TEXT_COLOR_TRANSPARENT, 1, 2};
 static const u8 sText_ErrorMessage[] = _(
-    "\nInaccurate emulator detected!\nPlease use mGBA or one of these:"
+    "\n¡Emulador poco preciso detectado!\nUsa mGBA o uno de estos:"
     VIABLE_MGBA_RA_IOS
     VIABLE_MGBA_RA_ANDROID
     VIABLE_LEMUROID
     VIABLE_PIZZABOY
 );
 static const u8 sText_AreYouSureMessage[] = _(
-    "Are you sure?\n\n"
-    "You may encounter various bugs.\n"
-    "These bugs will NOT be fixed and could\n"
-    "affect your gameplay experience.\n\n"
-    "It is HIGHLY recommended to use a\n"
-    "recommended Emulator instead."
+    "¿Seguro?\n"
+    "\n"
+    "Puede que encuentres varios errores.\n"
+    "Estos errores NO se arreglarán y\n"
+    "pueden afectar a tu partida.\n"
+    "\n"
+    "Se recomienda ENCARECIDAMENTE usar\n"
+    "uno de los emuladores recomendados."
 );
-static const u8 sText_BottomMessage[] = _("Press START to continue.");
+static const u8 sText_BottomMessage[] = _("Pulsa START para seguir.");
 
 static const u32 sErrorScreen_Gfx[] = INCBIN_U32( "graphics/intro/emulator_check/background.4bpp.lz");
 static const u32 sErrorScreen_Map[] = INCBIN_U32( "graphics/intro/emulator_check/background.bin.lz");
