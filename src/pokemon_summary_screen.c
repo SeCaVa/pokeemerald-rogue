@@ -623,7 +623,7 @@ static const struct WindowTemplate sPageInfoTemplate[] =
         .bg = 0,
         .tilemapLeft = 11,
         .tilemapTop = 9,
-        .width = 18,
+        .width = 19, // Translation build: one more tile (up to the box border) for the ability description
         .height = 4,
         .paletteNum = 6,
         .baseBlock = 487,
@@ -635,7 +635,7 @@ static const struct WindowTemplate sPageInfoTemplate[] =
         .width = 18,
         .height = 6,
         .paletteNum = 6,
-        .baseBlock = 559,
+        .baseBlock = 563,
     },
 };
 static const struct WindowTemplate sPageSkillsTemplate[] =
