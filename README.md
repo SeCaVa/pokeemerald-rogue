@@ -1,5 +1,7 @@
 # Emerald Rogue EX — Traducción al castellano
 
+*[English version below](#english-version)*
+
 Traducción no oficial al **castellano de España** de **Emerald Rogue EX v2.2.1a**, el *roguelite* basado en Pokémon Esmeralda creado por **[Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue)**.
 
 > Todo el juego (diseño, programación, contenido, gráficos y equilibrio) es obra de **Pokabbie** y de quienes han colaborado en Emerald Rogue. Este fork **solo traduce los textos y los gráficos con texto** y hace los ajustes de código imprescindibles para que el castellano quepa y se vea bien. Si te gusta el juego, apoya el proyecto original.
@@ -37,7 +39,7 @@ La rama que contiene la traducción es **`castellano`**.
   - Se usa el texto oficial de los juegos recopilado en [PkParaíso](https://pkparaiso.com): el de 5ª generación y, si no cabe, el de 4ª o el de 3ª (Esmeralda), siempre que describa cómo funciona en Rogue.
   - Si ninguno cabe, se usa la descripción oficial en castellano de España de PokeAPI **resumida** para las ventanas de GBA.
 - **Descripciones de objetos**: descripciones oficiales de PokeAPI, resumidas hasta el ancho real del cuadro de la Mochila (102 px, el mismo que en Esmeralda).
-  - Donde el texto oficial describe una mecánica que Rogue cambia (congelación, turnos de las ataduras, efectos de Ácido y Triturar…) o se refiere a otro juego, se ha redactado un texto propio.
+- **Textos propios**: donde el texto oficial describe una mecánica que Rogue cambia (congelación, turnos de las ataduras, efectos de Ácido y Triturar…) o se refiere a otro juego, se ha redactado un texto propio.
 - **Límites de GBA**:
   - Los nombres largos se abrevian al estilo de los juegos de GBA ("Pantalla Humo", "Colmillo Ven.", "Torm. Arena").
   - Todo se ha medido en píxeles con las fuentes reales del juego para que nada se corte (las descripciones de movimientos, a la ventana más estrecha en que aparecen: la de aprender movimientos).
@@ -76,7 +78,7 @@ Son los cambios mínimos para que la traducción funcione:
 
 La rama `castellano` se compila igual que Emerald Rogue original:
 
-1. Sigue las instrucciones de [INSTALL.md](INSTALL.md) para preparar el entorno.
+1. Sigue las instrucciones de [INSTALL.md](INSTALL.md) (traducidas al castellano) para preparar el entorno.
 2. Descarga la rama `castellano`.
 3. Compila con `make`.
 
@@ -109,3 +111,92 @@ El README original del proyecto se conserva en [README_ORIGINAL.md](README_ORIGI
 ## Aviso legal
 
 Proyecto hecho por fans y sin ánimo de lucro. No está afiliado ni respaldado por Nintendo, Game Freak, The Pokémon Company, Pokabbie ni RHH. Pokémon y todos los nombres relacionados son marcas registradas de sus respectivos propietarios. Este repositorio no distribuye ROMs.
+
+---
+---
+
+## English version
+
+Unofficial **Castilian Spanish** (Spain) translation of **Emerald Rogue EX v2.2.1a**, the Pokémon Emerald-based *roguelite* created by **[Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue)**.
+
+> The whole game (design, programming, content, graphics and balance) is the work of **Pokabbie** and the Emerald Rogue contributors. This fork **only translates the text and the graphics that contain text**, plus the minimum code changes needed for Spanish to fit and display correctly. If you enjoy the game, please support the original project.
+
+The translation lives in the **`castellano`** branch.
+
+### What is translated
+
+- **Rogue dialogue**: the hub, the labs, the clothes shop, the bakery, the school, adventure events, tutorials, etc.
+- **Quests** and **trainers**: quest names, descriptions and every line of the Gym Leaders, Elite Four, Champions, rivals and villain teams.
+- **Menus and UI**: main menu, options, Rogue settings, quest board, stats, START menu info box, Rogue Pokédex, pop-ups, character customisation…
+- **Battle**: all messages, battle menus, move effectiveness, types and weather.
+- **Official Spanish names** of moves, abilities, items, berries, natures, trainer classes and species categories.
+- **Descriptions** of moves, abilities, items and berries.
+- **Character names** using their official Spanish (Spain) versions (e.g. Blasco, Máximo, Treto, Aria).
+- **Pokémon Emerald system text still used by Rogue**: saving, map interactions (rocks, trees, waterfalls, Surf, Dive), Pokémon Center, berries, PC, Repel, VS Seeker, Prof. Birch's introduction and Safari Zone prompts.
+- **Graphics containing text**, taken from the Spanish release of Pokémon Emerald so they look like the original game: "PULSA START", type and contest icons, TIPO / POTENC. / PRECIS. / EFECTO labels, status icons, summary screen, trainer card, PC box menu, naming screen buttons and the MT / DT / MO labels in the Bag. Graphics that don't exist in Emerald (Fairy and Stellar types, frostbite status, friendship label, the quest book title and the Rogue Pokédex hints) were drawn with the same lettering.
+
+### Translation guidelines
+
+- **Spanish from Spain** and the games' official terminology.
+- **Official names**: checked against the Spanish release of Pokémon Emerald and, for later generations, against [WikiDex](https://www.wikidex.net) and the Spanish (Spain) data from [PokeAPI](https://pokeapi.co).
+- **Move and ability descriptions**: official in-game text collected by [PkParaíso](https://pkparaiso.com), using the Gen 5 text or, if it doesn't fit, the Gen 4 or Gen 3 (Emerald) one, as long as it matches how the move or ability works in Rogue. When none fits, the official PokeAPI text is **condensed** to fit the GBA windows.
+- **Item descriptions**: official PokeAPI texts, condensed to the real width of the Bag window (102 px, the same as in Emerald).
+- **Own wording**: where the official text describes a mechanic Rogue changes, or refers to another game, the description was written from scratch.
+- **GBA limits**: long names are abbreviated GBA-style, and everything was measured in pixels with the game's actual fonts so nothing gets cut off.
+- **Battle messages** follow the structure of the Spanish Emerald ("¡Ataque de Zigzagoon bajó!").
+
+### Code changes
+
+Only the changes needed for the translation to work:
+
+| Change | Reason |
+|---|---|
+| Text with masculine and feminine variants depending on the player character | Spanish adjectives agree with gender ("¡Bienvenido/a!"). New text codes `{MASC}…{FEM}…{ENDG}`. |
+| Accented letters and ñ on the naming keyboard | á é í ó ú ñ Á É Í Ó Ú Ñ added to the symbols page. |
+| Move names up to 16 characters | Many official Spanish names are longer than 12 characters. |
+| Narrow font on the Pokémon summary screen | Move names and descriptions, ability description and stat column. |
+| Species category in Spanish word order | "Pokémon Semilla" instead of "Semilla Pokémon". |
+| Pokémon name placed correctly on the nickname screen | "¿Mote de Doduo?". |
+| Wild / foe marker after the name | "Zigzagoon salvaje" instead of "Salvaje Zigzagoon". |
+| Left-aligned numbers in the START menu | Spanish labels are longer. |
+| Dialogue re-paginated into 2-line pages | Spanish is longer than English. |
+| Verb before adverb in stat-change messages | "bajó mucho" ("fell sharply") word order. |
+| Item amount on the second line of pop-ups | Spanish item names are longer and cut off the "x2". |
+| Rogue Pokédex "SELECT·EDITAR" hint two tiles wider | "EDITAR" is longer than "EDIT". |
+| Item amounts shown as "Hiperpoción x3", berries as "3 Bayas Zreza" | Spanish plurals can't be built by appending "s". |
+| Summary screen ability window one tile wider | More room for the official ability description. |
+| Rogue's own item descriptions wrapped at 102 px | The width actually visible in the Bag. |
+| Quest titles in narrow font, display titles separate from internal IDs | Translated titles fit without breaking quests. |
+| Fixes to build with modern GCC | `json11` and `scaninc`. |
+
+### How to build
+
+The `castellano` branch builds exactly like the original Emerald Rogue:
+
+1. Follow [INSTALL_ORIGINAL.md](INSTALL_ORIGINAL.md) (English) or [INSTALL.md](INSTALL.md) (Spanish) to set up the environment.
+2. Clone the `castellano` branch: `git clone -b castellano https://github.com/SeCaVa/pokeemerald-rogue`
+3. Build with `make`.
+
+**This repository contains no ROMs**: you need your own copy of Pokémon Emerald to patch or build the game.
+
+### Not translated
+
+- **Pokédex entries**: Emerald Rogue doesn't include them in the ROM.
+- **Pokémon Emerald features Rogue doesn't use**: Union Room, Mystery Gift, PokéNav calls, TV, Battle Frontier, Berry Crush, decorations and the original Safari Zone maps.
+- **Logos**: the title screen logo and the Pokédex logo are left as in the original.
+
+If you find untranslated, cut-off or wrong text, please open an issue in this repository.
+
+### Credits
+
+- **Emerald Rogue / Emerald Rogue EX**: [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue) and contributors. All credit for the game goes to them.
+- **pokeemerald-expansion**: [RHH (ROM Hacking Hideout)](https://github.com/rh-hideout/pokeemerald-expansion) and its [contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits). Emerald Rogue is built on their project.
+- **pokeemerald**: the [pret](https://github.com/pret/pokeemerald) decompilation project.
+- **Reference data**: [PokeAPI](https://pokeapi.co), [PkParaíso](https://pkparaiso.com) and [WikiDex](https://www.wikidex.net) for official Spanish names and descriptions; the Spanish release of Pokémon Emerald for short names, system messages and text graphics.
+- **Spanish translation**: SeCaVa, with help from Claude (Anthropic).
+
+The project's original README is kept in [README_ORIGINAL.md](README_ORIGINAL.md).
+
+### Legal notice
+
+Non-profit fan project. Not affiliated with or endorsed by Nintendo, Game Freak, The Pokémon Company, Pokabbie or RHH. Pokémon and all related names are trademarks of their respective owners. This repository does not distribute ROMs.
