@@ -2105,7 +2105,7 @@ static const u8 *const sStatNamesTable2[] =
 };
 
 const u8 gText_SafariBalls[] = _("{HIGHLIGHT LIGHT_RED}");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT LIGHT_RED}Quedan: $" "{HIGHLIGHT LIGHT_RED}");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT LIGHT_RED}Quedan $" "{HIGHLIGHT LIGHT_RED}");
 const u8 gText_Sleep[] = _("sueño");
 const u8 gText_Poison[] = _("veneno");
 const u8 gText_Burn[] = _("quemadura");
