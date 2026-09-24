@@ -10,7 +10,7 @@
     },
     {
       "map_section": "MAPSEC_ADVENTURE",
-      "name": "Adventure",
+      "name": "Aventura",
       "x": 4,
       "y": 9,
       "width": 1,
@@ -18,7 +18,7 @@
     },
     {
       "map_section": "MAPSEC_OTHER_POKEMON_HUB",
-      "name": "Distant Village",
+      "name": "Aldea Lejana",
       "x": 2,
       "y": 14,
       "width": 1,
@@ -458,7 +458,7 @@
     },
     {
       "map_section": "MAPSEC_SAFARI_ZONE",
-      "name": "SAFARI ZONE",
+      "name": "Zona Safari",
       "x": 16,
       "y": 2,
       "width": 1,
@@ -675,7 +675,7 @@
     },
     {
       "map_section": "MAPSEC_INSIDE_OF_TRUCK",
-      "name": "INSIDE OF TRUCK",
+      "name": "Mudanza",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1095,7 +1095,7 @@
     },
     {
       "map_section": "MAPSEC_KANTO_SAFARI_ZONE",
-      "name": "SAFARI ZONE",
+      "name": "Zona Safari",
       "name_clone": true,
       "x": 0,
       "y": 0,

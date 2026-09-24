@@ -177,7 +177,7 @@
     },
 
     "1_latin_rse_items": {
-      "maxLineLength": 106,
+      "maxLineLength": 102,
       "widths": {
         " ": 3,
         "À": 6,

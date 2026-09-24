@@ -304,10 +304,11 @@ void CopyItemNameHandlePlural(u16 itemId, u8 *dst, u32 quantity)
             }
             else
             {
-                ConvertUIntToDecimalStringN(dst, quantity, STR_CONV_MODE_LEFT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
-                dst = StringAppend(dst, gText_Space);
+                // Translation build: Spanish plurals can't be made by appending "s", so write "Name xN"
+                static const u8 sText_AmountX[] = _(" x");
                 CopyItemName(itemId, dst);
-                StringAppend(dst, gText_Plural);
+                dst = StringAppend(dst, sText_AmountX);
+                ConvertUIntToDecimalStringN(dst, quantity, STR_CONV_MODE_LEFT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
             }
         }
     }
@@ -326,9 +327,10 @@ void GetBerryCountString(u8 *dst, const u8 *berryName, u32 quantity)
     ConvertUIntToDecimalStringN(dst, quantity, STR_CONV_MODE_LEFT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
     dst = StringAppend(dst, gText_Space);
 
-    txtPtr = StringCopy(dst, berryName);
+    // Translation build: Spanish puts the noun first ("3 Bayas Zreza")
+    txtPtr = StringCopy(dst, berryString);
     *txtPtr = CHAR_SPACE;
-    StringCopy(txtPtr + 1, berryString);
+    StringCopy(txtPtr + 1, berryName);
 }
 
 bool8 IsBagPocketNonEmpty(u8 pocket)

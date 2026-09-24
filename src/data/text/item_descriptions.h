@@ -3,9 +3,9 @@ static const u8 sDummyDesc[] = _(
 
 // Poké Balls
 static const u8 sPokeBallDesc[] = _(
-    "Dispositivo\n"
-    "capsular que atrapa\n"
-    "Pokémon salvajes.");
+    "Dispositivo que\n"
+    "atrapa Pokémon\n"
+    "salvajes.");
 
 static const u8 sGreatBallDesc[] = _(
     "Poké Ball de alto\n"
@@ -79,8 +79,8 @@ static const u8 sLureBallDesc[] = _(
 
 static const u8 sMoonBallDesc[] = _(
     "Atrapa mejor a los\n"
-    "que evolucionan con\n"
-    "Piedra Lunar.");
+    "que evolucionan\n"
+    "con Piedra Lunar.");
 
 static const u8 sFriendBallDesc[] = _(
     "Hace más amistosos\n"
@@ -89,8 +89,8 @@ static const u8 sFriendBallDesc[] = _(
 
 static const u8 sLoveBallDesc[] = _(
     "Atrapa mejor a los\n"
-    "de tu especie y sexo\n"
-    "opuesto.");
+    "de tu especie y\n"
+    "sexo opuesto.");
 
 static const u8 sFastBallDesc[] = _(
     "Especialmente\n"
@@ -103,14 +103,9 @@ static const u8 sHeavyBallDesc[] = _(
     "peso.");
 
 static const u8 sDreamBallDesc[] = _(
-#if B_DREAM_BALL_MODIFIER >= GEN_8
-    "A Ball that works\n"
-    "well on sleeping\n"
-    "Pokémon.");
-#else
-    "A Poké Ball used in\n"
-    "the Entree Forest.");
-#endif
+    "Ball que funciona\n"
+    "mejor con Pokémon\n"
+    "dormidos.");
 
 static const u8 sSafariBallDesc[] = _(
     "Poké Ball especial\n"
@@ -127,9 +122,9 @@ static const u8 sParkBallDesc[] = _(
     "Parque Compi.");
 
 static const u8 sBeastBallDesc[] = _(
-    "Poké Ball especial\n"
-    "con la que es difícil\n"
-    "atrapar Pokémon.");
+    "Ball especial con la\n"
+    "que cuesta\n"
+    "atrapar.");
 
 static const u8 sCherishBallDesc[] = _(
     "Poké Ball singular\n"
@@ -139,26 +134,17 @@ static const u8 sCherishBallDesc[] = _(
 // Medicine
 static const u8 sPotionDesc[] = _(
     "Medicina en espray\n"
-    "que restaura 20 PS a\n"
-    "un Pokémon.");
+    "que restaura 20 PS\n"
+    "a un Pokémon.");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a Pokémon by\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "60 points.");
-#else
-    "50 points.");
-#endif
+    "Medicina en espray\n"
+    "que restaura 60 PS.");
 
 static const u8 sHyperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a Pokémon by\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "120 points.");
-#else
-    "200 points.");
-#endif
+    "Medicina en espray\n"
+    "que restaura 120\n"
+    "PS.");
 
 static const u8 sMaxPotionDesc[] = _(
     "Medicina en espray\n"
@@ -171,63 +157,40 @@ static const u8 sFullRestoreDesc[] = _(
     "estados.");
 
 static const u8 sReviveDesc[] = _(
-    "Revive a un Pokémon\n"
-    "debilitado con la\n"
-    "mitad de PS.");
+    "Revive a un\n"
+    "Pokémon debilitado\n"
+    "con la mitad de PS.");
 
 static const u8 sMaxReviveDesc[] = _(
-    "Revive a un Pokémon\n"
-    "debilitado con\n"
-    "todos sus PS.");
+    "Revive a un\n"
+    "Pokémon debilitado\n"
+    "con todos sus PS.");
 
 static const u8 sFreshWaterDesc[] = _(
-    "A mineral water\n"
-    "that restores HP\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "by 30 points.");
-#else
-    "by 50 points.");
-#endif
+    "Agua muy mineral\n"
+    "que restaura 30 PS.");
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "by 50 points.");
-#else
-    "by 60 points.");
-#endif
+    "Refresco con gas\n"
+    "que restaura 50 PS.");
 
 static const u8 sLemonadeDesc[] = _(
-    "A very sweet drink\n"
-    "that restores HP\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "by 70 points.");
-#else
-    "by 80 points.");
-#endif
+    "Bebida muy dulce\n"
+    "que restaura 70 PS.");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "Leche muy nutritiva\n"
-    "que restaura 100 PS.");
+    "Leche muy\n"
+    "nutritiva que\n"
+    "restaura 100 PS.");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "A bitter powder\n"
-    "that restores HP\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "by 60 points.");
-#else
-    "by 50 points.");
-#endif
+    "Polvo muy amargo\n"
+    "que restaura 60 PS.");
 
 static const u8 sEnergyRootDesc[] = _(
-    "A bitter root\n"
-    "that restores HP\n"
-#if I_HEALTH_RECOVERY >= GEN_7
-    "by 120 points.");
-#else
-    "by 200 points.");
-#endif
+    "Raíz muy amarga\n"
+    "que restaura 120\n"
+    "PS.");
 
 static const u8 sHealPowderDesc[] = _(
     "Polvos muy amargos\n"
@@ -244,9 +207,9 @@ static const u8 sAntidoteDesc[] = _(
     "envenenamiento.");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Medicina en espray\n"
-    "que cura a un\n"
-    "Pokémon paralizado.");
+    "Espray que cura la\n"
+    "parálisis de un\n"
+    "Pokémon.");
 
 static const u8 sBurnHealDesc[] = _(
     "Espray que cura las\n"
@@ -254,8 +217,8 @@ static const u8 sBurnHealDesc[] = _(
 
 static const u8 sIceHealDesc[] = _(
     "Medicina en espray\n"
-    "que descongela a un\n"
-    "Pokémon.");
+    "que descongela a\n"
+    "un Pokémon.");
 
 static const u8 sAwakeningDesc[] = _(
     "Espray que\n"
@@ -263,9 +226,9 @@ static const u8 sAwakeningDesc[] = _(
     "Pokémon dormido.");
 
 static const u8 sFullHealDesc[] = _(
-    "Espray que cura\n"
-    "todos los problemas\n"
-    "de estado.");
+    "Cura todos los\n"
+    "problemas de\n"
+    "estado.");
 
 static const u8 sEtherDesc[] = _(
     "Restaura 10 PP del\n"
@@ -274,7 +237,8 @@ static const u8 sEtherDesc[] = _(
 
 static const u8 sMaxEtherDesc[] = _(
     "Restaura todos los\n"
-    "PP de un movimiento.");
+    "PP de un\n"
+    "movimiento.");
 
 static const u8 sElixirDesc[] = _(
     "Restaura 10 PP de\n"
@@ -306,9 +270,9 @@ static const u8 sMaxHoneyDesc[] = _(
     "con todos sus PS.");
 
 static const u8 sPewterCrunchiesDesc[] = _(
-    "Tentempié de Ciudad\n"
-    "Plateada. Cura el\n"
-    "estado.");
+    "Tentempié de\n"
+    "Ciudad Plateada.\n"
+    "Cura el estado.");
 
 static const u8 sRageCandyBarDesc[] = _(
     "Caramelo de Pueblo\n"
@@ -376,14 +340,14 @@ static const u8 sCarbosDesc[] = _(
     "Velocidad de base.");
 
 static const u8 sPPUpDesc[] = _(
-    "Aumenta un poco los\n"
-    "PP máximos de un\n"
-    "movimiento.");
+    "Aumenta un poco\n"
+    "los PP máximos de\n"
+    "un movimiento.");
 
 static const u8 sPPMaxDesc[] = _(
     "Aumenta al límite\n"
-    "los PP máximos de un\n"
-    "movimiento.");
+    "los PP máximos de\n"
+    "un movimiento.");
 
 // EV Feathers
 static const u8 sHealthFeatherDesc[] = _(
@@ -391,16 +355,16 @@ static const u8 sHealthFeatherDesc[] = _(
     "un Pokémon.");
 
 static const u8 sMuscleFeatherDesc[] = _(
-    "Sube el Ataque base\n"
-    "de un Pokémon.");
+    "Sube el Ataque\n"
+    "base de un Pokémon.");
 
 static const u8 sResistFeatherDesc[] = _(
     "Sube la Defensa\n"
     "base de un Pokémon.");
 
 static const u8 sGeniusFeatherDesc[] = _(
-    "Sube el At. Esp. base\n"
-    "de un Pokémon.");
+    "Sube el At. Esp.\n"
+    "base de un Pokémon.");
 
 static const u8 sCleverFeatherDesc[] = _(
     "Sube la Def. Esp.\n"
@@ -412,9 +376,9 @@ static const u8 sSwiftFeatherDesc[] = _(
 
 // Ability Modifiers
 static const u8 sAbilityCapsuleDesc[] = _(
-    "Cambia entre las dos\n"
-    "habilidades de un\n"
-    "Pokémon.");
+    "Cambia entre las\n"
+    "dos habilidades de\n"
+    "un Pokémon.");
 
 static const u8 sAbilityPatchDesc[] = _(
     "Cambia la habilidad\n"
@@ -462,11 +426,13 @@ static const u8 sModestMintDesc[] = _(
 
 static const u8 sMildMintDesc[] = _(
     "Su aroma favorece\n"
-    "At. Esp., no Defensa.");
+    "At. Esp., no\n"
+    "Defensa.");
 
 static const u8 sRashMintDesc[] = _(
     "Su aroma favorece\n"
-    "At. Esp., no Def. Esp.");
+    "At. Esp., no\n"
+    "Def. Esp.");
 
 static const u8 sQuietMintDesc[] = _(
     "Su aroma favorece\n"
@@ -475,7 +441,8 @@ static const u8 sQuietMintDesc[] = _(
 
 static const u8 sCalmMintDesc[] = _(
     "Su aroma favorece\n"
-    "Def. Esp., no Ataque.");
+    "Def. Esp., no\n"
+    "Ataque.");
 
 static const u8 sGentleMintDesc[] = _(
     "Su aroma favorece\n"
@@ -484,7 +451,8 @@ static const u8 sGentleMintDesc[] = _(
 
 static const u8 sCarefulMintDesc[] = _(
     "Su aroma favorece\n"
-    "Def. Esp., no At. Esp.");
+    "Def. Esp., no\n"
+    "At. Esp.");
 
 static const u8 sSassyMintDesc[] = _(
     "Su aroma favorece\n"
@@ -512,15 +480,15 @@ static const u8 sNaiveMintDesc[] = _(
     "Def. Esp.");
 
 static const u8 sSeriousMintDesc[] = _(
-    "Con su aroma, todas\n"
-    "las características\n"
-    "crecen igual.");
+    "Su aroma hace que\n"
+    "todo crezca por\n"
+    "igual.");
 
 // Candy
 static const u8 sRareCandyDesc[] = _(
-    "Caramelo energético\n"
-    "que sube a un\n"
-    "Pokémon de nivel.");
+    "Caramelo que sube\n"
+    "un nivel a un\n"
+    "Pokémon.");
 
 static const u8 sExpCandyXSDesc[] = _(
     "Caramelo que da muy\n"
@@ -544,24 +512,24 @@ static const u8 sExpCandyLDesc[] = _(
 
 static const u8 sExpCandyXLDesc[] = _(
     "Caramelo que da\n"
-    "mucha experiencia a\n"
-    "un Pokémon.");
+    "mucha experiencia\n"
+    "a un Pokémon.");
 
 static const u8 sDynamaxCandyDesc[] = _(
-    "Caramelo que sube el\n"
-    "nivel Dinamax de un\n"
-    "Pokémon.");
+    "Caramelo que sube\n"
+    "el nivel Dinamax de\n"
+    "un Pokémon.");
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _(
     "Flauta de cristal\n"
-    "azul que despierta a\n"
-    "un Pokémon.");
+    "azul que despierta\n"
+    "a un Pokémon.");
 
 static const u8 sYellowFluteDesc[] = _(
     "Flauta de cristal\n"
-    "amarillo que quita la\n"
-    "confusión.");
+    "amarillo que quita\n"
+    "la confusión.");
 
 static const u8 sRedFluteDesc[] = _(
     "Flauta de cristal\n"
@@ -574,8 +542,9 @@ static const u8 sBlackFluteDesc[] = _(
     "Pokémon fuertes.");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "Flauta blanca: atrae\n"
-    "Pokémon débiles.");
+    "Flauta blanca:\n"
+    "atrae Pokémon\n"
+    "débiles.");
 
 // Encounter Modifiers
 static const u8 sRepelDesc[] = _(
@@ -686,14 +655,14 @@ static const u8 sDireHitDesc[] = _(
     "combate.");
 
 static const u8 sGuardSpecDesc[] = _(
-    "Evita que bajen las\n"
-    "características del\n"
-    "equipo 5 turnos.");
+    "Evita 5 turnos que\n"
+    "bajen las\n"
+    "características.");
 
 // Escape Items
 static const u8 sPokeDollDesc[] = _(
-    "Un muñeco que atrae\n"
-    "a los Pokémon. Sirve\n"
+    "Muñeco que atrae a\n"
+    "los Pokémon. Sirve\n"
     "para huir.");
 
 static const u8 sFluffyTailDesc[] = _(
@@ -702,9 +671,9 @@ static const u8 sFluffyTailDesc[] = _(
     "para huir.");
 
 static const u8 sPokeToyDesc[] = _(
-    "Juguete que atrae a\n"
-    "los Pokémon. Sirve\n"
-    "para huir.");
+    "Juguete que atrae\n"
+    "a los Pokémon.\n"
+    "Sirve para huir.");
 
 static const u8 sMaxMushroomsDesc[] = _(
     "Aumenta todas las\n"
@@ -732,8 +701,8 @@ static const u8 sBigNuggetDesc[] = _(
     "muy cara.");
 
 static const u8 sTinyMushroomDesc[] = _(
-    "Seta pequeña y poco\n"
-    "común, popular\n"
+    "Seta pequeña y\n"
+    "poco común, popular\n"
     "entre gourmets.");
 
 static const u8 sBigMushroomDesc[] = _(
@@ -767,8 +736,8 @@ static const u8 sStardustDesc[] = _(
 
 static const u8 sStarPieceDesc[] = _(
     "Fragmento de una\n"
-    "bonita gema roja. Se\n"
-    "vende muy caro.");
+    "bonita gema roja.\n"
+    "Se vende muy caro.");
 
 static const u8 sCometShardDesc[] = _(
     "Fragmento de un\n"
@@ -776,8 +745,7 @@ static const u8 sCometShardDesc[] = _(
     "buen precio.");
 
 static const u8 sShoalSaltDesc[] = _(
-    "Una sal muy fina que\n"
-    "se encuentra en la\n"
+    "Sal muy fina de la\n"
     "Cueva Cardumen.");
 
 static const u8 sShoalShellDesc[] = _(
@@ -877,12 +845,14 @@ static const u8 sHelixFossilDesc[] = _(
     "Parece una concha.");
 
 static const u8 sDomeFossilDesc[] = _(
-    "Fósil marino. Parece\n"
-    "un caparazón.");
+    "Fósil marino.\n"
+    "Parece un\n"
+    "caparazón.");
 
 static const u8 sOldAmberDesc[] = _(
     "Ámbar con genes de\n"
-    "un Pokémon antiguo.");
+    "un Pokémon\n"
+    "antiguo.");
 
 static const u8 sRootFossilDesc[] = _(
     "Fósil de un Pokémon\n"
@@ -901,12 +871,13 @@ static const u8 sArmorFossilDesc[] = _(
 
 static const u8 sSkullFossilDesc[] = _(
     "Fósil terrestre.\n"
-    "Parece parte de una\n"
-    "cabeza.");
+    "Parece parte de\n"
+    "una cabeza.");
 
 static const u8 sCoverFossilDesc[] = _(
-    "Fósil marino. Parece\n"
-    "un caparazón.");
+    "Fósil marino.\n"
+    "Parece un\n"
+    "caparazón.");
 
 static const u8 sPlumeFossilDesc[] = _(
     "Fósil de un Pokémon\n"
@@ -919,14 +890,13 @@ static const u8 sJawFossilDesc[] = _(
     "una mandíbula.");
 
 static const u8 sSailFossilDesc[] = _(
-    "Fósil de un Pokémon\n"
-    "terrestre. Parece la\n"
-    "huella de una aleta.");
+    "Fósil terrestre.\n"
+    "Parece una aleta.");
 
 static const u8 sFossilizedBirdDesc[] = _(
     "Fósil de un Pokémon\n"
-    "antiguo que surcaba\n"
-    "los cielos.");
+    "antiguo que\n"
+    "surcaba los cielos.");
 
 static const u8 sFossilizedFishDesc[] = _(
     "Fósil de un Pokémon\n"
@@ -945,9 +915,9 @@ static const u8 sFossilizedDinoDesc[] = _(
 
 // Mulch
 static const u8 sGrowthMulchDesc[] = _(
-    "Abono que acelera el\n"
-    "crecimiento de las\n"
-    "bayas.");
+    "Abono que acelera\n"
+    "el crecimiento de\n"
+    "las bayas.");
 
 static const u8 sDampMulchDesc[] = _(
     "Abono que frena el\n"
@@ -961,7 +931,8 @@ static const u8 sStableMulchDesc[] = _(
 
 static const u8 sGooeyMulchDesc[] = _(
     "Abono que hace que\n"
-    "rebroten más bayas.");
+    "rebroten más\n"
+    "bayas.");
 
 static const u8 sRichMulchDesc[] = _(
     "Abono que aumenta\n"
@@ -1079,8 +1050,8 @@ static const u8 sShadowMailDesc[] = _(
 
 static const u8 sTropicMailDesc[] = _(
     "Carta con dibujos\n"
-    "de Bellossom para un\n"
-    "Pokémon.");
+    "de Bellossom para\n"
+    "un Pokémon.");
 
 static const u8 sDreamMailDesc[] = _(
     "Carta con un dibujo\n"
@@ -1176,9 +1147,9 @@ static const u8 sGalaricaWreathDesc[] = _(
     "Slowpoke de Galar.");
 
 static const u8 sDragonScaleDesc[] = _(
-    "Gruesa y resistente\n"
-    "escama de los\n"
-    "Pokémon Dragón.");
+    "Escama gruesa y\n"
+    "dura de los Pokémon\n"
+    "Dragón.");
 
 static const u8 sUpgradeDesc[] = _(
     "Una caja peculiar\n"
@@ -1187,18 +1158,16 @@ static const u8 sUpgradeDesc[] = _(
 
 static const u8 sProtectorDesc[] = _(
     "Protección muy\n"
-    "pesada que adora un\n"
-    "Pokémon.");
+    "pesada que adora\n"
+    "un Pokémon.");
 
 static const u8 sElectirizerDesc[] = _(
-    "Contiene mucha\n"
-    "energía eléctrica.\n"
-    "Un Pokémon lo adora.");
+    "Caja con mucha\n"
+    "energía eléctrica.");
 
 static const u8 sMagmarizerDesc[] = _(
-    "Contiene mucha\n"
-    "energía magmática.\n"
-    "Un Pokémon la adora.");
+    "Caja con mucha\n"
+    "energía magmática.");
 
 static const u8 sDubiousDiscDesc[] = _(
     "Dispositivo\n"
@@ -1266,8 +1235,8 @@ static const u8 sRibbonSweetDesc[] = _(
     "Milcery.");
 
 static const u8 sEverstoneDesc[] = _(
-    "El Pokémon que lleva\n"
-    "esta piedra mágica\n"
+    "El Pokémon que\n"
+    "lleva esta piedra\n"
     "no evoluciona.");
 
 static const u8 sBlackAuguriteDesc[] = _(
@@ -1436,8 +1405,8 @@ static const u8 sGrassMemoryDesc[] = _(
 
 static const u8 sIceMemoryDesc[] = _(
     "Disco de datos de\n"
-    "tipo Hielo. Cambia el\n"
-    "tipo de Silvally.");
+    "tipo Hielo. Cambia\n"
+    "el tipo de Silvally.");
 
 static const u8 sFightingMemoryDesc[] = _(
     "Disco de datos de\n"
@@ -1455,9 +1424,9 @@ static const u8 sGroundMemoryDesc[] = _(
     "el tipo de Silvally.");
 
 static const u8 sFlyingMemoryDesc[] = _(
-    "Disco de datos de\n"
-    "tipo Volador. Cambia\n"
-    "el tipo de Silvally.");
+    "Disco de datos\n"
+    "Volador. Cambia el\n"
+    "tipo de Silvally.");
 
 static const u8 sPsychicMemoryDesc[] = _(
     "Disco de tipo\n"
@@ -1466,8 +1435,8 @@ static const u8 sPsychicMemoryDesc[] = _(
 
 static const u8 sBugMemoryDesc[] = _(
     "Disco de datos de\n"
-    "tipo Bicho. Cambia el\n"
-    "tipo de Silvally.");
+    "tipo Bicho. Cambia\n"
+    "el tipo de Silvally.");
 
 static const u8 sRockMemoryDesc[] = _(
     "Disco de datos de\n"
@@ -1754,93 +1723,93 @@ static const u8 sDianciteDesc[] = _(
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Normal.");
+    "que potencia el\n"
+    "tipo Normal.");
 
 static const u8 sFireGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Fuego.");
+    "que potencia el\n"
+    "tipo Fuego.");
 
 static const u8 sWaterGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Agua.");
+    "que potencia el\n"
+    "tipo Agua.");
 
 static const u8 sElectricGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Eléctrico.");
+    "que potencia el\n"
+    "tipo Eléctrico.");
 
 static const u8 sGrassGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Planta.");
+    "que potencia el\n"
+    "tipo Planta.");
 
 static const u8 sIceGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Hielo.");
+    "que potencia el\n"
+    "tipo Hielo.");
 
 static const u8 sFightingGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Lucha.");
+    "que potencia el\n"
+    "tipo Lucha.");
 
 static const u8 sPoisonGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Veneno.");
+    "que potencia el\n"
+    "tipo Veneno.");
 
 static const u8 sGroundGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Tierra.");
+    "que potencia el\n"
+    "tipo Tierra.");
 
 static const u8 sFlyingGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Volador.");
+    "que potencia el\n"
+    "tipo Volador.");
 
 static const u8 sPsychicGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Psíquico.");
+    "que potencia el\n"
+    "tipo Psíquico.");
 
 static const u8 sBugGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Bicho.");
+    "que potencia el\n"
+    "tipo Bicho.");
 
 static const u8 sRockGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Roca.");
+    "que potencia el\n"
+    "tipo Roca.");
 
 static const u8 sGhostGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Fantasma.");
+    "que potencia el\n"
+    "tipo Fantasma.");
 
 static const u8 sDragonGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Dragón.");
+    "que potencia el\n"
+    "tipo Dragón.");
 
 static const u8 sDarkGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Siniestro.");
+    "que potencia el\n"
+    "tipo Siniestro.");
 
 static const u8 sSteelGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Acero.");
+    "que potencia el\n"
+    "tipo Acero.");
 
 static const u8 sFairyGemDesc[] = _(
     "Joya de un solo uso\n"
-    "que potencia el tipo\n"
-    "Hada.");
+    "que potencia el\n"
+    "tipo Hada.");
 
 // Z-Crystals
 static const u8 sNormaliumZDesc[] = _(
@@ -1855,8 +1824,8 @@ static const u8 sFiriumZDesc[] = _(
 
 static const u8 sWateriumZDesc[] = _(
     "Convierte los\n"
-    "movimientos Agua en\n"
-    "movimientos Z.");
+    "movimientos Agua\n"
+    "en movimientos Z.");
 
 static const u8 sElectriumZDesc[] = _(
     "Los movimientos\n"
@@ -1870,8 +1839,8 @@ static const u8 sGrassiumZDesc[] = _(
 
 static const u8 sIciumZDesc[] = _(
     "Convierte los\n"
-    "movimientos Hielo en\n"
-    "movimientos Z.");
+    "movimientos Hielo\n"
+    "en movimientos Z.");
 
 static const u8 sFightiniumZDesc[] = _(
     "Convierte los\n"
@@ -1889,9 +1858,9 @@ static const u8 sGroundiumZDesc[] = _(
     "en movimientos Z.");
 
 static const u8 sFlyiniumZDesc[] = _(
-    "Convierte los\n"
-    "movimientos Volador\n"
-    "en movimientos Z.");
+    "Los movimientos\n"
+    "Volador pasan a ser\n"
+    "movimientos Z.");
 
 static const u8 sPsychiumZDesc[] = _(
     "Los movimientos\n"
@@ -1905,8 +1874,8 @@ static const u8 sBuginiumZDesc[] = _(
 
 static const u8 sRockiumZDesc[] = _(
     "Convierte los\n"
-    "movimientos Roca en\n"
-    "movimientos Z.");
+    "movimientos Roca\n"
+    "en movimientos Z.");
 
 static const u8 sGhostiumZDesc[] = _(
     "Los movimientos\n"
@@ -1930,8 +1899,8 @@ static const u8 sSteeliumZDesc[] = _(
 
 static const u8 sFairiumZDesc[] = _(
     "Convierte los\n"
-    "movimientos Hada en\n"
-    "movimientos Z.");
+    "movimientos Hada\n"
+    "en movimientos Z.");
 
 static const u8 sPikaniumZDesc[] = _(
     "Convierte Placaje\n"
@@ -1964,14 +1933,14 @@ static const u8 sInciniumZDesc[] = _(
     "ser mov. Z.");
 
 static const u8 sPrimariumZDesc[] = _(
-    "Convierte Aria\n"
-    "Burbuja de Primarina\n"
-    "en movimiento Z.");
+    "Aria Burbuja de\n"
+    "Primarina pasa a\n"
+    "ser mov. Z.");
 
 static const u8 sLycaniumZDesc[] = _(
-    "Convierte Roca\n"
-    "Afilada de Lycanroc\n"
-    "en movimiento Z.");
+    "Roca Afilada de\n"
+    "Lycanroc pasa a\n"
+    "ser mov. Z.");
 
 static const u8 sMimikiumZDesc[] = _(
     "Carantoña de\n"
@@ -1984,9 +1953,9 @@ static const u8 sKommoniumZDesc[] = _(
     "en movimiento Z.");
 
 static const u8 sTapuniumZDesc[] = _(
-    "Convierte Furia\n"
-    "Natural de los tapus\n"
-    "en movimiento Z.");
+    "Furia Natural de\n"
+    "los tapus pasa a\n"
+    "ser mov. Z.");
 
 static const u8 sSolganiumZDesc[] = _(
     "Meteoimpacto de\n"
@@ -2014,9 +1983,9 @@ static const u8 sPikashuniumZDesc[] = _(
     "en movimiento Z.");
 
 static const u8 sUltranecroziumZDesc[] = _(
-    "Cristal que da una\n"
-    "nueva forma a\n"
-    "Necrozma fusionado.");
+    "Da una nueva forma\n"
+    "a Necrozma\n"
+    "fusionado.");
 
 // Species-specific Held Items
 static const u8 sLightBallDesc[] = _(
@@ -2059,35 +2028,29 @@ static const u8 sDeepSeaToothDesc[] = _(
     "Clamperl.");
 
 static const u8 sSoulDewDesc[] = _(
-#if B_SOUL_DEW_BOOST >= GEN_7
-    "Powers up Latios' &\n"
-    "Latias' Psychic and\n"
-    "Dragon-type moves.");
-#else
-    "Hold item: raises\n"
-    "Sp. Atk & Sp. Def of\n"
-    "Latios & Latias.");
-#endif
+    "Potencia los tipos\n"
+    "Psíquico y Dragón\n"
+    "de Latios y Latias.");
 
 static const u8 sAdamantOrbDesc[] = _(
-    "Esfera que potencia\n"
-    "Acero y Dragón de\n"
-    "Dialga.");
+    "Esfera que\n"
+    "potencia Acero y\n"
+    "Dragón de Dialga.");
 
 static const u8 sLustrousOrbDesc[] = _(
-    "Esfera que potencia\n"
-    "Dragón y Agua de\n"
-    "Palkia.");
+    "Esfera que\n"
+    "potencia Dragón y\n"
+    "Agua de Palkia.");
 
 static const u8 sGriseousOrbDesc[] = _(
-    "Esfera que potencia\n"
+    "Potencia los tipos\n"
     "Dragón y Fantasma\n"
     "de Giratina.");
 
 // Incenses
 static const u8 sSeaIncenseDesc[] = _(
-    "Incienso de curioso\n"
-    "aroma. Potencia el\n"
+    "Incienso que\n"
+    "potencia algo el\n"
     "tipo Agua.");
 
 static const u8 sLaxIncenseDesc[] = _(
@@ -2097,13 +2060,13 @@ static const u8 sLaxIncenseDesc[] = _(
 
 static const u8 sOddIncenseDesc[] = _(
     "Incienso exótico\n"
-    "que potencia el tipo\n"
-    "Psíquico.");
+    "que potencia el\n"
+    "tipo Psíquico.");
 
 static const u8 sRockIncenseDesc[] = _(
     "Incienso exótico\n"
-    "que potencia el tipo\n"
-    "Roca.");
+    "que potencia el\n"
+    "tipo Roca.");
 
 static const u8 sFullIncenseDesc[] = _(
     "Incienso que hace\n"
@@ -2111,14 +2074,14 @@ static const u8 sFullIncenseDesc[] = _(
     "vaya más lento.");
 
 static const u8 sWaveIncenseDesc[] = _(
-    "Incienso de curioso\n"
-    "aroma. Potencia el\n"
+    "Incienso que\n"
+    "potencia algo el\n"
     "tipo Agua.");
 
 static const u8 sRoseIncenseDesc[] = _(
     "Incienso exótico\n"
-    "que potencia el tipo\n"
-    "Planta.");
+    "que potencia el\n"
+    "tipo Planta.");
 
 static const u8 sLuckIncenseDesc[] = _(
     "Duplica las\n"
@@ -2173,8 +2136,8 @@ static const u8 sPowerBeltDesc[] = _(
     "Velocidad.");
 
 static const u8 sPowerLensDesc[] = _(
-    "Mejora el At. Esp. de\n"
-    "base; reduce la\n"
+    "Mejora el At. Esp.\n"
+    "de base; reduce la\n"
     "Velocidad.");
 
 static const u8 sPowerBandDesc[] = _(
@@ -2189,18 +2152,19 @@ static const u8 sPowerAnkletDesc[] = _(
 
 // Type-boosting Held Items
 static const u8 sSilkScarfDesc[] = _(
-    "Pañuelo de seda que\n"
-    "potencia el tipo\n"
-    "Normal.");
+    "Pañuelo de seda\n"
+    "que potencia el\n"
+    "tipo Normal.");
 
 static const u8 sCharcoalDesc[] = _(
-    "Carbón que potencia\n"
-    "el tipo Fuego.");
+    "Carbón que\n"
+    "potencia el tipo\n"
+    "Fuego.");
 
 static const u8 sMysticWaterDesc[] = _(
     "Gema como una gota\n"
-    "que potencia el tipo\n"
-    "Agua.");
+    "que potencia el\n"
+    "tipo Agua.");
 
 static const u8 sMagnetDesc[] = _(
     "Imán potente que\n"
@@ -2208,9 +2172,9 @@ static const u8 sMagnetDesc[] = _(
     "Eléctrico.");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "Semilla llena de vida\n"
-    "que potencia el tipo\n"
-    "Planta.");
+    "Semilla llena de\n"
+    "vida que potencia\n"
+    "el tipo Planta.");
 
 static const u8 sNeverMeltIceDesc[] = _(
     "Hielo eterno que\n"
@@ -2238,9 +2202,9 @@ static const u8 sSharpBeakDesc[] = _(
     "Volador.");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "Cuchara doblada que\n"
-    "potencia el tipo\n"
-    "Psíquico.");
+    "Cuchara doblada\n"
+    "que potencia el\n"
+    "tipo Psíquico.");
 
 static const u8 sSilverPowderDesc[] = _(
     "Polvo plateado que\n"
@@ -2254,13 +2218,13 @@ static const u8 sHardStoneDesc[] = _(
 
 static const u8 sSpellTagDesc[] = _(
     "Etiqueta siniestra\n"
-    "que potencia el tipo\n"
-    "Fantasma.");
+    "que potencia el\n"
+    "tipo Fantasma.");
 
 static const u8 sDragonFangDesc[] = _(
     "Colmillo muy duro\n"
-    "que potencia el tipo\n"
-    "Dragón.");
+    "que potencia el\n"
+    "tipo Dragón.");
 
 static const u8 sBlackGlassesDesc[] = _(
     "Gafas oscuras que\n"
@@ -2269,8 +2233,8 @@ static const u8 sBlackGlassesDesc[] = _(
 
 static const u8 sMetalCoatDesc[] = _(
     "Película metálica\n"
-    "que potencia el tipo\n"
-    "Acero.");
+    "que potencia el\n"
+    "tipo Acero.");
 
 // Choice Items
 static const u8 sChoiceBandDesc[] = _(
@@ -2290,7 +2254,8 @@ static const u8 sChoiceScarfDesc[] = _(
 // Status Orbs
 static const u8 sFlameOrbDesc[] = _(
     "Esfera extraña que\n"
-    "quema a su portador.");
+    "quema a su\n"
+    "portador.");
 
 static const u8 sToxicOrbDesc[] = _(
     "Esfera extraña que\n"
@@ -2300,7 +2265,8 @@ static const u8 sToxicOrbDesc[] = _(
 // Weather Rocks
 static const u8 sDampRockDesc[] = _(
     "Prolonga la Danza\n"
-    "Lluvia del portador.");
+    "Lluvia del\n"
+    "portador.");
 
 static const u8 sHeatRockDesc[] = _(
     "Prolonga el Día\n"
@@ -2318,26 +2284,30 @@ static const u8 sIcyRockDesc[] = _(
 
 // Terrain Seeds
 static const u8 sElectricSeedDesc[] = _(
-    "Sube la Defensa con\n"
-    "campo eléctrico.");
+    "Sube la Defensa\n"
+    "con campo\n"
+    "eléctrico.");
 
 static const u8 sPsychicSeedDesc[] = _(
-    "Sube la Def. Esp. con\n"
-    "campo psíquico.");
+    "Sube la Def. Esp.\n"
+    "con campo\n"
+    "psíquico.");
 
 static const u8 sMistySeedDesc[] = _(
-    "Sube la Def. Esp. con\n"
-    "campo de niebla.");
+    "Sube la Def. Esp.\n"
+    "con campo de\n"
+    "niebla.");
 
 static const u8 sGrassySeedDesc[] = _(
-    "Sube la Defensa con\n"
-    "campo de hierba.");
+    "Sube la Defensa\n"
+    "con campo de\n"
+    "hierba.");
 
 // Type-activated Stat Modifiers
 static const u8 sAbsorbBulbDesc[] = _(
     "Sube el At. Esp. al\n"
-    "recibir un ataque de\n"
-    "Agua.");
+    "recibir un ataque\n"
+    "de Agua.");
 
 static const u8 sCellBatteryDesc[] = _(
     "Batería: sube el\n"
@@ -2346,18 +2316,18 @@ static const u8 sCellBatteryDesc[] = _(
 
 static const u8 sLuminousMossDesc[] = _(
     "Sube la Def. Esp. al\n"
-    "recibir un ataque de\n"
-    "Agua.");
+    "recibir un ataque\n"
+    "de Agua.");
 
 static const u8 sSnowballDesc[] = _(
     "Sube el Ataque al\n"
-    "recibir un ataque de\n"
-    "Hielo.");
+    "recibir un ataque\n"
+    "de Hielo.");
 
 // Misc. Held Items
 static const u8 sBrightPowderDesc[] = _(
-    "Destello que baja la\n"
-    "Precisión del\n"
+    "Destello que baja\n"
+    "la Precisión del\n"
     "enemigo.");
 
 static const u8 sWhiteHerbDesc[] = _(
@@ -2366,15 +2336,9 @@ static const u8 sWhiteHerbDesc[] = _(
     "reducidas. Un uso.");
 
 static const u8 sExpShareDesc[] = _(
-#if I_EXP_SHARE_ITEM >= GEN_6
-    "This device gives\n"
-    "exp. to other\n"
-    "party members.");
-#else
-    "A hold item that\n"
-    "gets Exp. points\n"
-    "from battles.");
-#endif
+    "El portador gana\n"
+    "Exp. aunque no\n"
+    "combata.");
 
 static const u8 sQuickClawDesc[] = _(
     "Garra ligera que a\n"
@@ -2383,14 +2347,14 @@ static const u8 sQuickClawDesc[] = _(
 
 static const u8 sSootheBellDesc[] = _(
     "Cascabel de tañido\n"
-    "calmante que da más\n"
-    "amistad.");
+    "calmante que da\n"
+    "más amistad.");
 
 #if B_MENTAL_HERB >= GEN_5
 static const u8 sMentalHerbDesc[] = _(
-    "Libera al Pokémon de\n"
-    "los movimientos que\n"
-    "atrapan.");
+    "Libera al Pokémon\n"
+    "de los movimientos\n"
+    "que atrapan.");
 #else
 static const u8 sMentalHerbDesc[] = _(
     "Libera de los\n"
@@ -2399,8 +2363,9 @@ static const u8 sMentalHerbDesc[] = _(
 #endif
 
 static const u8 sKingsRockDesc[] = _(
-    "Puede amedrentar al\n"
-    "Pokémon al que dañe.");
+    "Puede amedrentar\n"
+    "al Pokémon al que\n"
+    "dañe.");
 
 static const u8 sAmuletCoinDesc[] = _(
     "Duplica las\n"
@@ -2413,8 +2378,8 @@ static const u8 sCleanseTagDesc[] = _(
     "Pokémon salvajes.");
 
 static const u8 sSmokeBallDesc[] = _(
-    "Permite huir siempre\n"
-    "de Pokémon\n"
+    "Permite huir\n"
+    "siempre de Pokémon\n"
     "salvajes.");
 
 static const u8 sFocusBandDesc[] = _(
@@ -2423,9 +2388,9 @@ static const u8 sFocusBandDesc[] = _(
     "1 PS.");
 
 static const u8 sLuckyEggDesc[] = _(
-    "Huevo que da Puntos\n"
-    "de Experiencia\n"
-    "extra.");
+    "Huevo que da\n"
+    "Puntos de\n"
+    "Experiencia extra.");
 
 static const u8 sScopeLensDesc[] = _(
     "Lente que aumenta\n"
@@ -2438,9 +2403,9 @@ static const u8 sLeftoversDesc[] = _(
     "combate.");
 
 static const u8 sShellBellDesc[] = _(
-    "Recupera algunos PS\n"
-    "cada vez que inflige\n"
-    "daño.");
+    "Recupera algunos\n"
+    "PS cada vez que\n"
+    "inflige daño.");
 
 static const u8 sWideLensDesc[] = _(
     "Aumenta un poco la\n"
@@ -2449,8 +2414,8 @@ static const u8 sWideLensDesc[] = _(
 
 static const u8 sMuscleBandDesc[] = _(
     "Cinta que potencia\n"
-    "un poco los ataques\n"
-    "físicos.");
+    "un poco los\n"
+    "ataques físicos.");
 
 static const u8 sWiseGlassesDesc[] = _(
     "Potencian un poco\n"
@@ -2479,8 +2444,8 @@ static const u8 sPowerHerbDesc[] = _(
 
 static const u8 sFocusSashDesc[] = _(
     "Con PS al máximo,\n"
-    "resiste un K.O. con 1\n"
-    "PS.");
+    "resiste un K.O. con\n"
+    "1 PS.");
 
 static const u8 sZoomLensDesc[] = _(
     "Si actúa después\n"
@@ -2493,9 +2458,9 @@ static const u8 sMetronomeDesc[] = _(
     "seguido.");
 
 static const u8 sIronBallDesc[] = _(
-    "Reduce la Velocidad;\n"
-    "Tierra alcanza a\n"
-    "voladores.");
+    "Baja la Velocidad.\n"
+    "Tierra alcanza al\n"
+    "portador.");
 
 static const u8 sLaggingTailDesc[] = _(
     "Cola muy pesada. Su\n"
@@ -2527,9 +2492,9 @@ static const u8 sShedShellDesc[] = _(
     "cambiarse siempre.");
 
 static const u8 sBigRootDesc[] = _(
-    "Recupera más PS con\n"
-    "los ataques que\n"
-    "drenan.");
+    "Recupera más PS\n"
+    "con los ataques\n"
+    "que drenan.");
 
 static const u8 sRazorClawDesc[] = _(
     "Aumenta la\n"
@@ -2537,8 +2502,9 @@ static const u8 sRazorClawDesc[] = _(
     "golpe crítico.");
 
 static const u8 sRazorFangDesc[] = _(
-    "Puede amedrentar al\n"
-    "Pokémon al que dañe.");
+    "Puede amedrentar\n"
+    "al Pokémon al que\n"
+    "dañe.");
 
 static const u8 sEvioliteDesc[] = _(
     "Sube Defensa y\n"
@@ -2550,14 +2516,14 @@ static const u8 sFloatStoneDesc[] = _(
     "que reduce el peso.");
 
 static const u8 sRockyHelmetDesc[] = _(
-    "Daña a quien ataque\n"
-    "al portador por\n"
-    "contacto.");
+    "Daña a quien\n"
+    "ataque al portador\n"
+    "por contacto.");
 
 static const u8 sAirBalloonDesc[] = _(
     "Hace flotar al\n"
-    "portador. Estalla si\n"
-    "le golpean.");
+    "portador. Estalla\n"
+    "si le golpean.");
 
 static const u8 sRedCardDesc[] = _(
     "Expulsa al rival que\n"
@@ -2585,8 +2551,8 @@ static const u8 sWeaknessPolicyDesc[] = _(
 
 static const u8 sAssaultVestDesc[] = _(
     "Sube la Def. Esp.,\n"
-    "pero impide movs. de\n"
-    "estado.");
+    "pero impide movs.\n"
+    "de estado.");
 
 static const u8 sSafetyGogglesDesc[] = _(
     "Gafa que protege\n"
@@ -2594,12 +2560,12 @@ static const u8 sSafetyGogglesDesc[] = _(
     "polvos.");
 
 static const u8 sAdrenalineOrbDesc[] = _(
-    "Sube la Velocidad si\n"
-    "le intimidan.");
+    "Sube la Velocidad\n"
+    "si le intimidan.");
 
 static const u8 sTerrainExtenderDesc[] = _(
-    "Prolonga los campos\n"
-    "que crea el\n"
+    "Prolonga los\n"
+    "campos que crea el\n"
     "portador.");
 
 static const u8 sProtectivePadsDesc[] = _(
@@ -2614,8 +2580,8 @@ static const u8 sThroatSprayDesc[] = _(
 
 static const u8 sEjectPackDesc[] = _(
     "Si le bajan\n"
-    "características, se\n"
-    "retira.");
+    "características,\n"
+    "se retira.");
 
 static const u8 sHeavyDutyBootsDesc[] = _(
     "Anula las trampas\n"
@@ -2633,8 +2599,8 @@ static const u8 sRoomServiceDesc[] = _(
 
 static const u8 sUtilityUmbrellaDesc[] = _(
     "Invulnerable a los\n"
-    "efectos de la lluvia\n"
-    "y el sol.");
+    "efectos de la\n"
+    "lluvia y el sol.");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
@@ -2657,9 +2623,8 @@ static const u8 sRawstBerryDesc[] = _(
     "quemaduras.");
 
 static const u8 sAspearBerryDesc[] = _(
-    "Los Pokémon pueden\n"
-    "llevarla o usarla\n"
-    "para descongelarse.");
+    "Cura la congelación\n"
+    "al portador.");
 
 static const u8 sLeppaBerryDesc[] = _(
     "Se lleva o usa para\n"
@@ -2680,15 +2645,9 @@ static const u8 sLumBerryDesc[] = _(
     "estado.");
 
 static const u8 sSitrusBerryDesc[] = _(
-#if I_SITRUS_BERRY_HEAL >= GEN_4
-    "A hold item that\n"
-    "restores the user's\n"
-    "HP a little.");
-#else
-    "A hold item that\n"
-    "restores 30 HP in\n"
-    "battle.");
-#endif
+    "Restaura algunos\n"
+    "PS al portador si\n"
+    "tiene pocos.");
 
 static const u8 sFigyBerryDesc[] = _(
     "Restaura PS. Puede\n"
@@ -2813,92 +2772,93 @@ static const u8 sChilanBerryDesc[] = _(
 
 static const u8 sOccaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Fuego.");
+    "supereficaz de\n"
+    "tipo Fuego.");
 
 static const u8 sPasshoBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Agua.");
+    "supereficaz de\n"
+    "tipo Agua.");
 
 static const u8 sWacanBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Eléctrico.");
+    "supereficaz de\n"
+    "tipo Eléctrico.");
 
 static const u8 sRindoBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Planta.");
+    "supereficaz de\n"
+    "tipo Planta.");
 
 static const u8 sYacheBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Hielo.");
+    "supereficaz de\n"
+    "tipo Hielo.");
 
 static const u8 sChopleBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Lucha.");
+    "supereficaz de\n"
+    "tipo Lucha.");
 
 static const u8 sKebiaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Veneno.");
+    "supereficaz de\n"
+    "tipo Veneno.");
 
 static const u8 sShucaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Tierra.");
+    "supereficaz de\n"
+    "tipo Tierra.");
 
 static const u8 sCobaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Volador.");
+    "supereficaz de\n"
+    "tipo Volador.");
 
 static const u8 sPayapaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Psíquico.");
+    "supereficaz de\n"
+    "tipo Psíquico.");
 
 static const u8 sTangaBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Bicho.");
+    "supereficaz de\n"
+    "tipo Bicho.");
 
 static const u8 sChartiBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Roca.");
+    "supereficaz de\n"
+    "tipo Roca.");
 
 static const u8 sKasibBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Fantasma.");
+    "supereficaz de\n"
+    "tipo Fantasma.");
 
 static const u8 sHabanBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Dragón.");
+    "supereficaz de\n"
+    "tipo Dragón.");
 
 static const u8 sColburBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Siniestro.");
+    "supereficaz de\n"
+    "tipo Siniestro.");
 
 static const u8 sBabiriBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Acero.");
+    "supereficaz de\n"
+    "tipo Acero.");
 
 static const u8 sRoseliBerryDesc[] = _(
     "Debilita un ataque\n"
-    "supereficaz de tipo\n"
-    "Hada.");
+    "supereficaz de\n"
+    "tipo Hada.");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "Sube el Ataque en un\n"
-    "momento de apuro.");
+    "Sube el Ataque en\n"
+    "un momento de\n"
+    "apuro.");
 
 static const u8 sGanlonBerryDesc[] = _(
     "Sube la Defensa en\n"
@@ -2906,8 +2866,8 @@ static const u8 sGanlonBerryDesc[] = _(
     "apuro.");
 
 static const u8 sSalacBerryDesc[] = _(
-    "Sube la Velocidad en\n"
-    "un momento de\n"
+    "Sube la Velocidad\n"
+    "en un momento de\n"
     "apuro.");
 
 static const u8 sPetayaBerryDesc[] = _(
@@ -2922,7 +2882,8 @@ static const u8 sApicotBerryDesc[] = _(
 
 static const u8 sLansatBerryDesc[] = _(
     "Más probabilidad de\n"
-    "crítico en un apuro.");
+    "crítico en un\n"
+    "apuro.");
 
 static const u8 sStarfBerryDesc[] = _(
     "Sube mucho una\n"
@@ -2935,14 +2896,14 @@ static const u8 sEnigmaBerryDesc[] = _(
     "supereficaz.");
 
 static const u8 sMicleBerryDesc[] = _(
-    "Sube la precisión de\n"
-    "un movimiento en un\n"
-    "apuro.");
+    "Sube la precisión\n"
+    "de un movimiento en\n"
+    "un apuro.");
 
 static const u8 sCustapBerryDesc[] = _(
-    "En un apuro, permite\n"
-    "actuar primero una\n"
-    "vez.");
+    "En un apuro,\n"
+    "permite actuar\n"
+    "primero una vez.");
 
 static const u8 sJabocaBerryDesc[] = _(
     "Daña también a\n"
@@ -2981,13 +2942,13 @@ static const u8 sTM02Desc[] = _(
     "largas y afiladas.");
 
 static const u8 sTM03Desc[] = _(
-    "Genera ultrasonidos\n"
-    "que pueden\n"
-    "confundir.");
+    "Genera\n"
+    "ultrasonidos que\n"
+    "pueden confundir.");
 
 static const u8 sTM04Desc[] = _(
-    "Se concentra y sube\n"
-    "el At. Esp. y la\n"
+    "Se concentra y\n"
+    "sube el At. Esp. y la\n"
     "Def. Esp.");
 
 static const u8 sTM05Desc[] = _(
@@ -2997,13 +2958,13 @@ static const u8 sTM05Desc[] = _(
 
 static const u8 sTM06Desc[] = _(
     "Envenena al rival\n"
-    "con una toxina cada\n"
-    "vez peor.");
+    "con una toxina\n"
+    "cada vez peor.");
 
 static const u8 sTM07Desc[] = _(
-    "Provoca granizo que\n"
-    "daña a todo lo que\n"
-    "no sea Hielo.");
+    "Provoca granizo\n"
+    "que daña a todo lo\n"
+    "que no sea Hielo.");
 
 static const u8 sTM08Desc[] = _(
     "Fortalece el cuerpo\n"
@@ -3012,8 +2973,8 @@ static const u8 sTM08Desc[] = _(
 
 static const u8 sTM09Desc[] = _(
     "Dispara de 2 a 5\n"
-    "semillas seguidas al\n"
-    "rival.");
+    "semillas seguidas\n"
+    "al rival.");
 
 static const u8 sTM10Desc[] = _(
     "Su potencia varía\n"
@@ -3035,9 +2996,9 @@ static const u8 sTM13Desc[] = _(
     "congelar.");
 
 static const u8 sTM14Desc[] = _(
-    "Ventisca brutal que\n"
-    "puede congelar al\n"
-    "rival.");
+    "Ventisca brutal\n"
+    "que puede congelar\n"
+    "al rival.");
 
 static const u8 sTM15Desc[] = _(
     "Muy potente, pero\n"
@@ -3051,8 +3012,8 @@ static const u8 sTM16Desc[] = _(
 
 static const u8 sTM17Desc[] = _(
     "Anula todo el daño,\n"
-    "pero puede fallar si\n"
-    "se repite.");
+    "pero puede fallar\n"
+    "si se repite.");
 
 static const u8 sTM18Desc[] = _(
     "Potencia los\n"
@@ -3080,13 +3041,13 @@ static const u8 sTM22Desc[] = _(
 
 static const u8 sTM23Desc[] = _(
     "Golpea con una cola\n"
-    "dura. Puede bajar la\n"
-    "Defensa.");
+    "dura. Puede bajar\n"
+    "la Defensa.");
 
 static const u8 sTM24Desc[] = _(
     "Potente ataque\n"
-    "eléctrico que puede\n"
-    "paralizar.");
+    "eléctrico que\n"
+    "puede paralizar.");
 
 static const u8 sTM25Desc[] = _(
     "Lanza un rayo al\n"
@@ -3104,8 +3065,8 @@ static const u8 sTM27Desc[] = _(
     "potente es.");
 
 static const u8 sTM28Desc[] = _(
-    "Excava el 1.er turno\n"
-    "y ataca en el\n"
+    "Excava el 1.er\n"
+    "turno y ataca en el\n"
     "siguiente.");
 
 static const u8 sTM29Desc[] = _(
@@ -3119,14 +3080,14 @@ static const u8 sTM30Desc[] = _(
     "la Def. Esp.");
 
 static const u8 sTM31Desc[] = _(
-    "Rompe barreras como\n"
-    "Pantalla de Luz y\n"
-    "hace daño.");
+    "Rompe barreras\n"
+    "como Pantalla de\n"
+    "Luz y hace daño.");
 
 static const u8 sTM32Desc[] = _(
     "Crea copias\n"
-    "ilusorias para subir\n"
-    "la evasión.");
+    "ilusorias para\n"
+    "subir la evasión.");
 
 static const u8 sTM33Desc[] = _(
     "Crea un muro de luz\n"
@@ -3135,8 +3096,8 @@ static const u8 sTM33Desc[] = _(
 
 static const u8 sTM34Desc[] = _(
     "Una descarga\n"
-    "eléctrica que nunca\n"
-    "falla.");
+    "eléctrica que\n"
+    "nunca falla.");
 
 static const u8 sTM35Desc[] = _(
     "Lanza un chorro de\n"
@@ -3174,8 +3135,8 @@ static const u8 sTM41Desc[] = _(
 
 static const u8 sTM42Desc[] = _(
     "+Ataque si tiene\n"
-    "veneno, quemadura o\n"
-    "parálisis.");
+    "veneno, quemadura\n"
+    "o parálisis.");
 
 static const u8 sTM43Desc[] = _(
     "Añade un efecto al\n"
@@ -3199,8 +3160,8 @@ static const u8 sTM46Desc[] = _(
 
 static const u8 sTM47Desc[] = _(
     "Despliega unas alas\n"
-    "afiladas y golpea al\n"
-    "rival.");
+    "afiladas y golpea\n"
+    "al rival.");
 
 static const u8 sTM48Desc[] = _(
     "Intercambia su\n"
@@ -3389,8 +3350,8 @@ static const u8 sHM04Desc[] = _(
 
 static const u8 sHM05Desc[] = _(
     "Lanza un potente\n"
-    "destello que baja la\n"
-    "precisión.");
+    "destello que baja\n"
+    "la precisión.");
 
 static const u8 sHM06Desc[] = _(
     "Ataque demoledor\n"
@@ -3424,9 +3385,9 @@ static const u8 sCatchingCharmDesc[] = _(
     "capturas críticas.");
 
 static const u8 sExpCharmDesc[] = _(
-    "Amuleto que aumenta\n"
-    "los Puntos de\n"
-    "Experiencia.");
+    "Amuleto que\n"
+    "aumenta los Puntos\n"
+    "de Experiencia.");
 
 // Form-changing Key Items
 static const u8 sRotomCatalogDesc[] = _(
@@ -3440,12 +3401,13 @@ static const u8 sGracideaDesc[] = _(
     "agradecimiento.");
 
 static const u8 sRevealGlassDesc[] = _(
-    "Espejo que devuelve\n"
-    "a su forma original.");
+    "Espejo que\n"
+    "devuelve a su forma\n"
+    "original.");
 
 static const u8 sDNASplicersDesc[] = _(
-    "Punta que fusiona a\n"
-    "Kyurem con cierto\n"
+    "Punta que fusiona\n"
+    "a Kyurem con cierto\n"
     "Pokémon.");
 
 static const u8 sZygardeCubeDesc[] = _(
@@ -3458,14 +3420,13 @@ static const u8 sPrisonBottleDesc[] = _(
     "Pokémon.");
 
 static const u8 sNSolarizerDesc[] = _(
-    "Aparato que fusiona\n"
-    "y separa a Necrozma\n"
-    "con Solgaleo.");
+    "Fusiona y separa a\n"
+    "Necrozma y\n"
+    "Solgaleo.");
 
 static const u8 sNLunarizerDesc[] = _(
-    "Aparato que fusiona\n"
-    "y separa a Necrozma\n"
-    "con Lunala.");
+    "Fusiona y separa a\n"
+    "Necrozma y Lunala.");
 
 static const u8 sReinsOfUnityDesc[] = _(
     "Correas brillantes,\n"
@@ -3475,8 +3436,8 @@ static const u8 sReinsOfUnityDesc[] = _(
 // Battle Mechanic Key Items
 static const u8 sMegaRingDesc[] = _(
     "Permite\n"
-    "megaevolucionar con\n"
-    "una Megapiedra.");
+    "megaevolucionar\n"
+    "con una Megapiedra.");
 
 static const u8 sZPowerRingDesc[] = _(
     "Pulsera que permite\n"
@@ -3508,8 +3469,8 @@ static const u8 sOldRodDesc[] = _(
     "pescar Pokémon.");
 
 static const u8 sGoodRodDesc[] = _(
-    "Caña nuevecita y de\n"
-    "gran calidad.");
+    "Caña nuevecita y\n"
+    "de gran calidad.");
 
 static const u8 sSuperRodDesc[] = _(
     "Increíble caña de\n"
@@ -3527,14 +3488,14 @@ static const u8 sTownMapDesc[] = _(
     "encuentras.");
 
 static const u8 sVsSeekerDesc[] = _(
-    "Busca Entrenadores\n"
-    "listos para el\n"
-    "combate.");
+    "Localiza a\n"
+    "Entrenadores que\n"
+    "quieran combatir.");
 
 static const u8 sTMCaseDesc[] = _(
-    "Un estuche práctico\n"
-    "para guardar MT y\n"
-    "MO.");
+    "Un estuche\n"
+    "práctico para\n"
+    "guardar MT y MO.");
 
 static const u8 sBerryPouchDesc[] = _(
     "Un recipiente\n"
@@ -3543,8 +3504,8 @@ static const u8 sBerryPouchDesc[] = _(
 
 static const u8 sPokemonBoxLinkDesc[] = _(
     "Da acceso a tus\n"
-    "Cajas del PC en todo\n"
-    "momento.");
+    "Cajas del PC en\n"
+    "todo momento.");
 
 static const u8 sCoinCaseDesc[] = _(
     "Un estuche que\n"
@@ -3552,8 +3513,8 @@ static const u8 sCoinCaseDesc[] = _(
     "fichas.");
 
 static const u8 sPowderJarDesc[] = _(
-    "Guarda el Polvo Baya\n"
-    "hecho con la\n"
+    "Guarda el Polvo\n"
+    "Baya hecho con la\n"
     "Trituradora.");
 
 static const u8 sWailmerPailDesc[] = _(
@@ -3577,12 +3538,13 @@ static const u8 sSootSackDesc[] = _(
 
 static const u8 sPokeFluteDesc[] = _(
     "Flauta de timbre\n"
-    "dulce que despierta\n"
-    "Pokémon.");
+    "dulce que\n"
+    "despierta Pokémon.");
 
 static const u8 sFameCheckerDesc[] = _(
     "Guarda información\n"
-    "sobre gente famosa.");
+    "sobre gente\n"
+    "famosa.");
 
 static const u8 sTeachyTVDesc[] = _(
     "Una tele con un\n"
@@ -3591,9 +3553,9 @@ static const u8 sTeachyTVDesc[] = _(
 
 // Story Key Items
 static const u8 sSSTicketDesc[] = _(
-    "El billete necesario\n"
-    "para viajar en\n"
-    "ferry.");
+    "El billete\n"
+    "necesario para\n"
+    "viajar en ferry.");
 
 static const u8 sEonTicketDesc[] = _(
     "Billete de barco\n"
@@ -3607,8 +3569,8 @@ static const u8 sMysticTicketDesc[] = _(
 
 static const u8 sAuroraTicketDesc[] = _(
     "Un billete para\n"
-    "subir al barco a Isla\n"
-    "Origen.");
+    "subir al barco a\n"
+    "Isla Origen.");
 
 static const u8 sOldSeaMapDesc[] = _(
     "Una carta náutica\n"
@@ -3617,8 +3579,8 @@ static const u8 sOldSeaMapDesc[] = _(
 
 static const u8 sLetterDesc[] = _(
     "Carta del\n"
-    "presidente de Devon\n"
-    "S.A.");
+    "presidente de\n"
+    "Devon S.A.");
 
 static const u8 sDevonPartsDesc[] = _(
     "Contiene piezas de\n"
@@ -3646,8 +3608,8 @@ static const u8 sScannerDesc[] = _(
     "Nao Abandonada.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "La llave del almacén\n"
-    "de la Nao\n"
+    "La llave del\n"
+    "almacén de la Nao\n"
     "Abandonada.");
 
 static const u8 sKeyToRoom1Desc[] = _(
@@ -3705,9 +3667,9 @@ static const u8 sGoldTeethDesc[] = _(
     "Safari.");
 
 static const u8 sCardKeyDesc[] = _(
-    "Tarjeta llave de las\n"
-    "oficinas de Silph\n"
-    "S.A.");
+    "Tarjeta llave de\n"
+    "las oficinas de\n"
+    "Silph S.A.");
 
 static const u8 sLiftKeyDesc[] = _(
     "Llave del ascensor\n"
@@ -3749,18 +3711,18 @@ static const u8 sAbilityShieldDesc[] = _(
     "portador.");
 
 static const u8 sClearAmuletDesc[] = _(
-    "Impide que bajen las\n"
-    "características del\n"
-    "portador.");
+    "Evita que le bajen\n"
+    "las\n"
+    "características.");
 
 static const u8 sPunchingGloveDesc[] = _(
     "Potencia los\n"
     "puñetazos y evita\n"
-    "que hagan contacto.");
+    "el contacto.");
 
 static const u8 sCovertCloakDesc[] = _(
-    "Protege al portador\n"
-    "de los efectos\n"
+    "Protege de los\n"
+    "efectos\n"
     "secundarios.");
 
 static const u8 sLoadedDiceDesc[] = _(
@@ -3770,8 +3732,8 @@ static const u8 sLoadedDiceDesc[] = _(
 
 static const u8 sAuspiciousArmorDesc[] = _(
     "Armadura llena de\n"
-    "buenos deseos. Hace\n"
-    "evolucionar.");
+    "buenos deseos.\n"
+    "Hace evolucionar.");
 
 static const u8 sBoosterEnergyDesc[] = _(
     "Energía que\n"
@@ -3784,8 +3746,8 @@ static const u8 sBigBambooShootDesc[] = _(
     "cotizado.");
 
 static const u8 sGimmighoulCoinDesc[] = _(
-    "Gimmighoul acumula y\n"
-    "atesora estas\n"
+    "Gimmighoul acumula\n"
+    "y atesora estas\n"
     "curiosas monedas.");
 
 static const u8 sLeadersCrestDesc[] = _(
@@ -3799,9 +3761,9 @@ static const u8 sMaliciousArmorDesc[] = _(
     "evolucionar.");
 
 static const u8 sMirrorHerbDesc[] = _(
-    "Copia las mejoras de\n"
-    "características del\n"
-    "rival una vez.");
+    "Copia las mejoras\n"
+    "de características\n"
+    "del rival una vez.");
 
 static const u8 sScrollOfDarknessDesc[] = _(
     "Pergamino con los\n"
@@ -3828,24 +3790,24 @@ static const u8 sTeraShardDesc[] = _(
     "teratipo de un {PKMN}.");
 
 static const u8 sAdamantCrystalDesc[] = _(
-    "Una gema grande y\n"
-    "brillante que cambia\n"
-    "la forma de Dialga.");
+    "Gema brillante que\n"
+    "cambia la forma de\n"
+    "Dialga.");
 
 static const u8 sGriseousCoreDesc[] = _(
-    "Una gema grande y\n"
-    "brillante que cambia\n"
-    "la forma de Giratina.");
+    "Gema brillante que\n"
+    "cambia la forma de\n"
+    "Giratina.");
 
 static const u8 sLustrousGlobeDesc[] = _(
-    "Una gema grande y\n"
-    "brillante que cambia\n"
-    "la forma de Palkia.");
+    "Gema brillante que\n"
+    "cambia la forma de\n"
+    "Palkia.");
 
 static const u8 sBerserkGene[] = _(
     "Sube mucho el\n"
     "Ataque, pero\n"
-    "confunde un tiempo.");
+    "confunde.");
 
 static const u8 sFairyFeatherDesc[] = _(
     "Pluma ligera que\n"
@@ -3869,13 +3831,13 @@ static const u8 sMasterpieceTeacupDesc[] = _(
 
 static const u8 sCornerstoneMaskDesc[] = _(
     "Permite a Ogerpon\n"
-    "usar el tipo Roca en\n"
-    "combate.");
+    "usar el tipo Roca\n"
+    "en combate.");
 
 static const u8 sWellspringMaskDesc[] = _(
     "Permite a Ogerpon\n"
-    "usar el tipo Agua en\n"
-    "combate.");
+    "usar el tipo Agua\n"
+    "en combate.");
 
 static const u8 sHearthflameMaskDesc[] = _(
     "Permite a Ogerpon\n"
@@ -3887,16 +3849,16 @@ static const u8 sHealthMochiDesc[] = _(
     "un Pokémon.");
 
 static const u8 sMuscleMochiDesc[] = _(
-    "Sube el Ataque base\n"
-    "de un Pokémon.");
+    "Sube el Ataque\n"
+    "base de un Pokémon.");
 
 static const u8 sResistMochiDesc[] = _(
     "Sube la Defensa\n"
     "base de un Pokémon.");
 
 static const u8 sGeniusMochiDesc[] = _(
-    "Sube el At. Esp. base\n"
-    "de un Pokémon.");
+    "Sube el At. Esp.\n"
+    "base de un Pokémon.");
 
 static const u8 sCleverMochiDesc[] = _(
     "Sube la Def. Esp.\n"

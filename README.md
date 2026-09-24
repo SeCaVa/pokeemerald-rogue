@@ -24,6 +24,7 @@ La rama que contiene la traducción es **`castellano`**.
   - Iconos de estado (ENV, PAR, DOR, CON, QUE, DEB).
   - Pantalla de datos del Pokémon (PERFIL, HABILIDAD, CARACTERÍST., EXPERIENCIA, MOVIMIENTOS, DESCRIPCIÓN…).
   - Ficha de entrenador, menú de las cajas y botones del teclado de nombres.
+  - Etiquetas MT, DT y MO del bolsillo de máquinas de la Mochila.
   - Lo que no existe en Esmeralda se ha dibujado con las mismas letras: tipos HADA y ASTRAL, estado CGL (congelación), AMISTAD, "MISIONES" del libro de misiones y "A·ABRIR / SELECT·EDITAR" de la Pokédex de Rogue.
 
 ### Criterios de la traducción
@@ -32,9 +33,10 @@ La rama que contiene la traducción es **`castellano`**.
 - **Nombres oficiales**:
   - Los nombres y abreviaturas cortas se han comprobado con Pokémon Edición Esmeralda en castellano.
   - Los de generaciones posteriores se han comprobado con [WikiDex](https://www.wikidex.net) y con los datos en castellano de España (idioma `es`) de [PokeAPI](https://pokeapi.co).
-- **Descripciones de movimientos**:
-  - Movimientos 1–354: textos de Pokémon Esmeralda en castellano.
-  - Movimientos posteriores, habilidades y objetos: descripciones oficiales en castellano de España de PokeAPI, **resumidas** para que quepan en las ventanas de GBA.
+- **Descripciones de movimientos y habilidades**:
+  - Se usa el texto oficial de los juegos recopilado en [PkParaíso](https://pkparaiso.com): el de 5ª generación y, si no cabe, el de 4ª o el de 3ª (Esmeralda), siempre que describa cómo funciona en Rogue.
+  - Si ninguno cabe, se usa la descripción oficial en castellano de España de PokeAPI **resumida** para las ventanas de GBA.
+- **Descripciones de objetos**: descripciones oficiales de PokeAPI, resumidas hasta el ancho real del cuadro de la Mochila (102 px, el mismo que en Esmeralda).
   - Donde el texto oficial describe una mecánica que Rogue cambia (congelación, turnos de las ataduras, efectos de Ácido y Triturar…) o se refiere a otro juego, se ha redactado un texto propio.
 - **Límites de GBA**:
   - Los nombres largos se abrevian al estilo de los juegos de GBA ("Pantalla Humo", "Colmillo Ven.", "Torm. Arena").
@@ -62,6 +64,9 @@ Son los cambios mínimos para que la traducción funcione:
 | Verbo antes del adverbio en los cambios de características | "bajó mucho" en lugar de "mucho bajó". |
 | Cantidad de objetos en la segunda línea de los avisos emergentes | Los nombres de objeto en castellano son más largos y cortaban el "x2". |
 | Pista "SELECT·EDITAR" de la Pokédex de Rogue dos casillas más ancha | "EDITAR" es más largo que "EDIT". |
+| Cantidades de objetos como "Hiperpoción x3" y bayas como "3 Bayas Zreza" | En castellano el plural no se forma añadiendo una "s" al nombre. |
+| Ventana de la habilidad en la pantalla de datos una casilla más ancha | Más espacio para la descripción oficial de la habilidad. |
+| Descripciones de los objetos propios de Rogue ajustadas a 102 px | El ancho que realmente se ve en la Mochila. |
 | Títulos de misión en fuente estrecha y títulos visibles separados del identificador interno | Para que los títulos traducidos quepan sin romper las misiones. |
 | Arreglos para compilar con GCC moderno | `json11` y `scaninc`. |
 
@@ -94,7 +99,7 @@ Si encuentras un texto sin traducir, cortado o con errores, abre una *issue* en 
 - **Emerald Rogue / Emerald Rogue EX**: [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue) y colaboradores. Todo el mérito del juego es suyo.
 - **pokeemerald-expansion**: [RHH (ROM Hacking Hideout)](https://github.com/rh-hideout/pokeemerald-expansion) y su [lista de colaboradores](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits). Emerald Rogue se basa en su proyecto.
 - **pokeemerald**: el proyecto de descompilación de [pret](https://github.com/pret/pokeemerald).
-- **Datos de referencia**: [PokeAPI](https://pokeapi.co) y [WikiDex](https://www.wikidex.net) para los nombres y las descripciones oficiales en castellano; Pokémon Edición Esmeralda en castellano para los nombres cortos, los mensajes de sistema y los gráficos con texto.
+- **Datos de referencia**: [PokeAPI](https://pokeapi.co), [PkParaíso](https://pkparaiso.com) y [WikiDex](https://www.wikidex.net) para los nombres y las descripciones oficiales en castellano; Pokémon Edición Esmeralda en castellano para los nombres cortos, los mensajes de sistema y los gráficos con texto.
 - **Traducción al castellano**: SeCaVa, con ayuda de Claude (Anthropic).
 
 El README original del proyecto se conserva en [README_ORIGINAL.md](README_ORIGINAL.md).

@@ -30,12 +30,12 @@ text gItemDesc_GoldRidingWhistle
 
 text gItemDesc_CGear
 {
-    format("Un reloj para acceder a distancia al Lab. Config.")
+    format("Reloj para usar el Lab. Config. a distancia.")
 }
 
 text gItemDesc_DaycarePhone
 {
-    format("Un teléfono para acceder a distancia a la Guardería.")
+    format("Teléfono para usar la Guardería a distancia.")
 }
 
 text gItemDesc_BuildingSupplies
@@ -45,12 +45,12 @@ text gItemDesc_BuildingSupplies
 
 text gItemDesc_TM
 {
-    format("Máquina reutilizable que enseña un movimiento a un {PKMN}.")
+    format("Enseña un movimiento a un {PKMN}. Reutilizable.")
 }
 
 text gItemDesc_TR
 {
-    format("Máquina de un solo uso que enseña un movimiento a un {PKMN}.")
+    format("Enseña un movimiento a un {PKMN}. Un solo uso.")
 }
 
 text gItemDesc_MaxMushroom
@@ -189,7 +189,7 @@ text gItemDesc_FlinchCharm
 }
 text gItemDesc_FlinchCurse
 {
-    format("Los ataques rivales tienen un 10% de hacer retroceder.")
+    format("Los ataques rivales pueden amedrentar (10%).")
 }
 
 text gItemDesc_CritCharm
@@ -207,7 +207,7 @@ text gItemDesc_ShedSkinCharm
 }
 text gItemDesc_ShedSkinCurse
 {
-    format("Los Pokémon rivales tienen un 15% de curarse de estados.")
+    format("Los rivales pueden curarse de estados (15%).")
 }
 
 text gItemDesc_WildIVCharm
@@ -266,7 +266,7 @@ text gItemDesc_EndureCurse
 
 text gItemDesc_TormentCharm
 {
-    format("Los {PKMN} rivales no pueden repetir movimiento seguido.")
+    format("Impide a los rivales repetir el mismo movimiento.")
 }
 text gItemDesc_TormentCurse
 {
@@ -316,7 +316,7 @@ text gItemDesc_PartyCurse
 
 text gItemDesc_EverstoneCurse
 {
-    format("Se desactivan todas las evoluciones normales.")
+    format("Desactiva las evoluciones normales.")
 }
 
 text gItemDesc_BattleItemCurse
@@ -326,7 +326,7 @@ text gItemDesc_BattleItemCurse
 
 text gItemDesc_SpeciesClauseCurse
 {
-    format("No puedes capturar especies que ya estén en tu equipo.")
+    format("No puedes capturar especies de tu equipo.")
 }
 
 text gItemDesc_ItemShuffleCurse
@@ -356,7 +356,7 @@ text gItemDesc_AutoMoveSelectCurse
 
 text gItemDesc_OneHitCurse
 {
-    format("Tus {PKMN} se debilitan de un golpe contra Entrenadores.")
+    format("Tus {PKMN} caen de un golpe ante Entrenadores.")
 }
 
 text gItemDesc_SnagCurse
@@ -440,7 +440,7 @@ text gHubUpgradeDesc_Home_BerryField2
 
 text gHubUpgradeDesc_Home_GrassField
 {
-    format("Un pequeño jardín por el que pasean tus {PKMN} capturados.")
+    format("Jardín por el que pasean tus {PKMN} capturados.")
 }
 
 text gHubUpgradeDesc_Home_FieldShed
@@ -470,7 +470,7 @@ text gHubUpgradeDesc_Lab_UniqueMonRarity1
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity2
 {
-    format("Permite rastrear {PKMN} Únicos Exóticos. (+Sets diseñados)")
+    format("Rastrea {PKMN} Únicos Exóticos. (+Sets diseñados)")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity3
@@ -506,7 +506,7 @@ text gHubUpgradeDesc_BerryField_ExtraField
 
 text gHubUpgradeDesc_BerryField_HigherYeild
 {
-    format("Aumenta las bayas recogidas dentro y fuera de Aventuras.")
+    format("Se recogen más bayas, también en Aventuras.")
 }
 
 text gHubUpgradeDesc_Mart_GeneralStock
@@ -541,7 +541,7 @@ text gHubUpgradeDesc_Mart_TravelerBattleEnhancers
 
 text gHubUpgradeDesc_Mart_TravelerHeldItems
 {
-    format("Tienda de combate especializada en objetos equipables.")
+    format("Tienda de objetos equipables para combatir.")
 }
 
 text gHubUpgradeDesc_Mart_Bank
@@ -552,7 +552,7 @@ text gHubUpgradeDesc_Mart_Bank
 
 text gHubUpgradeDesc_TownSquare_TrainerSchool
 {
-    format("Edificio con consejos y trucos para las Aventuras.")
+    format("Consejos y trucos para las Aventuras.")
 }
 
 text gHubUpgradeDesc_TownSquare_MoveTutors
@@ -573,7 +573,7 @@ text gHubUpgradeDesc_DayCare_Breeder
 
 text gHubUpgradeDesc_DayCare_BreederSeenDex
 {
-    format("Basta con haber visto un {PKMN} para encontrar su Huevo.")
+    format("Basta con ver un {PKMN} para hallar su Huevo.")
 }
 
 text gHubUpgradeDesc_DayCare_Phone
