@@ -3207,15 +3207,8 @@ static void PrintBattlerOnAbilityPopUp(u8 battlerId, u8 spriteId1, u8 spriteId2)
 
     lastChar = *(textPtr - 1);
 
-    // Make the string say "[NAME]'s" instead of "[NAME]"
-    textPtr[0] = CHAR_SGL_QUOTE_RIGHT; // apostraphe
-    textPtr++;
-    if (lastChar != CHAR_S && lastChar != CHAR_s)
-    {
-        textPtr[0] = CHAR_s;
-        textPtr++;
-    }
-
+    // Translation build: Spanish has no possessive "'s", the pop-up shows just the name above the ability
+    (void)lastChar;
     textPtr[0] = EOS;
 
     PrintOnAbilityPopUp((const u8 *)monName,

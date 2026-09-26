@@ -584,70 +584,33 @@ static const u8 sEscapeRopeDesc[] = _(
 
 // Battle items
 static const u8 sXAttackDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises stat\n"
-    "Attack during\n"
-    "one battle.");
-#else
-    "Raises the stat\n"
-    "Attack during one\n"
-    "battle.");
-#endif
+    "Aumenta el Ataque\n"
+    "durante un\n"
+    "combate.");
 
 static const u8 sXDefenseDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises stat\n"
-    "Defense during\n"
-    "one battle.");
-#else
-    "Raises the stat\n"
-    "Defense during one\n"
-    "battle.");
-#endif
+    "Aumenta la Defensa\n"
+    "durante un\n"
+    "combate.");
 
 static const u8 sXSpAtkDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises stat\n"
-    "Sp. Atk during\n"
-    "one battle.");
-#else
-    "Raises the stat\n"
-    "Sp. Atk during one\n"
-    "battle.");
-#endif
+    "Aumenta el At. Esp.\n"
+    "en un combate.");
 
 static const u8 sXSpDefDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises stat\n"
-    "Sp. Def during\n"
-    "one battle.");
-#else
-    "Raises the stat\n"
-    "Sp. Def during one\n"
-    "battle.");
-#endif
+    "Aumenta la\n"
+    "Def. Esp. en un\n"
+    "combate.");
 
 static const u8 sXSpeedDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises stat\n"
-    "Speed during\n"
-    "one battle.");
-#else
-    "Raises the stat\n"
-    "Speed during one\n"
-    "battle.");
-#endif
+    "Aumenta la\n"
+    "Velocidad durante\n"
+    "un combate.");
 
 static const u8 sXAccuracyDesc[] = _(
-#if B_X_ITEMS_BUFF >= GEN_7
-    "Sharply raises move\n"
-    "accuracy during\n"
-    "one battle.");
-#else
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
-#endif
+    "Sube la Precisión\n"
+    "de los ataques en\n"
+    "un combate.");
 
 static const u8 sDireHitDesc[] = _(
     "Aumenta el índice\n"

@@ -1364,6 +1364,21 @@ static void DisplayMonEntryText(void)
 
 extern const u8 gAbilityNames[][ABILITY_NAME_LENGTH + 1];
 
+// Translation build: shorter ability names for the narrow ability column (see tools/habilidades_cortas.py)
+#include "data/text/ability_names_pokedex.h"
+
+static const u8 *GetPokedexAbilityName(u16 ability)
+{
+    u32 i;
+
+    for (i = 0; i < ARRAY_COUNT(sAbilityNamesPokedex); i++)
+    {
+        if (sAbilityNamesPokedex[i].ability == ability)
+            return sAbilityNamesPokedex[i].name;
+    }
+    return gAbilityNames[ability];
+}
+
 #define GET_STAT_COLOUR(stat) GET_STAT_COLOUR_RANGE(stats[stat], bestStatValue, worstStatValue)
 #define GET_STAT_COLOUR_RANGE(value, bestValue, worstColor) (value >= bestValue ? bestStatColor : (value <= worstColor ? worstStatColor : statColor))
 
@@ -1483,7 +1498,7 @@ static void DisplayMonStatsText(void)
                     StringCopy(gStringVar4, gText_EmptyString2);
                 }
 
-                StringAppend(gStringVar4, gAbilityNames[ability]);
+                StringAppend(gStringVar4, GetPokedexAbilityName(ability));
             }
             else
             {

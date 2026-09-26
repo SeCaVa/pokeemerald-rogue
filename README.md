@@ -71,6 +71,9 @@ Son los cambios mínimos para que la traducción funcione:
 | Cantidades de objetos como "Hiperpoción x3" y bayas como "3 Bayas Zreza" | En castellano el plural no se forma añadiendo una "s" al nombre. |
 | Ventana de la habilidad en la pantalla de datos una casilla más ancha | Más espacio para la descripción oficial de la habilidad. |
 | Descripciones de los objetos propios de Rogue ajustadas a 102 px | El ancho que realmente se ve en la Mochila. |
+| Nombres de habilidad abreviados en la columna de la Pokédex de Rogue | La columna solo mide 62 px; el resumen sigue mostrando el nombre completo. |
+| Sin "'s" tras el nombre en el recuadro de habilidad del combate | En castellano no existe ese posesivo. |
+| Campo `display_name` para el EO de los Pokémon de regalo | El nombre interno también es el identificador del código. |
 | Títulos de misión en fuente estrecha y títulos visibles separados del identificador interno | Para que los títulos traducidos quepan sin romper las misiones. |
 | Arreglos para compilar con GCC moderno | `json11` y `scaninc`. |
 
@@ -168,6 +171,9 @@ Only the changes needed for the translation to work:
 | Item amounts shown as "Hiperpoción x3", berries as "3 Bayas Zreza" | Spanish plurals can't be built by appending "s". |
 | Summary screen ability window one tile wider | More room for the official ability description. |
 | Rogue's own item descriptions wrapped at 102 px | The width actually visible in the Bag. |
+| Abbreviated ability names in the Rogue Pokédex ability column | The column is only 62 px wide; the summary still shows full names. |
+| No "'s" after the name in the battle ability pop-up | Spanish has no such possessive. |
+| `display_name` field for gift Pokémon OT names | The internal name is also the code identifier. |
 | Quest titles in narrow font, display titles separate from internal IDs | Translated titles fit without breaking quests. |
 | Fixes to build with modern GCC | `json11` and `scaninc`. |
 

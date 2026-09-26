@@ -1072,8 +1072,8 @@ void ScriptMenu_DisplayUniqueMonInfo()
     gTasks[taskId].data[1] = RogueGift_GetDynamicUniqueMon(gSpecialVar_0x8004)->countDown;
 }
 
-static u8 const sText_PresetMonAbility_Has[] = _("Habilidad/ {COLOR GREEN}{STR_VAR_1}");
-static u8 const sText_PresetMonAbility_Missing[] = _("Habilidad/ {COLOR RED}{STR_VAR_1}");
+static u8 const sText_PresetMonAbility_Has[] = _("Hab./ {COLOR GREEN}{STR_VAR_1}");
+static u8 const sText_PresetMonAbility_Missing[] = _("Hab./ {COLOR RED}{STR_VAR_1}");
 static u8 const sText_PresetMonItem_Has[] = _("Objeto/ {COLOR GREEN}{STR_VAR_1}");
 static u8 const sText_PresetMonItem_Missing[] = _("Objeto/ {COLOR RED}{STR_VAR_1}");
 static u8 const sText_PresetMonNature_Has[] = _("Natur/ {COLOR GREEN}{STR_VAR_1}");

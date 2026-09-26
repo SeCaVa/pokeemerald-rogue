@@ -260,11 +260,11 @@ script Rogue_Area_TownSquare_TalkBallGuy
 
     if(var(VAR_ROGUE_FREE_POKE_BALL) == ITEM_NONE)
     {
-        msgbox(format("¡Hola! Gracias por pasarte a charlar con tu colega, el Chico de las Balls.\pNo te preocupes.\n¡La próxima vez te daré otra Poké Ball más!\pTú no paras, ¡y yo tampoco!"))
+        msgbox(format("¡Hola! Gracias por pasarte a charlar con tu colega Bolifacio.\pNo te preocupes.\n¡La próxima vez te daré otra Poké Ball más!\pTú no paras, ¡y yo tampoco!"))
     }
     else
     {
-        msgbox(format("¡Hola! Gracias por pasarte a charlar con tu colega, el Chico de las Balls.\p¡Tengo la Poké Ball perfecta para ti!"))
+        msgbox(format("¡Hola! Gracias por pasarte a charlar con tu colega Bolifacio.\p¡Tengo la Poké Ball perfecta para ti!"))
     
         checkitemspace(VAR_ROGUE_FREE_POKE_BALL, 1)
 

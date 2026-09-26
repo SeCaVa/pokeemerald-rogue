@@ -4,7 +4,7 @@
         "default":
         [
             {
-                "name": "Clown",
+                "name": "Clown", "display_name": "Payaso",
                 "trainer_colour": 0
             },
             {

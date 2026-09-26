@@ -82,9 +82,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_LINK_CABLE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Cable Unión"),
+        .name = _("Cordón Unión"),
 #else
-        .name = _("CABLE UNIÓN"),
+        .name = _("CORDÓN UNIÓN"),
 #endif
         .itemId = ITEM_LINK_CABLE,
         .price = 2100,

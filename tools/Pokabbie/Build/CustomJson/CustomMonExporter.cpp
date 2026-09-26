@@ -22,6 +22,7 @@ static std::string FormatName(std::string const& prettyName)
 struct TrainerInfo
 {
 	std::string name;
+	std::string displayName; // Translation build: shown OT name ("display_name"), name stays the code id
 	std::string trainerId;
 	std::string trainerColour;
 	std::string preprocessorCondition;
@@ -89,9 +90,9 @@ void ExportCustomMonData_C(std::ofstream& fileStream, std::string const& dataPat
 		fileStream << "#define TRAINER_ID_" << trainer.GetCodeId() << " (OTID_FLAG_CUSTOM_MON | " << trainer.trainerId << ")\n";
 
 		fileStream << "#ifdef ROGUE_EXPANSION\n";
-		fileStream << "static u8 const sTrainerName_" << trainer.GetCodeId() << "[PLAYER_NAME_LENGTH + 1] = _(\"" << trainer.name << "\");\n";
+		fileStream << "static u8 const sTrainerName_" << trainer.GetCodeId() << "[PLAYER_NAME_LENGTH + 1] = _(\"" << trainer.displayName << "\");\n";
 		fileStream << "#else\n";
-		fileStream << "static u8 const sTrainerName_" << trainer.GetCodeId() << "[PLAYER_NAME_LENGTH + 1] = _(\"" << strutil::to_upper(trainer.name) << "\");\n";
+		fileStream << "static u8 const sTrainerName_" << trainer.GetCodeId() << "[PLAYER_NAME_LENGTH + 1] = _(\"" << strutil::to_upper(trainer.displayName) << "\");\n";
 		fileStream << "#endif\n";
 
 		if (!trainer.preprocessorCondition.empty())
@@ -297,6 +298,7 @@ static void GatherCustomMons(std::string const& dataPath, json const& rawJsonDat
 			TrainerInfo trainerInfo;
 
 			trainerInfo.name = GetAsString(trainerIt["name"]);
+			trainerInfo.displayName = trainerIt.contains("display_name") ? GetAsString(trainerIt["display_name"]) : trainerInfo.name;
 
 			if (trainerIt.contains("#if"))
 				trainerInfo.preprocessorCondition = GetAsString(trainerIt["#if"]);

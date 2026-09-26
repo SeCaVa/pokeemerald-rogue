@@ -2635,12 +2635,8 @@ static const u8 sPhotonGeyserDescription[] = _(
     "especial, el más alto.");
 
 static const u8 sZippyZapDescription[] = _(
-    "Electric bursts always go\n"
-#if B_UPDATED_MOVE_DATA >= GEN_8
-    "first and raises evasiveness.");
-#else
-    "first and land a critical hit.");
-#endif
+    "Rayo que ataca primero.\n"
+    "Sube la Evasión.");
 
 static const u8 sSplishySplashDescription[] = _(
     "Ola gigante electrificada.\n"
@@ -2655,12 +2651,8 @@ static const u8 sPikaPapowDescription[] = _(
     "más cariño tenga.");
 
 static const u8 sBouncyBubbleDescription[] = _(
-    "An attack that absorbs\n"
-#if B_UPDATED_MOVE_DATA >= GEN_8
-    "all the damage inflicted.");
-#else
-    "half the damage inflicted.");
-#endif
+    "Burbujas que absorben todo\n"
+    "el daño causado.");
 
 static const u8 sBuzzyBuzzDescription[] = _(
     "Potente descarga eléctrica\n"
