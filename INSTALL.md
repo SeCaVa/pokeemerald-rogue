@@ -446,7 +446,7 @@ Si funciona, continúa con la [Instalación](#instalación). Si no, pide ayuda e
 <details>
     <summary><i>Nota para usuarios de Windows...</i></summary>
 
->   Puedes añadir una exclusión para la carpeta `pokeemerald-rogue` y/o `decomps` en Seguridad de Windows siguiendo
+>   Puedes añadir una exclusión para la carpeta `PokeRogue-Castellano` y/o `decomps` en Seguridad de Windows siguiendo
 >   [estas instrucciones](https://support.microsoft.com/help/4028485). Así Microsoft Defender no las analiza,
 >   lo que puede acelerar la compilación.
 </details>
@@ -454,7 +454,7 @@ Si funciona, continúa con la [Instalación](#instalación). Si no, pide ayuda e
 1. Si todavía no has descargado el proyecto (algunos usuarios prefieren descargarlo con un cliente de git como GitHub Desktop), ejecuta este comando para descargar la rama `castellano` de la traducción:
 
     ```bash
-    git clone -b castellano https://github.com/SeCaVa/pokeemerald-rogue
+    git clone -b castellano https://github.com/SeCaVa/PokeRogue-Castellano
     ```
 
     <details>
@@ -482,7 +482,7 @@ Ya lo tienes todo listo para compilar.
 
 Si no estás ya en la carpeta del proyecto, **cambia a** ella:
 ```bash
-cd pokeemerald-rogue
+cd PokeRogue-Castellano
 ```
 Para compilar **pokeemerald.gba** (nota: para compilar más rápido, consulta [Compilación en paralelo](#compilación-en-paralelo)):
 ```bash
@@ -537,29 +537,29 @@ No hace falta en una compilación no moderna (agbcc), porque esas ya incluyen lo
 <details>
     <summary><i>Obsoleto; instalar agbcc es opcional desde la versión 1.7.0</i>.</summary>
 2. Instala agbcc en la carpeta del proyecto. Los comandos dependen de tu situación. **Sigue solo una de estas opciones**:
-- Si **nunca has compilado agbcc** en la carpeta donde guardas el proyecto, ejecuta los siguientes comandos para compilarlo e instalarlo en pokeemerald-rogue:
+- Si **nunca has compilado agbcc** en la carpeta donde guardas el proyecto, ejecuta los siguientes comandos para compilarlo e instalarlo en PokeRogue-Castellano:
 
     ```bash
     git clone https://github.com/pret/agbcc
     cd agbcc
     ./build.sh
-    ./install.sh ../pokeemerald-rogue
+    ./install.sh ../PokeRogue-Castellano
     ```
 
-- **Si no**, y ya habías compilado agbcc (por ejemplo, si el git clone anterior falla) pero **la última vez fue con otro terminal** distinto del actual (solo en Windows, por ejemplo al pasar de msys2 a WSL1), ejecuta los siguientes comandos para compilarlo e instalarlo en pokeemerald-rogue:
+- **Si no**, y ya habías compilado agbcc (por ejemplo, si el git clone anterior falla) pero **la última vez fue con otro terminal** distinto del actual (solo en Windows, por ejemplo al pasar de msys2 a WSL1), ejecuta los siguientes comandos para compilarlo e instalarlo en PokeRogue-Castellano:
 
     ```bash
     cd agbcc
     git clean -fX
     ./build.sh
-    ./install.sh ../pokeemerald-rogue
+    ./install.sh ../PokeRogue-Castellano
     ```
 
-- **Si no**, y ya habías compilado agbcc con el mismo terminal, ejecuta los siguientes comandos para instalarlo en pokeemerald-rogue:
+- **Si no**, y ya habías compilado agbcc con el mismo terminal, ejecuta los siguientes comandos para instalarlo en PokeRogue-Castellano:
 
     ```bash
     cd agbcc
-    ./install.sh ../pokeemerald-rogue
+    ./install.sh ../PokeRogue-Castellano
     ```
 
     <details>
@@ -568,7 +568,7 @@ No hace falta en una compilación no moderna (agbcc), porque esas ya incluyen lo
         > Si al compilar agbcc o el juego aparece un error, prueba a borrar la carpeta agbcc y a reinstalarlo como si nunca lo hubieras compilado.
     </details>
 
-3. Una vez instalado agbcc, vuelve a la carpeta donde están pokeemerald-rogue y agbcc:
+3. Una vez instalado agbcc, vuelve a la carpeta donde están PokeRogue-Castellano y agbcc:
 
     ```bash
     cd ..

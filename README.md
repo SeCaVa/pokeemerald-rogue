@@ -182,7 +182,7 @@ Only the changes needed for the translation to work:
 The `castellano` branch builds exactly like the original Emerald Rogue:
 
 1. Follow [INSTALL_ORIGINAL.md](INSTALL_ORIGINAL.md) (English) or [INSTALL.md](INSTALL.md) (Spanish) to set up the environment.
-2. Clone the `castellano` branch: `git clone -b castellano https://github.com/SeCaVa/pokeemerald-rogue`
+2. Clone the `castellano` branch: `git clone -b castellano https://github.com/SeCaVa/PokeRogue-Castellano`
 3. Build with `make`.
 
 **This repository contains no ROMs**: you need your own copy of Pokémon Emerald to patch or build the game.
